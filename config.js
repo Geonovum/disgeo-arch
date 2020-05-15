@@ -94,13 +94,13 @@ var respecConfig =
     },    
     {
       name:       "Linda van de Brink",
-      company:    "Kadaster",
-      companyURL: "https://www.kadaster.nl"
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
     }, 
     {
       name:       "Jan van Gelder",
-      company:    "Kadaster",
-      companyURL: "https://www.kadaster.nl"
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
     }, 
   ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
