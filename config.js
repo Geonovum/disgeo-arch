@@ -93,7 +93,7 @@ var respecConfig =
       companyURL: "https://www.kadaster.nl"
     },    
     {
-      name:       "Linda van de Brink",
+      name:       "Linda van den Brink",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     }, 
