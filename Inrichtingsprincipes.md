@@ -19,6 +19,7 @@ in de Objectenregistratie Architectuur.
 ### Inrichtingsprincipes Digitaal Stelsel Omgevingwet
 
 | Regel   | Omschrijving                                                             | 
+|---------|--------------------------------------------------------------------------|
 | 01      | De klant staat centraal                                                  |
 | 02      | Het stelsel functioneert als één geheel voor zowel personen als systemen |
 | 03      | Data is de brandstof van het stelsel                                     |
