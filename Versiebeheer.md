@@ -4,5 +4,6 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 
 | **Versie** | **Datum**      | **Status** | **Bewerking**                   | **Toelichting**                   |
 |------------|----------------|------------|---------------------------------|-----------------------------------| 
-| 0.1        | dd-mm-yyyy     | concept    | Initieel document               | "Kapstok" document aangemaakt     |
+| 0.1        | 15-mei-2020    | concept    | Initieel document               | "Kapstok" document aangemaakt     |
+| 0.2        | 05-jun-2020    | concept    | Initieel document               | Hoofdstuk indeling aangepast      |
                            
