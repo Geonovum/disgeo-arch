@@ -7,7 +7,7 @@ De *Architectuurschets* is een globale versie van de *Architectuurbeschrijving*.
 Beide Architectuurproducten beschrijven de Objectenregistratie op de Applicatielaag, laag 4 in het [NORA-vijflaagsmodel](https://www.noraonline.nl/wiki/Vijflaagsmodel)
 
 <figure id="nora5laagsmodel">
-    <img src="media/nora5laagsmodel.png" alt="nora5laagsmodel">
+    <img src="media/nora5laagsmodel.PNG" alt="nora5laagsmodel">
     <figcaption>Het NORA 5 laagsmodel</figcaption>
 </figure>
 
