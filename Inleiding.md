@@ -13,12 +13,11 @@ Beide Architectuurproducten beschrijven de Objectenregistratie op de Applicatiel
 
 ### Toepassingsgebied
 
-*Beschrijf het toepassingsgebied, voorbeeld: het installatieregister, wat is het, waarvoor wordt het gebruikt (of gaat het worden gebruikt), enz ...*
-
+*Beschrijf het toepassingsgebied van het document, wat is het, waarvoor wordt het gebruikt (of gaat het worden gebruikt), enz ...*
 
 ### Doelgroep
 
-*Beschrijf de doelgroep, wie dat zijn, en hoe ze het rapport kunnen gebruiken*
+*Beschrijf de doelgroep, wie dat zijn, en hoe ze het document kunnen gebruiken*
 
 ### Leeswijzer
 
