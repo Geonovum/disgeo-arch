@@ -12,7 +12,7 @@ in de Objectenregistratie Architectuur.
 
 
 
-# Basisprincipes NORA 
+### Basisprincipes NORA 
 
 De principes van de NORA zijn bedoeld om overheidsorganisaties richting te duiden bij het inzetten van veranderingen en het
 uitvoeren van projecten. Met name bij het ontwerpen van nieuwe of aangepaste diensten is het noodzaak zichtbaar te maken hoe
@@ -39,7 +39,7 @@ Bron: https://www.noraonline.nl/wiki/Principes
 
 
 
-# Afgeleide principes NORA
+### Afgeleide principes NORA
 
 Afgeleide principes geven meer concrete invulling aan de basisprincipes. Ze zijn te beschouwen als een checklist van 
 kwaliteitskenmerken van de diensten van de overheid en geven handvatten voor operationeel niveau door hun uitwerking in concrete 
