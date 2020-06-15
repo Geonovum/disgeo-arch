@@ -10,9 +10,12 @@ Het doel hiervan is te zorgen dat de Objectenregistratie Architectuur voldoet aa
 Het inventariseert deze principes (o.a. vanuit DiS Geo en Common Ground) en beschrijft hoe ze zijn toegepast 
 in de Objectenregistratie Architectuur.
 
+### Basis voor de inrichtingsprincipes
 
+On de inrichtingsprincipes voor de DisGeo SoR op te kunnen stellen is eerst gekeken naar de reeds van toepassingen zijnde 
+en gangbare andere inrichtings principes rondom Data, de registratie van Data en de ontsluiting van Data en Informatie.  
 
-### Basisprincipes NORA 
+#### Basisprincipes NORA 
 
 De principes van de NORA zijn bedoeld om overheidsorganisaties richting te duiden bij het inzetten van veranderingen en het
 uitvoeren van projecten. Met name bij het ontwerpen van nieuwe of aangepaste diensten is het noodzaak zichtbaar te maken hoe
@@ -38,74 +41,72 @@ Zo wordt voorkomen dat belangrijke zaken over het hoofd worden gezien.
 Bron: https://www.noraonline.nl/wiki/Principes 
 
 
-
-### Afgeleide principes NORA
+#### Afgeleide principes NORA
 
 Afgeleide principes geven meer concrete invulling aan de basisprincipes. Ze zijn te beschouwen als een checklist van 
 kwaliteitskenmerken van de diensten van de overheid en geven handvatten voor operationeel niveau door hun uitwerking in concrete 
 implicaties. 
 
-| Regel   | Omschrijving                                                             | 
-|---------|--------------------------------------------------------------------------|
-| AP01:   | Diensten zijn herbruikbaar   |
-| AP02:   | Ontkoppelen met diensten   |
-| AP03:   | Diensten vullen elkaar aan   |
-| AP04:   | Positioneer de dienst   |
-| AP05:   | Nauwkeurige dienstbeschrijving   |
-| AP06:   | Gebruik standaard oplossingen   |
-| AP07:   | Gebruik de landelijke bouwstenen   |
-| AP08:   | Gebruik open standaarden   |
-| AP09:   | Voorkeurskanaal internet   |
-| AP10:   | Aanvullend kanaal   |
-| AP11:   | Gelijkwaardig resultaat ongeacht kanaal   |
-| AP12:   | Eenmalige uitvraag   |
-| AP13:   | Bronregistraties zijn leidend   |
-| AP14:   | Terugmelden aan bronhouder   |
-| AP15:   | Doelbinding (AP)   |
-| AP17:   | Informatie-objecten systematisch beschreven   |
-| AP18:   | Ruimtelijke informatie via locatie   |
-| AP19:   | Perspectief gebruiker   |
-| AP20:   | Persoonlijke benadering   |
-| AP21:   | Bundeling van diensten   |
-| AP22:   | No wrong door   |
-| AP23:   | Automatische dienstverlening   |
-| AP24:   | Proactief aanbieden   |
-| AP25:   | Transparante dienstverlening   |
-| AP26:   | Afnemer heeft inzage   |
-| AP27:   | Een verantwoordelijke organisatie   |
-| AP28:   | Afspraken vastgelegd   |
-| AP29:   | De dienstverlener voldoet aan de norm   |
-| AP30:   | Verantwoording dienstlevering mogelijk   |
-| AP31:   | PDCA-cyclus in besturing kwaliteit   |
-| AP32:   | Sturing kwaliteit op het hoogste niveau   |
-| AP33:   | Baseline kwaliteit diensten   |
-| AP34:   | Verantwoording besturing kwaliteit   |
-| AP40:   | Onweerlegbaarheid (principe)   |
-| AP41:   | Beschikbaarheid   |
-| AP42:   | Integriteit   |
-| AP43:   | Vertrouwelijkheid (principe)   |
-| AP44:   | Controleerbaarheid   |
+| Regel   | Omschrijving                                    | 
+|---------|-------------------------------------------------|
+| AP01:   | Diensten zijn herbruikbaar                      |
+| AP02:   | Ontkoppelen met diensten                        |
+| AP03:   | Diensten vullen elkaar aan                      |
+| AP04:   | Positioneer de dienst                           |
+| AP05:   | Nauwkeurige dienstbeschrijving                  |
+| AP06:   | Gebruik standaard oplossingen                   |
+| AP07:   | Gebruik de landelijke bouwstenen                |
+| AP08:   | Gebruik open standaarden                        |
+| AP09:   | Voorkeurskanaal internet                        |
+| AP10:   | Aanvullend kanaal                               |
+| AP11:   | Gelijkwaardig resultaat ongeacht kanaal         |
+| AP12:   | Eenmalige uitvraag                              |
+| AP13:   | Bronregistraties zijn leidend                   |
+| AP14:   | Terugmelden aan bronhouder                      |
+| AP15:   | Doelbinding (AP)                                |
+| AP17:   | Informatie-objecten systematisch beschreven     |
+| AP18:   | Ruimtelijke informatie via locatie              |
+| AP19:   | Perspectief gebruiker                           |
+| AP20:   | Persoonlijke benadering                         |
+| AP21:   | Bundeling van diensten                          |
+| AP22:   | No wrong door                                   |
+| AP23:   | Automatische dienstverlening                    |
+| AP24:   | Proactief aanbieden                             |
+| AP25:   | Transparante dienstverlening                    |
+| AP26:   | Afnemer heeft inzage                            |
+| AP27:   | Een verantwoordelijke organisatie               |
+| AP28:   | Afspraken vastgelegd                            |
+| AP29:   | De dienstverlener voldoet aan de norm           |
+| AP30:   | Verantwoording dienstlevering mogelijk          |
+| AP31:   | PDCA-cyclus in besturing kwaliteit              |
+| AP32:   | Sturing kwaliteit op het hoogste niveau         |
+| AP33:   | Baseline kwaliteit diensten                     |
+| AP34:   | Verantwoording besturing kwaliteit              |
+| AP40:   | Onweerlegbaarheid (principe)                    |
+| AP41:   | Beschikbaarheid                                 |
+| AP42:   | Integriteit                                     |
+| AP43:   | Vertrouwelijkheid (principe)                    |
+| AP44:   | Controleerbaarheid                              |
 
 
-### Inrichtingsprincipes GEMMA
+#### Inrichtingsprincipes GEMMA
 
 GEMMA kent 8 inrichtingsprincipes:
 
-| Regel   | Omschrijving                                                             | 
-|---------|--------------------------------------------------------------------------|
-| 1       | Onze gemeente denkt vanuit de positie van de klant                       |
-| 2       | Onze gemeente gebruikt generieke processen en functies                   |
-| 3       | Onze gemeente voert regie over uitbestede diensten                       |
-| 4       | Onze gemeente biedt de klant een goede informatiepositie                 |
-| 5       | Onze gemeente digitaliseert haar diensten en processen                   |
-| 6       | Onze gemeente stelt openbare gegevens als open data beschikbaar          |
-| 7       | Onze gemeente hergebruikt gegevens                                       |
-| 8       | Onze gemeente gaat op een vertrouwelijke manier met gegevens om          |
+| Regel   | Omschrijving                                                        | 
+|---------|---------------------------------------------------------------------|
+| 1.      | Onze gemeente denkt vanuit de positie van de klant                  |
+| 2.      | Onze gemeente gebruikt generieke processen en functies              |
+| 3.      | Onze gemeente voert regie over uitbestede diensten                  |
+| 4.      | Onze gemeente biedt de klant een goede informatiepositie            |
+| 5.      | Onze gemeente digitaliseert haar diensten en processen              |
+| 6.      | Onze gemeente stelt openbare gegevens als open data beschikbaar     |
+| 7.      | Onze gemeente hergebruikt gegevens                                  |
+| 8.      | Onze gemeente gaat op een vertrouwelijke manier met gegevens om     |
 
 Bron: https://www.vngrealisatie.nl/gemma 
 
-
-### Eisen aan basisregistraties GEMMA
+#### Eisen aan basisregistraties GEMMA
 
 GEMMA heeft 12 eisen aan basisregistraties waaraan een basisregistratie moet voldoen, die een verdere uitwerking zijn van de eerste
 6 in hierboven beschreven inrichtingsprincipes:
@@ -125,20 +126,48 @@ GEMMA heeft 12 eisen aan basisregistraties waaraan een basisregistratie moet vol
 | 11.     | De positie van de basisregistratie binnen het Stelsel van Basisregistratiesis duidelijk en de relaties met de basisregistraties zijn beschreven. |
 | 12.     | De zeggenschap over de basisregistratie berust bij een bestuursorgaan en er is een minister verantwoordelijk voor het realiseren, respectievelijk het functioneren van de registratie. |
 
-Van <https://www.noraonline.nl/images/noraonline/c/c0/Stelselarchitectuur_heden.pdf> 
+Bron https://www.noraonline.nl/images/noraonline/c/c0/Stelselarchitectuur_heden.pdf 
 
-### Inrichtingsprincipes Dis Geo
+#### Het 5-Sterren model voor Open Data
+
+In het eerder in het kader van DisGeo gedane onderzoek is rapport opgesteld: 
+[DisGeo Demo Lessons Learned](https://docs.geostandaarden.nl/disgeo/def-al-dll-20200219/) wordt het 
+5 sterren Open Data model [genoemd](https://docs.geostandaarden.nl/disgeo/def-al-dll-20200219/#het-5-sterren-model-voor-open-data), 
+In de tabel de 5 eisen van dat model
+
+| Eis     | Omschrijving                                                             | 
+|---------|--------------------------------------------------------------------------|
+| 1.      | Beschikbaar op het web, met een open licentie                            |
+| 2.      | Data is machine leesbaar en bevat een open licentie                      |
+| 3.      | De dataset is beschikbaar in een open bestandsformaat                    |
+| 4.      | Bovenstaande + gebruik open standaarden van het W3C om objecten in de data te identificeren, zodat anderen naar die objecten kunnen verwijzen. |
+| 5.      | Bovenstaande + link je data aan data van anderen, dit creëert samenhang tussen data sets. |
+
+Bron: https://geonovum.github.io/disgeo-demo/#governance-op-het-snijvlak
+
+#### Inrichtingsprincipes Dis Geo
+
+Nog opzoeken
 
 
+Bron: https://www.pldn.nl/file_auth.php/pilod/7/79/05_20200122_Krijtenburg_vanLeeuwen_-_DISGeo_Knowledge_Graph.pdf
 
 
-### Inrichtingsprincipes Common Ground
+#### Inrichtingsprincipes Common Ground
+
+| Principe | Omschrijving                                                                      | 
+|----------|-----------------------------------------------------------------------------------|
+| 1.       | COMPONENTGEBASEERD: We werken met componenten                                     |
+| 2.       | OPEN: We zijn transparant waar mogelijk                                           |
+| 3.       | VERTROUWD: We zorgen dat informatiebeveiliging en privacy op orde zijn            |
+| 4.       | EENMALIGE VASTLEGGING: We leggen gegevens eenmalig vast en vragen op bij de bron  |
+| 5.       | REGIE OP GEGEVENS: We faciliteren regie op gegevens                               |
+| 6.       | STANDAARD:We standaardiseren maximaal                                             |
+
+Bron: https://www.gemmaonline.nl/images/gemmaonline/c/c7/20190130_-_Common_Ground_-_Informatiearchitectuurprincipes.pdf
 
 
-
-
-
-### Inrichtingsprincipes Digitaal Stelsel Omgevingwet
+#### Inrichtingsprincipes Digitaal Stelsel Omgevingwet
 
 | Regel   | Omschrijving                                                             | 
 |---------|--------------------------------------------------------------------------|
@@ -156,7 +185,9 @@ Van <https://www.noraonline.nl/images/noraonline/c/c0/Stelselarchitectuur_heden.
 Bron: [DSO-LV, bijlage G](https://aandeslagmetdeomgevingswet.nl/publish/library/219/ogas_bijlage_g_-_dso-lv_principes_1.pdf)
 
 
-### 10 golden rules
+#### 10 golden rules
+
+Deze 10 golden rules zijn tot stand gekomen vanuit de best-practices rondom data management.. 
 
 |	Regel     |	Omschrijving                                      |	Opmerkingen                                       |
 |--------------|------------------------------------------------------|----------------------------------------------|
@@ -169,7 +200,18 @@ Bron: [DSO-LV, bijlage G](https://aandeslagmetdeomgevingswet.nl/publish/library/
 | 07	          | Data is zelf-controlerend	                         | De data (definitie) bepaalt welke waarden attributen kunnen krijgen, en niet bovenliggende applicaties.	Applicaties worden vervangen, en kunnen worden omzeild.| 
 | 08	          | Data is zelf-historiserend	                         | In de data wordt een THT vastgelegd. Ook Data heeft een houdbaarheidsdatum.	Niet alle data hoeft tot in lengte van dagen bewaard te blijven. Met een THT kan je ook kiezen voor een opslagmedium (online/offline) én gebruiken voor het archiveringsbeleid. |
 | 09	          | Data wordt bijgehouden aan de bron	               | De data wordt bijgehouden daar waar ze ontstaat. Achterliggende reden: aan de bron is de noodzaak voor het hebben van goede kwalitatieve data het grootst. |
-| 10			|                                                      |                   |
+| 10			| Data en Informatie zijn twee verschillende dingen    | "Informatie is bewerkte data" m.a.w. Informatie is data waaraan kennis is toegevoegd.                  |
+
+
+### inrichtingsprincipes voor DisGeo
+
+#### Voor de Samenhangende Objecten Registratie (SOR)
+
+#### Voor de voorzieningen
+
+
+
+
 
 
 
