@@ -126,7 +126,7 @@ GEMMA heeft 12 eisen aan basisregistraties waaraan een basisregistratie moet vol
 | 11.     | De positie van de basisregistratie binnen het Stelsel van Basisregistratiesis duidelijk en de relaties met de basisregistraties zijn beschreven. |
 | 12.     | De zeggenschap over de basisregistratie berust bij een bestuursorgaan en er is een minister verantwoordelijk voor het realiseren, respectievelijk het functioneren van de registratie. |
 
-Bron https://www.noraonline.nl/images/noraonline/c/c0/Stelselarchitectuur_heden.pdf 
+Bron: https://www.noraonline.nl/images/noraonline/c/c0/Stelselarchitectuur_heden.pdf 
 
 #### Het 5-Sterren model voor Open Data
 
