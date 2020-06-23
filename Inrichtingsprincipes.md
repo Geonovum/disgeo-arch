@@ -78,9 +78,72 @@ Bron: [DSO-LV, bijlage G](https://aandeslagmetdeomgevingswet.nl/publish/library/
 
 Bron: [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/)
 
+
+#### Inrichtingsprincipes Common Ground
+
+| Principe              | Omschrijving                                                                      |
+|-----------------------|-----------------------------------------------------------------------------------|
+| <p id='cgr-01'>01</p> | COMPONENTGEBASEERD: We werken met componenten                                     |
+| <p id='cgr-02'>02</p> | OPEN: We zijn transparant waar mogelijk                                           |
+| <p id='cgr-03'>03</p> | VERTROUWD: We zorgen dat informatiebeveiliging en privacy op orde zijn            |
+| <p id='cgr-04'>04</p> | EENMALIGE VASTLEGGING: We leggen gegevens eenmalig vast en vragen op bij de bron  |
+| <p id='cgr-05'>05</p> | REGIE OP GEGEVENS: We faciliteren regie op gegevens                               |
+| <p id='cgr-06'>06</p> | STANDAARD:We standaardiseren maximaal                                             |
+
+Bron: [Common Ground](https://www.gemmaonline.nl/images/gemmaonline/c/c7/20190130_-_Common_Ground_-_Informatiearchitectuurprincipes.pdf)
+
+
 ### inrichtingsprincipes voor DisGeo
 
-In de paragrafen hieronder staan de principes en uitgangspunten uitgelegd die voor DisGeo belangrijk zijn.
+In de paragrafen hieronder staan de principes en uitgangspunten die voor DisGeo belangrijk zijn. Per principe is aangegeven aan welke van de 
+hiervoor genoemde principes invulling wordt gegeven.
+
+#### Basisgegevens zijn van en voor iedereen
+
+Basisgegevens met identificatie, metadata basisclassificatie, locatie, geometrie
+
+#### Basisgegevens zijn laagdrempelig beschikbaar en bruikbaar voor iedereen
+
+
+
+#### Basisgegevens voldoen aan vereisten
+
+
+
+#### Bronhouders zijn verantwoordelijk voor basisgegevens
+
+
+
+#### Bronhouders kunnen leveranciers machtigen
+
+
+
+#### Gegevens aanpassen kan makkelijk en goed
+
+
+
+#### Gebruikers en bronhouders werken samen aan de kwaliteit van gegevens
+
+
+
+#### Basisgegevens zijn zo actueel en volledig als redelijkerwijs mogelijk
+
+
+
+#### Gegevens passen bij elkaar: relaties tussen gegevens zijn voor gebruikers duidelijk, en gegevens zijn in samenhang bruikbaar
+
+
+
+#### De gegevensstructuur kan snel genoeg meegroeien met de gebruiksbehoefte
+
+
+
+
+
+
+
+
+
 
 #### De klant staat centraal
 
