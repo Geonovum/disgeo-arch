@@ -7,15 +7,16 @@ bepaald. Er is voor gekozen om als uitgangspunt de [Overall Globale Architectuur
 die is opgesteld ten behoeve van de Omgevingswet te gebruiken. Dit omdat in deze OGAS reeds een toets is 
 gedaan met de architectuurprincipes van diverse andere richtinggevende principes zoals NORA, GEMMA, Common Ground, enz.
 Daarmee wordt voorkomen dat er dubbel werk wordt gedaan, en wordt voorkomen dat er weer een afwijkende set van principes 
-wordt opgesteld.
+wordt opgesteld. Behalve naar de bestaande principes is ook gekeken naar de architectuurprincipes van W3C, en dan met 
+name naar de principes uit [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/#bp-summary)
 
 ### Doel van de samenhangende Objecten Registratie (SOR)
 
 In de beleidsvisie wordt een vijftal doelstellingen geformuleerd:
 
-| Doel |	Omschrijving                                                                            |
+| Doel |	Omschrijving                                                                           |
 |------|-----------------------------------------------------------------------------------------|
-| 01	 | Een betrouwbare, consistente en actuele samenhangende gegevensset voor heel Nederland;  |  
+| 01	  | Een betrouwbare, consistente en actuele samenhangende gegevensset voor heel Nederland;  |  
 | 02   | Een efficiëntere inwinning en bijhouding van objecten, ook in drie dimensies (3D);      | 
 | 03   | Een betere inpassing in moderne architecturen;                                          | 
 | 04   | Meer en eenvoudiger gebruik van deze informatie in maatschappelijke toepassingen. De registratie gedraagt zich voor de gebruiker als één registratie;  |
@@ -40,35 +41,99 @@ Aan de kolommen met de regel en principe zijn twee kolommen toegevoeg: Data en F
 Data: Een *ja* in deze kolom moet worden gezien als 'Ja' dit principe is relevant voor de gegevens van de Samenhangende objectenregistratie. Scope zijn de gegevens zelf, oftwel het hart van het systeem.  
 Functies: Een *ja* in deze kolom moet worden opgevant als 'Ja' dit principe is relevant voor de functionaliteit van de Samenhangende Objectenregistratie. Scope is de fuctionaliteit waarmee de gegevens en/of de informatie aan de gebruikers (afnemers en bronhouders)
 
-| Regel | Principe                                                                 | Data | Functies | 
-|-------|--------------------------------------------------------------------------|------|----------|
-| 01    | De klant staat centraal                                                  |      |   Ja     |
-| 02    | Het stelsel functioneert als één geheel voor zowel personen als systemen |      |   Ja     |
-| 03    | Data is de brandstof van het stelsel                                     | Ja   |          |
-| 04    | Oplossingen zijn eenvoudig, generiek en kosten effectief                 |      |   Ja     |
-| 05    | Alles is een service                                                     |      |   Ja     |
-| 06    | Het stelsel is open, transparant en innoverend                           | Ja   |   Ja     |
-| 07    | Hergebruik voor koop voor maak                                           |      |          |
-| 08    | Continuïteit en compliance is geborgd                                    |      |          |
-| 09    | Passende beveiliging & privacy op basis van reële risico’s               |      |          |
-| 10    | Beheerfunctionaliteit is primaire functionaliteit                        |      |          |
+| Regel                 | Principe                                                                 | Data | Functies | 
+|-----------------------|--------------------------------------------------------------------------|------|----------|
+| <p id='dso-01'>01</p> | De klant staat centraal                                                  |      |   Ja     |
+| <p id='dso-02'>02</p> | Het stelsel functioneert als één geheel voor zowel personen als systemen |      |   Ja     |
+| <p id='dso-03'>03</p> | Data is de brandstof van het stelsel                                     | Ja   |          |
+| <p id='dso-04'>04</p> | Oplossingen zijn eenvoudig, generiek en kosten effectief                 |      |   Ja     |
+| <p id='dso-04'>05</p> | Alles is een service                                                     |      |   Ja     |
+| <p id='dso-06'>06</p> | Het stelsel is open, transparant en innoverend                           | Ja   |   Ja     |
+| <p id='dso-06'>07</p> | Hergebruik voor koop voor maak                                           |      |          |
+| <p id='dso-08'>08</p> | Continuïteit en compliance is geborgd                                    |      |          |
+| <p id='dso-09'>09</p> | Passende beveiliging & privacy op basis van reële risico’s               |      |          |
+| <p id='dso-10'>10</p> | Beheerfunctionaliteit is primaire functionaliteit                        |      |          |
 
 Bron: [DSO-LV, bijlage G](https://aandeslagmetdeomgevingswet.nl/publish/library/219/ogas_bijlage_g_-_dso-lv_principes_1.pdf)
 
 
+#### Best Practices Spatial Data on the Web
+
+| Nummer                 | Best Practices Summary                                                 | Data | Functies |
+|------------------------|------------------------------------------------------------------------|------|----------|
+| <p id='sdow-01'>01</p> | Use globally unique persistent HTTP URIs for Spatial Things            | Ja   | Ja       |
+| <p id='sdow-02'>02</p> | Make your spatial data indexable by search engines                     | Ja   | Ja       |
+| <p id='sdow-03'>03</p> | Link resources together to create the Web of data                      | Ja   | Ja       |
+| <p id='sdow-04'>04</p> | Use spatial data encodings that match your target audience             | Ja   | Ja       |
+| <p id='sdow-05'>05</p> | Provide geometries on the Web in a usable way                          | Ja   | Ja       |
+| <p id='sdow-06'>06</p> | Provide geometries at the right level of accuracy, precision, and size | Ja   | Ja       |
+| <p id='sdow-07'>07</p> | Choose coordinate reference systems to suit your user's applications   | Ja   | Ja       |
+| <p id='sdow-08'>08</p> | State how coordinate values are encoded                                |      |          |
+| <p id='sdow-09'>09</p> | Describe relative positioning                                          |      |          |
+| <p id='sdow-10'>10</p> | Use appropriate relation types to link Spatial Things                  | Ja   | Ja       |
+| <p id='sdow-11'>11</p> | Provide information on the changing nature of spatial things           | Ja   | Ja       |
+| <p id='sdow-12'>12</p> | Expose spatial data through 'convenience APIs'                         | Ja   | Ja       |
+| <p id='sdow-13'>13</p> | Include spatial metadata in dataset metadata                           | Ja   | Ja       |
+| <p id='sdow-14'>14</p> | Describe the positional accuracy of spatial data                       | Ja   | Ja       |
+
+Bron: [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/)
+
 ### inrichtingsprincipes voor DisGeo
+
+In de paragrafen hieronder staan de principes en uitgangspunten uitgelegd die voor DisGeo belangrijk zijn.
 
 #### De klant staat centraal
 
+Het gaat om de gebruikers van de voorzieningen en de data. Zowel Afnemers als Bronhouders vallen in die 
+categorie. Werk vanuit use-cases om te komen tot samenhangende objecten met bijbehorende attributen. 
+Ontsluit die objecten op gebruiksvriendelijke manier.
+
+[DSO-01](#dso-01)
+
 #### Het stelsel functioneert als één geheel voor zowel personen als systemen 
+
+[DSO-02](#dso-02), [SDOW-03](#sdow-03)
+
+We gaan een *samenhangende* Objectenregistratie maken. Daarin ligt feitelijk al besloten dat de SOR als één geheel
+functioneert. Voor zowel Bronhouders als Afnemers.
 
 #### Data is de brandstof van het stelsel
 
+[DSO-03](#dso-03)
+
+Zonder data is er geen systeem. Het stelsel staat of valt bij correcte data. Zonder data kunnen er geen informatie
+prdcuten worden gemaakt. Bij data hoort ook metadata: de beschrijving van de data die iets zegt over herkomst, nauwkeurigheid,
+eigenaar, beheerder, datums, enz. van data. 
+
 #### Alles is een service 
 
+[DSO-04](#dso-04), [SDOW-12](#sdow-12)
+
+Om te komen tot een toekomstvaste oplossing is deze regel erg belangrijk. Data en Functionaliteit worden ontkoppeld.
+Om de data te benaderen moet alles via Services (API's) gaan. Deze API's worden vervolgens door andere API's of door bijvoorbeeld een
+viewer aangeroepen. De API's die direct "tegen" de data objecten aanzitten, en die gebruikt worden voor het muteren van de data
+zijn voorzien van controles die de kwaliteit van de data borgen.
 
 #### Het stelsel is open, transparant en innoverend
 
+[DSO-06](#dso-06), [SDOW-01](#dsow-01), [SDOW-02](#sdow-02), [SDOW-03](#sdow-03), [SDOW-12](#sdow-12)
+
+Door het stelsel open en transparant te maken, kunnen er meer partijen gebruik van de data en de afgeleide informatie
+producten maken. Dit zal een positieve bijdrage leveren aan de kwaliteit, immers hoe meer ogen er naar de data kijekn, 
+hoe eerder eventuele onjuistheden worden gesignaleerd, en gecorrigeerd. Het stelsel is ook innoverend, nu is hét moment om
+nieuwe en bewezen technologie in te zetten voor het opzetten van de SOR en de fucntionaliteit van de voorzieningen
+
+#### Zorg voor een unieke sleutel conform de URI strategie
+
+[DSO-02](#dso-02), [DSO-04](#dso-04), [SDOW-01](#sdow-01), [SDOW-02](#sdow-02), [SDOW-03](#sdow-03), [SDOW-12](#sdow-12)
+
+Een unieke sleutel is sowiso belangrijk voor de basistregistratie. Immers we willen kunnen aanhaken met andere registraties op de 
+objecten in de basisregistratie(s). Als we nu meteen kiezen voor een sleutel die aan de URI strategie voldoet, maken we een grote stap 
+voorwaarts, en kunnen we webtechnologie gebruiken om de objecten in de registraties vindbaar en (mens en machine)ontsluitbaar te maken.
+
+#### Zorg dat je (spatial) data vindbaar is voor zoek machines
+
+#### 
 
 
 
@@ -78,8 +143,7 @@ Bron: [DSO-LV, bijlage G](https://aandeslagmetdeomgevingswet.nl/publish/library/
 
 
 
-
-### Naar de bijlagen
+### Onderstaande gaat naar de bijlagen
 
 onderstaande hoofdstukken gaan naar de bijlagen
 
