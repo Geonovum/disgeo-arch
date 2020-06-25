@@ -82,12 +82,12 @@ Bron: [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/)
 
 | Principe              | Omschrijving                                                                      |
 |-----------------------|-----------------------------------------------------------------------------------|
-| <p id='cgr-01'>01</p> | COMPONENTGEBASEERD: We werken met componenten                                     |
-| <p id='cgr-02'>02</p> | OPEN: We zijn transparant waar mogelijk                                           |
-| <p id='cgr-03'>03</p> | VERTROUWD: We zorgen dat informatiebeveiliging en privacy op orde zijn            |
-| <p id='cgr-04'>04</p> | EENMALIGE VASTLEGGING: We leggen gegevens eenmalig vast en vragen op bij de bron  |
-| <p id='cgr-05'>05</p> | REGIE OP GEGEVENS: We faciliteren regie op gegevens                               |
-| <p id='cgr-06'>06</p> | STANDAARD:We standaardiseren maximaal                                             |
+| <p id='cg-01'>01</p> | COMPONENTGEBASEERD: We werken met componenten                                     |
+| <p id='cg-02'>02</p> | OPEN: We zijn transparant waar mogelijk                                           |
+| <p id='cg-03'>03</p> | VERTROUWD: We zorgen dat informatiebeveiliging en privacy op orde zijn            |
+| <p id='cg-04'>04</p> | EENMALIGE VASTLEGGING: We leggen gegevens eenmalig vast en vragen op bij de bron  |
+| <p id='cg-05'>05</p> | REGIE OP GEGEVENS: We faciliteren regie op gegevens                               |
+| <p id='cg-06'>06</p> | STANDAARD:We standaardiseren maximaal                                             |
 
 Bron: [Common Ground](https://www.gemmaonline.nl/images/gemmaonline/c/c7/20190130_-_Common_Ground_-_Informatiearchitectuurprincipes.pdf)
 
@@ -125,7 +125,7 @@ als de basisgegevens vindbaar zijn via zoekmachines. Dat betekent dat er naast d
 
 #### Basisgegevens voldoen aan vereisten
 
-[DSO-03](#dso-03),[DSO-05](#dso-05),[DSO-06](#dso-06), [CGR-01](#cgr-01), [CGR-03](#cgr-03)
+[DSO-03](#dso-03),[DSO-05](#dso-05),[DSO-06](#dso-06), [CG-01](#cg-01), [CG-03](#cg-03)
 
 Als data de brandstof is voor het systeem, moet deze ook betrouwbaar zijn. En betrouwbare data betekent vooraf vastgelegde
 eisen: immer wanneer is de data betrouwbaar, aan welke criteria moet het voldoen. Door de data "open" te stellen creeer je een situatie
@@ -134,7 +134,7 @@ noodzakelijk, inclusief de feedback aan de melder!
 
 #### Bronhouders zijn verantwoordelijk voor basisgegevens
 
-[DSO-10](#dso-10), [CGR-04](#cgr-04), [CGR-05](#cgr-05)
+[DSO-10](#dso-10), [CG-04](#cg-04), [CG-05](#cg-05)
 
 Bronhouders zijn en blijven te allen tijde verantwoordelijk voor de basisgegevens. Verantwoordelijk voor de vastlegging,
 maar ook voor de kwaliteit en het beschikbaar stellen aan de afnemers. 
@@ -142,14 +142,14 @@ maar ook voor de kwaliteit en het beschikbaar stellen aan de afnemers.
 
 #### Bronhouders kunnen leveranciers machtigen
 
-[DSO-10](#dso-10), [CGR-04](#cgr-04)
+[DSO-10](#dso-10), [CG-04](#cg-04)
 
 Bronhouders kunnen leveranciers machtigen om de gegevens bij te houden en/of te verwerken. Dit ontslaat hen echter niet
 van de verantwoordelijkheid voor de basisgegevens.
 
 #### Gegevens aanpassen kan makkelijk en goed
 
-[DSO-04](#dso-04), [DSO-05](#dso-05], [DSO-06](#dso-06), [SDOW-12](#sdow-12), [CGR-02](#cgr-02), [CGR-04](#cgr-04)
+[DSO-04](#dso-04), [DSO-05](#dso-05], [DSO-06](#dso-06), [SDOW-12](#sdow-12), [CG-02](#cg-02), [CG-04](#cg-04)
 
 Om kwalitatief goede gegevens te kunnen waarborgen, moet de registratie capability ervoor zorgen dat er zoveel mogelijk 
 "controles bij de poort" worden gedaan. Ook moeten er regulier metingen gedaan worden die controleren of de gegevens
@@ -159,7 +159,7 @@ terugmelding is van geconstateerde fouten in de gegevens.
 
 #### Gebruikers en bronhouders werken samen aan de kwaliteit van gegevens
 
-[DSO-01](#dso-01), [DSO-10](#dso-10), [CGR-02](#cgr-02), [CGR-04](#cgr-04), [CGR-05](#cgr-05)
+[DSO-01](#dso-01), [DSO-10](#dso-10), [CG-02](#cg-02), [CG-04](#cg-04), [CG-05](#cg-05)
 
 Gebruikers (Afnemers) en Bronhouders moeten samenwerken om de gewenste gegevens kwaliteit te kunnen halen en borgen.
 Afnemers kunnen een set aan kwaliteitscriteria aan de bronhouders leveren. Daarmee wordt de eerder genoemde controle aan
@@ -168,7 +168,7 @@ is ook nodig.
 
 #### Basisgegevens zijn zo actueel en volledig als redelijkerwijs mogelijk
 
-[DSO-04](#dso-04), [CGR-03](#cgr-03), [CGR-04](#cgr-04)
+[DSO-04](#dso-04), [CG-03](#cg-03), [CG-04](#cg-04)
 
 HEt is belangrijk om ons te realiseren dat we niet moeten doorslaan in het vastleggen van van-alles-en-nog-wat bij de 
 basisgegevens. Er moeten heldere criteria komen voor wat een basisgegeven is, en wat niet. Een goede kosten/baten analyse
@@ -176,7 +176,7 @@ is op zijn plaats: Wat kost het om dit gegeven bij te houden, en wat levert het 
 
 #### Gegevens passen bij elkaar: relaties tussen gegevens zijn voor gebruikers duidelijk, en gegevens zijn in samenhang bruikbaar
 
-[DSO-02](#dso-02), [SDOW-03](#sdow-03), [SDOW-04](#sdow-04), [CGR-04](#cgr-04)
+[DSO-02](#dso-02), [SDOW-03](#sdow-03), [SDOW-04](#sdow-04), [CG-04](#cg-04)
 
 Komende van verschillenden gegevens-sets (BAG, BGT, WOZ, enz) en gaande naar een Samenhangende Objecten Registratie is
 het van belang dat er een goed gegevens en objecten model wordt gemaakt. Belangrijke is het om een basisset te maken,
