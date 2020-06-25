@@ -5,7 +5,7 @@
 De richtinggevende principes van DiS Geo zijn verwoord in de beleidsvisie DiS Geo, en hieraan wordt ook wel gerefereerd als "de [houtskoolschets](https://www.geobasisregistraties.nl/basisregistraties/documenten/publicatie/2020/06/15/dis-online-als-stroom-uit-het-stopcontact)".
 
 In dit hoofdstuk worden de inrichtingsprincipes die van toepassing zijn op de Samenhangende Objecten Registratie 
-bepaald. Er is voor gekozen om als uitgangspunt de [Overall Globale Architectuur Schets (OGAS)](https://aandeslagmetdeomgevingswet.nl/publish/library/219/dso_-_gas_-_overall_gas_1.pdf), 
+bepaald als nadere invulling van dez richtinggevende visie. Er is voor gekozen om als uitgangspunt de [Overall Globale Architectuur Schets (OGAS)](https://aandeslagmetdeomgevingswet.nl/publish/library/219/dso_-_gas_-_overall_gas_1.pdf), 
 die is opgesteld ten behoeve van de Omgevingswet te gebruiken. Dit omdat in deze OGAS reeds een toets is 
 gedaan met de architectuurprincipes van diverse andere richtinggevende principes zoals [NORA](#basisprincipes-nora), [GEMMA](#inrichtingsprincipes-gemma), [Common Ground](#inrichtingsprincipes-common-ground), enz.
 Daarmee wordt voorkomen dat er dubbel werk wordt gedaan, en wordt voorkomen dat er weer een afwijkende set van principes 
@@ -190,6 +190,6 @@ zijn aan een object. Of weggehaald als het niet meer nodig is...
 [DSO-02](#dso-02), [DSO-03](#dso-03), [DSO-05](#dso-05)
 
 zoals hiervoor ook al gezegd, de gegevensstructuur van de objecten moet meegroeien met de gebruikers behoefte.
-Attributen die nu via een extere koppeling worden gekoppeld aan bijvoorbeeld een gebouw, moeten kunnen 'promoveren' tot 
+Attributen die nu via een externe koppeling worden gekoppeld aan bijvoorbeeld een gebouw, moeten kunnen 'promoveren' tot 
 onderdeel van de basisregistratie objecten!
 
