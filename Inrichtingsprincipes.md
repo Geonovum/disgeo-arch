@@ -100,10 +100,19 @@ hiervoor genoemde principes invulling wordt gegeven.
 
 #### Basisgegevens zijn van en voor iedereen
 
+[DSO-01](#dso-01)
+
 Basisgegevens met identificatie, metadata basisclassificatie, locatie, geometrie
+
+[DSO-02](#dso-02), [DSO-04](#dso-04), [SDOW-01](#sdow-01), [SDOW-02](#sdow-02), [SDOW-03](#sdow-03), [SDOW-12](#sdow-12)
+
+Een unieke sleutel is sowiso belangrijk voor de basistregistratie. Immers we willen kunnen aanhaken met andere registraties op de 
+objecten in de basisregistratie(s). Als we nu meteen kiezen voor een sleutel die aan de URI strategie voldoet, maken we een grote stap 
+voorwaarts, en kunnen we webtechnologie gebruiken om de objecten in de registraties vindbaar en (mens en machine)ontsluitbaar te maken.
 
 #### Basisgegevens zijn laagdrempelig beschikbaar en bruikbaar voor iedereen
 
+[DSO-01](#dso-01)
 
 
 #### Basisgegevens voldoen aan vereisten
@@ -132,6 +141,10 @@ Basisgegevens met identificatie, metadata basisclassificatie, locatie, geometrie
 
 #### Gegevens passen bij elkaar: relaties tussen gegevens zijn voor gebruikers duidelijk, en gegevens zijn in samenhang bruikbaar
 
+[DSO-02](#dso-02), [SDOW-03](#sdow-03)
+
+We gaan een *samenhangende* Objectenregistratie maken. Daarin ligt feitelijk al besloten dat de SOR als één geheel
+functioneert. Voor zowel Bronhouders als Afnemers.
 
 
 #### De gegevensstructuur kan snel genoeg meegroeien met de gebruiksbehoefte
@@ -157,8 +170,7 @@ Ontsluit die objecten op gebruiksvriendelijke manier.
 
 [DSO-02](#dso-02), [SDOW-03](#sdow-03)
 
-We gaan een *samenhangende* Objectenregistratie maken. Daarin ligt feitelijk al besloten dat de SOR als één geheel
-functioneert. Voor zowel Bronhouders als Afnemers.
+
 
 #### Data is de brandstof van het stelsel
 
@@ -187,12 +199,6 @@ hoe eerder eventuele onjuistheden worden gesignaleerd, en gecorrigeerd. Het stel
 nieuwe en bewezen technologie in te zetten voor het opzetten van de SOR en de fucntionaliteit van de voorzieningen
 
 #### Zorg voor een unieke sleutel conform de URI strategie
-
-[DSO-02](#dso-02), [DSO-04](#dso-04), [SDOW-01](#sdow-01), [SDOW-02](#sdow-02), [SDOW-03](#sdow-03), [SDOW-12](#sdow-12)
-
-Een unieke sleutel is sowiso belangrijk voor de basistregistratie. Immers we willen kunnen aanhaken met andere registraties op de 
-objecten in de basisregistratie(s). Als we nu meteen kiezen voor een sleutel die aan de URI strategie voldoet, maken we een grote stap 
-voorwaarts, en kunnen we webtechnologie gebruiken om de objecten in de registraties vindbaar en (mens en machine)ontsluitbaar te maken.
 
 #### Zorg dat je (spatial) data vindbaar is voor zoek machines
 
