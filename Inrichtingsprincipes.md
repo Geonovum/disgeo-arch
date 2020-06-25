@@ -149,7 +149,7 @@ van de verantwoordelijkheid voor de basisgegevens.
 
 #### Gegevens aanpassen kan makkelijk en goed
 
-[DSO-04](#dso-04), [DSO-05](#dso-05], [DSO-06](#dso-06), [SDOW-12](#sdow-12), [CG-02](#cg-02), [CG-04](#cg-04)
+[DSO-04](#dso-04), [DSO-05](#dso-05), [DSO-06](#dso-06), [SDOW-12](#sdow-12), [CG-02](#cg-02), [CG-04](#cg-04)
 
 Om kwalitatief goede gegevens te kunnen waarborgen, moet de registratie capability ervoor zorgen dat er zoveel mogelijk 
 "controles bij de poort" worden gedaan. Ook moeten er regulier metingen gedaan worden die controleren of de gegevens
