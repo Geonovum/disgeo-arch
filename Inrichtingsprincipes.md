@@ -5,7 +5,7 @@
 In dit hoofdstuk worden de inrichtingsprincipes die van toepassing zijn op de Samenhangende Objecten Registratie 
 bepaald. Er is voor gekozen om als uitgangspunt de [Overall Globale Architectuur Schets (OGAS)](https://aandeslagmetdeomgevingswet.nl/publish/library/219/dso_-_gas_-_overall_gas_1.pdf), 
 die is opgesteld ten behoeve van de Omgevingswet te gebruiken. Dit omdat in deze OGAS reeds een toets is 
-gedaan met de architectuurprincipes van diverse andere richtinggevende principes zoals NORA, GEMMA, Common Ground, enz.
+gedaan met de architectuurprincipes van diverse andere richtinggevende principes zoals [NORA](#basisprincipes-nora), [GEMMA](#inrichtingsprincipes-gemma), [Common Ground](#inrichtingsprincipes-common-ground), enz.
 Daarmee wordt voorkomen dat er dubbel werk wordt gedaan, en wordt voorkomen dat er weer een afwijkende set van principes 
 wordt opgesteld. Behalve naar de bestaande principes is ook gekeken naar de architectuurprincipes van W3C, en dan met 
 name naar de principes uit [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/#bp-summary)
@@ -47,15 +47,14 @@ Functies: Een *ja* in deze kolom moet worden opgevant als 'Ja' dit principe is r
 | <p id='dso-02'>02</p> | Het stelsel functioneert als één geheel voor zowel personen als systemen |      |   Ja     |
 | <p id='dso-03'>03</p> | Data is de brandstof van het stelsel                                     | Ja   |          |
 | <p id='dso-04'>04</p> | Oplossingen zijn eenvoudig, generiek en kosten effectief                 |      |   Ja     |
-| <p id='dso-04'>05</p> | Alles is een service                                                     |      |   Ja     |
+| <p id='dso-05'>05</p> | Alles is een service                                                     |      |   Ja     |
 | <p id='dso-06'>06</p> | Het stelsel is open, transparant en innoverend                           | Ja   |   Ja     |
-| <p id='dso-06'>07</p> | Hergebruik voor koop voor maak                                           |      |          |
+| <p id='dso-07'>07</p> | Hergebruik voor koop voor maak                                           |      |          |
 | <p id='dso-08'>08</p> | Continuïteit en compliance is geborgd                                    |      |          |
 | <p id='dso-09'>09</p> | Passende beveiliging & privacy op basis van reële risico’s               |      |          |
 | <p id='dso-10'>10</p> | Beheerfunctionaliteit is primaire functionaliteit                        |      |          |
 
 Bron: [DSO-LV, bijlage G](https://aandeslagmetdeomgevingswet.nl/publish/library/219/ogas_bijlage_g_-_dso-lv_principes_1.pdf)
-
 
 #### Best Practices Spatial Data on the Web
 
@@ -100,355 +99,95 @@ hiervoor genoemde principes invulling wordt gegeven.
 
 #### Basisgegevens zijn van en voor iedereen
 
-[DSO-01](#dso-01)
+[DSO-01](#dso-01), [DSO-02](#dso-02), [DSO-04](#dso-04), [DSO-06](#dso-06), [SDOW-01](#sdow-01), [SDOW-02](#sdow-02), [SDOW-03](#sdow-03), [SDOW-12](#sdow-12)
 
 Basisgegevens met identificatie, metadata basisclassificatie, locatie, geometrie
+Basisgegevens hebben een altijd een *unieke sleutel* [SDOW-01](#sdow-01), deze wordt gebruikt om dat te kunnen koppelen. Daarnaast
+hebben basisgegevens *identificerende kenmerken*, waarmee de objecten door mensen herkend kunnen worden. Zo is een woonadres iets dat door mensen
+begrepen wordt, maar juist voor machine koppelingen voor allerlei problemen zorgt (adresproblematiek met verschillende schrijfwijzen).
 
-[DSO-02](#dso-02), [DSO-04](#dso-04), [SDOW-01](#sdow-01), [SDOW-02](#sdow-02), [SDOW-03](#sdow-03), [SDOW-12](#sdow-12)
+Het is aan te raden ook een *eigenaarskenmerk* op te nemen bij objecten in de basisregistratie. hiermee is meteen duidelijk wie er
+verantwoordelijk is voor de data. Soms wordt ook een *beheerderkenmerk* opgenomen, daarmee wordt het mogelijk om verschil te maken tussen
+de eigenaarsrol en de beheerderrol.
 
-Een unieke sleutel is sowiso belangrijk voor de basistregistratie. Immers we willen kunnen aanhaken met andere registraties op de 
+Verder bevatten objecten in de registratie een *geldigheidsdatum*, van- en totdatum. Deze wordt gebruikt voor 'tijdreizen', maar ook voor archiveringsdoeleinden.
+
+De unieke sleutel is sowiso belangrijk voor de basisregistratie. Immers we willen kunnen aanhaken met andere registraties op de 
 objecten in de basisregistratie(s). Als we nu meteen kiezen voor een sleutel die aan de URI strategie voldoet, maken we een grote stap 
 voorwaarts, en kunnen we webtechnologie gebruiken om de objecten in de registraties vindbaar en (mens en machine)ontsluitbaar te maken.
 
 #### Basisgegevens zijn laagdrempelig beschikbaar en bruikbaar voor iedereen
 
-[DSO-01](#dso-01)
+[DSO-01](#dso-01), [DSO-02](#dso-02), [SDOW-02](#sdow-02), [SDOW-02](#sdow-03), [SDOW-12](#sdow-12)
 
+Om basisgegevens voor iedereen beschikbaar en bruikbaar te maken moeten ze ook vindbaar zijn! De vindbaarheid wordt vergroot
+als de basisgegevens vindbaar zijn via zoekmachines. Dat betekent dat er naast de "echte" data ook metadata nodig is.
 
 #### Basisgegevens voldoen aan vereisten
 
+[DSO-03](#dso-03),[DSO-05](#dso-05),[DSO-06](#dso-06), [CGR-01](#cgr-01), [CGR-03](#cgr-03)
 
+Als data de brandstof is voor het systeem, moet deze ook betrouwbaar zijn. En betrouwbare data betekent vooraf vastgelegde
+eisen: immer wanneer is de data betrouwbaar, aan welke criteria moet het voldoen. Door de data "open" te stellen creeer je een situatie
+waarbij er veel mensen (en machines) de data gebruiken, en daarbij impliciet controleren. Een goede terugmeld mogelijkheid is dan
+noodzakelijk, inclusief de feedback aan de melder! 
 
 #### Bronhouders zijn verantwoordelijk voor basisgegevens
 
+[DSO-10](#dso-10), [CGR-04](#cgr-04), [CGR-05](#cgr-05)
+
+Bronhouders zijn en blijven te allen tijde verantwoordelijk voor de basisgegevens. Verantwoordelijk voor de vastlegging,
+maar ook voor de kwaliteit en het beschikbaar stellen aan de afnemers. 
 
 
 #### Bronhouders kunnen leveranciers machtigen
 
+[DSO-10](#dso-10), [CGR-04](#cgr-04)
 
+Bronhouders kunnen leveranciers machtigen om de gegevens bij te houden en/of te verwerken. Dit ontslaat hen echter niet
+van de verantwoordelijkheid voor de basisgegevens.
 
 #### Gegevens aanpassen kan makkelijk en goed
 
+[DSO-04](#dso-04), [DSO-05](#dso-05], [DSO-06](#dso-06), [SDOW-12](#sdow-12), [CGR-02](#cgr-02), [CGR-04](#cgr-04)
 
+Om kwalitatief goede gegevens te kunnen waarborgen, moet de registratie capability ervoor zorgen dat er zoveel mogelijk 
+"controles bij de poort" worden gedaan. Ook moeten er regulier metingen gedaan worden die controleren of de gegevens
+nog steeds aan de (eventueel strakker gezette) criteria voldoen. Daarmee moet echter het aanpassen van de gegevens
+niet worden bemoeilijkt. Elke bronhouder moet in staat zijn om gegevens snel aan te passen. Vooral ook zodra er een
+terugmelding is van geconstateerde fouten in de gegevens. 
 
 #### Gebruikers en bronhouders werken samen aan de kwaliteit van gegevens
 
+[DSO-01](#dso-01), [DSO-10](#dso-10), [CGR-02](#cgr-02), [CGR-04](#cgr-04), [CGR-05](#cgr-05)
 
+Gebruikers (Afnemers) en Bronhouders moeten samenwerken om de gewenste gegevens kwaliteit te kunnen halen en borgen.
+Afnemers kunnen een set aan kwaliteitscriteria aan de bronhouders leveren. Daarmee wordt de eerder genoemde controle aan
+de poort gevoed. Kwaliteitscriteria kunnen wijzigen, dus controle over de reeds vastgelegde (geregistreerde) objecten
+is ook nodig.
 
 #### Basisgegevens zijn zo actueel en volledig als redelijkerwijs mogelijk
 
+[DSO-04](#dso-04), [CGR-03](#cgr-03), [CGR-04](#cgr-04)
 
+HEt is belangrijk om ons te realiseren dat we niet moeten doorslaan in het vastleggen van van-alles-en-nog-wat bij de 
+basisgegevens. Er moeten heldere criteria komen voor wat een basisgegeven is, en wat niet. Een goede kosten/baten analyse
+is op zijn plaats: Wat kost het om dit gegeven bij te houden, en wat levert het op?
 
 #### Gegevens passen bij elkaar: relaties tussen gegevens zijn voor gebruikers duidelijk, en gegevens zijn in samenhang bruikbaar
 
-[DSO-02](#dso-02), [SDOW-03](#sdow-03)
+[DSO-02](#dso-02), [SDOW-03](#sdow-03), [SDOW-04](#sdow-04), [CGR-04](#cgr-04)
 
-We gaan een *samenhangende* Objectenregistratie maken. Daarin ligt feitelijk al besloten dat de SOR als één geheel
-functioneert. Voor zowel Bronhouders als Afnemers.
-
+Komende van verschillenden gegevens-sets (BAG, BGT, WOZ, enz) en gaande naar een Samenhangende Objecten Registratie is
+het van belang dat er een goed gegevens en objecten model wordt gemaakt. Belangrijke is het om een basisset te maken,
+maar even belangrijk, zo niet belangrijker is het dat de objecten flexibel zijn. Een attribuut moet gemakkelijk toe te voegen
+zijn aan een object. Of weggehaald als het niet meer nodig is...
 
 #### De gegevensstructuur kan snel genoeg meegroeien met de gebruiksbehoefte
 
-
-
-
-
-
-
-
-
-
-#### De klant staat centraal
-
-Het gaat om de gebruikers van de voorzieningen en de data. Zowel Afnemers als Bronhouders vallen in die 
-categorie. Werk vanuit use-cases om te komen tot samenhangende objecten met bijbehorende attributen. 
-Ontsluit die objecten op gebruiksvriendelijke manier.
-
-[DSO-01](#dso-01)
-
-#### Het stelsel functioneert als één geheel voor zowel personen als systemen 
-
-[DSO-02](#dso-02), [SDOW-03](#sdow-03)
-
-
-
-#### Data is de brandstof van het stelsel
-
-[DSO-03](#dso-03)
-
-Zonder data is er geen systeem. Het stelsel staat of valt bij correcte data. Zonder data kunnen er geen informatie
-prdcuten worden gemaakt. Bij data hoort ook metadata: de beschrijving van de data die iets zegt over herkomst, nauwkeurigheid,
-eigenaar, beheerder, datums, enz. van data. 
-
-#### Alles is een service 
-
-[DSO-04](#dso-04), [SDOW-12](#sdow-12)
-
-Om te komen tot een toekomstvaste oplossing is deze regel erg belangrijk. Data en Functionaliteit worden ontkoppeld.
-Om de data te benaderen moet alles via Services (API's) gaan. Deze API's worden vervolgens door andere API's of door bijvoorbeeld een
-viewer aangeroepen. De API's die direct "tegen" de data objecten aanzitten, en die gebruikt worden voor het muteren van de data
-zijn voorzien van controles die de kwaliteit van de data borgen.
-
-#### Het stelsel is open, transparant en innoverend
-
-[DSO-06](#dso-06), [SDOW-01](#dsow-01), [SDOW-02](#sdow-02), [SDOW-03](#sdow-03), [SDOW-12](#sdow-12)
-
-Door het stelsel open en transparant te maken, kunnen er meer partijen gebruik van de data en de afgeleide informatie
-producten maken. Dit zal een positieve bijdrage leveren aan de kwaliteit, immers hoe meer ogen er naar de data kijekn, 
-hoe eerder eventuele onjuistheden worden gesignaleerd, en gecorrigeerd. Het stelsel is ook innoverend, nu is hét moment om
-nieuwe en bewezen technologie in te zetten voor het opzetten van de SOR en de fucntionaliteit van de voorzieningen
-
-#### Zorg voor een unieke sleutel conform de URI strategie
-
-#### Zorg dat je (spatial) data vindbaar is voor zoek machines
-
-#### 
-
-
-
-
-
-
-
-
-
-### Onderstaande gaat naar de bijlagen
-
-onderstaande hoofdstukken gaan naar de bijlagen
-
-#### Basisprincipes NORA 
-
-De principes van de NORA zijn bedoeld om overheidsorganisaties richting te duiden bij het inzetten van veranderingen en het
-uitvoeren van projecten. Met name bij het ontwerpen van nieuwe of aangepaste diensten is het noodzaak zichtbaar te maken hoe
-invulling wordt gegeven aan de principes en welke overwegingen daarbij worden gemaakt. Hier geldt het pas-toe-of-leg-uit- principe,
-waarbij afwijkingen dus zijn toegestaan mits dat met goede argumenten wordt onderbouwd en vastgelegd om daar in een later
-stadium op terug te kunnen komen. Zo wordt voorkomen dat belangrijke zaken over het hoofd worden gezien. 
-
-
-| Regel | Omschrijving                                                                                    |
-|-------|-------------------------------------------------------------------------------------------------|
-| BP01: | Afnemers krijgen de dienstverlening waar ze behoefte aan hebben.                                |
-| BP02: | Afnemers kunnen de dienst eenvoudig vinden.                                                     |
-| BP03: | Afnemers hebben eenvoudig toegang tot de dienst.                                                |
-| BP04: | Afnemers ervaren uniformiteit in de dienstverlening door het gebruik van standaardoplossingen.  |
-| BP05: | Afnemers krijgen gerelateerde diensten gebundeld aangeboden.                                    |
-| BP06: | Afnemers hebben inzage in voor hen relevante informatie.                                        |
-| BP07: | Afnemers worden niet geconfronteerd met overbodige vragen.                                      |
-| BP08: | Afnemers kunnen erop vertrouwen dat informatie niet wordt misbruikt.                            |
-| BP09: | Afnemers kunnen erop vertrouwen dat de dienstverlener zich aan afspraken houdt.                 |
-| BP10: | Afnemers kunnen input leveren over de dienstverlening.                                          |
-
-Bron: https://www.noraonline.nl/wiki/Principes 
-
-#### Afgeleide principes NORA
-
-Afgeleide principes geven meer concrete invulling aan de basisprincipes. Ze zijn te beschouwen als een checklist van 
-kwaliteitskenmerken van de diensten van de overheid en geven handvatten voor operationeel niveau door hun uitwerking in concrete 
-implicaties. 
-
-| Regel | Omschrijving                                 | 
-|-------|----------------------------------------------|
-| AP01: | Diensten zijn herbruikbaar                   |
-| AP02: | Ontkoppelen met diensten                     | 
-| AP03: | Diensten vullen elkaar aan                   |
-| AP04: | Positioneer de dienst                        |
-| AP05: | Nauwkeurige dienstbeschrijving               | 
-| AP06: | Gebruik standaard oplossingen                | 
-| AP07: | Gebruik de landelijke bouwstenen             | 
-| AP08: | Gebruik open standaarden                     |
-| AP09: | Voorkeurskanaal internet                     |
-| AP10: | Aanvullend kanaal                            |
-| AP11: | Gelijkwaardig resultaat ongeacht kanaal      |
-| AP12: | Eenmalige uitvraag                           |
-| AP13: | Bronregistraties zijn leidend                |
-| AP14: | Terugmelden aan bronhouder                   |
-| AP15: | Doelbinding (AP)                             | 
-| AP17: | Informatie-objecten systematisch beschreven  |
-| AP18: | Ruimtelijke informatie via locatie           |
-| AP19: | Perspectief gebruiker                        |
-| AP20: | Persoonlijke benadering                      |
-| AP21: | Bundeling van diensten                       |
-| AP22: | No wrong door                                |
-| AP23: | Automatische dienstverlening                 |
-| AP24: | Proactief aanbieden                          |
-| AP25: | Transparante dienstverlening                 |
-| AP26: | Afnemer heeft inzage                         |
-| AP27: | Een verantwoordelijke organisatie            |
-| AP28: | Afspraken vastgelegd                         |
-| AP29: | De dienstverlener voldoet aan de norm        | 
-| AP30: | Verantwoording dienstlevering mogelijk       |  
-| AP31: | PDCA-cyclus in besturing kwaliteit           |
-| AP32: | Sturing kwaliteit op het hoogste niveau      |
-| AP33: | Baseline kwaliteit diensten                  |
-| AP34: | Verantwoording besturing kwaliteit           |
-| AP40: | Onweerlegbaarheid (principe)                 |
-| AP41: | Beschikbaarheid                              |
-| AP42: | Integriteit                                  |
-| AP43: | Vertrouwelijkheid (principe)                 |
-| AP44: | Controleerbaarheid                           |
-
-#### Inrichtingsprincipes GEMMA
-
-GEMMA kent 8 inrichtingsprincipes:
-
-| Regel | Omschrijving                                                        |
-|-------|---------------------------------------------------------------------|
-| 01    | Onze gemeente denkt vanuit de positie van de klant                  |
-| 02    | Onze gemeente gebruikt generieke processen en functies              | 
-| 03    | Onze gemeente voert regie over uitbestede diensten                  | 
-| 04    | Onze gemeente biedt de klant een goede informatiepositie            |
-| 05    | Onze gemeente digitaliseert haar diensten en processen              | 
-| 06    | Onze gemeente stelt openbare gegevens als open data beschikbaar     | 
-| 07    | Onze gemeente hergebruikt gegevens                                  |
-| 80    | Onze gemeente gaat op een vertrouwelijke manier met gegevens om     |
-
-Bron: https://www.vngrealisatie.nl/gemma 
-
-#### Eisen aan basisregistraties GEMMA
-
-GEMMA heeft 12 eisen aan basisregistraties waaraan een basisregistratie moet voldoen, die een verdere uitwerking zijn van de eerste
-6 in hierboven beschreven inrichtingsprincipes:
-
-| Eis     | Omschrijving                                                             |
-|---------|--------------------------------------------------------------------------|
-| 01      | De registratie is bij wet geregeld.                                      |
-| 02      | De afnemers hebben een terugmeldplicht(dit geldt alleen voor afnemers met een publiekrechtelijke taak en voor de authentieke gegevens). |
-| 03      | De basisregistratie wordt verplicht gebruikt door de hele overheid(dit geldt alleen voorafnemers met een publiekrechtelijke taak en voor de authentieke gegevens).Deze eis betekent tevens dat afnemersmet een publiekrechtelijke taak de gegevens die beschikbaar zijn als authentiek gegeven niet zelf meer mogen uitvragen bij burgers en bedrijven. |
-| 04      | Er is duidelijkheid over de aansprakelijkheid. |
-| 05      | De realisatie en exploitatie geschieden tegen redelijke kosten en er is eenduidigheid over de verdeling ervan. |
-| 06      | Er is duidelijkheid over inhoud en bereik van de registratie. |
-| 07      | Er zijn sluitende afspraken en procedures tussen de houder van het register enerzijds en de leveranciers en de afnemers van gegevens anderzijds. |
-| 08      | Er zijn duidelijke procedures met betrekking tot de toegankelijkheid van de basisregistratie. |
-| 09      | Er is een stringent regime van kwaliteitsborging. |
-| 10      | Er is vastgelegd dat en hoe afnemers van gegevens op een niet-vrijblijvende wijze betrokken worden bij de besluitvorming over de registratie. |
-| 11      | De positie van de basisregistratie binnen het Stelsel van Basisregistratiesis duidelijk en de relaties met de basisregistraties zijn beschreven. |
-| 12      | De zeggenschap over de basisregistratie berust bij een bestuursorgaan en er is een minister verantwoordelijk voor het realiseren, respectievelijk het functioneren van de registratie. |
-
-Bron: https://www.noraonline.nl/images/noraonline/c/c0/Stelselarchitectuur_heden.pdf 
-
-#### Het 5-Sterren model voor Open Data
-
-In het eerder in het kader van DisGeo gedane onderzoek is rapport opgesteld: 
-[DisGeo Demo Lessons Learned](https://docs.geostandaarden.nl/disgeo/def-al-dll-20200219/) wordt het 
-5 sterren Open Data model [genoemd](https://docs.geostandaarden.nl/disgeo/def-al-dll-20200219/#het-5-sterren-model-voor-open-data), 
-In de tabel de 5 eisen van dat model
-
-| Eis     | Omschrijving                                                             |
-|---------|--------------------------------------------------------------------------|
-| 01      | Beschikbaar op het web, met een open licentie                            |
-| 02      | Data is machine leesbaar en bevat een open licentie                      |
-| 03      | De dataset is beschikbaar in een open bestandsformaat                    |
-| 04      | Bovenstaande + gebruik open standaarden van het W3C om objecten in de data te identificeren, zodat anderen naar die objecten kunnen verwijzen. |
-| 05      | Bovenstaande + link je data aan data van anderen, dit creëert samenhang tussen data sets. |
-
-Bron: https://geonovum.github.io/disgeo-demo/#governance-op-het-snijvlak
-
-#### Inrichtingsprincipes Common Ground
-
-| Principe | Omschrijving                                                                      |
-|----------|-----------------------------------------------------------------------------------|
-| 01       | COMPONENTGEBASEERD: We werken met componenten                                     |
-| 02       | OPEN: We zijn transparant waar mogelijk                                           |
-| 03       | VERTROUWD: We zorgen dat informatiebeveiliging en privacy op orde zijn            |
-| 04       | EENMALIGE VASTLEGGING: We leggen gegevens eenmalig vast en vragen op bij de bron  |
-| 05       | REGIE OP GEGEVENS: We faciliteren regie op gegevens                               |
-| 06       | STANDAARD:We standaardiseren maximaal                                             |
-
-Bron: https://www.gemmaonline.nl/images/gemmaonline/c/c7/20190130_-_Common_Ground_-_Informatiearchitectuurprincipes.pdf
-
-#### 10 golden rules
-
-Deze 10 golden rules zijn tot stand gekomen vanuit de best-practices rondom data management.. 
-
-|	Regel |	Omschrijving                                     |	Opmerkingen                                       | Data | Functies |
-|--------|---------------------------------------------------|---------------------------------------------------|-----|---------------|
-| 01	   | Data is het hart van het systeem	                | Data en niet de applicatie is het hart van het systeem. Data blijft jaren bewaard, applicaties bestaan hoogstens 15 jaar. Niet meer denken vanuit applicaties, maar vanuit de data zelf! |  Ja |               |
-| 02	   | Data wordt op één plek bijgehouden	             | Er is maar 1 plek waar data wordt gecreëerd, gewijzigd, en verwijderd	Dit is randvoorwaardelijk voor een "Single Version of the Truth" |  Ja |               |
-| 03	   | Dubbele Opslag is niet erg, Dubbel bijhouden wel	 | Dubbel opslaan (bijvoorbeeld op een lokale kopie) kan soms nodig zijn. Het is ook helemaal niet erg, zolang de data read-only is, en je je realiseert dat je niet naar de allerlaatste versie aankijkt. Dubbel bijhouden is wél erg: wat is de waarheid?	Een lokale kopie is soms nodig om de beschikbaarheid van data te garanderen. Denk aan crisisorganisaties. |  Ja |               |
-| 04	   | Dubbele Opslag betekent Synchroniseren!	          | Als je dubbel opslaat, moet je bedenken welke dataset de 'master' is, en welke dataset(s) de 'slave'. Ook moet je bedenken hoe je synchroniseert. 1x per dag, 1x per uur, near-real-time, real-time. 	Vuistregel: Hoe actueler de kopie, hoe duurder de oplossing. | Ja  |               |
-| 05	   | Data is zelf-loggend	                            | Alle transacties die worden gedaan met de data worden gelogd. Tijdstip plus wie (of wat) die de data heeft gewijzigd. 	Denk aan create/update/delete triggers. In ieder geval niet via een bovenliggende applicatie loggen. Dit is nodig voor een audit-trail. | Ja  |               |
-| 06	   | Data is zelf-autoriserend	                      | De Data zelf bepaalt wie (of wat) de data mag wijzigingen, en niet een bovenliggende applicatie. 	Applicaties worden vervangen, en kunnen worden omzeild. | Ja  |               |
-| 07	   | Data is zelf-controlerend	                      | De data (definitie) bepaalt welke waarden attributen kunnen krijgen, en niet bovenliggende applicaties.	Applicaties worden vervangen, en kunnen worden omzeild.| Ja   |               |
-| 08	   | Data is zelf-historiserend	                      | In de data wordt een THT vastgelegd. Ook Data heeft een houdbaarheidsdatum.	Niet alle data hoeft tot in lengte van dagen bewaard te blijven. Met een THT kan je ook kiezen voor een opslagmedium (online/offline) én gebruiken voor het archiveringsbeleid. | Ja  |               |
-| 09	   | Data wordt bijgehouden aan de bron	             | De data wordt bijgehouden daar waar ze ontstaat. Achterliggende reden: aan de bron is de noodzaak voor het hebben van goede kwalitatieve data het grootst. | Ja | Ja |
-| 10		| Data en Informatie zijn twee verschillende dingen | "Informatie is bewerkte data" m.a.w. Informatie is data waaraan kennis is toegevoegd.                  |     |               |
-
-
-#### Inrichtingsprincipes Dis Geo
-
-Voor het DiSGeo project is al veel onderzoek gedaan naar de eisen en inrichtingsprincipes. De resultaten zijn beschikbaar in de volgende documenten:  
-Bron: https://www.geobasisregistraties.nl/documenten/beleidsnota/2019/11/29/beleidsvisie-samenhangende-objectenregistratie  
-Bron: https://www.pldn.nl/file_auth.php/pilod/7/79/05_20200122_Krijtenburg_vanLeeuwen_-_DISGeo_Knowledge_Graph.pdf  
-
-
-
-De ontwerpprincipes zijn ingedeeld in de volgende categorieën: 
-
-| Categorie | Omschrijving                | SOR | Voorzieningen   |
-|-----------|-----------------------------|-----|-----------------|
-| 01        | Inhoud & scope;             |     |                 |
-| 02        | Conceptueel & architectuur; | Ja  |                 |
-| 03        | Organisatie;                |     |                 |
-| 04        | Gebruik;                    |     | Ja              |
-| 05        | Transitie.                  | Ja  | Ja              |
-
-Bron: https://www.geobasisregistraties.nl/documenten/beleidsnota/2019/11/29/beleidsvisie-samenhangende-objectenregistratie  
-
-De relevante Architectuurprincipes zijn hieronder uitgewerkt
-
-##### Ontwerpprincipes conceptueel en architectuur 
-De volgende conceptuele en architectuur uitgangspunten worden gehanteerd bij het komen tot een nadere uitwerking van een
-samenhangende objectenregistratie:  
- 
-| Nummer  | Beschrijving                                                                                         | Gegevens  | Functionaliteit  |
-|---------|------------------------------------------------------------------------------------------------------|------|----------------|
-| 01      | We laten ons bij het ontwerp en de verdere uitwerking niet beperken door de nu bestaande juridische kaders (deze kunnen in principe worden aangepast, via een traject aanpassing wet- en regelgeving). | Ja | Ja |
-| 02      | In het ontwerp van een samenhangende objectenregistratie is sprake van een nadrukkelijke scheiding tussen de vastlegging van gegevens en de functionaliteit voor het bewerken, opvragen en presenteren daarvan. | Ja | Ja |
-| 03      | Er wordt gebruik gemaakt van standaard infrastructurele voorzieningen die beschikbaar zijn bij de bronhouders en de gebruikers (denk hierbij aan standaardnetwerken, netwerkprotocollen en beveiligingsmechanismen). | | |
-| 04      | Er wordt in de eindsituatie zoveel mogelijk uitgegaan van ‘bevragen bij de bron’. Hierbij is van belang dat de gebruiker voor verstrekkingen zoveel mogelijk uit kan gaan van één loket. Een belangrijk aandachtspunt hierbij is het gebeurtenis georiënteerd werken (nader uit te werken). Of de bronhouders gedistribueerd en decentraal werken of direct inwinning en bijhouding in een (of meerdere) voorziening(en) uitvoeren via gestandaardiseerde services moet nader bepaald worden (nadere uitwerking in kader van DiS GEO/beleidsvisie: leveranciers, bronhouders, Kadaster, VNG-R, BZK). | | Ja |
-| 05      | Er wordt ingewonnen op het niveau van de huidige schaalniveaus van BAG en BGT. De gegevens kunnen gepresenteerd worden op verschillende schaalniveaus (meest gedetailleerde weergave: 1:1.000). Autogeneralisatie voor informatie op hogere schaalniveaus moet mogelijk zijn (op basis van logica en functies). Bijvoorbeeld het (deels) afleiden van de informatie voor de BRT uit de BGT, maar ook voor het definiëren van een wegennetwerk met alle rijkswegen op basis van het gehele wegennetwerk. | | |
-| 06      | Keuzen voor een technische inrichting van de registratie worden pas later in het traject gemaakt, zodat oplossingen gebaseerd zijn op recente inzichten in oplossingsmogelijkheden. | | |
-
-Bron: https://www.geobasisregistraties.nl/documenten/beleidsnota/2019/11/29/beleidsvisie-samenhangende-objectenregistratie  
-
-##### Ontwerpprincipes gebruik 
-
-De volgende uitgangspunten betrekking hebbende op gebruik worden gehanteerd bij het komen tot een nadere uitwerking van een samenhangende objectenregistratie: 
-
-| Nummer | Beschrijving                                                                                         |  SOR | Voorzieningen  |
-|--------|------------------------------------------------------------------------------------------------------|------|----------------|
-| 01     | Vanuit andere (basis)registraties, zoals de subjectenregistraties BRP of HR, moeten eenvoudig relaties gelegd kunnen worden naar de samenhangende objectenregistratie. | Ja | Ja |
-| 02     | De registratie gedraagt zich voor gebruikers zoveel mogelijk als één registratie, of het daadwerkelijk één registratie wordt, is nog niet bepaald (nader uit te werken). Daarnaast kunnen er uit de registratie (informatie)producten afgeleid worden en beschikbaar gesteld worden. | Ja | Ja | 
-| 03     | De kerngegevens en aanvullende gegevens worden in principe ontsloten als open data (waar nodig ontsloten op basis van autorisaties), dus het “open data, tenzij” regime geldt.|  | Ja |
-| 04     | Op het moment dat er sprake is van nadrukkelijk gedeelde behoeften van gebruikers aan aanvullende gegevens, dan komen deze in principe in aanmerking voor opname in de basisregistratie (waarbij gedocumenteerd wordt door wie de wensen geuit zijn, en waarop gebaseerd). | Ja |  |
-| 05     | Vanuit gebruikerswensen wordt gekeken naar wat dit betekent voor een objectenregistratie en pas daarna wat dit betekent voor het huidige informatiemodel (inhoud en relaties); bestaande registraties mogen niet beperkend zijn voor de doorontwikkeling. | Ja |  |
-| 06     | In principe kan de informatie via meerdere kanalen, afgestemd op gebruikersbehoefte, uitgeleverd worden (nadere uitwerking in kader van DiS GEO). |  | Ja  | 
- 
-Bron: https://www.geobasisregistraties.nl/documenten/beleidsnota/2019/11/29/beleidsvisie-samenhangende-objectenregistratie  
- 
-##### Ontwerpprincipes transitie 
-
-De volgende uitgangspunten betrekking hebbende op het transitieproces worden gehanteerd bij het komen tot een nadere uitwerking van een 
-samenhangende objectenregistratie:  
- 
-| Nummer | Beschrijving                                                                                         | SOR  | Voorzieningen  |
-|--------|------------------------------------------------------------------------------------------------------|------|----------------|
-| 01     | De transitie zal geleidelijk / organisch (via tussenstappen, gericht op een ‘eindbeeld / streefbeeld’) vormgegeven worden, zo kan de impact bij bronhouders en gebruikers beperkt worden. 
-| 02     | Alle gemaakte keuzen worden voor transitie en implementatie beproefd op de impact voor zowel de bronhouders als de gebruikers (inclusief afspraken over financieringswijze). Op het moment dat er sprake is van nadrukkelijk gedeelde behoeften van gebruikers aan aanvullende gegevens, dan komen deze in principe in aanmerking voor opname in de basisregistratie (waarbij expliciet wordt gedocumenteerd door wie behoeften zijn geuit en waar deze op zijn gebaseerd). De extra inwinningslast zal, waar mogelijk, zoveel mogelijk beperkt worden. |  |  |
-| 03     | Alle gemaakte keuzen worden voor implementatie/transitie beproefd op de impact voor zowel de bronhouders als de gebruikers (inclusief afspraken over financiering en kosten/baten). 
-| 04     | Welke stappen in het transitieproces gezet zullen worden en wat ‘permanent Beta’ betekent voor de praktijk van bronhouders en gebruikers zal nader verkend worden |  |  |
-
-Bron: https://www.geobasisregistraties.nl/documenten/beleidsnota/2019/11/29/beleidsvisie-samenhangende-objectenregistratie  
-
-
-
-
-
-
-
-
-
-
-
-
+[DSO-02](#dso-02), [DSO-03](#dso-03), [DSO-05](#dso-05)
+
+zoals hiervoor ook al gezegd, de gegevensstructuur van de objecten moet meegroeien met de gebruikers behoefte.
+Attributen die nu via een extere koppeling worden gekoppeld aan bijvoorbeeld een gebouw, moeten kunnen 'promoveren' tot 
+onderdeel van de basisregistratie objecten!
 
