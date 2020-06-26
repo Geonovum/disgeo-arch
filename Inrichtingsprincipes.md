@@ -6,11 +6,8 @@ De richtinggevende principes van DiS Geo zijn verwoord in de beleidsvisie DiS Ge
 
 In dit hoofdstuk worden de inrichtingsprincipes die van toepassing zijn op de Samenhangende Objecten Registratie 
 bepaald als nadere invulling van dez richtinggevende visie. Er is voor gekozen om als uitgangspunt de [Overall Globale Architectuur Schets (OGAS)](https://aandeslagmetdeomgevingswet.nl/publish/library/219/dso_-_gas_-_overall_gas_1.pdf), 
-die is opgesteld ten behoeve van de Omgevingswet te gebruiken. Dit omdat in deze OGAS reeds een toets is 
-gedaan met de architectuurprincipes van diverse andere richtinggevende principes zoals [NORA](#basisprincipes-nora), [GEMMA](#inrichtingsprincipes-gemma), [Common Ground](#inrichtingsprincipes-common-ground), enz.
-Daarmee wordt voorkomen dat er dubbel werk wordt gedaan, en wordt voorkomen dat er weer een afwijkende set van principes 
-wordt opgesteld. Behalve naar de bestaande principes is ook gekeken naar de architectuurprincipes van W3C, en dan met 
-name naar de principes uit [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/#bp-summary)
+die is opgesteld ten behoeve van het Digitaal Stelsel Omgevingswet te gebruiken. Bij het opstellen van de architectuurschets voor het DSO is gekeken naar diverse andere relevante richtinggevende principes zoals [NORA](#basisprincipes-nora), [GEMMA](#inrichtingsprincipes-gemma) en [Common Ground](#inrichtingsprincipes-common-ground) en is een hanteerbare set principes afgeleid. 
+Door deze set principes als uitgangspunt te nemen, ontstaan bij de doorontwikkeling van de basisregistraties en de implementatie van de Omgevingswet elkaar versterkende effecten. Dubbel architectuurwerk wordt voorkomen, en de principes sluiten goed op elkaar aan. Naast de principes uit de DSO architectuur is ook gekeken naar de architectuurprincipes van W3C, en dan met name naar de principes uit [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/#bp-summary) en [Common Ground](#inrichtingsprincipes-common-ground)
 
 ### Doel van de samenhangende Objecten Registratie (SOR)
 
@@ -18,10 +15,10 @@ In de beleidsvisie wordt een vijftal doelstellingen geformuleerd:
 
 | Doel |	Omschrijving                                                                           |
 |------|-----------------------------------------------------------------------------------------|
-| 01	  | Een betrouwbare, consistente en actuele samenhangende gegevensset voor heel Nederland;  |  
+| 01	 | Een betrouwbare, consistente en actuele samenhangende gegevensset voor heel Nederland;  |  
 | 02   | Een efficiëntere inwinning en bijhouding van objecten, ook in drie dimensies (3D);      | 
 | 03   | Een betere inpassing in moderne architecturen;                                          | 
-| 04   | Meer en eenvoudiger gebruik van deze informatie in maatschappelijke toepassingen. De registratie gedraagt zich voor de gebruiker als één registratie;  |
+| 04   | Meer en eenvoudiger gebruik van deze informatie in maatschappelijke toepassingen. De registratie gedraagt zich voor de gebruiker als één registratie. |
 | 05   | De objectenregistratie maakt onderdeel uit van een robuuste geo-informatie infrastructuur binnen de generieke digitale infrastructuur en voldoet aan de [12 eisen voor een basisregistratie](# eisen-aan-basisregistraties-GEMMA)  |
 
 In de kern gaat het hierbij om een nadrukkelijke scheiding van de vastlegging van de gegevens, en de functionaliteiten die 
