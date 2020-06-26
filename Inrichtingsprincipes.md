@@ -5,9 +5,10 @@
 De richtinggevende principes van DiS Geo zijn verwoord in de beleidsvisie DiS Geo, en hieraan wordt ook wel gerefereerd als "de [houtskoolschets](https://www.geobasisregistraties.nl/basisregistraties/documenten/publicatie/2020/06/15/dis-online-als-stroom-uit-het-stopcontact)".
 
 In dit hoofdstuk worden de inrichtingsprincipes die van toepassing zijn op de Samenhangende Objecten Registratie 
-bepaald als nadere invulling van dez richtinggevende visie. Er is voor gekozen om als uitgangspunt de [Overall Globale Architectuur Schets (OGAS)](https://aandeslagmetdeomgevingswet.nl/publish/library/219/dso_-_gas_-_overall_gas_1.pdf), 
-die is opgesteld ten behoeve van het Digitaal Stelsel Omgevingswet te gebruiken. Bij het opstellen van de architectuurschets voor het DSO is gekeken naar diverse andere relevante richtinggevende principes zoals [NORA](#basisprincipes-nora), [GEMMA](#inrichtingsprincipes-gemma) en [Common Ground](#inrichtingsprincipes-common-ground) en is een hanteerbare set principes afgeleid. 
-Door deze set principes als uitgangspunt te nemen, ontstaan bij de doorontwikkeling van de basisregistraties en de implementatie van de Omgevingswet elkaar versterkende effecten. Dubbel architectuurwerk wordt voorkomen, en de principes sluiten goed op elkaar aan. Naast de principes uit de DSO architectuur is ook gekeken naar de architectuurprincipes van W3C, en dan met name naar de principes uit [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/#bp-summary) en [Common Ground](#inrichtingsprincipes-common-ground)
+bepaald als nadere invulling van deze richtinggevende visie. 
+Er is voor gekozen om als uitgangspunt de [Overall Globale Architectuur Schets (OGAS)](https://aandeslagmetdeomgevingswet.nl/publish/library/219/dso_-_gas_-_overall_gas_1.pdf) te gebruiken, die is opgesteld ten behoeve van het Digitaal Stelsel Omgevingswet. Bij het opstellen van de architectuurschets voor het DSO is in het recente verleden gekeken naar diverse andere relevante richtinggevende principes zoals [NORA](#basisprincipes-nora), [GEMMA](#inrichtingsprincipes-gemma) en [Common Ground](#inrichtingsprincipes-common-ground) en is een hanteerbare set principes afgeleid. 
+Door deze set principes als uitgangspunt te nemen, ontstaan bij de doorontwikkeling van de geo basisregistraties en de implementatie van de Omgevingswet elkaar versterkende effecten. Dit is wenselijk, omdat beide ontwikkelingen gaan over de gegevensvan de fysieke leefwereld. Dubbel architectuurwerk wordt zo voorkomen, en principes sluiten zo goed op elkaar aan.
+Naast de principes uit de DSO architectuur is ook gekeken naar de internationale architectuurprincipes van W3C, en dan met name naar de principes uit [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/#bp-summary) die zijn opgetekend op basis van vele internationale ervaringen met het omgaan met geo gegevens. 
 
 ### Doel van de samenhangende Objecten Registratie (SOR)
 
@@ -28,17 +29,15 @@ Bron: https://www.geobasisregistraties.nl/documenten/beleidsnota/2019/11/29/bele
 
 ### Doel van de Inrichtingsprincipes
 
-Het doel van deze inrichtinsprincipes is te zorgen en te borgen dat de Architectuur van de SOR voldoet aan de relevante principes.
-Gekeken wordt naar de principes van reeds bestaande registraties (zoals NORA, GEMMA, enz) maar er wordt ook gekeken
-naar de principes die zijn gekomen uit eerdere rapporten en onderzoeken (zoals DiS Geo en Common Ground) en
-beschrijft hoe worden toegepast in de Objectenregistratie Architectuur. 
-Er wordt vooral gekeken naar nieuwere principes om een vernieuwing door te kunnen voeren. Zouden wij enkel en alleen focussen op bestaande principes dan is het gevaar dat we "nieuwe wijn in oude zakken" stoppen.
+Het doel van deze inrichtinsprincipes is te zorgen en te borgen dat de architectuur van de Samenhangende Objectenregistratie voldoet aan de relevante principes.
+Er is gekeken naar de principes van reeds bestaande registraties en naar principes die zijn voorgesteld in rapporten en onderzoeken vanuit DiS Geo en Common Ground.
+Er is vooral gekeken naar principes die nodig zijn om de gewenste vernieuwing door te kunnen voeren.
 
 #### Inrichtingsprincipes Digitaal Stelsel Omgevingwet
 
-Aan de kolommen met de regel en principe zijn twee kolommen toegevoeg: Data en Functies.  
-Data: Een *ja* in deze kolom moet worden gezien als 'Ja' dit principe is relevant voor de gegevens van de Samenhangende objectenregistratie. Scope zijn de gegevens zelf, oftwel het hart van het systeem.  
-Functies: Een *ja* in deze kolom moet worden opgevant als 'Ja' dit principe is relevant voor de functionaliteit van de Samenhangende Objectenregistratie. Scope is de fuctionaliteit waarmee de gegevens en/of de informatie aan de gebruikers (afnemers en bronhouders)
+Aan de kolommen met de regel en principe zijn twee kolommen toegevoegd: Data en Functies.  
+Data: Een *ja* in deze kolom moet worden gezien als 'Ja' dit principe is relevant voor de gegevens in de samenhangende objectenregistratie. Scope zijn de gegevens zelf, oftewel het hart van het systeem.
+Functies: Een *ja* in deze kolom moet worden opgevat als 'Ja' dit principe is relevant voor de functionaliteit van de Samenhangende Objectenregistratie. Scope is de fuctionaliteit waarmee de gegevens en/of de informatie aan de gebruikers wordt aangeboden.
 
 | Regel                 | Principe                                                                 | Data | Functies | 
 |-----------------------|--------------------------------------------------------------------------|------|----------|
@@ -51,7 +50,7 @@ Functies: Een *ja* in deze kolom moet worden opgevant als 'Ja' dit principe is r
 | <p id='dso-07'>07</p> | Hergebruik voor koop voor maak                                           |      |          |
 | <p id='dso-08'>08</p> | Continuïteit en compliance is geborgd                                    |      |          |
 | <p id='dso-09'>09</p> | Passende beveiliging & privacy op basis van reële risico’s               |      |          |
-| <p id='dso-10'>10</p> | Beheerfunctionaliteit is primaire functionaliteit                        |      |          |
+| <p id='dso-10'>10</p> | Beheerfunctionaliteit is primaire functionaliteit                        |      |   Ja     |
 
 Bron: [DSO-LV, bijlage G](https://aandeslagmetdeomgevingswet.nl/publish/library/219/ogas_bijlage_g_-_dso-lv_principes_1.pdf)
 
@@ -91,17 +90,20 @@ Bron: [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/)
 Bron: [Common Ground](https://www.gemmaonline.nl/images/gemmaonline/c/c7/20190130_-_Common_Ground_-_Informatiearchitectuurprincipes.pdf)
 
 
-### inrichtingsprincipes voor DisGeo
+### De inrichtingsprincipes van de samenhangende objectenregistratie vullen de visie van DiS-Geo nader in
 
-In de paragrafen hieronder staan de principes en uitgangspunten die voor DisGeo belangrijk zijn. Per principe is aangegeven aan welke van de 
-hiervoor genoemde principes invulling wordt gegeven.
+In de paragrafen hieronder staan de principes ofwel richtinggevende uitspraken uit de visie van DiS-Geo. Per principe (richtinggevende uitspraak) is aangegeven hoe de 
+hiervoor genoemde inrichtingsprincipes invulling geven aan deze principes.
 
 #### Basisgegevens zijn van en voor iedereen
 
 [DSO-01](#dso-01), [DSO-02](#dso-02), [DSO-04](#dso-04), [DSO-06](#dso-06), [SDOW-01](#sdow-01), [SDOW-02](#sdow-02), [SDOW-03](#sdow-03), [SDOW-12](#sdow-12)
 
-Basisgegevens met identificatie, metadata basisclassificatie, locatie, geometrie
-Basisgegevens hebben een altijd een *unieke sleutel* [SDOW-01](#sdow-01), deze wordt gebruikt om dat te kunnen koppelen. Daarnaast
+Geo basisgegevens hebben identificatie, metadata, een basisclassificatie, locatie en geometrie.
+
+Identificatie
+
+Basisgegevens hebben een altijd een *unieke sleutel* [SDOW-01](#sdow-01), deze wordt gebruikt om gegevens te kunnen koppelen. Daarnaast
 hebben basisgegevens *identificerende kenmerken*, waarmee de objecten door mensen herkend kunnen worden. Zo is een woonadres iets dat door mensen
 begrepen wordt, maar juist voor machine koppelingen voor allerlei problemen zorgt (adresproblematiek met verschillende schrijfwijzen).
 
@@ -109,69 +111,95 @@ Het is aan te raden ook een *eigenaarskenmerk* op te nemen bij objecten in de ba
 verantwoordelijk is voor de data. Soms wordt ook een *beheerderkenmerk* opgenomen, daarmee wordt het mogelijk om verschil te maken tussen
 de eigenaarsrol en de beheerderrol.
 
-Verder bevatten objecten in de registratie een *geldigheidsdatum*, van- en totdatum. Deze wordt gebruikt voor 'tijdreizen', maar ook voor archiveringsdoeleinden.
+Verder bevatten objecten in de registratie een *geldigheid*, in de vorm van een van-datumtijd en/of een tot-datumtijd. Deze wordt gebruikt voor 'tijdreizen', maar ook voor archiveringsdoeleinden.
 
-De unieke sleutel is sowiso belangrijk voor de basisregistratie. Immers we willen kunnen aanhaken met andere registraties op de 
-objecten in de basisregistratie(s). Als we nu meteen kiezen voor een sleutel die aan de URI strategie voldoet, maken we een grote stap 
-voorwaarts, en kunnen we webtechnologie gebruiken om de objecten in de registraties vindbaar en (mens en machine)ontsluitbaar te maken.
+Om objectgegevens te kunnen koppelen met andere basisregistraties en sectorale (kern)registraties moet een sleutel aan de URI strategie voldoen. Zo kan webtechnologie worden  gebruikt om te zorgen dat de objecten in de registraties voor mensen en machines te vinden zijn en door mensen en machines in samenhang kunnen worden afgenomen en gebruikt .  
 
 #### Basisgegevens zijn laagdrempelig beschikbaar en bruikbaar voor iedereen
 
 [DSO-01](#dso-01), [DSO-02](#dso-02), [SDOW-02](#sdow-02), [SDOW-02](#sdow-03), [SDOW-12](#sdow-12)
 
-Om basisgegevens voor iedereen beschikbaar en bruikbaar te maken moeten ze ook vindbaar zijn! De vindbaarheid wordt vergroot
-als de basisgegevens vindbaar zijn via zoekmachines. Dat betekent dat er naast de "echte" data ook metadata nodig is.
+Om basisgegevens voor iedereen beschikbaar en bruikbaar te maken moeten ze goed vindbaar zijn. De vindbaarheid wordt sterk vergroot
+als de basisgegevens vindbaar zijn via zoekmachines. Daarom moeten de gegevens naast de "echte" gegevens ook metadata (gegevens over de gegevens) bevatten.
 
 #### Basisgegevens voldoen aan vereisten
 
 [DSO-03](#dso-03),[DSO-05](#dso-05),[DSO-06](#dso-06), [CG-01](#cg-01), [CG-03](#cg-03)
 
-Als data de brandstof is voor het systeem, moet deze ook betrouwbaar zijn. En betrouwbare data betekent vooraf vastgelegde
-eisen: immer wanneer is de data betrouwbaar, aan welke criteria moet het voldoen. Door de data "open" te stellen creeer je een situatie
-waarbij er veel mensen (en machines) de data gebruiken, en daarbij impliciet controleren. Een goede terugmeld mogelijkheid is dan
-noodzakelijk, inclusief de feedback aan de melder! 
+Omdat gegevens de brandstof zijn voor het systeem, moeten deze betrouwbaar zijn. Betrouwbare gegevens voldoen aan vooraf vastgelegde
+eisen. Het is voor iedereen duidelijk aan welke criteria de gegevens voldoen. 
 
 #### Bronhouders zijn verantwoordelijk voor basisgegevens
 
 [DSO-10](#dso-10), [CG-04](#cg-04), [CG-05](#cg-05)
 
-Bronhouders zijn en blijven te allen tijde verantwoordelijk voor de basisgegevens. Verantwoordelijk voor de vastlegging,
-maar ook voor de kwaliteit en het beschikbaar stellen aan de afnemers. 
+Bronhouders zijn en blijven te allen tijde verantwoordelijk voor de basisgegevens. Verantwoordelijk voor de vastlegging/registratie en voor de kwaliteit. 
 
+Doordat de gegevens als "open data" beschikbaar worden gesteld, bestaat een situatie waarin veel mensen (en machines) de gegevens gebruiken, en daarbij impliciet controleren. 
+Een goede terugmeld mogelijkheid is noodzakelijk, om feedback aan bronhouders te kunnen doorgeven als er twijfel bestaat over de juistheid. 
+Door terugmeldingen op te volgen vullen bronhouders hun verantwoordelijkheid voor de gegevenskwaliteit in.
 
 #### Bronhouders kunnen leveranciers machtigen
 
 [DSO-10](#dso-10), [CG-04](#cg-04)
 
-Bronhouders kunnen leveranciers machtigen om de gegevens bij te houden en/of te verwerken. Dit ontslaat hen echter niet
+Bronhouders kunnen leveranciers voor een bepaalde tijdsperiode machtigen om bepaalde gegevens te beheren (bij te houden) namens de bronhouder. Dit ontslaat bronhouders niet
 van de verantwoordelijkheid voor de basisgegevens.
 
 #### Gegevens aanpassen kan makkelijk en goed
 
 [DSO-04](#dso-04), [DSO-05](#dso-05), [DSO-06](#dso-06), [SDOW-12](#sdow-12), [CG-02](#cg-02), [CG-04](#cg-04)
 
-Om kwalitatief goede gegevens te kunnen waarborgen, moet de registratie capability ervoor zorgen dat er zoveel mogelijk 
-"controles bij de poort" worden gedaan. Ook moeten er regulier metingen gedaan worden die controleren of de gegevens
-nog steeds aan de (eventueel strakker gezette) criteria voldoen. Daarmee moet echter het aanpassen van de gegevens
-niet worden bemoeilijkt. Elke bronhouder moet in staat zijn om gegevens snel aan te passen. Vooral ook zodra er een
-terugmelding is van geconstateerde fouten in de gegevens. 
+Om kwalitatief goede gegevens te waarborgen, zorgt de registratie capability ervoor dat de daarvoor noodzakelijke "controles bij de poort" snel en automatisch worden uitgevoerd. 
+Daarmee wordt het mogelijk om het aanpassen van de gegevens goed en snel uit te voeren. Degene die de aanpassing uitvoert blijft verantwoordelijk dat het een goede aanpassing 
+van gegevens betreft, want de registratie capability heeft geen inhoudelijke kennis. 
+
+De registratie capability en de toegang capability bieden samen de mogelijkheid om gegevens makkelijk aan te passen. Bij het aanpassen van gegevens is het vaak nodig om 
+bestaande gegevens en nieuwe gegevens in samenhang te gebruiken, zodat de context duidelijk is en de verandering van gegevens op juistheid kan worden beoordeeld.
+
+De registratie capability biedt geen toegang. Dit zou de snelheid, betrouwbaarheid en flexibiliteit van de capability verminderen.
+
+Speciale aandacht is nodig voor de automatische controles aan de poort die de samenhang van de geografische gegevens borgen. Een belangrijke eis (met grote technische 
+consequenties) is dat een vlakdekkende en naadloos op elkaar aansluitende opdeling in topografische objecten (op "maaiveld") wordt geborgd. Een tweede belangrijke eis is dat de 
+verbondenheid van topologische netwerken (wegen, waterwegen, spoorwegen) wordt geborgd.
+
+Uitwerking van deze borging met behoud van de mogelijkheid om makkelijk, goed en snel genoeg gegevens aan te passen is een hoofdzaak.
 
 #### Gebruikers en bronhouders werken samen aan de kwaliteit van gegevens
 
 [DSO-01](#dso-01), [DSO-10](#dso-10), [CG-02](#cg-02), [CG-04](#cg-04), [CG-05](#cg-05)
 
-Gebruikers (Afnemers) en Bronhouders moeten samenwerken om de gewenste gegevens kwaliteit te kunnen halen en borgen.
-Afnemers kunnen een set aan kwaliteitscriteria aan de bronhouders leveren. Daarmee wordt de eerder genoemde controle aan
-de poort gevoed. Kwaliteitscriteria kunnen wijzigen, dus controle over de reeds vastgelegde (geregistreerde) objecten
-is ook nodig.
+Gebruikers (Afnemers) en Bronhouders werken samen om de gewenste gegevenskwaliteit te kunnen behalen en borgen.
+
+Kwaliteit van gegevens betekent enerzijds voldoen aan specificaties en vereisten, maar anderzijds vooral voldoen aan verwachtingen van gebruikers. 
+Verwachtingen veranderen in de tijd en zijn verschillend per groep van gebruikers. Daarom is het essentieel dat er contact is tussen gebruikers en bronhouders van dezelfde 
+gegevens. Als zij er samen aan werken om die gegevens voor iedereen bruikbaar te maken en houden, neemt de kwaliteit en daarmee de waarde van de gegevens toe.
+Een capability om makkelijk te kunnen samenwerken is daarom noodzakelijk om aan veranderende kwaliteitscriteria invulling te geven. (NB de BRT gebruikersgroep van het BRT DevOps 
+team is een voorbeeld).
+Afnemers kunnen (veranderde) kwaliteitscriteria aan bronhouders leveren om een hogere waarde van de gegevens te bereiken. 
+Als allen het eens zijn, kunnen nieuwe kwaliteitscriteria aan de vereiste kwalitiet worden toegevoegd. 
+
+Om de vereiste en gespecificeerde kwaliteit van gegevens te kunnen waarborgen, zorgt de registratie capability dat de daarvoor noodzakelijke 
+"controles bij de poort" worden uitgevoerd. 
+
+Als kwaliteitscriteria wijzigen is controle over de reeds vastgelegde (geregistreerde) objecten ook nodig.
+Reguliere interne controles om te controleren of geregistreerde gegevens (nog) aan de (eventueel in de tijd aangepaste) kwaliteitscriteria voldoen kunnen nodig zijn om de 
+kwaliteit te borgen. Een "algoritme"capability kan hieraan invulling geven.
+
 
 #### Basisgegevens zijn zo actueel en volledig als redelijkerwijs mogelijk
 
 [DSO-04](#dso-04), [CG-03](#cg-03), [CG-04](#cg-04)
 
-HEt is belangrijk om ons te realiseren dat we niet moeten doorslaan in het vastleggen van van-alles-en-nog-wat bij de 
-basisgegevens. Er moeten heldere criteria komen voor wat een basisgegeven is, en wat niet. Een goede kosten/baten analyse
-is op zijn plaats: Wat kost het om dit gegeven bij te houden, en wat levert het op?
+Basisgegevens zijn een beperkte set gegevens. Er zijn heldere criteria voor wat een basisgegeven is en wat niet. Hetzlefde geldt voor de actualiteit en volledigheid van 
+basisgegevens.
+Er zijn daarom basisgegevens waarvoor stricte controle op volledigheid en actualiteit wordt geautomatiseerd. Er zijn ook basisgegevens waarvoor minder stricte automatische 
+controles plaatsvinden, zoals bijvoorbeeld het teruggeven van een waarschuwing bij de registratie van een gegeven dat in strijd is met niet-verplichte validatieregels 
+(bijvoorbeeld in een proefperiode voorafgaand aan invoering van nieuwe criteria).  
+
+De registratie capability voorziet in de mogelijkheid waarschuwingen (Warnings) te geven.
+
+De registratie capability voorziet in de mogelijkheid (vooraf) te controleren tegen validatieregels zonder een gegeven daadwerkelijk te registreren.
 
 #### Gegevens passen bij elkaar: relaties tussen gegevens zijn voor gebruikers duidelijk, en gegevens zijn in samenhang bruikbaar
 
