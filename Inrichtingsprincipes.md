@@ -5,14 +5,14 @@
 De richtinggevende principes van DiS Geo zijn verwoord in de beleidsvisie DiS Geo, en hieraan wordt ook wel gerefereerd als "de [houtskoolschets](https://www.geobasisregistraties.nl/basisregistraties/documenten/publicatie/2020/06/15/dis-online-als-stroom-uit-het-stopcontact)".
 
 In dit hoofdstuk worden de inrichtingsprincipes die van toepassing zijn op de Samenhangende Objecten Registratie 
-bepaald als nadere invulling van deze richtinggevende visie. 
+bepaald als nadere invulling van de richtinggevende visie in de houtskoolschets. 
 Er is voor gekozen om als uitgangspunt de [Overall Globale Architectuur Schets (OGAS)](https://aandeslagmetdeomgevingswet.nl/publish/library/219/dso_-_gas_-_overall_gas_1.pdf) te gebruiken, die is opgesteld ten behoeve van het Digitaal Stelsel Omgevingswet. Bij het opstellen van de architectuurschets voor het DSO is in het recente verleden gekeken naar diverse andere relevante richtinggevende principes zoals [NORA](#basisprincipes-nora), [GEMMA](#inrichtingsprincipes-gemma) en [Common Ground](#inrichtingsprincipes-common-ground) en is een hanteerbare set principes afgeleid. 
-Door deze set principes als uitgangspunt te nemen, ontstaan bij de doorontwikkeling van de geo basisregistraties en de implementatie van de Omgevingswet elkaar versterkende effecten. Dit is wenselijk, omdat beide ontwikkelingen gaan over de gegevensvan de fysieke leefwereld. Dubbel architectuurwerk wordt zo voorkomen, en principes sluiten zo goed op elkaar aan.
+Door deze set principes als uitgangspunt te nemen, ontstaan bij de doorontwikkeling van de geo basisregistraties en de implementatie van de Omgevingswet elkaar versterkende effecten. Dit is wenselijk, omdat beide ontwikkelingen gaan over gegevens die de fysieke leefwereld betreffen. Dubbel architectuurwerk wordt zo voorkomen, en principes sluiten zo goed op elkaar aan.
 Naast de principes uit de DSO architectuur is ook gekeken naar de internationale architectuurprincipes van W3C, en dan met name naar de principes uit [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/#bp-summary) die zijn opgetekend op basis van vele internationale ervaringen met het omgaan met geo gegevens. 
 
-### Doel van de samenhangende Objecten Registratie (SOR)
+### Doel van de Samenhangende Objecten Registratie
 
-In de beleidsvisie wordt een vijftal doelstellingen geformuleerd:
+In de beleidsvisie voor de samenhangende objectenregistratie wordt een vijftal doelstellingen geformuleerd:
 
 | Doel |	Omschrijving                                                                           |
 |------|-----------------------------------------------------------------------------------------|
@@ -29,15 +29,15 @@ Bron: https://www.geobasisregistraties.nl/documenten/beleidsnota/2019/11/29/bele
 
 ### Doel van de Inrichtingsprincipes
 
-Het doel van deze inrichtinsprincipes is te zorgen en te borgen dat de architectuur van de Samenhangende Objectenregistratie voldoet aan de relevante principes.
+Het doel van deze inrichtinsprincipes is te zorgen en te borgen dat de architectuur van de Samenhangende Objecten Registratie invulling geeft aan de architectuurvisie DiS Geo en de daarin benoemde richtinggevende uitspraken. Door de doorontwikkeling van de geobasisregistraties onder architectuur te laten plaatsvinden, realiseren de betrokken ketenpartners stapsgewijs de visie.   
 Er is gekeken naar de principes van reeds bestaande registraties en naar principes die zijn voorgesteld in rapporten en onderzoeken vanuit DiS Geo en Common Ground.
 Er is vooral gekeken naar principes die nodig zijn om de gewenste vernieuwing door te kunnen voeren.
 
 #### Inrichtingsprincipes Digitaal Stelsel Omgevingwet
 
-Aan de kolommen met de regel en principe zijn twee kolommen toegevoegd: Data en Functies.  
+Aan de kolommen met de regel en het principe zijn twee kolommen toegevoegd: Data en Functies.  
 Data: Een *ja* in deze kolom moet worden gezien als 'Ja' dit principe is relevant voor de gegevens in de samenhangende objectenregistratie. Scope zijn de gegevens zelf, oftewel het hart van het systeem.
-Functies: Een *ja* in deze kolom moet worden opgevat als 'Ja' dit principe is relevant voor de functionaliteit van de Samenhangende Objectenregistratie. Scope is de fuctionaliteit waarmee de gegevens en/of de informatie aan de gebruikers wordt aangeboden.
+Functies: Een *ja* in deze kolom moet worden opgevat als 'Ja' dit principe is relevant voor de functionaliteit van de Samenhangende Objectenregistratie. Scope is de functionaliteit waarmee de gegevens en/of de informatie aan de gebruikers wordt aangeboden.
 
 | Regel                 | Principe                                                                 | Data | Functies | 
 |-----------------------|--------------------------------------------------------------------------|------|----------|
@@ -85,7 +85,7 @@ Bron: [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/)
 | <p id='cg-03'>03</p> | VERTROUWD: We zorgen dat informatiebeveiliging en privacy op orde zijn            |
 | <p id='cg-04'>04</p> | EENMALIGE VASTLEGGING: We leggen gegevens eenmalig vast en vragen op bij de bron  |
 | <p id='cg-05'>05</p> | REGIE OP GEGEVENS: We faciliteren regie op gegevens                               |
-| <p id='cg-06'>06</p> | STANDAARD:We standaardiseren maximaal                                             |
+| <p id='cg-06'>06</p> | STANDAARD: We standaardiseren maximaal                                             |
 
 Bron: [Common Ground](https://www.gemmaonline.nl/images/gemmaonline/c/c7/20190130_-_Common_Ground_-_Informatiearchitectuurprincipes.pdf)
 
@@ -154,14 +154,12 @@ Om kwalitatief goede gegevens te waarborgen, zorgt de registratie capability erv
 Daarmee wordt het mogelijk om het aanpassen van de gegevens goed en snel uit te voeren. Degene die de aanpassing uitvoert blijft verantwoordelijk dat het een goede aanpassing 
 van gegevens betreft, want de registratie capability heeft geen inhoudelijke kennis. 
 
-De registratie capability en de toegang capability bieden samen de mogelijkheid om gegevens makkelijk aan te passen. Bij het aanpassen van gegevens is het vaak nodig om 
-bestaande gegevens en nieuwe gegevens in samenhang te gebruiken, zodat de context duidelijk is en de verandering van gegevens op juistheid kan worden beoordeeld.
+De registratie capability biedt geen toegang tot bestaande gegevens. Dit zou de snelheid, betrouwbaarheid en flexibiliteit van de capability verminderen.
 
-De registratie capability biedt geen toegang. Dit zou de snelheid, betrouwbaarheid en flexibiliteit van de capability verminderen.
+Om bestaande gegevens en nieuwe gegevens in samenhang te gebruiken, wordt daarom de standaard toegang capability benut voor de bestaande gegevens. Bij het aanpassen van gegevens is het vaak nodig om bestaande gegevens en nieuwe gegevens in samenhang te gebruiken, zodat de context duidelijk is en de verandering van gegevens op juistheid kan worden beoordeeld. De registratie capability en de toegang capability bieden samen de mogelijkheid om gegevens makkelijk aan te passen. 
 
 Speciale aandacht is nodig voor de automatische controles aan de poort die de samenhang van de geografische gegevens borgen. Een belangrijke eis (met grote technische 
-consequenties) is dat een vlakdekkende en naadloos op elkaar aansluitende opdeling in topografische objecten (op "maaiveld") wordt geborgd. Een tweede belangrijke eis is dat de 
-verbondenheid van topologische netwerken (wegen, waterwegen, spoorwegen) wordt geborgd.
+consequenties) is dat een vlakdekkende en naadloos op elkaar aansluitende opdeling in topografische objecten (op "maaiveld") en in eigendomspercelen wordt geborgd. Een tweede belangrijke eis is dat de verbondenheid van topologische netwerken (wegen, waterwegen, spoorwegen) wordt geborgd.
 
 Uitwerking van deze borging met behoud van de mogelijkheid om makkelijk, goed en snel genoeg gegevens aan te passen is een hoofdzaak.
 
@@ -177,7 +175,7 @@ gegevens. Als zij er samen aan werken om die gegevens voor iedereen bruikbaar te
 Een capability om makkelijk te kunnen samenwerken is daarom noodzakelijk om aan veranderende kwaliteitscriteria invulling te geven. (NB de BRT gebruikersgroep van het BRT DevOps 
 team is een voorbeeld).
 Afnemers kunnen (veranderde) kwaliteitscriteria aan bronhouders leveren om een hogere waarde van de gegevens te bereiken. 
-Als allen het eens zijn, kunnen nieuwe kwaliteitscriteria aan de vereiste kwalitiet worden toegevoegd. 
+Als allen het eens zijn, kunnen nieuwe kwaliteitscriteria aan de vereiste kwaliteit worden toegevoegd. 
 
 Om de vereiste en gespecificeerde kwaliteit van gegevens te kunnen waarborgen, zorgt de registratie capability dat de daarvoor noodzakelijke 
 "controles bij de poort" worden uitgevoerd. 
@@ -186,12 +184,11 @@ Als kwaliteitscriteria wijzigen is controle over de reeds vastgelegde (geregistr
 Reguliere interne controles om te controleren of geregistreerde gegevens (nog) aan de (eventueel in de tijd aangepaste) kwaliteitscriteria voldoen kunnen nodig zijn om de 
 kwaliteit te borgen. Een "algoritme"capability kan hieraan invulling geven.
 
-
 #### Basisgegevens zijn zo actueel en volledig als redelijkerwijs mogelijk
 
 [DSO-04](#dso-04), [CG-03](#cg-03), [CG-04](#cg-04)
 
-Basisgegevens zijn een beperkte set gegevens. Er zijn heldere criteria voor wat een basisgegeven is en wat niet. Hetzlefde geldt voor de actualiteit en volledigheid van 
+Basisgegevens zijn een beperkte set gegevens. Er zijn heldere criteria voor wat een basisgegeven is en wat niet. Hetzelfde geldt voor de actualiteit en volledigheid van 
 basisgegevens.
 Er zijn daarom basisgegevens waarvoor stricte controle op volledigheid en actualiteit wordt geautomatiseerd. Er zijn ook basisgegevens waarvoor minder stricte automatische 
 controles plaatsvinden, zoals bijvoorbeeld het teruggeven van een waarschuwing bij de registratie van een gegeven dat in strijd is met niet-verplichte validatieregels 
@@ -205,16 +202,18 @@ De registratie capability voorziet in de mogelijkheid (vooraf) te controleren te
 
 [DSO-02](#dso-02), [SDOW-03](#sdow-03), [SDOW-04](#sdow-04), [CG-04](#cg-04)
 
-Komende van verschillenden gegevens-sets (BAG, BGT, WOZ, enz) en gaande naar een Samenhangende Objecten Registratie is
-het van belang dat er een goed gegevens en objecten model wordt gemaakt. Belangrijke is het om een basisset te maken,
-maar even belangrijk, zo niet belangrijker is het dat de objecten flexibel zijn. Een attribuut moet gemakkelijk toe te voegen
-zijn aan een object. Of weggehaald als het niet meer nodig is...
+Komende van verschillenden gegevens-sets (BAG, BGT, BRT, BRK, BRO, WOZ, enz) en gaande naar een Samenhangende Objecten Registratie is
+het van essentieel belang dat er een bruikbaar samenhangend model van gegevens en objecten beschikbaar wordt gesteld. De "catalogus"-capability voorziet enerzijds in een voor 
+mensen leesbare en duidelijke structuur, met definities en relaties. Anderzijds biedt de "catalogus"-capability in een voor machines leesbare vorm een eenduidige 
+gegevensstructuur met definities en relaties.  
 
 #### De gegevensstructuur kan snel genoeg meegroeien met de gebruiksbehoefte
 
 [DSO-02](#dso-02), [DSO-03](#dso-03), [DSO-05](#dso-05)
 
-zoals hiervoor ook al gezegd, de gegevensstructuur van de objecten moet meegroeien met de gebruikers behoefte.
-Attributen die nu via een externe koppeling worden gekoppeld aan bijvoorbeeld een gebouw, moeten kunnen 'promoveren' tot 
-onderdeel van de basisregistratie objecten!
+Belangrijke is het om een basisset objecten te maken, maar even belangrijk, zo niet belangrijker is het dat de objectenstructuur flexibel is. Een attribuut of eigenschap moet 
+gemakkelijk toe te voegen zijn aan een object. Of weggehaald als het niet meer nodig is.
 
+De gegevensstructuur van de objecten moet meegroeien met de gebruikersbehoefte. Attributen die nu via een externe koppeling worden gekoppeld aan bijvoorbeeld een gebouw, moeten 
+kunnen 'promoveren' tot onderdeel van de samenhangende basisregistratie objecten. Daarom biedt de "catalogus"-capability, die duidelijkheid biedt over de gegevensstructuur,  
+periodiek een nieuwe versie aan. Afnemers en gebruikers van die capability moeten "meegroeien" door periodiek nieuwe versies over te nemen.      
