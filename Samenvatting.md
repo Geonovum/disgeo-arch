@@ -6,5 +6,5 @@ Deze architectuurbeschrijving wordt stapsgewijs steeds verder gevuld. Daarbij wo
 
 ### Doelstelling
 
-Het opleveren van een complete beschrijving van de componenten, verbindingen en noodzakelijke standaarden (architectuur) van de Objectenregistratie en een eerste aanzet voor de transitie daarheen vanuit de nu bestaande architecturen, zodat op basis daarvan besluitvorming over realisatie kan plaatsvinden.
+Het opleveren van een complete beschrijving van de componenten, verbindingen en noodzakelijke standaarden (architectuur) van de samenhangende objectenregistratie en een eerste aanzet voor de transitie daarheen vanuit de nu bestaande architecturen, zodat op basis daarvan besluitvorming over realisatie kan plaatsvinden.
 
