@@ -29,9 +29,13 @@ Bron: https://www.geobasisregistraties.nl/documenten/beleidsnota/2019/11/29/bele
 
 ### Doel van de Inrichtingsprincipes
 
-Het doel van deze inrichtinsprincipes is te zorgen en te borgen dat de architectuur van de Samenhangende Objecten Registratie invulling geeft aan de architectuurvisie DiS Geo en de daarin benoemde richtinggevende uitspraken. Door de doorontwikkeling van de geobasisregistraties onder architectuur te laten plaatsvinden, realiseren de betrokken ketenpartners stapsgewijs de visie.   
-Er is gekeken naar de principes van reeds bestaande registraties en naar principes die zijn voorgesteld in rapporten en onderzoeken vanuit DiS Geo en Common Ground.
+Het doel van het formuleren van inrichtinsprincipes is te zorgen en te borgen dat de architectuur van de Samenhangende Objecten Registratie invulling geeft aan de architectuurvisie DiS Geo en de daarin benoemde richtinggevende uitspraken. Door de doorontwikkeling van de geobasisregistraties onder architectuur te laten plaatsvinden, realiseren de betrokken ketenpartners stapsgewijs de visie.
+
+### Hoe komen we tot de Inrichtingsprincipes?
+
+Er is gekeken naar de principes van reeds bestaande registraties en naar principes die zijn aangedragen vanuit DiS Geo en Common Ground.
 Er is vooral gekeken naar principes die nodig zijn om de gewenste vernieuwing door te kunnen voeren.
+We bouwen voort op een drietal bronnen: DSO, Best Practices en Common Ground. We lichten deze nu toe: 
 
 #### Inrichtingsprincipes Digitaal Stelsel Omgevingwet
 
@@ -89,8 +93,23 @@ Bron: [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/)
 
 Bron: [Common Ground](https://www.gemmaonline.nl/images/gemmaonline/c/c7/20190130_-_Common_Ground_-_Informatiearchitectuurprincipes.pdf)
 
+### Inrichtingsprincipes Samenhangende Objectenregistratie
 
-### De inrichtingsprincipes van de samenhangende objectenregistratie vullen de visie van DiS-Geo nader in
+De inrichtinsprincipes voor de Samenhangende Objecten Registratie zijn, gebaseerd op DSO, best practices, en Common Ground, samengevat de volgende:
+
+CONCEPT
+Processen en gegevens worden gescheiden
+Gegevens worden eenmalig bijgehouden (“op één plek”)
+Dubbele opslag betekent synchroniseren
+Alle handelingen worden gelogd
+“Autorisatie op gegevens volgt uit inhoud van gegevens”
+Data bevat metadata met link naar structuur, definities en relaties
+Ontkoppeling en interoperabiliteit maken verandering mogelijk (middels API strategie en URI strategie)
+Informatie is gepresenteerde data in context
+CONCEPT
+
+
+### Hoe passen de inrichtingsprincipes bij de visie van DiS-Geo?
 
 In de paragrafen hieronder staan de principes ofwel richtinggevende uitspraken uit de visie van DiS-Geo. Per principe (richtinggevende uitspraak) is aangegeven hoe de 
 hiervoor genoemde inrichtingsprincipes invulling geven aan deze principes.
