@@ -16,7 +16,7 @@ In de beleidsvisie voor de samenhangende objectenregistratie wordt een vijftal d
 
 | Doel |	Omschrijving                                                                           |
 |------|-----------------------------------------------------------------------------------------|
-| 01	 | Een betrouwbare, consistente en actuele samenhangende gegevensset voor heel Nederland;  |  
+| 01	  | Een betrouwbare, consistente en actuele samenhangende gegevensset voor heel Nederland;  |  
 | 02   | Een efficiëntere inwinning en bijhouding van objecten, ook in drie dimensies (3D);      | 
 | 03   | Een betere inpassing in moderne architecturen;                                          | 
 | 04   | Meer en eenvoudiger gebruik van deze informatie in maatschappelijke toepassingen. De registratie gedraagt zich voor de gebruiker als één registratie. |
@@ -82,14 +82,14 @@ Bron: [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/)
 
 #### Inrichtingsprincipes Common Ground
 
-| Principe              | Omschrijving                                                                      |
-|-----------------------|-----------------------------------------------------------------------------------|
+| Principe             | Omschrijving                                                                      |
+|----------------------|-----------------------------------------------------------------------------------|
 | <p id='cg-01'>01</p> | COMPONENTGEBASEERD: We werken met componenten                                     |
 | <p id='cg-02'>02</p> | OPEN: We zijn transparant waar mogelijk                                           |
 | <p id='cg-03'>03</p> | VERTROUWD: We zorgen dat informatiebeveiliging en privacy op orde zijn            |
 | <p id='cg-04'>04</p> | EENMALIGE VASTLEGGING: We leggen gegevens eenmalig vast en vragen op bij de bron  |
 | <p id='cg-05'>05</p> | REGIE OP GEGEVENS: We faciliteren regie op gegevens                               |
-| <p id='cg-06'>06</p> | STANDAARD: We standaardiseren maximaal                                             |
+| <p id='cg-06'>06</p> | STANDAARD: We standaardiseren maximaal                                            |
 
 Bron: [Common Ground](https://www.gemmaonline.nl/images/gemmaonline/c/c7/20190130_-_Common_Ground_-_Informatiearchitectuurprincipes.pdf)
 
@@ -99,19 +99,73 @@ De inrichtinsprincipes voor de Samenhangende Objecten Registratie zijn, gebaseer
 
 CONCEPT
 
-#### Processen en gegevens worden gescheiden
-#### Gegevens worden eenmalig bijgehouden (“op één plek”)
-#### Dubbele opslag betekent synchroniseren
-#### Alle handelingen worden gelogd
-#### “Autorisatie op gegevens volgt uit inhoud van gegevens”
-#### Data bevat metadata met link naar structuur, definities en relaties
-#### Ontkoppeling en interoperabiliteit maken verandering mogelijk (middels API strategie en URI strategie)
-#### Informatie is gepresenteerde data in context
+#### Gegevens en functionaliteit zijn gescheiden
+Gegevens kunnen alleen worden benaderd via dataservices. Benaderen is maken, lezen en aanpassen van gegevens.
+Gegevens worden nooit verwijderd, maar *gemarkeerd* als verwijderd.
+Applicaties kunnen alleen via de dataservices gegevens maken, lezen en aanpassen.  
+
+De Ontkoppeling en interoperabiliteit van de gegevens maken verandering mogelijk (middels API strategie en URI strategie)
+
+#### Gegevens hebben meta-data
+Voor elk gegeven in de centrale voorziening is meta-data (data over de gegevens zelf) beschikbaar. Deze metadata wordt
+zoveel mogelijk [automatisch](#dataservices-houden-metadata-up-to-date) bijgehouden.
+In de metadata staan ook links naar structuur, definities en relaties van de gegevens.
+
+#### Gegevens in de centrale voorziening zijn altijd actueel
+Alle mutaties vinden plaats op de centrale gegevensset. Een wijziging aan een gegeven wordt genotificeerd. 
+
+##### Gegevens worden eenmalig en op één plek bijgehouden
+De gegevens in de centrale voorziening zijn altijd actueel. Het principe "één bron - één waarheid" geldt. 
+
+##### Dubbele opslag betekent synchroniseren
+Partijen die, om wat voor reden dan ook, een kopie dataset "on premise" willen kunnen en mogen dat doen, maar dan zijn zij zelf verantwoordelijk
+voor het up-to-date houen van die gegevensset. Om zulke partijen tegemoet te helpen hun gegevensset up-to-dat te houden
+kan zo'n partij zich abbonneren op de notificatie services.
+
+#### Gegevens kunnen alleen via Dataservices worden benaderd
+Om te garanderen dat de gegevens blijven voldoen aan de gestelde kwalteit en actualiteit kunnen ze alleen benaderd 
+worden via *Dataservices*. Directe toegang tot de gegevens vanuit applicaties is ten strengste verboden.  
+
+#### Dataservices controleren
+Alle controles, of het nou gaat om toegangscontrole tot de gegevens, of kwaliteitscontroles worden gedaan door
+de dataservices, en niet door applicaties. Zoals al eerder gezegd: aplicaties benaderen de gegevens via de dataservices en niet direct.
+Applicaties zorgen wel voor een nette foutafhandeling: als een service een foutcode retourneet, zorgt de applicatie
+voor de afhandeling van die fout door het geven van een melding, of door een nieuwe aanroep van de dataservice.
+
+##### Dataservices regelen de toegang tot de gegevens
+Bij het aanroepen van de dataservices wordt gecontroleerd of de gebruiker de gegevens wel mag benaderen.
+Benaderen kan weer zijn: maken, lezen en aanpassen. De dataservice controleert of de gebruiker wel de rechten
+heeft om de gegevens te maken, te lezen of aan te passen. Wat een gebruiker mag wijzigen hangt ook van de *klassificatie*
+van de gegevens af. 
+
+##### Dataservices loggen de transacties op de gegevens
+Alle (!) transacties op de gegevens worden gelogd. Dit is nodig om een *audit-trail* te kunnen opbouwen.
+
+##### Dataservices borgen de kwaliteit van de gegevens
+Alle (!) controles die moeten plaatsvinden voordat een gegeven wordt gewijzigd worden in de dataservice gedaan.
+Enkele voorbeelden van een kwailiteitscheck: 
+- domeinwaarde check: komt de nieuwe waarde voor in een lijst met geldige waarden, of ligt de nieuwe waarde tussen twee grenswaarden.
+- datum check: is de waarde volgens een bepaald datum formaat.
+- type check: is de nieuwe waarde wel van een bepaald datatype.
+- referentie check: mag een gegeven worden gemarkeerd als verwijderd, terwijl het gegeven nog ergens anders bestaat? 
+- plausibiliteits check: is de nieuwe waarde wel te verwachten op basis van eerdere of andere attribuutwaarden?
+
+##### Dataservices houden metadata up-to-date
+Waar mogelijk wordt de metadata door de dataservices up-to-date gehouden. Denk hierbij aan datum laatste mutatie, door wie gemuteerd, enz.
+<p class='note'>
+     Dit ligt buiten de scope van de architectuurwerkgroep, maar moet als input worden meegegeven aand de werkgroep
+     die zich met de inhoud van de gegevensobjecten bezighoudt.
+</p>
 
 CONCEPT
 
 
 ### Hoe passen de inrichtingsprincipes bij de visie van DiS-Geo?
+
+<p class='note'>
+     Dit hoofdstuk moet nog worden aangepast na aanpassing van vorige paragraaf 
+</p>
+
 
 In de paragrafen hieronder staan de principes ofwel richtinggevende uitspraken uit de visie van DiS-Geo. Per principe (richtinggevende uitspraak) is aangegeven hoe de 
 hiervoor genoemde inrichtingsprincipes invulling geven aan deze principes.
