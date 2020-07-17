@@ -98,14 +98,16 @@ Bron: [Common Ground](https://www.gemmaonline.nl/images/gemmaonline/c/c7/2019013
 De inrichtinsprincipes voor de Samenhangende Objecten Registratie zijn, gebaseerd op DSO, best practices, en Common Ground, samengevat de volgende:
 
 CONCEPT
-### Processen en gegevens worden gescheiden
-Gegevens worden eenmalig bijgehouden (“op één plek”)
-Dubbele opslag betekent synchroniseren
-Alle handelingen worden gelogd
-“Autorisatie op gegevens volgt uit inhoud van gegevens”
-Data bevat metadata met link naar structuur, definities en relaties
-Ontkoppeling en interoperabiliteit maken verandering mogelijk (middels API strategie en URI strategie)
-Informatie is gepresenteerde data in context
+
+#### Processen en gegevens worden gescheiden
+#### Gegevens worden eenmalig bijgehouden (“op één plek”)
+#### Dubbele opslag betekent synchroniseren
+#### Alle handelingen worden gelogd
+#### “Autorisatie op gegevens volgt uit inhoud van gegevens”
+#### Data bevat metadata met link naar structuur, definities en relaties
+#### Ontkoppeling en interoperabiliteit maken verandering mogelijk (middels API strategie en URI strategie)
+#### Informatie is gepresenteerde data in context
+
 CONCEPT
 
 
