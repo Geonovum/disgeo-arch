@@ -79,7 +79,7 @@ var respecConfig =
   [
     {
       name:       "Bart-Jan de Leuw",
-      company:    "ICTU",
+      company:    "MinBZK",
       companyURL: "https://www.ictu.nl"
     }, 
     {
