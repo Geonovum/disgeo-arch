@@ -80,7 +80,7 @@ var respecConfig =
     {
       name:       "Bart-Jan de Leuw",
       company:    "MinBZK",
-      companyURL: "https://www.ictu.nl"
+      companyURL: "https://www.geobasisregistraties.nl"
     }, 
     {
       name:       "Wim Bakkeren",
