@@ -97,8 +97,6 @@ Bron: [Common Ground](https://www.gemmaonline.nl/images/gemmaonline/c/c7/2019013
 
 De inrichtinsprincipes voor de Samenhangende Objecten Registratie zijn, gebaseerd op DSO, best practices, en Common Ground, samengevat de volgende:
 
-CONCEPT
-
 #### Gegevens en functionaliteit zijn gescheiden
 Gegevens kunnen alleen worden benaderd via dataservices. Benaderen is maken, lezen en aanpassen van gegevens.
 Gegevens worden nooit verwijderd, maar *gemarkeerd* als verwijderd.
@@ -106,25 +104,26 @@ Applicaties kunnen alleen via de dataservices gegevens maken, lezen en aanpassen
 
 De Ontkoppeling en interoperabiliteit van de gegevens maken verandering mogelijk (middels API strategie en URI strategie)
 
-#### Gegevens hebben meta-data
-Voor elk gegeven in de centrale voorziening is meta-data (data over de gegevens zelf) beschikbaar. Deze metadata wordt
-zoveel mogelijk [automatisch](#dataservices-houden-metadata-up-to-date) bijgehouden.
-In de metadata staan ook links naar structuur, definities en relaties van de gegevens.
+#### De oplossing zorgt dat af te nemen gegevens altijd actueel zijn
+Alle mutaties vinden plaats op de samenhangende gegevensset. Een wijziging aan een gegeven wordt genotificeerd. Daardoor kunnen afnemers zorgen dat ze actuele gegevens blijven afnemen.
 
-#### Gegevens in de centrale voorziening zijn altijd actueel
-Alle mutaties vinden plaats op de centrale gegevensset. Een wijziging aan een gegeven wordt genotificeerd. 
-
-##### Gegevens worden eenmalig en op één plek bijgehouden
-De gegevens in de centrale voorziening zijn altijd actueel. Het principe "één bron - één waarheid" geldt. 
+##### Eén bron - één waarheid
+De oplossing zorgt ervoor dat ieder gegeven in één bron wordt bijgehouden. We voorkomen dat er meerdere bronnen voor hetzelfde gegeven bestaan. 
 
 ##### Dubbele opslag betekent synchroniseren
-Partijen die, om wat voor reden dan ook, een kopie dataset "on premise" willen kunnen en mogen dat doen, maar dan zijn zij zelf verantwoordelijk
-voor het up-to-date houen van die gegevensset. Om zulke partijen tegemoet te helpen hun gegevensset up-to-dat te houden
-kan zo'n partij zich abbonneren op de notificatie services.
+Partijen die, om wat voor reden dan ook, een kopie dataset willen beheren, kunnen en mogen dat doen, maar dan zijn zij zelf verantwoordelijk voor het up-to-date houden van die gegevensset.  
+
+Dit geldt zowel binnen als buiten de oplossing, dus ook voor de voorziening voor verstrekking.
 
 #### Gegevens kunnen alleen via Dataservices worden benaderd
 Om te garanderen dat de gegevens blijven voldoen aan de gestelde kwalteit en actualiteit kunnen ze alleen benaderd 
 worden via *Dataservices*. Directe toegang tot de gegevens vanuit applicaties is ten strengste verboden.  
+
+#### Dataservices loggen de transacties op de gegevens
+Alle (!) transacties op de gegevens worden gelogd. Dit is nodig om een audit-trail te kunnen opbouwen.
+
+#### Dataservices houden metadata up-to-date
+Waar mogelijk wordt de metadata door de dataservices up-to-date gehouden. Denk hierbij aan datum laatste mutatie, door wie gemuteerd, enz.
 
 #### Dataservices controleren
 Alle controles, of het nou gaat om toegangscontrole tot de gegevens, of kwaliteitscontroles worden gedaan door
@@ -142,22 +141,24 @@ van de gegevens af.
 Alle (!) transacties op de gegevens worden gelogd. Dit is nodig om een *audit-trail* te kunnen opbouwen.
 
 ##### Dataservices borgen de kwaliteit van de gegevens
-Alle (!) controles die moeten plaatsvinden voordat een gegeven wordt gewijzigd worden in de dataservice gedaan.
+Alle (!) controles die moeten plaatsvinden voordat een gegeven wordt gewijzigd worden in de dataservice gedaan.  
+
 Enkele voorbeelden van een kwailiteitscheck: 
 - domeinwaarde check: komt de nieuwe waarde voor in een lijst met geldige waarden, of ligt de nieuwe waarde tussen twee grenswaarden.
 - datum check: is de waarde volgens een bepaald datum formaat.
 - type check: is de nieuwe waarde wel van een bepaald datatype.
 - referentie check: mag een gegeven worden gemarkeerd als verwijderd, terwijl het gegeven nog ergens anders bestaat? 
-- plausibiliteits check: is de nieuwe waarde wel te verwachten op basis van eerdere of andere attribuutwaarden?
 
-##### Dataservices houden metadata up-to-date
-Waar mogelijk wordt de metadata door de dataservices up-to-date gehouden. Denk hierbij aan datum laatste mutatie, door wie gemuteerd, enz.
+
+
+### Het Gegevensmodel is flexibel en aanpasbaar  
+
 <p class='note'>
-     Dit ligt buiten de scope van de architectuurwerkgroep, maar moet als input worden meegegeven aand de werkgroep
-     die zich met de inhoud van de gegevensobjecten bezighoudt.
+     Dit principe is toegevoegd, maar nog niet besproken in de groep architectuur 
 </p>
+Een uitgangspunt voor het gegevensmodel van de SOR is dat het informatiemodel flexibel moet zijn. Eenvoudig aan te passen, en het onderscheid tussen verplichte en vrijwillige objecten in de registratie moet niet diepgaand in het uitgewerkte gegevensmodel worden verankerd. 
 
-CONCEPT
+De oplossing moet met deze flexibiliteit in het gegevensmodel om kunnen gaan zodat het weinig impact heeft op de dataservices, en daarmee de applicaties die van die services gebruik maken, als er iets wijzigt. 
 
 
 ### Hoe passen de inrichtingsprincipes bij de visie van DiS-Geo?
