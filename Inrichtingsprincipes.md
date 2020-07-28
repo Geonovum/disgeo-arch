@@ -151,13 +151,12 @@ Enkele voorbeelden van een kwailiteitscheck:
 
 
 
-### Het Gegevensmodel is flexibel en aanpasbaar  
+#### Het Gegevensmodel is flexibel en aanpasbaar  
 
 <p class='note'>
      Dit principe is toegevoegd, maar nog niet besproken in de groep architectuur 
 </p>
-Een uitgangspunt voor het gegevensmodel van de SOR is dat het informatiemodel flexibel moet zijn. Eenvoudig aan te passen, en het onderscheid tussen verplichte en vrijwillige objecten in de registratie moet niet diepgaand in het uitgewerkte gegevensmodel worden verankerd. 
-
+Een uitgangspunt voor het gegevensmodel van de SOR is dat het informatiemodel flexibel moet zijn. Eenvoudig aan te passen, en het onderscheid tussen verplichte en vrijwillige objecten in de registratie moet niet diepgaand in het uitgewerkte gegevensmodel worden verankerd.  
 De oplossing moet met deze flexibiliteit in het gegevensmodel om kunnen gaan zodat het weinig impact heeft op de dataservices, en daarmee de applicaties die van die services gebruik maken, als er iets wijzigt. 
 
 
