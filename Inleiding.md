@@ -21,7 +21,7 @@ Beide Architectuurproducten beschrijven de Objectenregistratie op de Applicatiel
 
 ### Leeswijzer
 
-*Beschrijf hoe het document gelzezen moet worden, welke hoofdstukken voor wie bedoeld zijn, enz...*
+*Beschrijf hoe het document gelezen moet worden, welke hoofdstukken voor wie bedoeld zijn, enz...*
 
 De architectuurschets DisGeo (Doorontwikkelen In Samenhang van de Geo registraties) bevat de volgende hoofdstukken:
 
