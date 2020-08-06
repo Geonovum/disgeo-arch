@@ -1,5 +1,9 @@
 ## Inrichtingsprincipes voor de Objectenregistratie
 
+<p class='note'>
+     WB: Dit hoofdstuk heb ik nog niet gereviewd. 
+</p>
+
 ### Context
 
 De richtinggevende principes van DiS Geo zijn verwoord in de beleidsvisie DiS Geo, en hieraan wordt ook wel gerefereerd als "de [houtskoolschets](https://www.geobasisregistraties.nl/basisregistraties/documenten/publicatie/2020/06/15/dis-online-als-stroom-uit-het-stopcontact)".

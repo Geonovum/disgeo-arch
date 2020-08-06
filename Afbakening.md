@@ -25,8 +25,8 @@ Samenvattend onderscheiden we de volgende processtappen.
 
 Onderstaande afbeelding geeft deze processtappen weer in de globale werking van de Objectenregistratie.
 
-<figure id="SOReenvoudigprocesstappen">
-    <img src="media/praatplaat-eenvoudig-processtappen-sor.png" alt="SOReenvoudigprocesstappen">
+<figure id="soreenvoudigprocesstappen">
+    <img src="media/praatplaat-eenvoudig-processtappen-sor.png" alt="soreenvoudigprocesstappen">
     <figcaption>De processtappen in de globale werking van de Samenhangende objectenregistratie</figcaption>
 </figure>
 
@@ -71,6 +71,10 @@ De Architectuurbeschrijving benoemt binnen de scope de capabilities, componenten
 ### Interacties met de partijen in de omgeving
 
 De Objectenregistratie heeft de volgende interactie met partijen in de omgeving.
+
+<p class='note'>
+     WB: Hoe kan ik een opsomming in een tabelcel maken?
+</p>
 
 | Partij | Interacties | 
 |--------|-------------|

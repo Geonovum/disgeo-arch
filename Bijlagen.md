@@ -1,36 +1,12 @@
 ## Bijlagen
 
 <p class='note'>
-     WB: wat mij betreft nemen we in de bijlagen niet alle mogelijk relevante principes op uit andere bronnen, maar verwijzen we naar die bronnen (als de bron echt relevant blijkt te zijn). In de bijlagen kunnen we wel onze 'verantwoording' naar principes van andere opnemen als dat zinvol is.
+     WB: ik heb de bijlagen opgeschoond naar aanleiding van het aanpassen van de hoofdstukken Versiebeheer, Samenvatting, Inleiding en Afbakening. Ik heb eerst een backup (Bijagen_oud.md) gemaakt. Ik heb nog geen inhoudelijke review op de bijlage gedaan.
 </p>
 
-### Capabilities
-
-<figure id="capabilities">
-    <img src="media/capabilities.PNG" alt="capabilities">
-    <figcaption>Capabilities</figcaption>
-</figure>
-
-### Ketenprocesstappen
-
-<figure id="ketenprocesstappen">
-    <img src="media/ketenprocesstappen.PNG" alt="ketenprocesstappen">
-    <figcaption>Ketenprocesstappen</figcaption>
-</figure>
-
-### Stelselrollen
-
-<figure id="stelselrollen">
-    <img src="media/stelselrollen.PNG" alt="stelselrollen">
-    <figcaption>Stelselrollen</figcaption>
-</figure>
-
-### Ondersteunende Activiteiten
-
-<figure id="ondersteunende_activiteiten">
-    <img src="media/ondersteunende_activiteiten.PNG" alt="ondersteunende_activiteiten">
-    <figcaption>Ondersteunende Activiteiten</figcaption>
-</figure>
+<p class='note'>
+     WB: wat mij betreft nemen we in de bijlagen niet alle mogelijk relevante principes op uit andere bronnen, maar verwijzen we naar die bronnen (en alleen als de bron echt relevant blijkt te zijn). In de bijlagen kunnen we wel onze 'verantwoording' naar principes van anderen opnemen als dat zinvol is. Ik heb daarom de meeste tabellen met principes verwijderd. Ik heb eerst een backup (Bijagen_oud.md) gemaakt.
+</p>
 
 ### Innrichtingsprincipes en Best practices 
 
@@ -41,21 +17,6 @@ uitvoeren van projecten. Met name bij het ontwerpen van nieuwe of aangepaste die
 invulling wordt gegeven aan de principes en welke overwegingen daarbij worden gemaakt. Hier geldt het pas-toe-of-leg-uit- principe,
 waarbij afwijkingen dus zijn toegestaan mits dat met goede argumenten wordt onderbouwd en vastgelegd om daar in een later
 stadium op terug te kunnen komen. Zo wordt voorkomen dat belangrijke zaken over het hoofd worden gezien. 
-
-
-| Regel | Omschrijving                                                                                    |
-|-------|-------------------------------------------------------------------------------------------------|
-| BP01: | Afnemers krijgen de dienstverlening waar ze behoefte aan hebben.                                |
-| BP02: | Afnemers kunnen de dienst eenvoudig vinden.                                                     |
-| BP03: | Afnemers hebben eenvoudig toegang tot de dienst.                                                |
-| BP04: | Afnemers ervaren uniformiteit in de dienstverlening door het gebruik van standaardoplossingen.  |
-| BP05: | Afnemers krijgen gerelateerde diensten gebundeld aangeboden.                                    |
-| BP06: | Afnemers hebben inzage in voor hen relevante informatie.                                        |
-| BP07: | Afnemers worden niet geconfronteerd met overbodige vragen.                                      |
-| BP08: | Afnemers kunnen erop vertrouwen dat informatie niet wordt misbruikt.                            |
-| BP09: | Afnemers kunnen erop vertrouwen dat de dienstverlener zich aan afspraken houdt.                 |
-| BP10: | Afnemers kunnen input leveren over de dienstverlening.                                          |
-
 Bron: https://www.noraonline.nl/wiki/Principes 
 
 #### Afgeleide principes NORA
@@ -63,85 +24,16 @@ Bron: https://www.noraonline.nl/wiki/Principes
 Afgeleide principes geven meer concrete invulling aan de basisprincipes. Ze zijn te beschouwen als een checklist van 
 kwaliteitskenmerken van de diensten van de overheid en geven handvatten voor operationeel niveau door hun uitwerking in concrete 
 implicaties. 
-
-| Regel | Omschrijving                                 | 
-|-------|----------------------------------------------|
-| AP01: | Diensten zijn herbruikbaar                   |
-| AP02: | Ontkoppelen met diensten                     | 
-| AP03: | Diensten vullen elkaar aan                   |
-| AP04: | Positioneer de dienst                        |
-| AP05: | Nauwkeurige dienstbeschrijving               | 
-| AP06: | Gebruik standaard oplossingen                | 
-| AP07: | Gebruik de landelijke bouwstenen             | 
-| AP08: | Gebruik open standaarden                     |
-| AP09: | Voorkeurskanaal internet                     |
-| AP10: | Aanvullend kanaal                            |
-| AP11: | Gelijkwaardig resultaat ongeacht kanaal      |
-| AP12: | Eenmalige uitvraag                           |
-| AP13: | Bronregistraties zijn leidend                |
-| AP14: | Terugmelden aan bronhouder                   |
-| AP15: | Doelbinding (AP)                             | 
-| AP17: | Informatie-objecten systematisch beschreven  |
-| AP18: | Ruimtelijke informatie via locatie           |
-| AP19: | Perspectief gebruiker                        |
-| AP20: | Persoonlijke benadering                      |
-| AP21: | Bundeling van diensten                       |
-| AP22: | No wrong door                                |
-| AP23: | Automatische dienstverlening                 |
-| AP24: | Proactief aanbieden                          |
-| AP25: | Transparante dienstverlening                 |
-| AP26: | Afnemer heeft inzage                         |
-| AP27: | Een verantwoordelijke organisatie            |
-| AP28: | Afspraken vastgelegd                         |
-| AP29: | De dienstverlener voldoet aan de norm        | 
-| AP30: | Verantwoording dienstlevering mogelijk       |  
-| AP31: | PDCA-cyclus in besturing kwaliteit           |
-| AP32: | Sturing kwaliteit op het hoogste niveau      |
-| AP33: | Baseline kwaliteit diensten                  |
-| AP34: | Verantwoording besturing kwaliteit           |
-| AP40: | Onweerlegbaarheid (principe)                 |
-| AP41: | Beschikbaarheid                              |
-| AP42: | Integriteit                                  |
-| AP43: | Vertrouwelijkheid (principe)                 |
-| AP44: | Controleerbaarheid                           |
+Bron: https://www.noraonline.nl/wiki/Principes 
 
 #### Inrichtingsprincipes GEMMA
 
-GEMMA kent 8 inrichtingsprincipes:
-
-| Regel | Omschrijving                                                        |
-|-------|---------------------------------------------------------------------|
-| 01    | Onze gemeente denkt vanuit de positie van de klant                  |
-| 02    | Onze gemeente gebruikt generieke processen en functies              | 
-| 03    | Onze gemeente voert regie over uitbestede diensten                  | 
-| 04    | Onze gemeente biedt de klant een goede informatiepositie            |
-| 05    | Onze gemeente digitaliseert haar diensten en processen              | 
-| 06    | Onze gemeente stelt openbare gegevens als open data beschikbaar     | 
-| 07    | Onze gemeente hergebruikt gegevens                                  |
-| 80    | Onze gemeente gaat op een vertrouwelijke manier met gegevens om     |
-
+GEMMA kent 8 inrichtingsprincipes.
 Bron: https://www.vngrealisatie.nl/gemma 
 
-#### Eisen aan basisregistraties GEMMA
+#### Eisen aan basisregistraties
 
-GEMMA heeft 12 eisen aan basisregistraties waaraan een basisregistratie moet voldoen, die een verdere uitwerking zijn van de eerste
-6 in hierboven beschreven inrichtingsprincipes:
-
-| Eis     | Omschrijving                                                             |
-|---------|--------------------------------------------------------------------------|
-| 01      | De registratie is bij wet geregeld.                                      |
-| 02      | De afnemers hebben een terugmeldplicht(dit geldt alleen voor afnemers met een publiekrechtelijke taak en voor de authentieke gegevens). |
-| 03      | De basisregistratie wordt verplicht gebruikt door de hele overheid(dit geldt alleen voorafnemers met een publiekrechtelijke taak en voor de authentieke gegevens).Deze eis betekent tevens dat afnemersmet een publiekrechtelijke taak de gegevens die beschikbaar zijn als authentiek gegeven niet zelf meer mogen uitvragen bij burgers en bedrijven. |
-| 04      | Er is duidelijkheid over de aansprakelijkheid. |
-| 05      | De realisatie en exploitatie geschieden tegen redelijke kosten en er is eenduidigheid over de verdeling ervan. |
-| 06      | Er is duidelijkheid over inhoud en bereik van de registratie. |
-| 07      | Er zijn sluitende afspraken en procedures tussen de houder van het register enerzijds en de leveranciers en de afnemers van gegevens anderzijds. |
-| 08      | Er zijn duidelijke procedures met betrekking tot de toegankelijkheid van de basisregistratie. |
-| 09      | Er is een stringent regime van kwaliteitsborging. |
-| 10      | Er is vastgelegd dat en hoe afnemers van gegevens op een niet-vrijblijvende wijze betrokken worden bij de besluitvorming over de registratie. |
-| 11      | De positie van de basisregistratie binnen het Stelsel van Basisregistratiesis duidelijk en de relaties met de basisregistraties zijn beschreven. |
-| 12      | De zeggenschap over de basisregistratie berust bij een bestuursorgaan en er is een minister verantwoordelijk voor het realiseren, respectievelijk het functioneren van de registratie. |
-
+Er zijn 12 eisen aan basisregistraties waaraan een basisregistratie moet voldoen.
 Bron: https://www.noraonline.nl/images/noraonline/c/c0/Stelselarchitectuur_heden.pdf 
 
 #### Het 5-Sterren model voor Open Data
@@ -149,28 +41,9 @@ Bron: https://www.noraonline.nl/images/noraonline/c/c0/Stelselarchitectuur_heden
 In het eerder in het kader van DisGeo gedane onderzoek is rapport opgesteld: 
 [DisGeo Demo Lessons Learned](https://docs.geostandaarden.nl/disgeo/def-al-dll-20200219/) wordt het 
 5 sterren Open Data model [genoemd](https://docs.geostandaarden.nl/disgeo/def-al-dll-20200219/#het-5-sterren-model-voor-open-data), 
-In de tabel de 5 eisen van dat model
-
-| Eis     | Omschrijving                                                             |
-|---------|--------------------------------------------------------------------------|
-| 01      | Beschikbaar op het web, met een open licentie                            |
-| 02      | Data is machine leesbaar en bevat een open licentie                      |
-| 03      | De dataset is beschikbaar in een open bestandsformaat                    |
-| 04      | Bovenstaande + gebruik open standaarden van het W3C om objecten in de data te identificeren, zodat anderen naar die objecten kunnen verwijzen. |
-| 05      | Bovenstaande + link je data aan data van anderen, dit creëert samenhang tussen data sets. |
-
 Bron: https://geonovum.github.io/disgeo-demo/#governance-op-het-snijvlak
 
 #### Inrichtingsprincipes Common Ground
-
-| Principe | Omschrijving                                                                      |
-|----------|-----------------------------------------------------------------------------------|
-| 01       | COMPONENTGEBASEERD: We werken met componenten                                     |
-| 02       | OPEN: We zijn transparant waar mogelijk                                           |
-| 03       | VERTROUWD: We zorgen dat informatiebeveiliging en privacy op orde zijn            |
-| 04       | EENMALIGE VASTLEGGING: We leggen gegevens eenmalig vast en vragen op bij de bron  |
-| 05       | REGIE OP GEGEVENS: We faciliteren regie op gegevens                               |
-| 06       | STANDAARD:We standaardiseren maximaal                                             |
 
 Bron: https://www.gemmaonline.nl/images/gemmaonline/c/c7/20190130_-_Common_Ground_-_Informatiearchitectuurprincipes.pdf
 
@@ -207,8 +80,6 @@ De ontwerpprincipes zijn ingedeeld in de volgende categorieën:
 | 03        | Organisatie;                |     |                 |
 | 04        | Gebruik;                    |     | Ja              |
 | 05        | Transitie.                  | Ja  | Ja              |
-
-Bron: https://www.geobasisregistraties.nl/documenten/beleidsnota/2019/11/29/beleidsvisie-samenhangende-objectenregistratie  
 
 De relevante Architectuurprincipes zijn hieronder uitgewerkt
 
