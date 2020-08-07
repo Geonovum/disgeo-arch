@@ -4,7 +4,7 @@ Dit hoofdstuk beschrijft de afbakening en context van de Objectenregistratie. He
 
 ### Context van de Objectenregistratie
 
-Onderstaande afbeelding toont de globale werking van de Objectenregistratie. Bronhouders zorgen voor het *inwinnen* van bronmateriaal zoals luchtfoto's of bouwwerkinformatiemodellen of maken gebruik van door andere ingewonnen bronmateriaal. Op basis van dit bronmateriaal *stelt* de bronhouder objectgegevens *samen* die voldoen aan de eisen van de Objectenregistratie en *registreert* deze objectgegevens in de opslag van de Objectenregistratie waar ze worden *bewaard*. Vanuit de opslag worden gegevens *ontsloten* richting afnemers die deze gegevens *gebruiken* in hun (bedrijfs-)processen. Regelmatig worden de objectgegevens *verrijkt* voordat ze worden gebruikt, bijvoorbeeld door ze te combineren met gegevens uit andere bronnen. Het resultaat van verrijken noemen we informatieproducten. Vanuit de Objectenregistratie worden alleen generieke informatieproducten verstrekt. Dat zijn generieke producten die voor een groot deel van de afnemers relevant zijn. Specifieke informatieproducten waar bepaalde sectoren of afnemers behoefte aan hebben vallen buiten de scope van de Objectenregistratie. Als er bij de afnemers twijfel over de juistheid van de gegevens bestaat dan kunnen zij dat *terugmelden* waarna de bronhouder zal *onderzoeken* of die twijfel klopt.
+Onderstaande afbeelding toont de globale werking van de Objectenregistratie. Bronhouders zorgen voor het **inwinnen** van bronmateriaal zoals luchtfoto's of bouwwerkinformatiemodellen of maken gebruik van door andere ingewonnen bronmateriaal. Op basis van dit bronmateriaal **stelt** de bronhouder objectgegevens **samen** die voldoen aan de eisen van de Objectenregistratie en **registreert** deze objectgegevens in de opslag van de Objectenregistratie waar ze worden **bewaard**. Vanuit de opslag worden gegevens **ontsloten** richting afnemers die deze gegevens **gebruiken** in hun (bedrijfs-)processen. Regelmatig worden de objectgegevens **verrijkt** voordat ze worden gebruikt, bijvoorbeeld door ze te combineren met gegevens uit andere bronnen. Het resultaat van verrijken noemen we informatieproducten. Vanuit de Objectenregistratie worden alleen generieke informatieproducten verstrekt. Dat zijn generieke producten die voor een groot deel van de afnemers relevant zijn. Specifieke informatieproducten waar bepaalde sectoren of afnemers behoefte aan hebben vallen buiten de scope van de Objectenregistratie. Als er bij de afnemers twijfel over de juistheid van de gegevens bestaat dan kunnen zij dat **terugmelden** waarna de bronhouder zal **onderzoeken** of die twijfel klopt.
 
 <figure id="soreenvoudig">
     <img src="media/praatplaat-eenvoudig-sor.png" alt="SOReenvoudig">
@@ -16,7 +16,7 @@ Samenvattend onderscheiden we de volgende processtappen.
 | Processtap | Omschrijving | 
 |---|---|
 | Inwinnen | Het door waarneming vanuit de werkelijkheid of uitvraag aan burgers en bedrijven vanuit werkprocessen beschikbaar maken van gegevens over objecten en/of eigenschappen daarvan in een gegevensbron |
-| Samenstellen | Het combineren van vanuit verschillende gegevensbronnen afkomstige ruwe of getransformeerde gegevens over objecten en/of eigenschappen daarvan tot een samenhangende beschrijving conform hetgeen daarover is bepaald in inhoudelijke criteria en kwaliteitseisen |
+| Samenstellen  | Het combineren van vanuit verschillende gegevensbronnen afkomstige ruwe of getransformeerde gegevens over objecten en/of eigenschappen daarvan tot een samenhangende beschrijving conform hetgeen daarover is bepaald in inhoudelijke criteria en kwaliteitseisen |
 | Registreren | Het op een gevalideerde wijze vastleggen van gegevens over objecten en/of eigenschappen daarvan in de registratie |
 | Bewaren | Het duurzaam beschikbaar houden van de gegevens over objecten en/of eigenschappen daarvan in de registratie |
 | Ontsluiten | Het beschikbaar stellen van de in de registratie opgenomen gegevens op een zodanige wijze dat deze als gegevens eenvoudig door afnemers kunnen worden benaderd |
@@ -64,7 +64,7 @@ Op basis van de processtappen en stelselrollen is de scope van de Architectuurbe
      WB: De afbakening van de processtappen en stelselrollen is nog in ontwikkeling. Bovenstaande afbekening toont een mogelijke variant.
 </p>
 
-De Architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de uitvoering en de ondersteuning van de Samenhangende Objectenregistratie. In de hier getoonde afbakening betreft dit de processtappen *Registeren, Bewaren, Ontsluiten en Verrijken* en de bijbehorende ondersteundende processen. Alleen het verrijken tot generieke informatieproducten behoort tot de Objectenregistratie.
+De Architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de uitvoering en de ondersteuning van de Samenhangende Objectenregistratie. In de hier getoonde afbakening betreft dit de processtappen **Registeren, Bewaren, Ontsluiten en Verrijken** en de bijbehorende ondersteundende processen. Alleen het verrijken tot generieke informatieproducten behoort tot de Objectenregistratie.
 
 De Architectuurbeschrijving benoemt binnen de scope de capabilities, componenten en samenhang en de benodigde standaarden. Voor de processen van de rollen bronhouder en afnemer, benoemt de Architectuurbeschrijving alleen de capabilities. De componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf.
 
@@ -72,14 +72,10 @@ De Architectuurbeschrijving benoemt binnen de scope de capabilities, componenten
 
 De Objectenregistratie heeft de volgende interactie met partijen in de omgeving.
 
-<p class='note'>
-     WB: Hoe kan ik een opsomming in een tabelcel maken?
-</p>
-
 | Partij | Interacties | 
 |--------|-------------|
 | Bronhouder | Objectgegevens. De bronhouder registreert objectgegevens |
-|  | Terugmeldingen. De bronhouder verwerkt terugmeldingen van Afnemers |
+|  | **Terugmeldingen**: De bronhouder verwerkt terugmeldingen van Afnemers |
 |  | Correctieverzoeken. De bronhouder verwerkt correctieverzoeken van betrokkenen. Betrokken zijn personen waar de objectgegevens betrekking op hebben. Dat zou bijvoorbeeld de eigenaar van een gebouw kunnen zijn. Betrokken zijn niet per se ook Afnemer. Daarom maken we onderscheid tussen Terugmeldingen en Correctieverzoeken |
 |  | Catalogus. De bronhouder gebruikt de gegevens- en de dienstencatalogus om kennis te nemen van de gegevensdefinies en van de diensten van de Objectenregistratie |
 |  | Support (of Hulp of Ondersteuning). De bronhouder ontvangt ondersteuning bij het gebruik van de Objectenregistratie |
