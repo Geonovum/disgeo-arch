@@ -1,10 +1,43 @@
-## Afbakening van de Objectenregistratie
+## Afbakening
 
-Dit hoofdstuk beschrijft de afbakening en context van de Objectenregistratie. Het doel hiervan is de grenzen van de Objectenregistratie en de bijdragen (diensten) aan de omgeving te bepalen. De afbakening brengt in kaart welke rollen en partijen (waaronder bronhouders en afnemers) interactie met de Objectenregistratie hebben en welke soorten interactie er zijn.
+Dit hoofdstuk beschrijft de afbakening en context van de Objectenregistratie. Het doel hiervan is de grenzen van de Objectenregistratie en de bijdragen (producten diensten) ervan aan de omgeving te bepalen. De afbakening brengt in kaart welke rollen en partijen (waaronder bronhouders en afnemers) interactie met de Objectenregistratie hebben en welke soorten interactie er zijn.
 
-### Context van de Objectenregistratie
+### Doel van de Objectenregistratie
 
-Onderstaande afbeelding toont de globale werking van de Objectenregistratie. Bronhouders zorgen voor het **inwinnen** van bronmateriaal zoals luchtfoto's of bouwwerkinformatiemodellen of maken gebruik van door andere ingewonnen bronmateriaal. Op basis van dit bronmateriaal **stelt** de bronhouder objectgegevens **samen** die voldoen aan de eisen van de Objectenregistratie en **registreert** deze objectgegevens in de opslag van de Objectenregistratie waar ze worden **bewaard**. Vanuit de opslag worden gegevens **ontsloten** richting afnemers die deze gegevens **gebruiken** in hun (bedrijfs-)processen. Regelmatig worden de objectgegevens **verrijkt** voordat ze worden gebruikt, bijvoorbeeld door ze te combineren met gegevens uit andere bronnen. Het resultaat van verrijken noemen we informatieproducten. Vanuit de Objectenregistratie worden alleen generieke informatieproducten verstrekt. Dat zijn generieke producten die voor een groot deel van de afnemers relevant zijn. Specifieke informatieproducten waar bepaalde sectoren of afnemers behoefte aan hebben vallen buiten de scope van de Objectenregistratie. Als er bij de afnemers twijfel over de juistheid van de gegevens bestaat dan kunnen zij dat **terugmelden** waarna de bronhouder zal **onderzoeken** of die twijfel klopt.
+<p class='note'>
+     WB: Hier een paragraaf die het doel van de SOR beschrijft. De vraag is in welk document HET doel van de SOR is beschreven. Onderstaande is afkomstig uit: 1 de beleidsvisie en 2. de Hoofdlijnen inhoud samenhangende objectenregistratie. We moeten nog uitzoeken wat HET doel is en waar het beschreven staat
+</p>
+
+#### Doel volgens beleidsvisie
+
+Voor de Architectuurbeschrijving van de ICT-voorzieningen voor de Objectenregistratie is het goed het doel van de registratie te kennen. In de [beleidsvisie voor de samenhangende objectenregistratie](https://www.geobasisregistraties.nl/documenten/beleidsnota/2019/11/29/beleidsvisie-samenhangende-objectenregistratie) is een vijftal doelstellingen geformuleerd voor de Objectenregistratie:
+
+1. Een betrouwbare, consistente en actuele samenhangende gegevensset voor heel Nederland;
+2. Een efficiëntere inwinning en bijhouding van objecten, ook in drie dimensies (3D);
+3. Een betere inpassing in moderne architecturen;
+4. Meer en eenvoudiger gebruik van deze informatie in maatschappelijke toepassingen. De registratie gedraagt zich voor de gebruiker als één registratie.
+5. De objectenregistratie maakt onderdeel uit van een robuuste geo-informatie infrastructuur binnen de generieke digitale infrastructuur en voldoet aan de [12 eisen voor een basisregistratie](# eisen-aan-basisregistraties-GEMMA)
+
+<p class='note'>
+     WB: Verwijzing naar de 12 eisen aan de basisregistraties corrigeren. De 12 eisen horen niet bij de GEMMA.
+</p>
+
+In de kern gaat het hierbij om een nadrukkelijke scheiding van de vastlegging van de gegevens, en de functionaliteiten die 
+nodig zijn voor het bewerken, opvragen en het presenteren van deze gegevens tot logische informatie. 
+
+#### Doel volgens document 'hoofdlijnen inhoud'
+
+In '[Hoofdlijnen inhoud samenhangende objectenregistatie](https://geonovum.github.io/disgeo-inhoud/#inleiding)' is het doel van de objectenregistratie als volgt beschreven:
+
+> Met de samenhangende objectenregistratie (SOR) wordt beoogd om meer samenhang aan te brengen tussen de verschillende objecttypen en de eigenschappen die daarover worden bijgehouden. Hiermee kunnen bijhoudingsprocessen worden vereenvoudigd, de informatievoorziening flexibeler worden opgezet en de wensen van gebruikers om meer samenhangende informatie worden ingewilligd.
+
+Ook de [uitgangspunten en de scope voor de inhoud van de Objectenregistratie](https://geonovum.github.io/disgeo-inhoud/#uitgangspunten) zijn in dat document beschreven. Hier focussen we op de afbakening van de ICT-voorzieningen van de Objectenregistratie.
+
+### Context voor de Architectuurbeschrijving
+
+#### Processtappen Objectenregistratie
+
+Onderstaande afbeelding toont de globale werking van de Objectenregistratie. *Bronhouders* zorgen voor het **inwinnen** van bronmateriaal zoals luchtfoto's of bouwwerkinformatiemodellen of maken gebruik van door andere ingewonnen bronmateriaal. Op basis van dit bronmateriaal **stelt** de bronhouder objectgegevens **samen** die voldoen aan de eisen van de Objectenregistratie en **registreert** deze objectgegevens in de opslag van de Objectenregistratie waar ze worden **bewaard**. Vanuit de opslag worden gegevens **ontsloten** richting *afnemers* die deze gegevens **gebruiken** in hun (bedrijfs-)processen. Regelmatig worden de objectgegevens **verrijkt** voordat ze worden gebruikt, bijvoorbeeld door ze te combineren met gegevens uit andere bronnen. Het resultaat van verrijken noemen we *informatieproducten*. Vanuit de Objectenregistratie worden alleen *generieke* informatieproducten verstrekt. Dat zijn producten die voor een groot deel van de afnemers relevant zijn. Specifieke informatieproducten waar alleen bepaalde sectoren of afnemers behoefte aan hebben vallen buiten de scope van de Objectenregistratie. Als er bij de afnemers twijfel over de juistheid van de gegevens bestaat dan kunnen zij dat **terugmelden** waarna de bronhouder zal **onderzoeken** of die twijfel klopt.
 
 <figure id="soreenvoudig">
     <img src="media/praatplaat-eenvoudig-sor.png" alt="SOReenvoudig">
@@ -23,6 +56,10 @@ Samenvattend onderscheiden we de volgende processtappen.
 | Verrijken | Het zodanig transformeren of presenteren van in de registratie opgenomen gegevens dat een op afnemersbehoeften afgestemd informatieproduct ontstaat |
 | Gebruiken | Het ophalen van de beschikbaar gestelde gegevens en de toepassing daarvan binnen de werkprocessen waarvoor de gegevens zijn benodigd |
 
+<p class='note'>
+     WB: bovenstaande processtappen zijn gebaseerd op de stand van zaken mbt de organisatie van de SOR op 29 mei 2020
+</p>
+
 Onderstaande afbeelding geeft deze processtappen weer in de globale werking van de Objectenregistratie.
 
 <figure id="soreenvoudigprocesstappen">
@@ -30,13 +67,9 @@ Onderstaande afbeelding geeft deze processtappen weer in de globale werking van 
     <figcaption>De processtappen in de globale werking van de Samenhangende objectenregistratie</figcaption>
 </figure>
 
-<p class='note'>
-     WB: bovenstaande processtappen zijn gebaseerd op de stand van zaken mbt de organisatie van de SOR op 29 mei 2020
-</p>
+#### Stelselrollen Objectenregistratie
 
-### Stelselrollen
-
-Ronde de Objectenregistratie zijn de volgende stelselrollen te onderkennen.
+Voor de uitvoering van de procesen rond de Objectenregistratie zijn verschillende rollen verantwoordelijk. Het gaat om de volgende stelselrollen.
 
 | Stelselrol | Omschrijving | 
 |---|---|
@@ -46,14 +79,12 @@ Ronde de Objectenregistratie zijn de volgende stelselrollen te onderkennen.
 | Toezichthouder | Verantwoordelijkheid voor toezicht op het in overeenstemming met eisen, afspraken en wetgeving opereren van de gehele keten rondom de registratie |
 | Beleidsverantwoordelijke| Verantwoordelijkheid voor het organiseren van een gezamenlijke systeemsturing op de registratie |
 
-N.B. De rol van attribuutbeheerder zal nog nader moeten worden gepositioneerd.
-
 <p class='note'>
-     WB: bovenstaande stelselrollen zijn gebaseerd op de stand van zaken mbt de organisatie van de SOR op 29 mei 2020, muv Beleidsverantwoordelijke waarvoor in die versie Eigenaar wordt gehanteerd.
+     WB: bovenstaande stelselrollen zijn gebaseerd op de stand van zaken mbt de organisatie van de SOR op 29 mei 2020, muv Beleidsverantwoordelijke waarvoor in die versie Eigenaar wordt gehanteerd. De noodzaak en positionering van de rol Attribuutbeheerder moet nog worden bepaald.
 </p>
 
 ### Scope van de Architectuurbeschrijving
-Op basis van de processtappen en stelselrollen is de scope van de Architectuurbeschrijving te duiden. Onderstaande afbeelding geeft dat weer op basis van het besturingsparadigma van de Leeuw. Dit besturingsparadigma maakt onderscheid  tussen een systeem bestaande uit een besturend orgaan en een bestuurd systeem en de omgeving van het systeem. In onderstaande afbeelding is in het bestuurd systeem ook nog onderscheid gemaakt tussen uitvoering en ondersteuning. Onder uitvoering verstaan we hier het inwinnen, samenstellen, registreren, bewaren, ontsluiten, verrijken en gebruiken van objectgegevens. Deze processtappen vallen deels binnen en deels buiten de scope van de Architectuurbeschrijving.
+Op basis van de processtappen en stelselrollen is de scope van de Architectuurbeschrijving te bepalen. Onderstaande afbeelding geeft dat weer op basis van het besturingsparadigma van de Leeuw. Dit besturingsparadigma maakt onderscheid  tussen een **systeem** bestaande uit een **besturend orgaan** en een **bestuurd systeem** en de **omgeving van het systeem**. In onderstaande afbeelding is in het bestuurd systeem ook nog onderscheid gemaakt tussen **uitvoering** en **ondersteuning**. Onder uitvoering verstaan we hier het inwinnen, samenstellen, registreren, bewaren, ontsluiten, verrijken en gebruiken van objectgegevens. Deze processtappen vallen deels binnen en deels buiten de scope van de Architectuurbeschrijving.
 
 <figure id="scopearchitectuur1">
     <img src="media/scope-sor-variant1.png" alt="scopearchitectuur1">
@@ -61,12 +92,12 @@ Op basis van de processtappen en stelselrollen is de scope van de Architectuurbe
 </figure>
 
 <p class='note'>
-     WB: De afbakening van de processtappen en stelselrollen is nog in ontwikkeling. Bovenstaande afbekening toont een mogelijke variant.
+     WB: De afbakening van de processtappen en stelselrollen is nog in ontwikkeling. Bovenstaande afbekening toont een mogelijke variant. De afbeelding zal worden aangepast zodra de afbakening van processtappen en stelselrollen is bepaald. Ook zal de afbeelding worden aangepast tbv de leesbaarheid.
 </p>
 
-De Architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de uitvoering en de ondersteuning van de Samenhangende Objectenregistratie. In de hier getoonde afbakening betreft dit de processtappen **Registeren, Bewaren, Ontsluiten en Verrijken** en de bijbehorende ondersteundende processen. Alleen het verrijken tot generieke informatieproducten behoort tot de Objectenregistratie.
+De Architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de **uitvoering en de ondersteuning van de Samenhangende Objectenregistratie**. In de hier getoonde variant van de afbakening betreft dit de processtappen **Registeren, Bewaren, Ontsluiten en (generiek) Verrijken** en de bijbehorende ondersteundende processen. Alleen het verrijken tot generieke informatieproducten behoort tot de Objectenregistratie.
 
-De Architectuurbeschrijving benoemt binnen de scope de capabilities, componenten en samenhang en de benodigde standaarden. Voor de processen van de rollen bronhouder en afnemer, benoemt de Architectuurbeschrijving alleen de capabilities. De componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf.
+De Architectuurbeschrijving benoemt binnen de scope de functionaliteiten, componenten en samenhang en de benodigde standaarden. Voor de processen van de rollen bronhouder en afnemer, benoemt de Architectuurbeschrijving alleen de capabilities. De ICT-componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf.
 
 ### Interacties met de partijen in de omgeving
 
@@ -89,4 +120,8 @@ De Objectenregistratie heeft de volgende interactie met partijen in de omgeving.
 | Toezichthouder | nog in te vullen |
 | Beleidsverantwoordelijke | nog in te vullen |
 
-Alle genoemde partijen maken gebruik van ondersteunende partijen zoals ICT-leveranciers en kunnen ook taken uitbesteden aan derden, zoals gegevensleveranciers. De beschreven interacties hebben deels ook betrekking op ondersteunende partijen. Zo zullen softwareontwikkelaars ook gebruik maken van de gegevens- en de dienstencatalogus van de Objectenregistratie.
+<p class='note'>
+     WB: De interacties met Toezichthouder en Beleidsverantwoordelijke moeten nog worden uitgewerkt.
+</p>
+
+Alle genoemde partijen maken gebruik van ondersteunende partijen zoals ICT-leveranciers en kunnen taken uitbesteden aan derden, zoals samenwerkingsverbanden en gegevensleveranciers. De beschreven interacties hebben deels ook betrekking op deze ondersteunende partijen. Zo zullen softwareontwikkelaars ook gebruik maken van de gegevens- en de dienstencatalogus van de Objectenregistratie.
