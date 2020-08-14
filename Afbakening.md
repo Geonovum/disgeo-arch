@@ -5,7 +5,7 @@ Dit hoofdstuk beschrijft de afbakening en context van de Objectenregistratie. He
 ### Doel van de Objectenregistratie
 
 <p class='note'>
-     WB: Hier een paragraaf die het doel van de SOR beschrijft. De vraag is in welk document HET doel van de SOR is beschreven. Onderstaande is afkomstig uit: 1 de beleidsvisie en 2. de Hoofdlijnen inhoud samenhangende objectenregistratie. We moeten nog uitzoeken wat HET doel is en waar het beschreven staat
+     WB: Hier een paragraaf die het doel van de SOR beschrijft. De vraag is in welk document HET doel van de SOR is beschreven. Onderstaande is afkomstig uit: 1 de beleidsvisie en 2. de Hoofdlijnen inhoud samenhangende objectenregistratie. We moeten nog uitzoeken wat HET doel is en waar het beschreven staat.
 </p>
 
 #### Doel volgens beleidsvisie
@@ -16,10 +16,10 @@ Voor de Architectuurbeschrijving van de ICT-voorzieningen voor de Objectenregist
 2. Een efficiëntere inwinning en bijhouding van objecten, ook in drie dimensies (3D);
 3. Een betere inpassing in moderne architecturen;
 4. Meer en eenvoudiger gebruik van deze informatie in maatschappelijke toepassingen. De registratie gedraagt zich voor de gebruiker als één registratie.
-5. De objectenregistratie maakt onderdeel uit van een robuuste geo-informatie infrastructuur binnen de generieke digitale infrastructuur en voldoet aan de [12 eisen voor een basisregistratie](# eisen-aan-basisregistraties-GEMMA)
+5. De objectenregistratie maakt onderdeel uit van een robuuste geo-informatie infrastructuur binnen de generieke digitale infrastructuur en voldoet aan de [12 eisen voor een basisregistratie](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/gegevens/naar-een-gegevenslandschap/themas/twaalf-eisen-stelsel-van-basisregistraties/)
 
 <p class='note'>
-     WB: Verwijzing naar de 12 eisen aan de basisregistraties corrigeren. De 12 eisen horen niet bij de GEMMA.
+     WB: De beleidsvisie beschrijft de doelen van de SOR. Het document 'hoofdlijnen inhoud' dus niet. Daarom dat deel hieronder verwijderen en geen sub-sub-paragraaf hanteren.
 </p>
 
 In de kern gaat het hierbij om een nadrukkelijke scheiding van de vastlegging van de gegevens, en de functionaliteiten die 
