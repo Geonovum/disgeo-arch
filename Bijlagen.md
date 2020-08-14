@@ -10,7 +10,7 @@
 
 
 <p class='note'>
-     WB: Ik heb delen van hoofdstuk 3 hier naar de bijlage verplaatst. Daardoor staan sommige zaken nu misschien dubbel in de bijage. Dat moeten we nog opschonen.
+     WB: Ik heb delen van hoofdstuk 3 hier naar de bijlage verplaatst. Daardoor staan sommige zaken nu misschien dubbel in de bijage. Dat moeten we nog opschonen. Bovendien is de inhoud van de bijlagen nog niet in lijn met de inhoud van hoofdstuk 3.
 </p>
 
 ### Inrichtingsprincipes Digitaal Stelsel Omgevingwet
