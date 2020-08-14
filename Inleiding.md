@@ -29,7 +29,7 @@ Tenslotte worden in het hoofdstuk [Conlusies en Aanbevelingen](#conclusies-en-aa
      WB: wat mij betreft heeft de Architectuurbeschrijving geen hoofdstuk 'Conclusies en Aanbevelingen'. Ik heb de betreffende regel verwijderd uit index.html
 </p>
 
-Relevante bijlagen staan in het hoofdstuk [Bijlagen](#bijlagen)
+Relevante bijlagen staan in het hoofdstuk [Bijlagen](#bijlagen-principes)
 
 <p class='note'>
      WB: wat mij betreft nemen we in de bijlagen niet alle mogelijk relevante principes op uit andere bronnen, maar verwijzen we naar die bronnen (als de bron echt relevant blijkt te zijn). In de bijlagen kunnen we wel onze 'verantwoording' naar principes van andere opnemen, als dat zinvol is.
