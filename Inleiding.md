@@ -17,13 +17,13 @@ De Architectuurbeschrijving geeft richting aan de inrichting van de Objectenregi
 
 De Architectuurbeschrijving van de Samenhangende Objectenregistratie heeft de volgende opbouw:
 
-Het hoofdstuk [Afbakening van de Objectenregistratie](#afbakening-van-de-objectenregistratie) beschrijft de grenzen van de Objectenregistratie en de bijdragen (producten en diensten) ervan aan de omgeving. De afbakening brengt in kaart welke rollen en partijen (waaronder bronhouders en afnemers) interactie met de Objectenregistratie hebben en welke soorten interactie er zijn.
+Het hoofdstuk [Afbakening](#afbakening) beschrijft de grenzen van de Objectenregistratie en de bijdragen (producten en diensten) ervan aan de omgeving. De afbakening brengt in kaart welke rollen en partijen (waaronder bronhouders en afnemers) interactie met de Objectenregistratie hebben en welke soorten interactie er zijn.
 
-Het hoofdstuk [Inrichtingsprincipes voor de Objectenregistratie](#inrichtingsprincipes-voor-de-objectenregistratie) beschrijft de principes die bepalend zijn voor de functionele en deels ook technische inrichting van de ICT-voorzieningen van de Objectenregistratie.  
+Het hoofdstuk [ICT-inrichtingsprincipes](#ict-inrichtingsprincipes) beschrijft de principes die bepalend zijn voor de functionele en deels ook technische inrichting van de ICT-voorzieningen van de Objectenregistratie.  
 
 Het hoofdstuk [Inrichting van de Objectenregistratie](#inrichting-van-de-objectenregistratie) beschrijft de conceptuele inrichting van de ICT-voorzieningen van de Objectenregistratie op de applicatielaag van het NORA-vijflaagsmodel. Het vormt het kader voor technische inrichting van de Objectenregistratie en biedt een basis voor de organisatorische inrichting rond de ICT-voorzieningen.
 
-Tenslotte worden in het hoofdstuk [Conlusies en Aanbevelingen](#conclusies-en-aanbevelingen) de belangrijkste conclusies en de belangrijkste aanbevelingen op een rijtje gezet.
+<!-- Tenslotte worden in het hoofdstuk [Conlusies en Aanbevelingen](#conclusies-en-aanbevelingen) de belangrijkste conclusies en de belangrijkste aanbevelingen op een rijtje gezet. -->
 
 <p class='note'>
      WB: wat mij betreft heeft de Architectuurbeschrijving geen hoofdstuk 'Conclusies en Aanbevelingen'. Ik heb de betreffende regel verwijderd uit index.html

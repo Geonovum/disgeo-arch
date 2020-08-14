@@ -1,7 +1,7 @@
 ## ICT-inrichtingsprincipes
 
 <p class='note'>
-     WB: Ik heb dit hoofdstuk beperkt tot de inrichtingsprincipses voor de SOR en de context en achtergrond grotendeels verplaatst naar de bijlagen. De lezer hoeft alleen het resultaat te zien. Als de lezer ge•nteresseerd is in de achtergronden en afwegingen dan zijn deze in de bijlage te vinden.
+     WB: Ik heb dit hoofdstuk beperkt tot de inrichtingsprincipses voor de SOR en de context en achtergrond grotendeels verplaatst naar de bijlagen. De lezer hoeft alleen het resultaat te zien. Als de lezer geinteresseerd is in de achtergronden en afwegingen dan zijn deze in de bijlage te vinden.
 </p>
 
 ### Inleiding
@@ -44,8 +44,8 @@ De Ontkoppeling en interoperabiliteit van de gegevens maken verandering mogelijk
 **De oplossing zorgt dat af te nemen gegevens altijd actueel zijn**
 Alle mutaties vinden plaats op de samenhangende gegevensset. Een wijziging aan een gegeven wordt genotificeerd. Daardoor kunnen afnemers zorgen dat ze actuele gegevens blijven afnemen.
 
-**EŽn bron - ŽŽn waarheid**
-De oplossing zorgt ervoor dat ieder gegeven in ŽŽn bron wordt bijgehouden. We voorkomen dat er meerdere bronnen voor hetzelfde gegeven bestaan. 
+**Eï¿½n bron - ï¿½ï¿½n waarheid**
+De oplossing zorgt ervoor dat ieder gegeven in ï¿½ï¿½n bron wordt bijgehouden. We voorkomen dat er meerdere bronnen voor hetzelfde gegeven bestaan. 
 
 **Dubbele opslag betekent synchroniseren**
 Partijen die, om wat voor reden dan ook, een kopie dataset willen beheren, kunnen en mogen dat doen, maar dan zijn zij zelf verantwoordelijk voor het up-to-date houden van die gegevensset.  
