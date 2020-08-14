@@ -125,3 +125,14 @@ De Objectenregistratie heeft de volgende interactie met partijen in de omgeving.
 </p>
 
 Alle genoemde partijen maken gebruik van ondersteunende partijen zoals ICT-leveranciers en kunnen taken uitbesteden aan derden, zoals samenwerkingsverbanden en gegevensleveranciers. De beschreven interacties hebben deels ook betrekking op deze ondersteunende partijen. Zo zullen softwareontwikkelaars ook gebruik maken van de gegevens- en de dienstencatalogus van de Objectenregistratie.
+
+<p class='note'>
+     WB: Onderstaande is uit de beleidsvisie SOR. Evt. verwerken in dit hoofdstuk.
+</p>
+
+> Doelgroepen gebruikers objectenregistratie
+> Met de doorontwikkeling van de geo-basisregistraties naar een samenhangende objectenregistratie worden, naast de bronhouders, meerdere doelgroepen van gebruikers bediend.
+> De volgende doelgroepen zijn in beeld:
+> 1. Overheidsgebruikers, die verplicht gebruik dienen te maken van de geo-basisregistraties voor hun processen .
+> 2. Open data gebruikers, zoals bedrijven die waarde toevoegen aan gegevens in de basisregistraties en nieuwe producten ontwikkelen.
+> 3. Eindgebruikers van de informatie, zoals burgers en bedrijven.
