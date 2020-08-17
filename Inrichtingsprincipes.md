@@ -14,15 +14,15 @@ Bij het opstellen van de principes zijn de volgende bronnen gehanteerd:
 - Internationale architectuurprincipes van W3C, en met name  de principes uit [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/#bp-summary) die zijn opgetekend op basis van vele internationale ervaringen met het omgaan met geo-gegevens. 
 
 <p class='note'>
-     WB: Zijn beleidsvisie DiS Geo en houtskoolschets hetzelfde?
+     WB: Zijn beleidsvisie DiS Geo en houtskoolschets hetzelfde? Nee, Beleidsvisie DiS Geo is een tekstdocument en de houtskoolschets is 'onze' presentatie.
 </p>
 
 <p class='note'>
-     WB: Er is ook een visie Objectenregistratie (oid). Daar moeten we ook nog naar kijken.
+     WB: Er is ook een visie Objectenregistratie. Ik heb daar naar gekeken en een aantal relevante stukken tekst hier opgenomen om nog te verwerken.
 </p>
 
 <p class='note'>
-     WB: Is bovenstaande opsomming volledig? We moeten nog toetsen in hoeverre de 'web best practices' nog relevant zijn, omdat we geconstareerd hebben dat deze vooral over de inhoud gaan en minder over de functionele ICT-inrichting. Ook moeten we nog toetsen in hoeverre we nog steeds voortbouwen op de principes uit de OGAS DSO.
+     WB: Is bovenstaande opsomming volledig? We moeten nog toetsen in hoeverre de 'web best practices' nog relevant zijn, omdat we geconstareerd hebben dat deze vooral over de inhoud gaan en minder over de functionele ICT-inrichting. Ook moeten we nog toetsen in hoeverre we nog steeds voortbouwen op de principes uit de OGAS DSO. Ik heb de DSO-principes bekeken, maar daar doen we volgens mij weinig mee. Ze zijn ook breder dan ICT-inrichtingsprincipes. Ze gaan over het DSO in zijn geheel, niet alleen de ICT-inrichting ervan. Een aantal DSO-principes is denk ik wel (her)bruikbaar, zoals dat alles een dienst is en dat de interne en externe diensten  hetzelfde zijn.
 </p>
 
 <p class='note'>
