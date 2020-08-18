@@ -171,15 +171,26 @@ De oplossing moet met deze flexibiliteit in het gegevensmodel om kunnen gaan zod
 ### Principes uit beleidsvisie SOR
 
 <p class='note'>
-     WB: Onderstaande principes zijn afkomstig uit de beleidsvisie SOR en moeten nog worden verwerkt in dit document, bijv. door er naar te verwijzen of door er specifieke ICT-inrichtingsprincipes uit af te leiden. 
+     WB: Onderstaande principes zijn afkomstig uit de beleidsvisie SOR en moeten nog worden verwerkt in dit document, bijv. door er naar te verwijzen of door er specifieke ICT-inrichtingsprincipes uit af te leiden. Hieronder een eerste analyse van mij. 
 </p>
 
-> - We laten ons bij het ontwerp en de verdere uitwerking niet beperken door de nu bestaande juridische kaders (deze kunnen in principe worden aangepast, via een traject aanpassing wet- en regelgeving).
-> - In het ontwerp van een samenhangende objectenregistratie is sprake van een nadrukkelijke scheiding tussen de vastlegging van
+**Eerste analyse van principes uit beleidsvisie SOR**
+1. Niet direct relevant voor ICT-inrichting
+2. Deze dekken we af (ook in de door mij voorgestelde principes hierboven)
+3. Deze missen we nog en moeten we opnemen. Nemen we deze ongewijzigd over? We hadden eerders iets als: past in het applicatielandschap van de bronhouders en afnemers, maar die zijn we blijkbaar ook weer kwijtgeraakt.
+4. Hier zit een aantal principes (of eigenlijk meer eisen) in:
+    - Bevragen bij de bron = ieder gegeven op 1 plek bijgehouden?
+    - 1 Loket (voor afnemers). Die hebben we nog niet.
+    - Gebeurtenisgeorienteerd werken. De hebben we ook nog niet.
+5. Deze gaat over de inhoud. Niet relevant voor ons document, muv het kunnen autogeneralisatie van hogere schaalniveaus.
+6. Keuzes pas nemen op het moment dat ze nodig zijn is erg relevant voor ons. Daarom deze overnemen. En ook de vraag beantwoorden welke keuzes nu gemaakt **moeten** worden en welke nog uitgesteld kunnen worden. En ook bepalen wat we nu verder uit kunnen werken zonder dat keuzes nodig zijn of waarvoor de keuzes al gemaakt zijn. Bijvoorbeeld, welke functies kunnen we verder uitwerken zonder inrichtingskeuzes te maken? Bijvoorbeeld Logging: WAT moet gelogd worden in ieder functiecluster?
+
+> 1. We laten ons bij het ontwerp en de verdere uitwerking niet beperken door de nu bestaande juridische kaders (deze kunnen in principe worden aangepast, via een traject aanpassing wet- en regelgeving).
+> 2. In het ontwerp van een samenhangende objectenregistratie is sprake van een nadrukkelijke scheiding tussen de vastlegging van
 gegevens en de functionaliteit voor het bewerken, opvragen en
 presenteren daarvan.
-> - Er wordt gebruik gemaakt van standaard infrastructurele
+> 3. Er wordt gebruik gemaakt van standaard infrastructurele
 voorzieningen die beschikbaar zijn bij de bronhouders en de gebruikers (denk hierbij aan standaardnetwerken, netwerkprotocollen en beveiligingsmechanismen).
-> - Er wordt in de eindsituatie zoveel mogelijk uitgegaan van ‘bevragen bij de bron’. Hierbij is van belang dat de gebruiker voor verstrekkingen zoveel mogelijk uit kan gaan van één loket. Een belangrijk aandachtspunt hierbij is het gebeurtenis georiënteerd werken (nader uit te werken). Of de bronhouders gedistribueerd en decentraal werken of direct inwinning en bijhouding in een (of meerdere) voorziening(en) uitvoeren via gestandaardiseerde services moet nader bepaald worden (nadere uitwerking in kader van DiS GEO/beleidsvisie: leveranciers, bronhouders, Kadaster, VNG-R, BZK).
-> - Er wordt ingewonnen op het niveau van de huidige schaalniveaus van BAG en BGT. De gegevens kunnen gepresenteerd worden op verschillende schaalniveaus (meest gedetailleerde weergave: 1:1.000). Autogeneralisatie voor informatie op hogere schaalniveaus moet mogelijk zijn (op basis van logica en functies). Bijvoorbeeld het (deels) afleiden van de informatie voor de BRT uit de BGT, maar ook voor het definiëren van een wegennetwerk met alle rijkswegen op basis van het gehele wegennetwerk.
-> - Keuzen voor een technische inrichting van de registratie worden pas later in het traject gemaakt, zodat oplossingen gebaseerd zijn op recente inzichten in oplossingsmogelijkheden.
+> 4. Er wordt in de eindsituatie zoveel mogelijk uitgegaan van ‘bevragen bij de bron’. Hierbij is van belang dat de gebruiker voor verstrekkingen zoveel mogelijk uit kan gaan van één loket. Een belangrijk aandachtspunt hierbij is het gebeurtenis georiënteerd werken (nader uit te werken). Of de bronhouders gedistribueerd en decentraal werken of direct inwinning en bijhouding in een (of meerdere) voorziening(en) uitvoeren via gestandaardiseerde services moet nader bepaald worden (nadere uitwerking in kader van DiS GEO/beleidsvisie: leveranciers, bronhouders, Kadaster, VNG-R, BZK).
+> 5. Er wordt ingewonnen op het niveau van de huidige schaalniveaus van BAG en BGT. De gegevens kunnen gepresenteerd worden op verschillende schaalniveaus (meest gedetailleerde weergave: 1:1.000). Autogeneralisatie voor informatie op hogere schaalniveaus moet mogelijk zijn (op basis van logica en functies). Bijvoorbeeld het (deels) afleiden van de informatie voor de BRT uit de BGT, maar ook voor het definiëren van een wegennetwerk met alle rijkswegen op basis van het gehele wegennetwerk.
+> 6. Keuzen voor een technische inrichting van de registratie worden pas later in het traject gemaakt, zodat oplossingen gebaseerd zijn op recente inzichten in oplossingsmogelijkheden.

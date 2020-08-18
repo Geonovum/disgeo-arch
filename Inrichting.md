@@ -1,9 +1,5 @@
 ## Inrichting van de Objectenregistratie
 
-<p class='note'>
-     WB: Dit hoofdstuk heb ik deels aangepast en moet nog verder worden uitgewerkt. 
-</p>
-
 ### Inleiding
 
 Dit hoofdstuk beschrijft de functionele (of conceptuele) inrichting van de Samenhangende Objectenregistratie op de applicatielaag van het NORA-vijflaagsmodel. Het doel ervan is om sturing te kunnen geven aan de transitie naar de Objectenregistratie en te dienen als kader voor technische inrichting van de Objectenregistratie. Ook biedt het een een deel van de basis voor de organisatorische inrichting van de Objectenregistratie. 
