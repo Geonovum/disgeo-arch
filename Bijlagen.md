@@ -69,8 +69,6 @@ Bron: [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/)
 
 Bron: [Common Ground](https://www.gemmaonline.nl/images/gemmaonline/c/c7/20190130_-_Common_Ground_-_Informatiearchitectuurprincipes.pdf)
 
-
-
 ### Basisprincipes NORA 
 
 De principes van de NORA zijn bedoeld om overheidsorganisaties richting te duiden bij het inzetten van veranderingen en het
