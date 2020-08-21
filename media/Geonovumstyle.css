@@ -32,10 +32,12 @@ blockquote
   /* margin-left: 20px !important; */
   font-family:  'Esteban', serif !important;
   font-style: italic;
-  border-color: transparent !important;
-  border-style: none !important;
-  background-color: darkgray;
-  color: white;
+  border-color: khaki !important;
+/*  border-color: transparent !important; */
+/*  border-style: none !important; */
+  background-color: lightgoldenrodyellow;
+  color: darkslategrey;
+  overflow: auto; /*-- JvG */
 }
 
 /*-- Optioneel een symbool voor de blockquote --------------------------------------*/
@@ -46,7 +48,7 @@ blockquote:before
   /* content: "|"; */   
   margin-left: -0.95em;
   font: italic 400%/1 Esteban, serif;
-  color: grey;
+  color: darkkhaki;
 }
 
 /*-- Definite van tabellen ---------------------------------------------------------*/
