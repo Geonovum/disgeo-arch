@@ -27,6 +27,10 @@ De volgende laag bevat de functies die betrekking hebben op het beheren van meta
 
 De laag **Platformbeheer** bevat de functies voor het beheren van het platform, of de platformen, die het beheren en afnemen van objectgegevens en meta-gegevens mogelijk maken.
 
+<p class='note'>
+     WB: Platformbeheer moet worden vervangen door Voorzieningenbeheer.
+</p>
+
 ### Functies in de lagen Uitvoering en Ondersteuning
 
 De lagen Uitvoering en Ondersteuning bevatten de functies voor: 1) het beheren en afnemen van objectgegevens en 2) ondersteuning van bronhouders en afnemers. Onderstaande afbeelding toont de clusters van functionaliteiten op deze lagen. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
@@ -69,7 +73,7 @@ Onderstaande afbeelding toont de functionaliteiten per cluster op deze twee lage
 </figure>
 
 <p class='note'>
-     WB: Bijlage met de beschrijving van de functionaliteiten per cluster nog opnemen in de bijlagen  
+     WB: De bijlage met de detail beschrijving van de functionaliteiten per cluster moet nog worden opnemen in de bijlagen  
 </p>
 
 ### Functies in de laag Meta-gegevensbeheer en Inzicht in kwaliteit

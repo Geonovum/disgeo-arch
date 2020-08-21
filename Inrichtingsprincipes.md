@@ -1,12 +1,8 @@
 ## ICT-inrichtingsprincipes
 
-<p class='note'>
-     WB: Ik heb dit hoofdstuk beperkt tot de ICT-inrichtingsprincipses voor de SOR en de context en achtergrond grotendeels verplaatst naar de bijlagen. De lezer hoeft alleen de resultatende principes te zien. Als de lezer geinteresseerd is in de achtergronden en afwegingen en hoe de principes zich verhouden tot de boven- (of onderliggende) principes dan is dat in de bijlage te vinden. Die bijlagen moeten we nog wel aanpassen aan de uiteindelijke inhoud van dit hoofdstuk.
-</p>
-
 ### Inleiding
 
-Dit hoofdstuk bevat de principes die richtinggevend zijn voor de functionele inrichting van de ICT-voorzieningen voor de Objectenregistratie. 
+Dit hoofdstuk beschrijft de principes die richtinggevend zijn voor de functionele inrichting van de ICT-voorzieningen voor de Objectenregistratie en de bijbehorende ICT-organisatie. 
 
 Bij het opstellen van de principes zijn de volgende bronnen gehanteerd:
 - De beleidsvisie DiS Geo, (of "de [houtskoolschets](https://www.geobasisregistraties.nl/basisregistraties/documenten/publicatie/2020/06/15/dis-online-als-stroom-uit-het-stopcontact)").
@@ -14,58 +10,41 @@ Bij het opstellen van de principes zijn de volgende bronnen gehanteerd:
 - Internationale architectuurprincipes van W3C, en met name  de principes uit [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/#bp-summary) die zijn opgetekend op basis van vele internationale ervaringen met het omgaan met geo-gegevens. 
 
 <p class='note'>
-     WB: Zijn beleidsvisie DiS Geo en houtskoolschets hetzelfde? Nee, Beleidsvisie DiS Geo is een tekstdocument en de houtskoolschets is 'onze' presentatie.
+     WB: Is bovenstaande opsomming volledig? We moeten nog toetsen in hoeverre de 'web best practices' nog relevant zijn, omdat we geconstareerd hebben dat deze vooral over de inhoud gaan en minder over de functionele ICT-inrichting. Ook moeten we nog toetsen in hoeverre we nog steeds voortbouwen op de principes uit de OGAS DSO. Ik heb deze DSO-principes bekeken, maar daar doen we volgens mij weinig mee. Ze zijn ook breder dan ICT-inrichtingsprincipes. Ze gaan over het DSO in zijn geheel, niet alleen de ICT-inrichting ervan. Een aantal DSO-principes is denk ik wel (her)bruikbaar, zoals dat alles een dienst is en dat de interne en externe diensten  hetzelfde zijn.
 </p>
 
 <p class='note'>
-     WB: Er is ook een visie Objectenregistratie. Ik heb daar naar gekeken en een aantal relevante stukken tekst hier opgenomen om nog te verwerken.
+    WB: We moeten nog bepalen in hoeverre de API-strategie van toepassing is en of we daar expliciet zaken uit over willen nemen of deze in z'n volledigheid van toepassing verklaren.
 </p>
 
 <p class='note'>
-     WB: Is bovenstaande opsomming volledig? We moeten nog toetsen in hoeverre de 'web best practices' nog relevant zijn, omdat we geconstareerd hebben dat deze vooral over de inhoud gaan en minder over de functionele ICT-inrichting. Ook moeten we nog toetsen in hoeverre we nog steeds voortbouwen op de principes uit de OGAS DSO. Ik heb de DSO-principes bekeken, maar daar doen we volgens mij weinig mee. Ze zijn ook breder dan ICT-inrichtingsprincipes. Ze gaan over het DSO in zijn geheel, niet alleen de ICT-inrichting ervan. Een aantal DSO-principes is denk ik wel (her)bruikbaar, zoals dat alles een dienst is en dat de interne en externe diensten  hetzelfde zijn.
+    WB: Ik heb de verantwoording aan de houtskoolschets-principes verplaatst naar de bijlage (paragraaf 5.12). Bart-Jan vindt dat dit in de hoofdtekst hoort. Dat vind ik niet. Ik vind dat de hoofdtekst alleen maar het resultaat van de verantwoording moet bevatten. Alle achtergronden en verantwoording horen wat mij betreft in bijlagen, of evt. in aparte documenten. Als we de verantwoording aan de houtskoolschets wel in de hoofdtekst opnemen, dan moet het wel toegespitst  worden op de ICT-voorzieningen van de Objectenregistratie. Dat is nu niet het geval. Een deel van de houtskool-principes gaan over de gegevens en niet over de ICT-voorzieningen. Zie bijv. 5.12.1 dat volledig over inhoud gaat en dus niet in dit document hoort.
 </p>
-
-<p class='note'>
-     WB: Ik heb de paragraaf mbt het doel van de SOR verplaatst naar het hoofdstuk Afbakening.
-</p>
-
-<p class='note'>
-     WB: Ik heb Inrichtingsprincipes van DSO, Spatial Data en Common Ground verplaatst naar de bijlagen.
-</p>
-
-<p class='note'>
-    WB: Ik heb ook de verantwoording aan de DiS Geo / Houtskoolschets principes verplaatst naar de bijlage. 
-</p>
-
-<p class='note'>
-    WB: We moeten nog bepalen in hoeverre de API-strategie van toepassing is en of we daar expliciet zaken uit over willen nemen of deze in z'n volledigheid van toepassing verklaren. Daarnaast moeten we denk ik tzt ook benoemen welke standaarden van de Pas-toe-of-leg-uit-lijst en eventuele andere bronnen van toepassing zijn op de SOR. 
-</p>
-
 
 ### ICT-inrichtingsprincipes Samenhangende Objectenregistratie
 
 Voor de ICT-inrichting van de Samenhangende Objectenregistratie hanteren we de onderstaande principes. Met 'de oplossing' bedoelen we steeds de ICT-voorzieningen die de Samenhangende Objectenregistratie realiseren.
 
 <p class='note'>
-    WB: Willen we 'de oplossing' vervangen door 'de ICT-voorzieningen'?
+    WB: Willen we 'de oplossing' vervangen door 'de ICT-voorzieningen' of 'de ICT-inrichting'? De ICT-inrichting omvat dan ook de bijbehorende ICT-organisatie.
 </p>
 
 <p class='note'>
-    WB: Voor alle principes geldt dat we niet goed uitleggen waarom we het principe hanteren. Ik heb  een poging gedaan om dat toe te voegen met ', zodat ...'. 
+    WB: Voor alle principes geldt dat we niet goed uitleggen waarom we het principe hanteren. Ik heb  een poging gedaan om dat toe te voegen met ', <i>zodat</i> ...'. 
 </p>
 
 <p class='note'>
-    WB: Ik ben nog niet tevreden met onze ICT-inrichtingsprincipes. Hieronder mijn beeld van wat de relevante ICT-inrichtingsprincipes zijn en welke wat mij betreft vervallen en waarom. Ik stel voor om op dit moment zo min mogelijk aparte principes te formuleren. Pas als we echt inrichtingskeuzes gaan maken, gaan we er achter komen wat de echte relevante principes zijn. Laten we ons daarom op dit moment beperken tot wat we nu denken dat essentieel is. Om te voorkomen dat we de inzichten van nu vergeten hebben we backups gemaakt van de oude versies van dit hoofdstuk en de bijbehorende bijlagen.
+    WB: Ik ben nog niet tevreden met onze ICT-inrichtingsprincipes. Hieronder mijn beeld van wat de relevante ICT-inrichtingsprincipes zijn en welke wat mij betreft vervallen en waarom. Ik stel voor om op dit moment zo min mogelijk afzonderlijke principes te formuleren. Pas als we echt inrichtingskeuzes gaan maken, gaan we er achter komen wat de echte relevante principes zijn. Laten we ons daarom op dit moment beperken tot wat we nu denken dat essentieel is.
 </p>
 
  **_Mijn (WB) beeld van de relevante ICT-inrichtingsprincipes :_**
- - **Gegevens worden gescheiden van applicaties bewaard**, zodat het beheren en afnemen van gegevens onafhankelijk is van de gebruikte applicaties en gegevens te (her)gebruiken zijn in verschillende applicaties voor verschillende doeleinden.
- - **Ieder gegeven wordt op precies &eacute&eacuten plek bijgehouden**, zodat altijd duidelijk is wat het actuele brongegevens is en waar dat wordt beheerd.
- - **Gegevens zijn alleen te benaderen via dataservices**, zodat deze services kunnen garanderen dat de gegevens, metagegevens en de toegang ertoe altijd voldoen aan de eisen en dat logging altijd plaatsvindt. Dit was: "een bron - een waarheid".
- - **Datasservices controleren het beheer en de afname van gegevens**, zodat de services kunnen garanderen dat de gegevens, metagegevens en de toegang ertoe altijd voldoen aan de eisen en dat logging altijd plaatsvindt. N.B. als dit de correcte 'zodat' is, dan is dit principe hetzelfde als het vorige principe en moeten we ze samenvoegen tot 1. Dit principe heeft de volgende onderliggende principes in zich:
-    - **Dataservices regelen de toegang tot gegevens**, zodat deze services ervoor kunne zorgen dat altijd is voldaan aan de toegangseisen.
-    - **Dataservices houden metadata actueel**, zodat data en meta-data altijd onderling consistent zijn.
-    - **Dataservices borgen de gegevensregels**, zodat gegarandeerd is dat de gegevens altijd voldoen aan de gegevensregels. **N.B.** niet 'borgen de kwaliteit' want kwaliteit is veel breder dan alleen volgoen aan de gegevensregels.
+ - **Gegevens worden gescheiden van applicaties bewaard**, *zodat* het beheren en afnemen van gegevens onafhankelijk is van de gebruikte applicaties en gegevens te (her)gebruiken zijn in verschillende applicaties voor verschillende doeleinden.
+ - **Ieder gegeven wordt op precies &eacute&eacuten plek bijgehouden**, *zodat* altijd duidelijk is wat het actuele brongegevens is en waar dat wordt beheerd.
+ - **Gegevens zijn alleen te benaderen via dataservices**, *zodat* deze services kunnen garanderen dat de gegevens, metagegevens en de toegang ertoe altijd voldoen aan de eisen en dat logging altijd plaatsvindt. Dit was: "een bron - een waarheid".
+ - **Datasservices controleren het beheer en de afname van gegevens**, *zodat* de services kunnen garanderen dat de gegevens, metagegevens en de toegang ertoe altijd voldoen aan de eisen en dat logging altijd plaatsvindt. N.B. als dit de correcte '*zodat*' is, dan is dit principe hetzelfde als het vorige principe en moeten we ze samenvoegen tot 1. Dit principe heeft de volgende onderliggende principes in zich:
+    - **Dataservices regelen de toegang tot gegevens**, *zodat* deze services ervoor kunne zorgen dat altijd is voldaan aan de toegangseisen.
+    - **Dataservices houden metadata actueel**, *zodat* data en meta-data altijd onderling consistent zijn.
+    - **Dataservices borgen de gegevensregels**, *zodat* gegarandeerd is dat de gegevens altijd voldoen aan de gegevensregels. **N.B.** niet 'borgen de kwaliteit' want kwaliteit is veel breder dan alleen volgoen aan de gegevensregels.
 
 <figure id="ictinrichtingsprincipes">
     <img src="media/ict-inrichtingsprincipes.png" alt="ictinrichtingsprincipes">
@@ -83,16 +62,17 @@ Voor de ICT-inrichting van de Samenhangende Objectenregistratie hanteren we de o
 </figure>
 
 <p class='note'>
-    WB: De tekst die hieronder volgt is een mix van oude tekst en deels door mij aangepaste tekst. Voordat we de tekst 'definitief' maken moeten we het echter eerst eens zijn over wat de principes zijn. Ik ben daarom gestopt met de tekst hieronder te redigeren. Eerst eens worden over de lijstjes hierboven.
+    WB: De tekst die hieronder volgt is een mix van oude tekst en deels door mij aangepaste tekst. Ik ben op ene gegeven moment gestopt met aanpassen van de tekst en heb eerst voor mezelf de overzichten gemaakt van mijn beeld van de principes en welke kunnen vervallen. Voordat we de tekst hieronder 'definitief' maken moeten we het eerst eens zijn over wat de principes zijn.
 </p>
 
 **Gegevens en functionaliteit zijn gescheiden**
-<p class='note'>
-    WB: Bij Common Ground betekent dit principe dat gegevens los van applicaties worden opgeslagen. Het betekent bij CG niet dat gegevens alleen via services te benaderen zijn. Dat is bovendien een op zichzelf staand principe dat we verderop formuleren. Beide principes zijn wel relevant, maar hebben allebei een andere rationale. Zie mijn lijstje hierboven.
-</p>
 
 Gegevens kunnen alleen worden benaderd via dataservices. Onder 'benaderen' verstaan we het maken, lezen en aanpassen van gegevens.
 Gegevens worden nooit verwijderd, maar *gemarkeerd* als 'verwijderd'. Applicaties kunnen alleen via de dataservices gegevens maken, lezen en aanpassen. Onderstaande afbeelding uit de API-strategie geeft dit weer.
+
+<p class='note'>
+    WB: Bij Common Ground betekent dit principe dat gegevens los van applicaties worden opgeslagen. Het betekent bij Common Ground niet dat gegevens alleen via services te benaderen zijn. Dat is bovendien een op zichzelf staand principe dat we verderop formuleren. Beide principes zijn wel relevant, maar hebben allebei een andere rationale. Zie mijn lijstje hierboven.
+</p>
 
 <figure id="apitoegang">
     <img src="https://docs.geostandaarden.nl/api/API-Strategie/media/clip02.png" alt="apitoegang">    
@@ -171,19 +151,23 @@ De oplossing moet met deze flexibiliteit in het gegevensmodel om kunnen gaan zod
 ### Principes uit beleidsvisie SOR
 
 <p class='note'>
-     WB: Onderstaande principes zijn afkomstig uit de beleidsvisie SOR en moeten nog worden verwerkt in dit document, bijv. door er naar te verwijzen of door er specifieke ICT-inrichtingsprincipes uit af te leiden. Hieronder een eerste analyse van mij. 
+     WB: Onderstaande principes zijn afkomstig uit de beleidsvisie SOR en moeten nog worden verwerkt in onze ICT-inrichtingsprincipes in dit document, bijv. door er naar te verwijzen of door er specifieke ICT-inrichtingsprincipes uit af te leiden. Hieronder een eerste analyse van mij. Mijn conclusie is dat het niet allemaal tot ICT-inrichtingsprincipes leidt, maar dat het meeste wel relevant is voor de Architectuurbeschrijving.
 </p>
 
-**Eerste analyse van principes uit beleidsvisie SOR**
+**Eerste analyse van principes uit beleidsvisie SOR door mij (WB)**
 1. Niet direct relevant voor ICT-inrichting
 2. Deze dekken we af (ook in de door mij voorgestelde principes hierboven)
 3. Deze missen we nog en moeten we opnemen. Nemen we deze ongewijzigd over? We hadden eerders iets als: past in het applicatielandschap van de bronhouders en afnemers, maar die zijn we blijkbaar ook weer kwijtgeraakt.
 4. Hier zit een aantal principes (of eigenlijk meer eisen) in:
     - Bevragen bij de bron = ieder gegeven op 1 plek bijgehouden?
-    - 1 Loket (voor afnemers). Die hebben we nog niet.
+    - 1 Loket (voor afnemers). Die hebben we nog niet. Is wel een belangrijke eis. Het is 1 van de redenen dat er waarschijnlijk en 'verstrekkingsvoorziening' met 'afgeleide opslag' nodig is tbv het afnemen van gegevens nodig is 
     - Gebeurtenisgeorienteerd werken. De hebben we ook nog niet.
-5. Deze gaat over de inhoud. Niet relevant voor ons document, muv het kunnen autogeneralisatie van hogere schaalniveaus.
+5. Deze gaat over de inhoud. Niet relevant voor ons document, muv het kunnen autogeneralisseren van hogere schaalniveaus. Dat is een benodigde functionaliteit.
 6. Keuzes pas nemen op het moment dat ze nodig zijn is erg relevant voor ons. Daarom deze overnemen. En ook de vraag beantwoorden welke keuzes nu gemaakt **moeten** worden en welke nog uitgesteld kunnen worden. En ook bepalen wat we nu verder uit kunnen werken zonder dat keuzes nodig zijn of waarvoor de keuzes al gemaakt zijn. Bijvoorbeeld, welke functies kunnen we verder uitwerken zonder inrichtingskeuzes te maken? Bijvoorbeeld Logging: WAT moet gelogd worden in ieder functiecluster?
+
+<p class='note'>
+    Hieronder de principes zoals ze zijn geformuleerd in de Beleidsvisie SOR.
+</p>
 
 > 1. We laten ons bij het ontwerp en de verdere uitwerking niet beperken door de nu bestaande juridische kaders (deze kunnen in principe worden aangepast, via een traject aanpassing wet- en regelgeving).
 > 2. In het ontwerp van een samenhangende objectenregistratie is sprake van een nadrukkelijke scheiding tussen de vastlegging van

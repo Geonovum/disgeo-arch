@@ -1,16 +1,12 @@
 ## Bijlagen principes
 
 <p class='note'>
-     WB: ik heb de bijlagen opgeschoond naar aanleiding van het aanpassen van de hoofdstukken Versiebeheer, Samenvatting, Inleiding en Afbakening. Ik heb eerst een backup (Bijagen_oud.md) gemaakt. Ik heb nog geen inhoudelijke review op de bijlage gedaan.
-</p>
-
-<p class='note'>
      WB: wat mij betreft nemen we in de bijlagen niet alle mogelijk relevante principes op uit andere bronnen, maar verwijzen we naar die bronnen (en alleen als de bron echt relevant blijkt te zijn). In de bijlagen kunnen we wel onze 'verantwoording' naar principes van anderen opnemen als dat zinvol is. Ik heb daarom de meeste tabellen met principes verwijderd. Ik heb eerst een backup (Bijagen_oud.md) gemaakt.
 </p>
 
 
 <p class='note'>
-     WB: Ik heb delen van hoofdstuk 3 hier naar de bijlage verplaatst. Daardoor staan sommige zaken nu misschien dubbel in de bijage. Dat moeten we nog opschonen. Bovendien is de inhoud van de bijlagen nog niet in lijn met de inhoud van hoofdstuk 3.
+     WB: Ik heb delen van hoofdstuk 3 hier naar de bijlage verplaatst. Daardoor staan sommige zaken nu misschien dubbel in de bijage. Dat moeten we nog opschonen. Bovendien is de inhoud van de bijlagen nog niet in lijn met de inhoud van hoofdstuk 3. En de bijlage is ook te lang. Mogelijk is dat beter na opschoning. Eventueel kunnen we delen verplaatsen naar een apart document voor onszelf.
 </p>
 
 ### Inrichtingsprincipes Digitaal Stelsel Omgevingwet
