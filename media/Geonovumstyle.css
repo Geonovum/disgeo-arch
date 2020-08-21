@@ -30,8 +30,8 @@ img#Geonovum
 blockquote 
 {
   /* margin-left: 20px !important; */
-  font-family:  'Esteban', serif !important;
-  font-style: italic;
+  /* font-family:  'Esteban', serif !important; */
+  /* font-style: italic; */
   border-color: khaki !important;
 /*  border-color: transparent !important; */
 /*  border-style: none !important; */
@@ -52,31 +52,35 @@ blockquote:before
 }
 
 /*-- Definite van tabellen ---------------------------------------------------------*/
+table, th, td 
+{
+  border: 1px solid darkblue;
+}
+
 table
 {
   empty-cells: show;
   min-width: 90%;
-  border-color: grey;
-  border-style: solid;
 }
 
 /*-- Definite van de kopregel van een tabel ----------------------------------------*/
 thead
 {
-  background-color: grey;
+  background-color: darkblue;
   color: white;
 }
+
 /*-- Definite van de body van een tabel --------------------------------------------*/
-tbody
+/*tbody
 {
-  border-color: darkolivegreen;
-  background-color: lightgrey
-}
+  border-color: darkblue;
+  background-color: white;
+} */
 
 /*-- Definite van de tabel-rij (deze zorgt voor 2 kleuren in de rijen) -------------*/
 tr:nth-child(even) 
 {
-  background-color:  darkgrey;
+  background-color:  whitesmoke;
 }
 
 /*-- Definite van de tabel-cel (data) ----------------------------------------------*/
