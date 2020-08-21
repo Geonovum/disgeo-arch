@@ -1,5 +1,7 @@
 ## Inleiding
 
+NIEUWE TEKST
+
 Dit is de *Architectuurbeschrijving* van de Samenhangende Objectenregistratie. Het beschrijft de afbakening, de inrichtingsprincipes en de conceptuele of functionele inrichting (de functionele onderdelen en samenhang) van de Samenhangende Objectenregistratie. De Architectuurbeschrijving beschrijft de Objectenregistratie op de Applicatielaag, laag 4 in het [NORA-vijflaagsmodel](https://www.noraonline.nl/wiki/Vijflaagsmodel)
 
 <figure id="nora5laagsmodel">
