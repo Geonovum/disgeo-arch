@@ -33,6 +33,10 @@ Het hoofdstuk [Inrichting van de Objectenregistratie](#inrichting-van-de-objecte
 
 <!-- Tenslotte worden in het hoofdstuk [Conlusies en Aanbevelingen](#conclusies-en-aanbevelingen) de belangrijkste conclusies en de belangrijkste aanbevelingen op een rijtje gezet. -->
 
+<p class='note'>
+     Reviewers: In groene kaders stellen de auteurs soms een vraag. In jullie reviewcommentaar lezen we graag antwoorden.
+</p>
+
 Relevante bijlagen staan in het hoofdstuk [Bijlagen](#bijlagen-principes)
 
 ### Het proces
