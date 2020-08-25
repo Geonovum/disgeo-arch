@@ -5,7 +5,7 @@
 </p>
 
 <p class='note'>
-     WB: Ik stel voor om niet dieper te gaan met paragafen dan ### (maw, niet dieper dan bijv. 4.2). Anders ontstaat een lange en drukke. Zie bijv. 5.12. In plaats van #### hanteer ik **Paragraafkop**. Dat geeft een vetgedrukte <b>Paragraafkop</b> die niet in de inhoudsopgave verschijnt.
+     WB: Ik stel voor om niet dieper te gaan met paragafen dan ### (maw, niet dieper dan bijv. 4.2). Anders ontstaat een lange en drukke inhoudsopgave. Zie bijv. 5.12. In plaats van #### hanteer ik **Paragraafkop**. Dat geeft een vetgedrukte <b>Paragraafkop</b> die niet in de inhoudsopgave verschijnt.
 </p>
 
 Dit is de *Architectuurbeschrijving* van de Samenhangende Objectenregistratie. Het beschrijft de afbakening, de inrichtingsprincipes en de conceptuele of functionele inrichting (de functionele onderdelen en samenhang) van de Samenhangende Objectenregistratie. De Architectuurbeschrijving beschrijft de Objectenregistratie op de Applicatielaag, laag 4 in het [NORA-vijflaagsmodel](https://www.noraonline.nl/wiki/Vijflaagsmodel)
