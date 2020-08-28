@@ -51,21 +51,24 @@ Grondslag: Beleidsuitgangspunten (2, 4), Common Ground
 Grondslag: Beleidsuitgangspunten (4, 6, 10), Common Ground (04)
 
 **Inrichtingsprincipe 3: Gegevens zijn alleen te benaderen via dataservices**, *zodat* deze services kunnen garanderen dat de gegevens, metagegevens en de toegang ertoe altijd voldoen aan de eisen en dat logging altijd plaatsvindt. Dit principe heeft de volgende onderliggende principes in zich:
-    - **Dataservices regelen de toegang tot gegevens**, *zodat* deze services ervoor kunnen zorgen dat altijd is voldaan aan de toegangseisen.
+    - **Dataservices regelen de toegang tot gegevens**, *zodat* deze services ervoor kunnen zorgen dat altijd is voldaan aan de eisen betreffende toegang.
+    - **Dataservices leggen elke toegang tot gegevens vast in logging**, *zodat* deze services ervoor kunnen zorgen dat aantoonbaar is wat door gemachtigde leveranciers onder verantwoordelijkheid van bronhouders plaatsvindt.
     - **Dataservices houden metadata actueel**, *zodat* data en meta-data altijd onderling consistent zijn.
     - **Dataservices borgen de gegevensregels**, *zodat* gegarandeerd is dat de gegevens altijd voldoen aan de gegevensregels. **N.B.** niet 'borgen de kwaliteit' want kwaliteit is veel breder dan alleen voldoen aan de gegevensregels.
 
-Om te garanderen dat de gegevens blijven voldoen aan de gestelde kwalteit en actualiteit kunnen ze alleen benaderd worden via (data)services. Dit principe zorgt ervoor dat gegevens blijven voldoen aan de (integriteits-)eisen, doordat de dataservices dit waarborgen. Ook zorgt dit principe ervoor dat er een ontkoppeling is tussen de gegevens en de ontsluiting ervan. Applicaties benaderen de gegevens via de dataservices en niet direct. Dat maakt het mogelijk om veranderingen aan te brengen in de gegevensopslag of in de dataservices zonder dat deze elkaar beïnvloeden. Hierdoor kunnen we flexibel omgaan met aanpassingen in het gegevensmodel.
+Om te garanderen dat de gegevens blijven voldoen aan de gestelde kwaliteit en actualiteit kunnen ze alleen benaderd worden via (data)services. Dit principe zorgt ervoor dat gegevens blijven voldoen aan de (integriteits-)eisen, doordat de dataservices dit waarborgen. Ook zorgt dit principe ervoor dat er een ontkoppeling is tussen de gegevens en de ontsluiting ervan. Applicaties benaderen de gegevens via de dataservices en niet direct. Dat maakt het mogelijk om veranderingen aan te brengen in de gegevensopslag of in de dataservices zonder dat deze elkaar beïnvloeden. Hierdoor kunnen we flexibel omgaan met aanpassingen in het gegevensmodel.
 De service controleert of de gebruiker wel de toegangsrechten heeft om de gegevens te maken, te lezen of aan te passen.
 Alle transacties op de gegevens worden gelogd. Dit is nodig om een audit-trail te kunnen opbouwen.
 
 Grondslag: Beleidsuitgangspunten (2, 3, 4, 11, 12, 13, 15), DSO (05)
  
-**Inrichtingsprincipe 4: We bewaren en ontsluiten informatie op betrouwbare en veilige wijze**, *zodat* om op data te kunnen vertrouwen is het nodig om aan te tonen dat data niet bedoeld of onbedoeld gemanipuleerd is. Daarom zorgen we ervoor dat data bij alle handelingen vanaf het moment van ontstaan tot het moment van gebruik veilig is. We wijzigen data daarom op basis van een brondocument of mutatieverwijzing. We bewaken integriteit en consistentie van data. We bewaren data conform de eisen van de wet (w.o. archiefwet, etc.).
+**Inrichtingsprincipe 4: We bewaren en ontsluiten informatie op betrouwbare en veilige wijze**, *zodat* we kunnen aantonen dat data niet bedoeld of onbedoeld gemanipuleerd is. Om op data te kunnen vertrouwen zorgen we ervoor dat data bij alle handelingen vanaf het moment van ontstaan tot het moment van gebruik veilig is. We wijzigen de actuele versie van data daarom alleen op basis van een brondocument of mutatieverwijzing en leggen die vast. We bewaken integriteit en consistentie van data. We bewaren data conform de eisen van de wet (w.o. archiefwet, etc.).
 
 Grondslag: Beleidsuitgangspunten (2, 4, 13), DSO (09), Common Ground (03)
 
-**Inrichtingsprincipe 5: We maken de samenhang van data inzichtelijk**, zodat data uit verschillende gegevensverzamelingen te combineren is. Zo maken we mogelijk dat er samengestelde producten over het geheel van het gegevenslandschap kunnen worden gerealiseerd.
+**Inrichtingsprincipe 5: We maken samenhangend gebruik van data makkelijk mogelijk**, zodat data uit verschillende gegevensverzamelingen te combineren is. Zo maken we mogelijk dat er samengestelde producten over het geheel van het gegevenslandschap kunnen worden gerealiseerd. Dit principe heeft de volgende onderliggende principes in zich:
+    - **alles is een service**, *zodat* zowel computers als mensen de beschikbare functies kunnen begrijpen en benutten.
+    - **intern is extern**, *zodat* alle services herkenbaar en bruikbaar zijn voor externe leveranciers van bronhouders en afnemers en deze op innovatieve manieren de waarde van gegevens kunnen vergroten.
 
 Grondslag: Beleidsuitgangspunten (7, 8, 10, 14), DSO (05)
 
