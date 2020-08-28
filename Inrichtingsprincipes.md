@@ -8,7 +8,7 @@ De beleidsvisie Samenhangende Objectenregistratie (SOR), als onderdeel van DiS-G
 
 De volgende beleidsuitgangspunten voor de architectuur van de SOR zijn afgeleid uit de 2 bovenstaande beleidsdocumenten.
 
-> **Beleidsvisie Samenhangende Objectenregistratie**
+> **vanuit Beleidsvisie Samenhangende Objectenregistratie**
 > 1. We laten ons bij het ontwerp en de verdere uitwerking niet beperken door de nu bestaande juridische kaders (deze kunnen in principe worden aangepast, via een traject aanpassing wet- en regelgeving).
 > 2. In het ontwerp van een samenhangende objectenregistratie is sprake van een nadrukkelijke scheiding tussen de vastlegging van gegevens en de functionaliteit voor het bewerken, opvragen en presenteren daarvan.
 > 3. Er wordt gebruik gemaakt van standaard infrastructurele voorzieningen die beschikbaar zijn bij de bronhouders en de gebruikers (denk hierbij aan standaardnetwerken, netwerkprotocollen en beveiligingsmechanismen).
@@ -20,7 +20,7 @@ De volgende beleidsuitgangspunten voor de architectuur van de SOR zijn afgeleid 
 > 9. De kerngegevens en aanvullende gegevens worden in principe ontsloten als open data (waar nodig ontsloten op basis van autorisaties), dus het “open data, tenzij” regime geldt.
 > 10. In principe kan de informatie via meerdere kanalen, afgestemd op gebruikersbehoefte, uitgeleverd worden (nadere uitwerking in kader van DiS GEO).
 
-> **Houtskoolschets DiS-Geo**
+> **vanuit Architectuurvisie (Houtskoolschets) DiS-Geo**
 > 11. Bronhouders zijn verantwoordelijk voor basisgegevens
 > 12. Bronhouders kunnen leveranciers machtigen
 > 13. Gegevens aanpassen kan makkelijk en goed
@@ -45,15 +45,15 @@ Voor de ICT-inrichting van de Samenhangende Objectenregistratie hanteren we de o
  
 Grondslag: Beleidsuitgangspunten (2, 4), Common Ground 
 
-**Inrichtingsprincipe 2: Ieder gegeven wordt op precies &eacute&eacuten plek bijgehouden**, *zodat* altijd duidelijk is wat het actuele brongegevens is en waar dat wordt beheerd. Dit principe heeft de volgende onderliggende principe in zich:
-     - **Dubbele opslag betekent synchroniseren**, zodat partijen altijd naar dezelfde gegevens kijken. Dit geldt zowel binnen als buiten de oplossing, dus ook voor eventuele afgeleide opslag die geoptimaliseerd is ten behoeven van verstrekking.
+**Inrichtingsprincipe 2: Ieder gegeven wordt op precies &eacute&eacuten plek bijgehouden**, *zodat* altijd duidelijk is wat het actuele brongegeven is en waar dat wordt beheerd. Dit principe heeft de volgende onderliggende principes in zich:
+     - **Dubbele opslag betekent synchroniseren**, zodat partijen altijd naar dezelfde gegevens kijken. Dit geldt zowel binnen als buiten de oplossing, dus ook voor eventuele afgeleide opslag die geoptimaliseerd is ten behoeve van verstrekking.
 
-Grondslag: Beleidsuitgangspunten (-), Common Ground (04)
+Grondslag: Beleidsuitgangspunten (4, 6, 10), Common Ground (04)
 
 **Inrichtingsprincipe 3: Gegevens zijn alleen te benaderen via dataservices**, *zodat* deze services kunnen garanderen dat de gegevens, metagegevens en de toegang ertoe altijd voldoen aan de eisen en dat logging altijd plaatsvindt. Dit principe heeft de volgende onderliggende principes in zich:
-    - **Dataservices regelen de toegang tot gegevens**, *zodat* deze services ervoor kunne zorgen dat altijd is voldaan aan de toegangseisen.
+    - **Dataservices regelen de toegang tot gegevens**, *zodat* deze services ervoor kunnen zorgen dat altijd is voldaan aan de toegangseisen.
     - **Dataservices houden metadata actueel**, *zodat* data en meta-data altijd onderling consistent zijn.
-    - **Dataservices borgen de gegevensregels**, *zodat* gegarandeerd is dat de gegevens altijd voldoen aan de gegevensregels. **N.B.** niet 'borgen de kwaliteit' want kwaliteit is veel breder dan alleen volgoen aan de gegevensregels.
+    - **Dataservices borgen de gegevensregels**, *zodat* gegarandeerd is dat de gegevens altijd voldoen aan de gegevensregels. **N.B.** niet 'borgen de kwaliteit' want kwaliteit is veel breder dan alleen voldoen aan de gegevensregels.
 
 Om te garanderen dat de gegevens blijven voldoen aan de gestelde kwalteit en actualiteit kunnen ze alleen benaderd worden via (data)services. Dit principe zorgt ervoor dat gegevens blijven voldoen aan de (integriteits-)eisen, doordat de dataservices dit waarborgen. Ook zorgt dit principe ervoor dat er een ontkoppeling is tussen de gegevens en de ontsluiting ervan. Applicaties benaderen de gegevens via de dataservices en niet direct. Dat maakt het mogelijk om veranderingen aan te brengen in de gegevensopslag of in de dataservices zonder dat deze elkaar beïnvloeden. Hierdoor kunnen we flexibel omgaan met aanpassingen in het gegevensmodel.
 De service controleert of de gebruiker wel de toegangsrechten heeft om de gegevens te maken, te lezen of aan te passen.
