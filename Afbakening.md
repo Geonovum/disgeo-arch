@@ -34,6 +34,8 @@ Samenvattend onderscheiden we de volgende processtappen.
 | **Ontsluiten** | Het beschikbaar stellen van de in de registratie opgenomen gegevens op een zodanige wijze dat deze als gegevens eenvoudig door afnemers kunnen worden benaderd. |
 | **Verrijken** | Het zodanig transformeren of presenteren van in de registratie opgenomen gegevens dat een op afnemersbehoeften afgestemd informatieproduct ontstaat. |
 | **Gebruiken** | Het ophalen van de beschikbaar gestelde gegevens en de toepassing daarvan binnen de werkprocessen waarvoor de gegevens zijn benodigd. |
+| **Terugmelden** | Het vastleggen van twijfel over de gegevens. |
+| **Onderzoeken** | Het onderzoeken van de twijfel over de gegevens om terugkoppeling te geven aan de melder en eventuele aanpassingen aan gegevens te doen. |
 
 De afbakening van de processtappen is nog in ontwikkeling. Bovenstaande processtappen zijn gebaseerd op de voorlopige beelden mbt de organisatie van de Objectenregistratie op 29 mei 2020.
 
@@ -50,27 +52,38 @@ Voor de uitvoering van de procesen rond de Objectenregistratie zijn verschillend
 
 | Stelselrol | Omschrijving | 
 |---|---|
-| **Bronhouder** | Verantwoordelijkheid voor verzamelen en registratie van gegevens op basis van eigen en andere gegevensbronnen conform de gestelde inhoudelijke voorschriften en kwaliteitseisen |
+| **Bronhouder (inwinnen en samenstellen)** | Verantwoordelijkheid voor samenstellen van gegevens op basis van verzamelde gegevens uit eigen en andere gegevensbronnen conform de gestelde inhoudelijke voorschriften en kwaliteitseisen |
+| **Bronhouder (registreren)** | Verantwoordelijkheid voor registreren van samengestelde gegevens conform gestelde eisen |
 | **Verstrekker** | Verantwoordelijkheid voor levering van gegevens uit de registratie (met de daarbij behorende ondersteuning) en de levering van enkele generieke informatieproducten aan afnemers |
 | **Afnemer**| Verantwoordelijkheid voor al dan niet verplicht gebruik van gegevens in de eigen processen |
-| **Toezichthouder** | Verantwoordelijkheid voor toezicht op het in overeenstemming met eisen, afspraken en wetgeving opereren van de gehele keten rondom de registratie |
+| **Toezichthouder** | Verantwoordelijkheid voor toezicht op het in overeenstemming met eisen, afspraken en wetgeving opereren van het systeem van de objectenregistratie |
 | **Beleidsverantwoordelijke**| Verantwoordelijkheid voor het organiseren van een gezamenlijke systeemsturing op de registratie |
+| Systeemrol | Omschrijving | 
+|---|---|
+| **Dienst/Beheerder** | Verantwoordelijkheid voor het houden van de registratie |
+| **StandaardBeheerder** | Verantwoordelijkheid voor het houden van de standaarden waaronder de informatiemodellen |
 
-De afbakening van de stelselrollen is nog in ontwikkeling. Bovenstaande stelselrollen zijn gebaseerd op de voorlopige beelden mbt de organisatie van de Objectenregistratie op 29 mei 2020, m.u.v. Beleidsverantwoordelijke waarvoor in die versie het begrip Eigenaar wordt gehanteerd.
+De afbakening van de stelselrollen en systeemrollen is nog in ontwikkeling. Bovenstaande rollen zijn gebaseerd op voorlopige beelden met betrekking tot de organisatie van de Objectenregistratie. Voor Beleidsverantwoordelijke wordt ook wel de rol Eigenaar gehanteerd.
 
 ### Scope van de Architectuurbeschrijving
-Op basis van de processtappen en stelselrollen is de scope van de Architectuurbeschrijving te bepalen. Onderstaande afbeelding geeft dat weer op basis van het besturingsparadigma van de Leeuw. Dit besturingsparadigma maakt onderscheid  tussen een **systeem** bestaande uit een **besturend orgaan** en een **bestuurd systeem** en de **omgeving van het systeem**. In onderstaande afbeelding is in het bestuurd systeem ook nog onderscheid gemaakt tussen **uitvoering** en **ondersteuning**. Onder uitvoering verstaan we hier het inwinnen, samenstellen, registreren, bewaren, ontsluiten, verrijken en gebruiken van objectgegevens. Deze processtappen vallen deels binnen en deels buiten de scope van de Architectuurbeschrijving.
+Op basis van de processtappen en stelsel-en systeemrollen is de scope van de Architectuurbeschrijving te bepalen. Onderstaande afbeelding geeft dat weer op basis van het besturingsparadigma van de Leeuw. Dit besturingsparadigma maakt onderscheid  tussen een **systeem** bestaande uit een **besturend orgaan** en een **bestuurd systeem** en de **omgeving van het systeem**. In onderstaande afbeelding zijn de stelselrollen en systeemrollen in het bestuurd systeem weergegeven.
 
 <figure id="scopearchitectuur1">
-    <img src="media/scope-sor-variant1.png" alt="scopearchitectuur1">
-    <figcaption>Scope van de Architectuurbeschrijving</figcaption>
+    <img src="media/systeemrollen-objectenregistratie.png" alt="scopearchitectuur1">
+    <figcaption>Scope van de rollen</figcaption>
 </figure>
 
-De afbakening van de processtappen en stelselrollen is nog in ontwikkeling. Bovenstaande afbekening toont een mogelijke variant. De afbeelding zal worden aangepast zodra de afbakening van processtappen en stelselrollen is bepaald. Ook zal de afbeelding nog worden aangepast tbv de leesbaarheid.
+De afbakening van de processtappen en stelselrollen is nog in ontwikkeling. Onderstaande afbakening toont een mogelijke variant. 
 
-De Architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de **uitvoering en de ondersteuning van de Samenhangende Objectenregistratie**. In de hier getoonde variant van de afbakening betreft dit de processtappen **Registeren, Bewaren, Ontsluiten en (generiek) Verrijken** en de bijbehorende ondersteundende processen. Alleen het verrijken tot generieke informatieproducten behoort tot de scope van de ICT-voorzieningen voor de Objectenregistratie.
+<figure id="scopearchitectuur1">
+    <img src="media/systeemprocessen-objectenregistratie.png" alt="scopearchitectuur1">
+    <figcaption>Scope van de processen</figcaption>
+</figure>
 
-De Architectuurbeschrijving benoemt binnen de scope de functionaliteiten, componenten en samenhang en de benodigde standaarden. Voor de processen van de rollen bronhouder en afnemer, benoemt de Architectuurbeschrijving alleen de capabilities. De ICT-componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf.
+Deze architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de **uitvoering en de ondersteuning van de Samenhangende Objectenregistratie**. In de hier getoonde variant van de afbakening betreft dit de processtappen **Registeren, Bewaren, Ontsluiten en (generiek) Verrijken** en de bijbehorende ondersteundende processen. Alleen het verrijken tot generieke informatieproducten behoort tot de scope van de ICT-voorzieningen voor de Objectenregistratie.
+
+
+Deze architectuurbeschrijving benoemt binnen de scope de functionaliteiten, componenten en samenhang en de benodigde standaarden. Voor de processen van de rollen bronhouder en afnemer, benoemt de Architectuurbeschrijving alleen de functies. De ICT-componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf.
 
 ### Interacties met  partijen in de omgeving
 
@@ -78,44 +91,31 @@ De Objectenregistratie heeft de volgende interactie met partijen in de omgeving.
 
 | Partij | Interacties | 
 |--------|-------------|
-| **Bronhouder** | Objectgegevens. De bronhouder registreert objectgegevens |
-|  | **Terugmeldingen**: De bronhouder verwerkt terugmeldingen van Afnemers |
-|  | **Correctieverzoeken**. De bronhouder verwerkt correctieverzoeken van betrokkenen. Betrokken zijn personen waar de objectgegevens betrekking op hebben. Dat zou bijvoorbeeld de eigenaar van een gebouw kunnen zijn. Betrokken zijn niet per se ook Afnemer. Daarom maken we onderscheid tussen Terugmeldingen en Correctieverzoeken |
-|  | **Catalogus**. De bronhouder gebruikt de gegevens- en de dienstencatalogus om kennis te nemen van de gegevensdefinies en van de diensten van de Objectenregistratie |
-|  | Support (of Hulp of Ondersteuning). De bronhouder ontvangt ondersteuning bij het gebruik van de Objectenregistratie |
-|  | **Hulpvraag**. De bronhouder kan om ondersteuning vragen bij het gebruik van de Objectenregistratie |
-| **Afnemer**                  | Objectgegevens. De afnemer neemt objectgegevens en generieke informatieproducten af |
-|  | **Terugmeldingen**. De afnemer levert terugmeldingen bij twijfel over de juistheid van de objectgegevens. |
-|  | **Catalogus**. De afnemer gebruikt de gegevens- en de dienstencatalogus om kennis te nemen van de gegevensdefinies en van de diensten van de Objectenregistratie |
-|  | **Support** (of Hulp of Ondersteuning). De afnemer ontvangt ondersteuning bij het gebruik van de Objectenregistratie |
-|  | **Hulpvraag**. De afnemer kan om ondersteuning vragen bij het gebruik van de Objectenregistratie |
-| **Betrokkene** | Betrokkenen zijn personen waar de objectgegevens betrekking op hebben. Dat zou bijvoorbeeld de eigenaar van een gebouw kunnen zijn. Betrokkenen zijn niet per se ook Afnemer. Daarom maken we onderscheid tussen Betrokkenen en Afnemers en tussen Terugmeldingen en Correctieverzoeken. **N.B.** De rol Betrokkene is niet opgenomen in de afbeelding |
-| **Toezichthouder** | nog in te vullen |
-| **Beleidsverantwoordelijke** | nog in te vullen |
+| **Bronhouder(inwinnen/samenstellen)** | **Objectgegevens (INVOER)**. De bronhouder registreert objectgegevens. |
+|  | **Meldingen**: De bronhouder verwerkt terugmeldingen van Afnemers. |
+|  | **Catalogus**. De bronhouder gebruikt de gegevenscatalogus om kennis te nemen van de gegevensdefinities van de Objectenregistratie. |
+|  | **Support**. De bronhouder ontvangt ondersteuning bij het gebruik van de Objectenregistratie, zoals bijvoorbeeld een catalogus van beschikbare producten en diensten. |
+|  | **Hulpvraag**. De bronhouder kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. |
+| **Afnemer**                  | **Objectgegevens (UITVOER)**. De afnemer neemt objectgegevens en generieke informatieproducten af. |
+|  | **Meldingen**. De afnemer levert terugmeldingen bij twijfel over de juistheid van de objectgegevens. |
+|  | **Catalogus**. De afnemer gebruikt de gegevenscatalogus om kennis te nemen van de gegevensdefinities van de Objectenregistratie. |
+|  | **Support**. De afnemer ontvangt ondersteuning bij het gebruik van de Objectenregistratie, zoals bijvoorbeeld een catalogus van beschikbare producten en diensten. |
+|  | **Hulpvraag**. De afnemer kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. |
+| **Toezichthouder** | De toezichthouder bepaalt binnen het systeem de kwaliteitsindicatoren voor het monitoren van het systeem. Hiertoe ontvangt de toezichthouder sturing vanuit de Eigenaar/Beleidsverantwoordelijke en informatie vanuit het Overleg van Bronhouders en Afnemers. |
+| **Standaardbeheerder** | **Catalogus** De standaardbeheerder beheert de gegevensdefinities van de Objectenregistratie ten behoeve van bronhouders en afnemers. |
+| **Dienst/Beheerder** | De Dienst/Beheerder is de houder van de registatie. Deze rol biedt de beschikbare producten en diensten, en de suppport die daarbij benodigd is. |
+| **Beleidsverantwoordelijke** | De beleidsverantwoordelijke vormt het Besturend Orgaan van het systeem. Deze bepaalt met name de inhoud van het systeem, dat wil zeggen welke gegevens tot de basisgegevens behoren. |
 
-De rol Bronhouder is gepositioneerd als een partij in de omgeving die gebruik maakt van de diensten van de Objectenregistratie om objectgegevens te beheren.
+De rol Bronhouder(inwinnen/samenstellen) is gepositioneerd als een partij in de omgeving die gebruik maakt van eigen diensten om objectgegevens samen te stellen.
+De rol Bronhouder (registreren) valt binnen de afbakening van de Objectenregistratie. Het is de rol die de objectgegevens registreert en beheert (vergelijkbaar met de huidige BAG-beheerder, BGT-beheerder, BRT-beheerder, enz.).
+De rol Verstrekker valt binnen de afbakening van de Objectenregistratie. Het is de rol die zorgt voor de ontsluiting en (generieke) verrijking van objectgegevens.
+De rol Afnemer is gepositioneerd als een partij in de omgeving die gebruik maakt van de diensten van de Objectenregistratie om objectgegevens af te nemen.
 
-De rol Verstrekker is niet opgenomen als een partij in de omgeving, omdat deze rol binnen de afbakening van de Objectenregistratie valt. Het is de rol die zorgt voor de ontsluiting en (generieke) verrijking van objectgegevens.
-
-De interacties met Toezichthouder en Beleidsverantwoordelijke moeten nog worden uitgewerkt.
-
-<p class='note'>
-     WB: De interacties per partij komen overeen met de oranje pijlen in de afbeelding hierboven. Dat is de reden dat gegevens- en dienstencatalogus zijn samengevoegd tot catalogus. Aanpassingen in de tabel moeten verwerkt worden in de afbeelding en vice versa.
-</p>
 
 <p class='note'>
-     WB: De termen Betrokkene en Correctieverzoek horen bij Regie op Gegevens. We moeten eerst vaststellen wat Regie op Gegevens betekent voor de Objectenregistratie. Daarna kunnen we bepalen of het nodig is om naast Afnemer en Terugmelding ook Betrokkene en Correctieverzoek te onderkennen.
+     REVIEW: De interacties komen overeen met de pijlen in de afbeelding. Opmerkingen op de tabel en op de afbeeldingen zijn in samenhang welkom.
 </p>
 
-Alle genoemde partijen maken gebruik van ondersteunende partijen zoals ICT-leveranciers en kunnen taken uitbesteden aan derden, zoals samenwerkingsverbanden en gegevensleveranciers. De beschreven interacties hebben deels ook betrekking op deze ondersteunende partijen. Zo zullen softwareontwikkelaars ook gebruik maken van de gegevens- en de dienstencatalogus van de Objectenregistratie.
+NB. Alle genoemde partijen maken gebruik van ondersteunende partijen zoals ICT-leveranciers en kunnen taken uitbesteden aan derden, zoals samenwerkingsverbanden en gegevensleveranciers. De beschreven interacties hebben deels ook betrekking op deze ondersteunende partijen. Zo zullen softwareontwikkelaars ook gebruik maken van de gegevens- en de dienstencatalogus van de Objectenregistratie.
 
-<p class='note'>
-     WB: Onderstaande is uit de beleidsvisie SOR en kunnen of moeten we nog verwerken in dit hoofdstuk. Deze driedeling is een nadere indeling van de stelselrol Afnemer.
-</p>
 
-> **Doelgroepen gebruikers objectenregistratie:**
-> Met de doorontwikkeling van de geo-basisregistraties naar een samenhangende objectenregistratie worden, naast de bronhouders, meerdere doelgroepen van gebruikers bediend.
-> De volgende doelgroepen zijn in beeld:
-> 1. Overheidsgebruikers, die verplicht gebruik dienen te maken van de geo-basisregistraties voor hun processen .
-> 2. Open data gebruikers, zoals bedrijven die waarde toevoegen aan gegevens in de basisregistraties en nieuwe producten ontwikkelen.
-> 3. Eindgebruikers van de informatie, zoals burgers en bedrijven.
