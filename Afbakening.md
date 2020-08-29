@@ -68,15 +68,15 @@ De afbakening van de stelselrollen en systeemrollen is nog in ontwikkeling. Bove
 ### Scope van de Architectuurbeschrijving
 Op basis van de processtappen en stelsel-en systeemrollen is de scope van de Architectuurbeschrijving te bepalen. Onderstaande afbeelding geeft dat weer op basis van het besturingsparadigma van de Leeuw. Dit besturingsparadigma maakt onderscheid  tussen een **systeem** bestaande uit een **besturend orgaan** en een **bestuurd systeem** en de **omgeving van het systeem**. In onderstaande afbeelding zijn de stelselrollen en systeemrollen in het bestuurd systeem weergegeven.
 
-<figure id="scopearchitectuur1">
-    <img src="media/systeemrollen-objectenregistratie.png" alt="scopearchitectuur1">
+<figure id="scopearchitectuur rollen">
+    <img src="media/systeemrollen-objectenregistratie.png" alt="systeemrollen-objectenregistratie.png">
     <figcaption>Scope van de rollen</figcaption>
 </figure>
 
 De afbakening van de processtappen en stelselrollen is nog in ontwikkeling. Onderstaande afbakening toont een mogelijke variant. 
 
-<figure id="scopearchitectuur1">
-    <img src="media/systeemprocessen-objectenregistratie.png" alt="scopearchitectuur1">
+<figure id="scopearchitectuur processen">
+    <img src="media/systeemprocessen-objectenregistratie.png" alt="systeemprocessen-objectenregistratie">
     <figcaption>Scope van de processen</figcaption>
 </figure>
 
