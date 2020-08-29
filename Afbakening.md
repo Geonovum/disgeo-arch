@@ -61,7 +61,7 @@ Voor de uitvoering van de procesen rond de Objectenregistratie zijn verschillend
 | Systeemrol | Omschrijving | 
 |---|---|
 | **Dienst/Beheerder** | Verantwoordelijkheid voor het houden van de registratie |
-| **StandaardBeheerder** | Verantwoordelijkheid voor het houden van de standaarden waaronder de informatiemodellen |
+| **Standaardbeheerder** | Verantwoordelijkheid voor het houden van de standaarden waaronder de informatiemodellen |
 
 De afbakening van de stelselrollen en systeemrollen is nog in ontwikkeling. Bovenstaande rollen zijn gebaseerd op voorlopige beelden met betrekking tot de organisatie van de Objectenregistratie. Voor Beleidsverantwoordelijke wordt ook wel de rol Eigenaar gehanteerd.
 
@@ -83,11 +83,16 @@ De afbakening van de processtappen en stelselrollen is nog in ontwikkeling. Onde
 Deze architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de **uitvoering en de ondersteuning van de Samenhangende Objectenregistratie**. In de hier getoonde variant van de afbakening betreft dit de processtappen **Registeren, Bewaren, Ontsluiten en (generiek) Verrijken** en de bijbehorende ondersteundende processen. Alleen het verrijken tot generieke informatieproducten behoort tot de scope van de ICT-voorzieningen voor de Objectenregistratie.
 
 
-Deze architectuurbeschrijving benoemt binnen de scope de functionaliteiten, componenten en samenhang en de benodigde standaarden. Voor de processen van de rollen bronhouder en afnemer, benoemt de Architectuurbeschrijving alleen de functies. De ICT-componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf.
+Deze architectuurbeschrijving benoemt binnen de scope de functies, componenten en samenhang en de benodigde standaarden. Voor de processen van de rollen bronhouder en afnemer benoemt deze architectuurbeschrijving alleen de functies. De ICT-componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf.
 
 ### Interacties met  partijen in de omgeving
 
 De Objectenregistratie heeft de volgende interactie met partijen in de omgeving.
+
+<figure id="scopearchitectuur interacties">
+    <img src="media/hoofdstructuur-objectenregistratie.png" alt="interacties-objectenregistratie">
+    <figcaption>Interacties</figcaption>
+</figure>
 
 | Partij | Interacties | 
 |--------|-------------|
