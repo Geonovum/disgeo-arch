@@ -20,10 +20,10 @@ img
 }
 
 /*-- Definite van het Geonovum Logo bovenaan Respec document ------------------------*/
-img#Geonovum
+img#TopLogo
 {
-  width:132px;
-  height: 67px;
+  width:350px;
+  /* height: 130px; */
 }
 
 /*-- Definite van BlockQuotes (uitgelichte tekstblokken) ----------------------------*/

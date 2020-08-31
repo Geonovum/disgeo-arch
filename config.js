@@ -40,16 +40,16 @@ var respecConfig =
 {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "GN-BASIS",           // Basis Document
-  specStatus: "GN-WV",                // Werk Versie
-  //specStatus: "GN-CV",              // Consultatie Versie
+  //specStatus: "GN-WV",                // Werk Versie
+  specStatus: "GN-CV",              // Consultatie Versie
   //specStatus: "GN-VV",              // Vaststellings Versie
   //specStatus: "GN-DEF",             // Definitieve Versie
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                   // Norm
   //specType: "ST",                   // Standaard
-  specType: "IM",                     // Informatie Model
+  //specType: "IM",                     // Informatie Model
   //specType: "PR",                   // Praktijkrichtlijn
-  //specType: "HR",                   // HandReiking
+  specType: "HR",                   // HandReiking
   //specType: "WA",                   // Werkafspraak
   //specType: "BD",                   // Beheer Documentatie
   //-- format is verplicht! -----------------------------------------------------------
@@ -174,12 +174,13 @@ var respecConfig =
   //subtitle: "iets",                         // Subtitel van het document
   //maxTocLevel: 3,                           // Aantal niveau's ToC, default is 0
   //-- LOGO: Hier kan je een ander logo opgeven indien nodig
-  //logos: [{
+  logos: [{
   //  src: "https://tools.geostandaarden.nl/respec/style/logos/OmgevingswetLogo.svg",
-  //  alt: "Standaarden Omgevingswet",
-  //  id: "TopLogo",
-  //  height: 67,
-  //  width: 300,
-  //  url: "https://www.geonovum.nl/geo-standaarden/omgevingswet/STOPTPOD"
-  // }],
+    src: "https://www.geobasisregistraties.nl/binaries/medium/content/gallery/basisregistraties-ienm/content-afbeeldingen/dis-geo/logo_disgeo_schaduw_text_rgb.jpg",
+    alt: "Doorontwikkeling in Samenhang",
+    id: "TopLogo",
+    //height: 20,
+    //width: 100,
+    url: "https://www.geobasisregistraties.nl/basisregistraties/doorontwikkeling-in-samenhang"
+   }],
 };
