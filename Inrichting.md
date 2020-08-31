@@ -124,6 +124,15 @@ De laag Voorzieningenbeheer bevat de volgende clusters aan functionaliteiten:
  - *Dienstvormen*: voor het beheren van de beschikbaren dienstvormen.
  - *Metingen*: voor het uitvoeren van metingen en raadplegen van uitgevoerde metingen en beschikbaar meetgegevens, zoals aantallen gebruiker.
  
+ 
+ Als we alle clusters met functionaliteiten in één overzicht plaatsen, wordt het geheel minder overzichtelijk. Het kan mogelijk wel nuttig zijn zo'n overzicht als praatplaat-aan-de-wand te gaan gebruiken bij de beheerorganisatie(s) bijvoorbeeld in workshops die bij de gezamenlijke inrichting worden gehouden. 
+ 
+ <figure id="alles in een plaat">
+    <img src="media/alles-in-een-plaat.png" alt="alles in een plaat">
+    <figcaption>Alle capability-clusters in een plaat</figcaption>
+</figure>
+ 
+ 
 <p class='note'>
      Omdat veel gebruik wordt gemaakt van standaard voorzieningen van de overheid is het beheer soms enkel organisatorisch en soms zowel organisatorisch als technisch.  
 </p>
