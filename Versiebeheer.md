@@ -9,3 +9,4 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 | 0.3     | 06-aug-2020    | concept    | Initieel document               | Diverse hoofdstukken aangepast    |
 | 0.4     | 14-aug-2020    | concept    | Initieel document               | Diverse hoofdstukken aangepast    |
 | 0.4.1   | 21-aug-2020    | concept    | Initieel document               | Gereed gemaakt voor overdracht    |
+| 0.5     | 31-aug-2020    | concept    | Initieel document               | Gereed gemaakt voor publicatie eerste reviewversie    |
