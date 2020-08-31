@@ -106,10 +106,10 @@ De Objectenregistratie heeft de volgende interactie met partijen in de omgeving.
 |  | **Catalogus**. De afnemer gebruikt de gegevenscatalogus om kennis te nemen van de gegevensdefinities van de Objectenregistratie. |
 |  | **Support**. De afnemer ontvangt ondersteuning bij het gebruik van de Objectenregistratie, zoals bijvoorbeeld een catalogus van beschikbare producten en diensten. |
 |  | **Hulpvraag**. De afnemer kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. |
-| **Toezichthouder** | De toezichthouder bepaalt binnen het systeem de kwaliteitsindicatoren voor het monitoren van het systeem. Hiertoe ontvangt de toezichthouder sturing vanuit de Eigenaar/Beleidsverantwoordelijke en informatie vanuit het Overleg van Bronhouders en Afnemers. |
+| **Toezichthouder** | De toezichthouder bepaalt binnen het systeem de kwaliteitsindicatoren voor het monitoren van het systeem. Hiertoe ontvangt de toezichthouder sturing vanuit de Eigenaar/Beleidsverantwoordelijke en diens  Overleg met Bronhouders en Afnemers. |
 | **Standaardbeheerder** | **Catalogus** De standaardbeheerder beheert de gegevensdefinities van de Objectenregistratie ten behoeve van bronhouders en afnemers. |
 | **Dienst/Beheerder** | De Dienst/Beheerder is de houder van de registatie. Deze rol biedt de beschikbare producten en diensten, en de suppport die daarbij benodigd is. |
-| **Beleidsverantwoordelijke** | De beleidsverantwoordelijke vormt het Besturend Orgaan van het systeem. Deze bepaalt met name de inhoud van het systeem, dat wil zeggen welke gegevens tot de basisgegevens behoren. |
+| **Beleidsverantwoordelijke** | De beleidsverantwoordelijke vormt het Besturend Orgaan van het systeem. Deze bepaalt met name de inhoud van het systeem, dat wil zeggen welke gegevens tot de basisgegevens behoren. Sturing op die inhoud geschiedt in Overleg met Bronhouders en Afnemers. |
 
 De rol Bronhouder(inwinnen/samenstellen) is gepositioneerd als een partij in de omgeving die gebruik maakt van eigen diensten om objectgegevens samen te stellen.
 De rol Bronhouder (registreren) valt binnen de afbakening van de Objectenregistratie. Het is de rol die de objectgegevens registreert en beheert (vergelijkbaar met de huidige BAG-beheerder, BGT-beheerder, BRT-beheerder, enz.).
