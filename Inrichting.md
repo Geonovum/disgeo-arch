@@ -20,25 +20,23 @@ We onderscheiden drie lagen in de functionele indeling van de Objectenregistrati
     <figcaption>Functionele lagen in de inrichting van de Objectenregistratie</figcaption>
 </figure>
 
-De laag **Metabeheer** bevat de functies die betrekking hebben op het beheren van gegevens over de gegevensmeta-data en bestaat uit twee lagen: **Meta-gegevensbeheer** en **'Inzicht in kwaliteit'**. Meta-gegevensbeheer bevat de functies die nodig zijn om informatiemodellen en gegevensregels te beheren evenals het beheren van de gegevenscatalogi om die informatiemodellen en gegevensregels te kunnen toepassen. 'Inzicht in kwaliteit' bevat de functies om kwaliteitsindicatoren te beheren en kwaliteitsmetingen te doen.
+De laag **Metabeheer** bevat de functies die betrekking hebben op het beheren van gegevens over de gegevensmeta-data en bestaat uit twee lagen, te weten Meta-gegevensbeheer en 'Inzicht in kwaliteit'. Meta-gegevensbeheer bevat de functies die nodig zijn om informatiemodellen en gegevensregels te beheren evenals het beheren van de gegevenscatalogi om die informatiemodellen en gegevensregels te kunnen toepassen. 'Inzicht in kwaliteit' bevat de functies om kwaliteitsindicatoren te beheren en kwaliteitsmetingen te doen.
 
-De **Uitvoeringslaag** bevat de functies die nodig zijn voor het voor het beheren en afnemen van objectgegevens, zoals voor het registreren en wijzigen van gegevens en voor het raadplegen ervan. Op deze laag maken we onderschied tussen de functies ten behoeve van het beheren van objectgegevens door bronhouders en het afnemen ervan door afnemers van de Objectenregistratie. 
+De **Uitvoeringslaag** bevat de functies die nodig zijn voor het voor het beheren en afnemen van objectgegevens, zoals voor het registreren en wijzigen van gegevens en voor het raadplegen ervan. Op deze laag maken we onderscheid tussen de functies ten behoeve van het beheren van objectgegevens door bronhouders en het afnemen ervan door afnemers van de Objectenregistratie. 
 
 De **Ondersteuningslaag** bevat de functies die nodig zijn om bronhouders en afnemers te ondersteunen bij het beheren en afnemen van gegevens, zoals het beheren van autorisaties en het raadplegen van gegevens- en dienstencatalogi.
 
 Naast de drie lagen voor Metabeheer, Uitvoering en Ondersteuning, is ook functionaliteit nodig in het kader van **Voorzieningenbeheer**. De beheerfuncties voor het beheren van de ICT-voorzieningen op het platform, of de platformen, die het beheren en afnemen van objectgegevens en meta-gegevens mogelijk maken. Deze beheerfuncties maken we zichtbaar in een totaaloverzicht.
 
-
-### Functies in de laag Metabeheer: Meta-gegevensbeheer en Inzicht in kwaliteit
+### Functies in de laag Metabeheer
 
 Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Metabeheer. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
 
 <figure id="inrichting-metabeheer">
     <img src="media/inrichting-metabeheer-objectenregistratie.png" alt="inrichting metabeheer">
     <figcaption>De capability-clusters op de laag Metabeheer </figcaption>
-
+</figure>
   
-
 De laag **Metabeheer** bestaat uit de delen **Metagegevensbeheer** en **Inzicht in kwaliteit**. 
 
 Het deel Metagegevensbeheer bevat de volgende clusters aan functionaliteiten:
@@ -49,8 +47,6 @@ Het deel 'Inzicht in kwaliteit' bevat de volgende clusters aan functionaliteiten
  - *Toegang*: voor het bewaken en loggen van de toegang van meta-beheerders tot de diensten.
  - *kwaliteitsindicatoren*: voor het beheren van de door bronhouders en afnemers en andere betrokkenen (zoals toezichthouder en  beleidsverantwoordelijke) overeengekomen kwaliteitsindicatoren en bijbehorende diensten
  - *Kwaliteitsmetingen:* Voor het bepalen van de waarden van de kwaliteitsindicatoren ten behoeve van monitoring van de algehele kwaliteit, bijvoorbeeld door middel van analyses
-
-
 
 ### Functies in de laag Uitvoering
 
@@ -70,11 +66,11 @@ Op de Uitvoeringslaag onderkennen we de volgende clusters voor *beheer van objec
 
 Op de Uitvoeringslaag onderkennen we daarnaast de volgende clusters voor het *afnemen van objectgegevens* :
 - *Afgeleide opslag*: voor het beschikbaar maken van gegevens afgestemd op de specifieke behoeften van het afnemen van objectgegevens door grote aantallen afnemers.
-- *Afname*: voor het afnemen van objectgegevens op verschillende manieren, variërend van het raadplegen van enkelvoudige gegevens tot gecombineerde afname en afnamen in 'bulk' voor bijvoorbeeld analysedoeleinden.
+- *Afname gegevens*: voor het afnemen van objectgegevens op verschillende manieren, variërend van het raadplegen van enkelvoudige gegevens tot afnamen in 'bulk' voor bijvoorbeeld analysedoeleinden.
 - *Notificatie*: voor het notificeren van afnemers van voor hen relevante gebeurtenissen (we gebruiken gebeurtenissen hier in brede zin, breder dan alleen gebeurtenissen die de objectgegevens betreffen)
+- *Afname informatie*: voor het afnemen van generieke informatieproducten op verschillende manieren. Het visueel raadplegen van basisgegevens in context (viewer) is zo'n informatieproduct. Ook gecombineerde afname die een afgesproken generieke behoefte van afnemers invult kan zo'n informatieproduct zijn.
 - *Terugmelding*: voor het in staat stellen van afnemers om bij gerede twijfel aan de juistheid van gegevens dit te melden.
 - *Toegang*: voor het bewaken en loggen van de toegang van afnemers tot de afnamediensten. 
-
 
 ### Functies in de laag Ondersteuning
 
@@ -98,7 +94,6 @@ Op de **Ondersteuningslaag** onderkennen we de volgende clusters voor de onderst
      We maken onderscheid tussen abonnementen op notificaties van gebeurtenissen die betrekking hebben op gegevens (voor bronhouders en afnemers) en abonnementen op notificaties van andersoortige gebeurtenissen (bijvoorbeeld ontwikkelingen die relevant zijn voor ontwikkelaars en beheerders van ICT-voorzieningen voor en bij bronhouders en afnemers)  
 </p>
 
-
 ### Overzicht
 Onderstaande afbeelding toont de functionaliteiten per cluster op de drie lagen. Deze functionaliteiten zijn beschreven in het hoofdstuk Uitwerking van onderdelen.
 
@@ -107,7 +102,6 @@ Onderstaande afbeelding toont de functionaliteiten per cluster op de drie lagen.
     <figcaption>De capability-clusters op de lagen Metabeheer en Uitvoering en Ondersteuning</figcaption>
 </figure>
   
-
 <p class='note'>
      Het hoofdstuk "Uitwerking van onderdelen" met de detail beschrijving van de functionaliteiten per cluster zal worden opnemen in de volgende versie van de architectuurbeschrijving.  
 </p>
