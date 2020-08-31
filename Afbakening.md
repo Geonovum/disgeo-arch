@@ -80,8 +80,7 @@ De afbakening van de processtappen en stelselrollen is nog in ontwikkeling. Onde
     <figcaption>Scope van de processen</figcaption>
 </figure>
 
-Deze architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de **uitvoering en de ondersteuning van de Samenhangende Objectenregistratie**. In de hier getoonde variant van de afbakening betreft dit de processtappen **Registeren, Bewaren, Ontsluiten en (generiek) Verrijken** en de bijbehorende ondersteundende processen. Alleen het verrijken tot generieke informatieproducten behoort tot de scope van de ICT-voorzieningen voor de Objectenregistratie.
-
+Deze architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de **uitvoering en de ondersteuning van de Samenhangende Objectenregistratie**. In de hier getoonde variant van de afbakening betreft dit de processtappen **Registeren, Bewaren, Ontsluiten, (Generiek) Verrijken en Routeren terugmeldingen** en de bijbehorende ondersteundende processen. Alleen het verrijken tot generieke informatieproducten behoort tot de scope van (de ICT-voorzieningen voor) de Objectenregistratie, specifieke informatieproducten waarover geen afspraken zijn gemaakt, vallen buiten scope.  
 
 Deze architectuurbeschrijving benoemt binnen de scope de functies, componenten en samenhang en de benodigde standaarden. Voor de processen van de rollen bronhouder en afnemer benoemt deze architectuurbeschrijving alleen de functies. De ICT-componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf.
 
@@ -104,18 +103,22 @@ De Objectenregistratie heeft de volgende interactie met partijen in de omgeving.
 | **Afnemer**                  | **Objectgegevens (UITVOER)**. De afnemer neemt objectgegevens en generieke informatieproducten af. |
 |  | **Meldingen**. De afnemer levert terugmeldingen bij twijfel over de juistheid van de objectgegevens. |
 |  | **Catalogus**. De afnemer gebruikt de gegevenscatalogus om kennis te nemen van de gegevensdefinities van de Objectenregistratie. |
-|  | **Support**. De afnemer ontvangt ondersteuning bij het gebruik van de Objectenregistratie, zoals bijvoorbeeld een catalogus van beschikbare producten en diensten. |
-|  | **Hulpvraag**. De afnemer kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. |
+|  | **Support**. De afnemer (mens of computer) ontvangt ondersteuning bij het gebruik van de Objectenregistratie, zoals bijvoorbeeld een catalogus van beschikbare producten en diensten. |
+|  | **Hulpvraag**. De afnemer kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. Hier wordt zowel geautomatiseerde ondersteuning als menselijke ondersteuning bedoeld.|
 | **Toezichthouder** | De toezichthouder bepaalt binnen het systeem de kwaliteitsindicatoren voor het monitoren van het systeem. Hiertoe ontvangt de toezichthouder sturing vanuit de Eigenaar/Beleidsverantwoordelijke en diens  Overleg met Bronhouders en Afnemers. |
-| **Standaardbeheerder** | **Catalogus** De standaardbeheerder beheert de gegevensdefinities van de Objectenregistratie ten behoeve van bronhouders en afnemers. |
+| **Standaardbeheerder** | **Catalogus** De standaardbeheerder beheert de gegevensdefinities van de Objectenregistratie ten behoeve van bronhouders en afnemers. Deze rol biedt de gegevenscatalogus aan alle andere rollen.|
 | **Dienst/Beheerder** | De Dienst/Beheerder is de houder van de registatie. Deze rol biedt de beschikbare producten en diensten, en de suppport die daarbij benodigd is. |
 | **Beleidsverantwoordelijke** | De beleidsverantwoordelijke vormt het Besturend Orgaan van het systeem. Deze bepaalt met name de inhoud van het systeem, dat wil zeggen welke gegevens tot de basisgegevens behoren. Sturing op die inhoud geschiedt in Overleg met Bronhouders en Afnemers. |
 
+
+Buiten de afbakening:
 De rol Bronhouder(inwinnen/samenstellen) is gepositioneerd als een partij in de omgeving die gebruik maakt van eigen diensten om objectgegevens samen te stellen.
-De rol Bronhouder (registreren) valt binnen de afbakening van de Objectenregistratie. Het is de rol die de objectgegevens registreert en beheert (vergelijkbaar met de huidige BAG-beheerder, BGT-beheerder, BRT-beheerder, enz.).
-De rol Verstrekker valt binnen de afbakening van de Objectenregistratie. Het is de rol die zorgt voor de ontsluiting en (generieke) verrijking van objectgegevens.
 De rol Afnemer is gepositioneerd als een partij in de omgeving die gebruik maakt van de diensten van de Objectenregistratie om objectgegevens af te nemen.
 
+Binnen de afbakening:
+De rol Bronhouder (registreren) valt binnen de afbakening van de Objectenregistratie. Het is de rol die de objectgegevens registreert en beheert (vergelijkbaar met de huidige BAG-beheerder, BGT-beheerder, BRT-beheerder, enz.) en bijdraagt aan de routering van terugmeldingen naar de juiste Bronhouder(inwinnen/samenstellen).
+De rol Verstrekker valt binnen de afbakening van de Objectenregistratie. Het is de rol die zorgt voor de ontsluiting en (generieke) verrijking van objectgegevens, en bijdraagt aan de routering van terugmeldingen.
+Ook de rollen Standaardbeheerder, Toezichthouder en Dienst/Beheerder 
 
 <p class='note'>
      REVIEW: De interacties komen overeen met de pijlen in de afbeelding. Opmerkingen op de tabel en op de afbeeldingen zijn in samenhang welkom.
