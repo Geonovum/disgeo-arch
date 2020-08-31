@@ -83,12 +83,12 @@ Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Onder
 
 Op de **Ondersteuningslaag** onderkennen we de volgende clusters voor de ondersteuning van bronhouders en afnemers en hun gemachtigden en leveranciers:
 - *Toegang*: voor het bewaken en loggen van de toegang van bronhouders en afnemers tot de ondersteuningsdiensten.
-- *Beheren toegang*: voor het beheren van autorisaties op gegevens en diensten door bronhouders en afnemers zelf en eventueel ook door de beheerder van de ICT-voorziening(en).
-- *Beheren abonnementen*: voor het beheren van abonnementen op notificaties van gebeurtenissen door bronhouders en afnemers
-- *Afhandelen betalingen*: voor het betalen van betaalde diensten door de gebruikers van die diensten, indien sprake is van betaalde diensten. Betalen kan op verschillende manieren worden ingericht, zoals vooraf, bij afname van de dienst of achteraf.
-- *Kwaliteitsdashboard*: voor het inzien van de waarden van kwaliteitsindicatoren per bronhouder of groep van bronhouders (algehele kwaliteit wordt gemeten in de laag Metabeheer onderdeel Inzicht in Kwaliteit)
-- *Gegevenscatalogus*: voor het inzien van de beschikbare soorten objectgegevens, eigenschappen en relaties en de betekenis daarvan
-- *Dienstencatalogus:* voor het inzien van de beschikbare gegevensproducten en diensten voor het beheren en afnemen ervan
+- *Beheer toegang*: voor het beheren van autorisaties op gegevens en diensten door bronhouders en afnemers zelf en eventueel ook door de beheerder van de ICT-voorziening(en).
+- *Beheer abonnementen*: voor het beheren van abonnementen op notificaties van gebeurtenissen door bronhouders en afnemers
+- *Beheer betalingen*: voor het beheren van de betalingen van betaalde diensten door de gebruikers van die diensten, indien sprake is van betaalde diensten. Betalen kan op verschillende manieren worden ingericht, zoals vooraf, bij afname van de dienst of achteraf.
+- *Beheer kwaliteitsdashboard*: voor het inzien van de waarden van kwaliteitsindicatoren per bronhouder of groep van bronhouders (algehele kwaliteit wordt gemeten in de laag Metabeheer, zie onderdeel Inzicht in Kwaliteit)
+- *Beheer gegevenscatalogus*: voor het inzien van de beschikbare soorten objectgegevens, eigenschappen en relaties en de betekenis daarvan, evenals het uitvoeren van versiemanagement op de catalogus als er sprake is van nieuwe objectgegevens of gegevensregels (vanuit metagegegevensbeheer)
+- *Dienstencatalogus:* voor het inzien van de beschikbare gegevensproducten en diensten voor het beheren en afnemen ervan, evenals voor het uitvoeren van versiemanagement op de dienstencatalogus als er sprake is van nieuwe diensten zoals gegevensdiensten (dataservices), informatiediensten (afname informatie) of abonnementsdiensten op notificaties 
 
 <p class='note'>
      We maken onderscheid tussen abonnementen op notificaties van gebeurtenissen die betrekking hebben op gegevens (voor bronhouders en afnemers) en abonnementen op notificaties van andersoortige gebeurtenissen (bijvoorbeeld ontwikkelingen die relevant zijn voor ontwikkelaars en beheerders van ICT-voorzieningen voor en bij bronhouders en afnemers)  
