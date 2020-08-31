@@ -32,12 +32,12 @@ De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn 
 
 ### Inrichtingsprincipes vergelijkbare domeinen
 
-De SOR staat niet op zichzelf en binnen andere domeinen is veel kennis en kunde opgebouwd over inrichtingsprincipes van dit soort ICT-voorzieningen. We hebben hier met name gebruik gemaakt van:
+Binnen andere domeinen is veel kennis en kunde opgebouwd over inrichtingsprincipes van dit soort ICT-voorzieningen. We hebben hier met name gebruik gemaakt van de volgende groepen met ervaring en vastgelegde kennis:
 - De [Overall Globale Architectuur Schets (OGAS)](https://aandeslagmetdeomgevingswet.nl/publish/library/219/dso_-_gas_-_overall_gas_1.pdf) van het Digitaal Stelsel Omgevingswet.
-- [NORA](#basisprincipes-nora)
-- [GEMMA](#inrichtingsprincipes-gemma)
-- [Common Ground](#inrichtingsprincipes-common-ground)
-- 10 golden rules data, deze 10 golden rules zijn tot stand gekomen vanuit de best-practices rondom data management.
+- De referentie architectuur [NORA](#basisprincipes-nora) van de architecten van samenwerkende Nederlandse overheden  
+- De [GEMMA](#inrichtingsprincipes-gemma) van de Vereniging van Nederlandse Gemeentes
+- De [Common Ground](#inrichtingsprincipes-common-ground) principes van diverse samenwerkende overheidsorgansiaties
+- De "10 golden rules data" die tot stand zujngekomen vanuit de best-practices rondom data management.
 
 
 ### ICT-inrichtingsprincipes Samenhangende Objectenregistratie
@@ -46,12 +46,12 @@ Voor de ICT-inrichting van de Samenhangende Objectenregistratie hanteren we de o
 
  **Inrichtingsprincipe 1: Gegevens worden gescheiden van applicaties bewaard**, *zodat* het beheren en afnemen van gegevens onafhankelijk is van de gebruikte applicaties en gegevens te (her)gebruiken zijn in verschillende applicaties voor verschillende doeleinden.
  
-Grondslag: Beleidsuitgangspunten (2, 4), Common Ground 
+Grondslag: Uitgangspunten (7, 9), Common Ground 
 
 **Inrichtingsprincipe 2: Ieder gegeven wordt op precies &eacute&eacuten plek bijgehouden**, *zodat* altijd duidelijk is wat het actuele brongegeven is en waar dat wordt beheerd. Dit principe heeft de volgende onderliggende principes in zich:
      - **Dubbele opslag betekent synchroniseren**, zodat partijen altijd naar dezelfde gegevens kijken. Dit geldt zowel binnen als buiten de oplossing, dus ook voor eventuele afgeleide opslag die geoptimaliseerd is ten behoeve van verstrekking.
 
-Grondslag: Beleidsuitgangspunten (4, 6, 10), Common Ground (04)
+Grondslag: Uitgangspunten (9, 11, 15), Common Ground (04)
 
 **Inrichtingsprincipe 3: Gegevens zijn alleen te benaderen via dataservices**, *zodat* deze services kunnen garanderen dat de gegevens, metagegevens en de toegang ertoe altijd voldoen aan de eisen en dat logging altijd plaatsvindt. Dit principe heeft de volgende onderliggende principes in zich:
     - **Dataservices regelen de toegang tot gegevens**, *zodat* deze services ervoor kunnen zorgen dat altijd is voldaan aan de eisen betreffende toegang.
@@ -63,17 +63,17 @@ Om te garanderen dat de gegevens blijven voldoen aan de gestelde kwaliteit en ac
 De service controleert of de gebruiker wel de toegangsrechten heeft om de gegevens te maken, te lezen of aan te passen.
 Alle transacties op de gegevens worden gelogd. Dit is nodig om een audit-trail te kunnen opbouwen.
 
-Grondslag: Beleidsuitgangspunten (2, 3, 4, 11, 12, 13, 15), DSO (05)
+Grondslag: Uitgangspunten (1, 2, 3, 5, 7, 8, 9), DSO (05)
  
 **Inrichtingsprincipe 4: We bewaren en ontsluiten informatie op betrouwbare en veilige wijze**, *zodat* we kunnen aantonen dat data niet bedoeld of onbedoeld gemanipuleerd is. Om op data te kunnen vertrouwen zorgen we ervoor dat data bij alle handelingen vanaf het moment van ontstaan tot het moment van gebruik veilig is. We wijzigen de actuele versie van data daarom alleen op basis van een brondocument of mutatieverwijzing en leggen die vast. We bewaken integriteit en consistentie van data. We bewaren data conform de eisen van de wet (w.o. archiefwet, etc.).
 
-Grondslag: Beleidsuitgangspunten (2, 4, 13), DSO (09), Common Ground (03)
+Grondslag: Uitgangspunten (3, 7, 9), DSO (09), Common Ground (03)
 
 **Inrichtingsprincipe 5: We maken samenhangend gebruik van data makkelijk mogelijk**, zodat data uit verschillende gegevensverzamelingen te combineren is. Zo maken we mogelijk dat er samengestelde producten over het geheel van het gegevenslandschap kunnen worden gerealiseerd. Dit principe heeft de volgende onderliggende principes in zich:
     - **alles is een service**, *zodat* zowel computers als mensen de beschikbare functies kunnen begrijpen en benutten.
     - **intern is extern**, *zodat* alle services herkenbaar en bruikbaar zijn voor externe leveranciers van bronhouders en afnemers en deze op innovatieve manieren de waarde van gegevens kunnen vergroten.
 
-Grondslag: Beleidsuitgangspunten (7, 8, 10, 14), DSO (05)
+Grondslag: Uitgangspunten (4, 12, 13, 15), DSO (05)
 
 
 
