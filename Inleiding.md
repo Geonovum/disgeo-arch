@@ -27,7 +27,7 @@ Het hoofdstuk [Uitwerking op onderdelen](#inrichting-van-de-objectenregistratie)
 
 
 <p class='note'>
-     Reviewers: In groene kaders stellen de auteurs soms een vraag. In jullie reviewcommentaar lezen we graag antwoorden.
+     Voor reviewers: In groene kaders stellen de auteurs soms een vraag. In jullie reviewcommentaar lezen we graag antwoorden.
 </p>
 
 Relevante bijlagen staan in het hoofdstuk [Bijlagen](#bijlagen-principes)

@@ -22,6 +22,10 @@ We onderscheiden drie lagen in de functionele indeling van de Objectenregistrati
 
 De laag **Metabeheer** bevat de functies die betrekking hebben op het beheren van gegevens over de gegevensmeta-data en bestaat uit twee lagen, te weten Meta-gegevensbeheer en 'Inzicht in kwaliteit'. Meta-gegevensbeheer bevat de functies die nodig zijn om informatiemodellen en gegevensregels te beheren evenals het beheren van de gegevenscatalogi om die informatiemodellen en gegevensregels te kunnen toepassen. 'Inzicht in kwaliteit' bevat de functies om kwaliteitsindicatoren te beheren en kwaliteitsmetingen te doen.
 
+<p class='note'>
+     Voor de auteurs, te bespreken: De zinsnede 'De laag Metabeheer bevat de functies die betrekking hebben op het beheren van gegevens over de gegevensmeta-data' begrijp ik niet. Wat is 'het beheren van gegevens over de gegevensmeta-data'. En wat is 'gegevensmeta-data'? Dat kan ik vervangen door datameta-data of gegevensmeta-gegevens en ik weet niet wat dat is. (WB)
+</p>
+
 De **Uitvoeringslaag** bevat de functies die nodig zijn voor het voor het beheren en afnemen van objectgegevens, zoals voor het registreren en wijzigen van gegevens en voor het raadplegen ervan. Op deze laag maken we onderscheid tussen de functies ten behoeve van het beheren van objectgegevens door bronhouders en het afnemen ervan door afnemers van de Objectenregistratie. 
 
 De **Ondersteuningslaag** bevat de functies die nodig zijn om bronhouders en afnemers te ondersteunen bij het beheren en afnemen van gegevens, zoals het beheren van autorisaties en het raadplegen van gegevens- en dienstencatalogi.
@@ -91,6 +95,10 @@ Op de **Ondersteuningslaag** onderkennen we de volgende clusters voor de onderst
 - *Dienstencatalogus:* voor het inzien van de beschikbare gegevensproducten en diensten voor het beheren en afnemen ervan, evenals voor het uitvoeren van versiemanagement op de dienstencatalogus als er sprake is van nieuwe diensten zoals gegevensdiensten (dataservices), informatiediensten (afname informatie) of abonnementsdiensten op notificaties 
 
 <p class='note'>
+     Voor de auteurs, te bespreken: waarom is het 'Beheer kwaliteitsdashboard' en 'Beheer gegevenscatalogus'? Bij beide is beschreven dat deze functies zijn 'voor het inzien ...'. Dat is geen 'beheer'. 
+</p>
+
+<p class='note'>
      We maken onderscheid tussen abonnementen op notificaties van gebeurtenissen die betrekking hebben op gegevens (voor bronhouders en afnemers) en abonnementen op notificaties van andersoortige gebeurtenissen (bijvoorbeeld ontwikkelingen die relevant zijn voor ontwikkelaars en beheerders van ICT-voorzieningen voor en bij bronhouders en afnemers)  
 </p>
 
@@ -110,6 +118,10 @@ Onderstaande afbeelding toont de functionaliteiten per cluster op de drie lagen.
 
 ### Functies in de aparte architectuurlaag Voorzieningenbeheer
 
+<p class='note'>
+     Voor de auteurs, te bespreken: Moet deze paragraaf niet vervallen. Het is nog afkomstig uit versie 0.4.1 van de architectuurbeschrijving. (WB)  
+</p> 
+
 De laag Voorzieningenbeheer bevat de volgende clusters aan functionaliteiten:
  - *Toegang*: voor het bewaken en loggen van de toegang van voorzieningingenbeheerders.
  - *Autorisatievormen*: voor het beheren van de beschikbare autorisatievormen.
@@ -121,6 +133,10 @@ De laag Voorzieningenbeheer bevat de volgende clusters aan functionaliteiten:
  
  Als we alle clusters met functionaliteiten in één overzicht plaatsen, wordt het geheel minder overzichtelijk. Het kan mogelijk wel nuttig zijn zo'n overzicht als praatplaat-aan-de-wand te gaan gebruiken bij de beheerorganisatie(s) bijvoorbeeld in workshops die bij de gezamenlijke inrichting worden gehouden. 
  
+<p class='note'>
+     Voor de auteurs, te bespreken: bovenstaande alinea verwijderen? Het is een procesopmerking (en procesopmerkingen verouderen snel). (WB) 
+</p> 
+ 
  <figure id="alles in een plaat">
     <img src="media/alles-in-een-plaat.png" alt="alles in een plaat">
     <figcaption>Alle capability-clusters in een plaat</figcaption>
@@ -131,3 +147,6 @@ De laag Voorzieningenbeheer bevat de volgende clusters aan functionaliteiten:
      Omdat veel gebruik wordt gemaakt van standaard voorzieningen van de overheid is het beheer soms enkel organisatorisch en soms zowel organisatorisch als technisch.  
 </p>
 
+<p class='note'>
+     Voor de auteurs, te bespreken: bovenstaande NOOT begrijp ik niet. Voorzieningenbeheer gaat over het beheer van de SOR-voorziening(en) niet over het beheer van andere overheidsvoorzieningen. (WB) 
+</p> 
