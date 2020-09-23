@@ -73,7 +73,8 @@ Grondslag: Uitgangspunten (3, 7, 9), DSO (09), Common Ground (03)
     - **alles is een service**, *zodat* zowel computers als mensen de beschikbare functies kunnen begrijpen en benutten.
     - **intern is extern**, *zodat* alle services herkenbaar en bruikbaar zijn voor externe leveranciers van bronhouders en afnemers en deze op innovatieve manieren de waarde van gegevens kunnen vergroten.
 
+<p class='note'>
+     Voor auteurs, te bespreken: Ik zie de relatie tussen dit principes en de twee subprincipes niet. Daarnaast lijkt het eerste subprincipe veel op principe 3 'gegevens zijn alleen te benaderen via dataservices'. (WB)
+</p>
+
 Grondslag: Uitgangspunten (4, 12, 13, 15), DSO (05)
-
-
-
