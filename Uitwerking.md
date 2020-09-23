@@ -63,4 +63,72 @@ De onderliggende laag **Voorzieningenbeheer** bevat de volgende clusters aan fun
 
 -->
 
+###Uitwerking Metabeheer
+
+###Uitwerking Uitvoering
+
+###Uitwerking Ondersteuning
+
+###Uitwerking Beheer van voorzieningen (algemeen)
+
+API-strategie
+URI-strategie
+Technische standaarden
+-	Aanwijzingen/kaders voor technology stack
+Standaarden
+-	Verwijzing naar inhoudelijke?? Standaarden zoals NTA8035 etcetera NEN3610/2610
+-	Relatie met Forum Standaardisatie Logius, NORA, GEMMA, PETRA, WILMA etcetera.
+
+
+ - *Toegang*: hier maken we gebruik van generieke componenten uit de Generieke Digitale Infrastructuur (GDI) conform de Wet digitale overheid (Wdo) zoals eHerkenning en digikoppeling en opvolgende authenticatiemiddelen (iDIN, DigiD, eIDAS etc.) 
+ 
+ De Wet digitale overheid heeft als doel het regelen van het veilig en betrouwbaar kunnen inloggen voor Nederlandse burgers en bedrijven bij de (semi-)overheid. De wet stelt daarnaast open standaarden verplicht. Hiermee implementeert Nederland de EU richtlijn over toegankelijkheid van overheidswebsites en apps.
+Wet Digitale Overheid
+De wet verankert taken, verantwoordelijkheden en bevoegdheden mbt de voorzieningen voor de generieke digitale infrastructuur (GDI), verplichtingen voor bestuursorganen en aanspraken van burgers en bedrijven. Gewerkt wordt in tranches; de eerste tranche regelt onder meer de toegang tot digitale dienstverlening van de overheid middels elektronische identificatie/authenticatie, informatieveiligheid en standaarden.
+ 
+ - *Autorisatievormen*: voor het beheren van de beschikbare autorisatievormen.
+ - *Abonnementsvormen*: voor het beheren van de beschikbare abonnementsvormen.
+ - *Betalingsvormen*: voor het beheren van de beschikbare betalingsvormen.
+ - *Dienstvormen*: voor het beheren van de beschikbaren dienstvormen.
+ - *Metingen*: voor het uitvoeren van metingen en raadplegen van uitgevoerde metingen en beschikbaar meetgegevens, zoals aantallen gebruiker.
+
+
+
+###Cross-check:
+
+Wanneer er duidelijkheid komt over de rollen en bijbehorende taken, bevoegdheden en verantwoordelijkheden, kunnen we controleren dat alle activiteiten van alle rollen zijn benoemd en beschreven door de activiteiten per rol op te sommen, en aan te geven in welk cluster van functionaliteiten de bijbehorende functie/capability staat om die activiteit mogelijk te maken.
+ 
+Uitwerking van functies die nodig zijn voor activiteiten
+
+De huidige en nieuwe ondersteunende activiteiten behoren (geheel of gedeeltelijk) bij één of meer van de volgende formele (stelsel) rollen:
+
+• Bronhouder : gegevensleverancier, ondersteuning bronhouders, kwaliteitsmanagement (dashboard ter ondersteuning van de bijhouding), beheer voorziening (mutatievoorzieningen en opslag voor bronhouders) en leveren software (registratiesoftware)
+
+bronhouden
+gegevens ontvangen
+bronhouders ondersteunen
+bijhouding ondersteunen met inzicht in kwaliteit via een dashboard per bronhouder
+voorzieningbeheer van registratiefunctionaliteit (inname service)
+softwarelevering aan voorzieningenbeheer
+
+
+
+• Verstrekker: beheer voorziening (verstrekkingsvoorzieningen en opslag voor verstrekking)
+
+verstrekken
+gegevens leveren
+generieke informatieproducten leveren
+afnemers ondersteunen
+afname ondersteunen met inzicht in kwaliteit via een dashboard voor gebruikers
+
+voorzieningbeheer van verstrekkingsfunctionaliteit (uitgifte service)
+softwarelevering aan voorzieningenbeheer
+
+
+
+• Afnemer: beheer informatiedienst, kwaliteitsmanagement (dashboard ten behoeve van inzicht in gegevenskwaliteit voor gebruikers) en leveren software (software voor gebruik in afnemende processen)
+
+• Toezichthouder: kwaliteitsmanagement (dashboard met indicatoren ter ondersteuning van de oordeelvorming door toezicht en handhaving)
+
+• Beleidsverantwoordelijke : beheer standaarden (in afstemming met bronhouders en afnemers)
  
