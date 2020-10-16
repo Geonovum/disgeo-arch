@@ -63,13 +63,13 @@ De onderliggende laag **Voorzieningenbeheer** bevat de volgende clusters aan fun
 
 -->
 
-###Uitwerking Metabeheer
+### Uitwerking Metabeheer
 
-###Uitwerking Uitvoering
+### Uitwerking Uitvoering
 
-###Uitwerking Ondersteuning
+### Uitwerking Ondersteuning
 
-###Uitwerking Beheer van voorzieningen (algemeen)
+### Uitwerking Beheer van voorzieningen (algemeen)
 
 API-strategie
 URI-strategie
@@ -94,7 +94,7 @@ De wet verankert taken, verantwoordelijkheden en bevoegdheden mbt de voorziening
 
 
 
-###Cross-check:
+### Cross-check:
 
 Wanneer er duidelijkheid komt over de rollen en bijbehorende taken, bevoegdheden en verantwoordelijkheden, kunnen we controleren dat alle activiteiten van alle rollen zijn benoemd en beschreven door de activiteiten per rol op te sommen, en aan te geven in welk cluster van functionaliteiten de bijbehorende functie/capability staat om die activiteit mogelijk te maken.
  
