@@ -1,4 +1,4 @@
-## Uitwerking onderdelen inrichting Objectenregistratie
+## Componenten
 
 ### Inleiding
 
