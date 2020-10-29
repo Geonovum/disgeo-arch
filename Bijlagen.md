@@ -21,7 +21,7 @@ Functies: Een *ja* in deze kolom moet worden opgevat als 'Ja' dit principe is re
 
 Bron: [DSO-LV, bijlage G](https://aandeslagmetdeomgevingswet.nl/publish/library/219/ogas_bijlage_g_-_dso-lv_principes_1.pdf)
 
-### Inrichtingsprincipes Common Ground
+### Architectuurprincipes GEMMA Gegevenslandschap en Common Ground 
 
 | Principe             | Omschrijving                                                                      |
 |----------------------|-----------------------------------------------------------------------------------|
@@ -32,7 +32,9 @@ Bron: [DSO-LV, bijlage G](https://aandeslagmetdeomgevingswet.nl/publish/library/
 | <p id='cg-05'>05</p> | REGIE OP GEGEVENS: We faciliteren regie op gegevens                               |
 | <p id='cg-06'>06</p> | STANDAARD: We standaardiseren maximaal                                            |
 
-Bron: [Common Ground](https://www.gemmaonline.nl/images/gemmaonline/c/c7/20190130_-_Common_Ground_-_Informatiearchitectuurprincipes.pdf)
+Bronnen: 
+- [GEMMA Gegevenslandschap](https://www.gemmaonline.nl/index.php/Gegevenslandschap)
+- [Common Ground](https://commonground)
 
 ### Basisprincipes NORA 
 
@@ -49,11 +51,6 @@ Afgeleide principes geven meer concrete invulling aan de basisprincipes. Ze zijn
 kwaliteitskenmerken van de diensten van de overheid en geven handvatten voor operationeel niveau door hun uitwerking in concrete 
 implicaties. 
 Bron: https://www.noraonline.nl/wiki/Principes 
-
-### Inrichtingsprincipes GEMMA
-
-GEMMA kent 8 inrichtingsprincipes.
-Bron: https://www.vngrealisatie.nl/gemma 
 
 ### Eisen aan basisregistraties
 
