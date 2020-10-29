@@ -1,5 +1,7 @@
 ## ICT-inrichtingsprincipes
 
+TEST
+
 Dit hoofdstuk beschrijft de principes die richtinggevend zijn voor de functionele inrichting van de ICT-voorzieningen voor de Objectenregistratie en de bijbehorende ICT-organisatie. 
 
 ### Beleid Samenhangende Objectenregistratie
@@ -39,7 +41,7 @@ Binnen andere domeinen is veel kennis en kunde opgebouwd over inrichtingsprincip
 - De "10 golden rules data" die tot stand zijn gekomen vanuit de best-practices rondom data management.
 
 <p class='note'>
-     Voor de auteurs. Niet verwijzen naar de GEMMA, maar naar het GEMMA Gegevenslandschap. Ik heb GEMMA Gegevenslandschap en Common Ground samengevoegd als 1 bron verwijs naar beide. Ik heb  hieronder Common Ground steeds vervangen door GGL / Common Ground. Omdat GGL/CG geen 8 maar 6 principes heeft is de vraag of de nummers van de GGL/ CG principes hieronder wel kloppen. De link naar de bijlage voor GGL / Common Ground hierboven werkt niet. 
+     Voor de auteurs. Ik heb GEMMA Gegevenslandschap en Common Ground samengevoegd als 1 bron en verwijs naar beide. Ik heb  hieronder Common Ground steeds vervangen door GGL / Common Ground. Omdat GGL/CG geen 8 maar 6 principes heeft is de vraag of de nummers van de GGL/ CG principes hieronder wel kloppen. De link naar de bijlage voor GGL / Common Ground hierboven werkt niet. 
 </p>
 
 ### ICT-inrichtingsprincipes Samenhangende Objectenregistratie
