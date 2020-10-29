@@ -1,7 +1,5 @@
 ## ICT-inrichtingsprincipes
 
-TEST
-
 Dit hoofdstuk beschrijft de principes die richtinggevend zijn voor de functionele inrichting van de ICT-voorzieningen voor de Objectenregistratie en de bijbehorende ICT-organisatie. 
 
 ### Beleid Samenhangende Objectenregistratie
