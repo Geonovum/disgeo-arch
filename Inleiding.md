@@ -33,15 +33,11 @@ Relevante bijlagen staan in het hoofdstuk [Bijlagen](#bijlagen-principes)
 
 ### Het proces
 
-<p class='note'>
-     Voor auteurs: Onderstaande is standaard tekst voor alle SOR-documenten, toch? Dus geen wijzigingen aanbrengen? (WB)
-</p>
-
 De Architectuurbeschrijving van de Samenhangende Objectenregistratie is een product van een samenwerking van Geonovum, het Kadaster, het ministerie van BZK en VNG Realisatie. Bij de totstandkoming zijn diverse belanghebbenden betrokken, o.a. via een denktank en klankbordgroep.
 
 Globale uitgangspunten voor het gegevensmodel, de voorziene pocessen voor inwinning, productie en ontsluiting van gegevens, en eerste beelden over de organisatie en governance en financiering zijn vastgelegd in een beleidsvisie samenhangende objectenregistratie die eind 2019 door het BAG BAO en de Regieraad BGT is vastgesteld.
 
-Sindsdien wordt er gewerkt aan een verdere invulling van een drietal onderwerpen, die samenvallen met drie van de vijf lagen uit het NORA-vijflaagsmodel (figuur 1):
+Sindsdien wordt er gewerkt aan een verdere invulling van een drietal onderwerpen, die samenvallen met drie van de vijf lagen uit het [NORA-vijflaagsmodel](#nora5laagsmodel)
 
 Een uitwerking van de governance, organisatie en financiering van een samenhangende objectenregistratie, bestaande uit onder meer een beschrijving van taken en verantwoordelijkheden, de inrichting van de besluitvormingsstructuur, financieringsafspraken en een eerste opzet van ketenprocessen (organisatorische laag / laag 2 uit het NORA-vijflaagsmodel). Hiervan zijn op dit moment nog geen documenten beschikbaar.
 
