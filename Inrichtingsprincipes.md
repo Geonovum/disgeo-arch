@@ -39,7 +39,13 @@ Binnen andere domeinen is veel kennis en kunde opgebouwd over inrichtingsprincip
 - De "10 golden rules data" die tot stand zijn gekomen vanuit de best-practices rondom data management.
 
 <p class='note'>
+     Voor de auteurs. Verwijzing naar 10 golden rules opnemen -> of is dat rechtstreeks naar Best practices geo-spatial data on the web? (BJ)
+</p>
+
+
+<p class='note'>
      Voor de auteurs. Ik heb GEMMA Gegevenslandschap en Common Ground samengevoegd als 1 bron en verwijs naar beide. Ik heb  hieronder Common Ground steeds vervangen door GGL / Common Ground. Omdat GGL/CG geen 8 maar 6 principes heeft is de vraag of de nummers van de GGL/ CG principes hieronder wel kloppen. De link naar de bijlage voor GGL / Common Ground hierboven werkt niet. 
+	 Graag even toelichten welke link je op wil nemen, ik ben onvoldoende bekend met de samenvoeging van CG en GGL (BJ)
 </p>
 
 ### ICT-inrichtingsprincipes Samenhangende Objectenregistratie
@@ -61,6 +67,7 @@ Grondslag: Uitgangspunten (9, 11, 15), GGL / Common Ground (04)
 
 <p class='note'>
      Voor de auteurs, om te bespreken. Bovenstaand principe wekt de suggestie dat gegevens altijd door gemachtigde leveranciers worden beheerd. Tekstvoorstel: zodat deze services ervoor kunnen zorgen dat aantoonbaar is wat door of onder verantwoordelijkheid van bronhouders plaatsvindt.
+	 Eens (BJ).
 </p>
 
     - **Dataservices houden metadata actueel**, *zodat* data en meta-data altijd onderling consistent zijn.
@@ -78,6 +85,7 @@ Grondslag: Uitgangspunten (3, 7, 9), DSO (09), GGL / GGL / Common Ground (03)
 
 <p class='note'>
      Voor auteurs, om te bespreken: Ik zie de relatie tussen dit principes en de twee subprincipes niet. Daarnaast lijkt het eerste subprincipe veel op principe 3 'gegevens zijn alleen te benaderen via dataservices'. (WB)
+	 Principe 3 gaat over de dataservices waarmee we waarborgen dat we weten wat er met de data gebeurt. Principe 5 gaat over de services (dataservices en infoservices voor convenience en/of proces) waarmee we mogelijk maken voor interne én externe partijen om (op hun beurt) waardevolle services voor gebruik mee te maken. Wellicht verduidelijken in de formulering.
 </p>
 
 Grondslag: Uitgangspunten (4, 12, 13, 15), DSO (05)
