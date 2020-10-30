@@ -73,6 +73,7 @@ De Objectenregistratie heeft de volgende interactie met partijen in de omgeving.
 
 <p class='note'>
      Voor de auteurs, nog te doen: Figuur aanpassen. Besturend orgaan vervangen door Besturing. Bestuurd systeem vervangen door Uitvoering. Rollen in 'besturend orgaan' verwijderen. Bij rol bronhouder (inwinnen en samenstellen) verwijderen. Rollen Bronhouder en Afnemer alleen als tekst en niet als blauwe ovalen. ' Melding vervangen door Terugmelding. Eventueel catalogus vervangen door 'Informatie op diensten en objectgegevens' (WB)
+	 ACtie (BJ)
 </p>
 
 | Partij | Interacties | 
