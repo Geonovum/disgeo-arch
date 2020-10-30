@@ -24,6 +24,7 @@ De laag **Metabeheer** bevat de functies die betrekking hebben op het beheren va
 
 <p class='note'>
      Voor de auteurs, te bespreken: De zinsnede 'De laag Metabeheer bevat de functies die betrekking hebben op het beheren van gegevens over de gegevensmeta-data' begrijp ik niet. Wat is 'het beheren van gegevens over de gegevensmeta-data'. En wat is 'gegevensmeta-data'? Dat kan ik vervangen door datameta-data of gegevensmeta-gegevens en ik weet niet wat dat is. (WB)
+	 Dit is een typo, er was eerder geschreven "gegevens over de gegevens (meta-data)" maar de haakjes zijn weggevallen
 </p>
 
 De **Uitvoeringslaag** bevat de functies die nodig zijn voor het voor het beheren en afnemen van objectgegevens, zoals voor het registreren en wijzigen van gegevens en voor het raadplegen ervan. Op deze laag maken we onderscheid tussen de functies ten behoeve van het beheren van objectgegevens door bronhouders en het afnemen ervan door afnemers van de Objectenregistratie. 
@@ -96,10 +97,12 @@ Op de **Ondersteuningslaag** onderkennen we de volgende clusters voor de onderst
 
 <p class='note'>
      Voor de auteurs, te bespreken: waarom is het 'Beheer kwaliteitsdashboard' en 'Beheer gegevenscatalogus'? Bij beide is beschreven dat deze functies zijn 'voor het inzien ...'. Dat is geen 'beheer'. 
+	 BJ Opnemen bij Beheer gegevenskwaliteit en Beheer standaarden.
 </p>
 
 <p class='note'>
      We maken onderscheid tussen abonnementen op notificaties van gebeurtenissen die betrekking hebben op gegevens (voor bronhouders en afnemers) en abonnementen op notificaties van andersoortige gebeurtenissen (bijvoorbeeld ontwikkelingen die relevant zijn voor ontwikkelaars en beheerders van ICT-voorzieningen voor en bij bronhouders en afnemers)  
+	 BJ: Hoe worden andersoortige gebeurtenissen bekend bij de notificator?
 </p>
 
 ### Overzicht
@@ -119,7 +122,8 @@ Onderstaande afbeelding toont de functionaliteiten per cluster op de drie lagen.
 ### Functies in de aparte architectuurlaag Voorzieningenbeheer
 
 <p class='note'>
-     Voor de auteurs, te bespreken: Moet deze paragraaf niet vervallen. Het is nog afkomstig uit versie 0.4.1 van de architectuurbeschrijving. (WB)  
+    Voor de auteurs, te bespreken: Moet deze paragraaf niet vervallen. Het is nog afkomstig uit versie 0.4.1 van de architectuurbeschrijving. (WB) 
+	Eens (BJ)	 
 </p> 
 
 De laag Voorzieningenbeheer bevat de volgende clusters aan functionaliteiten:
@@ -134,7 +138,8 @@ De laag Voorzieningenbeheer bevat de volgende clusters aan functionaliteiten:
  Als we alle clusters met functionaliteiten in één overzicht plaatsen, wordt het geheel minder overzichtelijk. Het kan mogelijk wel nuttig zijn zo'n overzicht als praatplaat-aan-de-wand te gaan gebruiken bij de beheerorganisatie(s) bijvoorbeeld in workshops die bij de gezamenlijke inrichting worden gehouden. 
  
 <p class='note'>
-     Voor de auteurs, te bespreken: bovenstaande alinea verwijderen? Het is een procesopmerking (en procesopmerkingen verouderen snel). (WB) 
+     Voor de auteurs, te bespreken: bovenstaande alinea verwijderen? Het is een procesopmerking (en procesopmerkingen verouderen snel). (WB)
+	Eens (BJ)
 </p> 
  
  <figure id="alles in een plaat">
@@ -149,4 +154,5 @@ De laag Voorzieningenbeheer bevat de volgende clusters aan functionaliteiten:
 
 <p class='note'>
      Voor de auteurs, te bespreken: bovenstaande NOOT begrijp ik niet. Voorzieningenbeheer gaat over het beheer van de SOR-voorziening(en) niet over het beheer van andere overheidsvoorzieningen. (WB) 
+	 Voorzieningenbeheer verwijderen betekent ook de Note verwijderen. (BJ)
 </p> 
