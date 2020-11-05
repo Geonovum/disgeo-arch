@@ -39,7 +39,7 @@ Binnen andere domeinen is veel kennis en kunde opgebouwd over inrichtingsprincip
 - De "10 golden rules data" die tot stand zijn gekomen vanuit de best-practices rondom data management.
 
 <p class='note'>
-     Voor de auteurs. Verwijzing naar 10 golden rules opnemen -> of is dat rechtstreeks naar Best practices geo-spatial data on the web? (BJ)
+     Voor de auteurs. Jan wil jeen een linkje naar de 10 golden rules opnemen? En daar een linkje naar de best practices on the web?
 </p>
 
 
@@ -64,12 +64,6 @@ Grondslag: Uitgangspunten (9, 11, 15), GGL / Common Ground (04)
 **Inrichtingsprincipe 3: Gegevens zijn alleen te benaderen via dataservices**, *zodat* deze services kunnen garanderen dat de gegevens, metagegevens en de toegang ertoe altijd voldoen aan de eisen en dat logging altijd plaatsvindt. Om te garanderen dat de gegevens blijven voldoen aan de gestelde kwaliteit en actualiteit kunnen ze alleen benaderd worden via (data)services. Dit principe zorgt ervoor dat gegevens blijven voldoen aan de (integriteits-)eisen, doordat de dataservices dit waarborgen. Ook zorgt dit principe ervoor dat er een ontkoppeling is tussen de gegevens en de ontsluiting ervan. Applicaties benaderen de gegevens via de dataservices en niet direct. Dat maakt het mogelijk om veranderingen aan te brengen in de gegevensopslag of in de dataservices zonder dat deze elkaar beïnvloeden. Hierdoor kunnen we flexibel omgaan met aanpassingen in het gegevensmodel. Dit principe heeft de volgende onderliggende principes in zich:
     - **Dataservices regelen de toegang tot gegevens**, *zodat* deze services ervoor kunnen zorgen dat altijd is voldaan aan de eisen betreffende toegang. De services controleren of de gebruiker wel de toegangsrechten heeft om de gegevens te maken, te lezen of aan te passen.
     - **Dataservices leggen elke toegang tot gegevens vast in logging**, *zodat* deze services ervoor kunnen zorgen dat aantoonbaar is wat door gemachtigde leveranciers onder verantwoordelijkheid van bronhouders plaatsvindt. Alle transacties op de gegevens worden gelogd. Dit is nodig om een audit-trail te kunnen opbouwen.
-
-<p class='note'>
-     Voor de auteurs, om te bespreken. Bovenstaand principe wekt de suggestie dat gegevens altijd door gemachtigde leveranciers worden beheerd. Tekstvoorstel: zodat deze services ervoor kunnen zorgen dat aantoonbaar is wat door of onder verantwoordelijkheid van bronhouders plaatsvindt.
-	 Eens (BJ).
-</p>
-
     - **Dataservices houden metadata actueel**, *zodat* data en meta-data altijd onderling consistent zijn.
     - **Dataservices borgen de gegevensregels**, *zodat* gegarandeerd is dat de gegevens altijd voldoen aan de gegevensregels.
 
@@ -80,12 +74,7 @@ Grondslag: Uitgangspunten (1, 2, 3, 5, 7, 8, 9), DSO (05)
 Grondslag: Uitgangspunten (3, 7, 9), DSO (09), GGL / GGL / Common Ground (03)
 
 **Inrichtingsprincipe 5: We maken samenhangend gebruik van data makkelijk mogelijk**, zodat data uit verschillende gegevensverzamelingen te combineren is. Zo maken we mogelijk dat er samengestelde producten over het geheel van het gegevenslandschap kunnen worden gerealiseerd. Dit principe heeft de volgende onderliggende principes in zich:
-    - **Alles is een service**, *zodat* zowel computers als mensen de beschikbare functies kunnen begrijpen en benutten.
-    - **Intern is extern**, *zodat* alle services herkenbaar en bruikbaar zijn voor externe leveranciers van bronhouders en afnemers en deze op innovatieve manieren de waarde van gegevens kunnen vergroten.
-
-<p class='note'>
-     Voor auteurs, om te bespreken: Ik zie de relatie tussen dit principes en de twee subprincipes niet. Daarnaast lijkt het eerste subprincipe veel op principe 3 'gegevens zijn alleen te benaderen via dataservices'. (WB)
-	 Principe 3 gaat over de dataservices waarmee we waarborgen dat we weten wat er met de data gebeurt. Principe 5 gaat over de services (dataservices en infoservices voor convenience en/of proces) waarmee we mogelijk maken voor interne én externe partijen om (op hun beurt) waardevolle services voor gebruik mee te maken. Wellicht verduidelijken in de formulering.
-</p>
+    - **Alles is een service**, *zodat* alle functionaliteit zonder handmatige/menselijke tussenstappen kan worden gecombineerd om samenhangend gebruik makkelijk te maken.
+    - **Intern is extern**, *zodat* alle services herkenbaar en begrijpbaar zijn voor zowel interne als externe leveranciers van fucntionaliteit aan bronhouders en afnemers. Dit is essentieel om mogelijk te maken om op innovatieve manieren de waarde van gegevens in samenhangend gebruik te vergroten.
 
 Grondslag: Uitgangspunten (4, 12, 13, 15), DSO (05)
