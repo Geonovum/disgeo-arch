@@ -44,7 +44,7 @@ Binnen andere domeinen is veel kennis en kunde opgebouwd over inrichtingsprincip
 
 
 <p class='note'>
-     Voor de auteurs. Ik heb GEMMA Gegevenslandschap en Common Ground samengevoegd als 1 bron en verwijs naar beide. Ik heb  hieronder Common Ground steeds vervangen door GGL / Common Ground. Omdat GGL/CG geen 8 maar 6 principes heeft is de vraag of de nummers van de GGL/ CG principes hieronder wel kloppen. De link naar de bijlage voor GGL / Common Ground hierboven werkt niet. 
+     Voor de auteurs. Ik heb GEMMA Gegevenslandschap en Common Ground samengevoegd als 1 bron en verwijs naar beide. Ik heb  hieronder Common Ground steeds vervangen door GGL / Common Ground. Omdat GGL/CG geen 8 maar 6 principes heeft is de vraag of de nummers van de GGL/ CG principes hieronder wel kloppen. De link naar de bijlage voor GGL / Common Ground hierboven werkt niet. WB 5-11-2020: grondslagen GGL / CG gecontroleerd. Link naar bijlage GGL / CG werkt inmiddels wel
 	 Graag even toelichten welke link je op wil nemen, ik ben onvoldoende bekend met de samenvoeging van CG en GGL (BJ)
 </p>
 
@@ -54,7 +54,7 @@ Voor de ICT-inrichting van de Samenhangende Objectenregistratie hanteren we de o
 
  **Inrichtingsprincipe 1: Gegevens worden gescheiden van applicaties bewaard**, *zodat* het beheren en afnemen van gegevens onafhankelijk is van de gebruikte applicaties en gegevens te (her)gebruiken zijn in verschillende applicaties voor verschillende doeleinden.
  
-Grondslag: Uitgangspunten (7, 9), GGL / Common Ground 
+Grondslag: Uitgangspunten (7, 9), GGL / Common Ground (04)
 
 **Inrichtingsprincipe 2: Ieder gegeven wordt op precies &eacute&eacuten plek bijgehouden**, *zodat* altijd duidelijk is wat het actuele brongegeven is en waar dat wordt beheerd. Dit principe heeft de volgende onderliggende principes in zich:
      - **Dubbele opslag betekent synchroniseren**, zodat partijen altijd naar dezelfde gegevens kijken. Dit geldt zowel binnen als buiten de oplossing, dus ook voor eventuele afgeleide opslag die geoptimaliseerd is ten behoeve van verstrekking.

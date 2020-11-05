@@ -34,11 +34,11 @@ Samenvattend onderscheiden we de volgende processtappen.
 | **Ontsluiten** | Het beschikbaar stellen van de in de registratie opgenomen gegevens op een zodanige wijze dat deze als gegevens eenvoudig door afnemers kunnen worden benaderd. |
 | **Verrijken** | Het zodanig transformeren of presenteren van in de registratie opgenomen gegevens dat een op afnemersbehoeften afgestemd informatieproduct ontstaat. |
 | **Gebruiken** | Het ophalen van de beschikbaar gestelde gegevens en de toepassing daarvan binnen de werkprocessen waarvoor de gegevens zijn benodigd. |
-| **Terugmelden** | Het vastleggen van twijfel over de gegevens. |
-| **Onderzoeken** | Het onderzoeken van de twijfel over de gegevens om terugkoppeling te geven aan de melder en eventuele aanpassingen aan gegevens te doen. |
+| **Terugmelden** | Het doorgeven van een mogelijk onjuist in de registratie opgenomen gegeven aan de bronhouder met daarbij een voldoende onderbouwing van de mogelijke onjuistheid om een onderzoek mogelijk te maken. |
+| **Onderzoeken** | Het analyseren van een mogelijke onjuistheid in de registratie naar aanleiding van een door een afnemer doorgegeven signaal en het na het verzamelen van aanvullende gegevens al dan niet wijzigen van het betreffende gegeven in de registratie. |
 
 <p class='note'>
-     Voor auteurs, nog te doen: Bovenstaande toetsen aan de actuele versie van 'naar rolvastheid ...' (WB)
+     Voor auteurs, nog te doen: Bovenstaande toetsen aan de actuele versie van 'naar rolvastheid ...' GEDAAN, Teurgmelden en Onderzoeken aangepast aan versie 29-5-20 met aanpassingen in juni (WB)
 </p>
 
 Onderstaande afbeelding geeft deze processtappen op een andere wijze weer.
