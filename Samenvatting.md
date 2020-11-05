@@ -10,4 +10,4 @@ De architectuurbeschrijving van de Samenhangende Objectenregistratie wordt staps
 
 ### Inhoud
 
-De architectuurbeschrijving bevat een inleiding, een afbakening, gehanteerde principes en een uitwerking van de componenten van de SOR. De beschrijving blijft op functioneel niveau, ofwel op het niveau van de applicatielaag van het NORA-vijflaagsmodel. De onderscheiden functies (capabilities, "wat moet kunnen") binnen het systeem worden zodanig beschreven dat een opdracht om deze te realiseren inhoudelijk voldoende duidelijk is voor opdrachtgever en opdrachtnemer.
+De architectuurbeschrijving bevat een inleiding, een afbakening, gehanteerde principes en een uitwerking van de componenten van de SOR. De beschrijving blijft op functioneel niveau, ofwel op het niveau van de applicatielaag van het NORA-vijflaagsmodel. De onderscheiden functies (capabilities, "wat moet kunnen") binnen het systeem worden zodanig beschreven dat een opdracht om deze in te vullen inhoudelijk voldoende duidelijk is voor opdrachtgever en opdrachtnemer.
