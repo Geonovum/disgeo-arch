@@ -37,23 +37,9 @@ Samenvattend onderscheiden we de volgende processtappen.
 | **Terugmelden** | Het doorgeven van een mogelijk onjuist in de registratie opgenomen gegeven aan de bronhouder met daarbij een voldoende onderbouwing van de mogelijke onjuistheid om een onderzoek mogelijk te maken. |
 | **Onderzoeken** | Het analyseren van een mogelijke onjuistheid in de registratie naar aanleiding van een door een afnemer doorgegeven signaal en het na het verzamelen van aanvullende gegevens al dan niet wijzigen van het betreffende gegeven in de registratie. |
 
-<p class='note'>
-     Voor auteurs, nog te doen: Bovenstaande toetsen aan de actuele versie van 'naar rolvastheid ...' GEDAAN, Teurgmelden en Onderzoeken aangepast aan versie 29-5-20 met aanpassingen in juni (WB)
-</p>
-
-Onderstaande afbeelding geeft deze processtappen op een andere wijze weer.
-
-<figure id="soreenvoudigprocesstappen">
-    <img src="media/praatplaat-eenvoudig-processtappen-sor.png" alt="soreenvoudigprocesstappen">
-    <figcaption>De processtappen in de globale werking van de Samenhangende objectenregistratie</figcaption>
-</figure>
 
 ### Scope van de Architectuurbeschrijving
-Op basis van de processtappen is de scope van de Architectuurbeschrijving te bepalen. Onderstaande afbeelding geeft deze scope weer. In deze afbeelding is onderscheid gemaakt tussen het de besturing van de SOR en de uitvoering van de SOR en de omgeving van de SOR. 
-
-<p class='note'>
-     Voor auteurs, nog te doen: In de afbeelding 'Besturend orgaan' vervangen door 'Besturing' en 'Bestuurd systeem' vervangen door 'Uitvoering'. En INVOER en UITVOER vervangen door respectievelijk Objectgegevens en Objectgegevens. En 'Routeren terugmeldingen' verwijderen. (WB)
-</p>
+Op basis van de processtappen is de scope van de Architectuurbeschrijving te bepalen. Onderstaande afbeelding geeft deze scope weer. In deze afbeelding is onderscheid gemaakt tussen het besturing, bestuurd systeem en de omgeving. 
 
 <figure id="scopearchitectuur processen">
     <img src="media/systeemprocessen-objectenregistratie.png" alt="systeemprocessen-objectenregistratie">
@@ -71,21 +57,18 @@ De Objectenregistratie heeft de volgende interactie met partijen in de omgeving.
     <figcaption>Interacties</figcaption>
 </figure>
 
-<p class='note'>
-     Voor de auteurs, nog te doen: Figuur aanpassen. Besturend orgaan vervangen door Besturing. Bestuurd systeem vervangen door Uitvoering. Rollen in 'besturend orgaan' verwijderen. Bij rol bronhouder (inwinnen en samenstellen) verwijderen. Rollen Bronhouder en Afnemer alleen als tekst en niet als blauwe ovalen. ' Melding vervangen door Terugmelding. Eventueel catalogus vervangen door 'Informatie op diensten en objectgegevens' (WB)
-	 ACtie (BJ)
-</p>
-
 | Partij | Interacties | 
 |--------|-------------|
 | **Bronhouder** | **Objectgegevens)**. De bronhouder registreert en beheert objectgegevens. |
 |  | **Meldingen**: De bronhouder verwerkt terugmeldingen van Afnemers. |
 |  | **Catalogus**. De bronhouder gebruikt de gegevenscatalogus om kennis te nemen van de gegevensdefinities van de Objectenregistratie. |
+|  | **Inzicht**. De bronhouder gebruikt inzicht in de gegevenskwaliteit ter ondersteuning van het beheren van objectgegevens. |
 |  | **Support**. De bronhouder ontvangt ondersteuning bij het gebruik van de Objectenregistratie, zoals bijvoorbeeld een catalogus van beschikbare producten en diensten. |
 |  | **Hulpvraag**. De bronhouder kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. |
 | **Afnemer**                  | **Objectgegevens**. De afnemer neemt objectgegevens en generieke informatieproducten af. |
-|  | **Terugmeldingen**. De afnemer levert terugmeldingen bij twijfel over de juistheid van de objectgegevens. |
+|  | **Meldingen**. De afnemer levert terugmeldingen bij twijfel over de juistheid van de objectgegevens. |
 |  | **Catalogus**. De afnemer gebruikt de gegevenscatalogus om kennis te nemen van de gegevensdefinities van de Objectenregistratie. |
+|  | **Inzicht**. De afnemer gebruikt inzicht in de gegevenskwaliteit ter ondersteuning van het gebruiken van objectgegevens. |
 |  | **Support**. De afnemer (mens of computer) ontvangt ondersteuning bij het gebruik van de Objectenregistratie, zoals bijvoorbeeld een catalogus van beschikbare producten en diensten. |
 |  | **Hulpvraag**. De afnemer kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. Hier wordt zowel geautomatiseerde ondersteuning als menselijke ondersteuning bedoeld.|
 
