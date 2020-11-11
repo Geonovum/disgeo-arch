@@ -48,7 +48,8 @@ Voor de ICT-inrichting van de Samenhangende Objectenregistratie hanteren we de o
 Grondslag: Uitgangspunten (7, 9), GGL / Common Ground (04)
 
 **Inrichtingsprincipe 2: Ieder gegeven wordt op precies &eacute&eacuten plek bijgehouden**, *zodat* altijd duidelijk is wat het actuele brongegeven is en waar dat wordt beheerd. Dit principe heeft de volgende onderliggende principes in zich:
-     - **Dubbele opslag betekent synchroniseren**, zodat partijen altijd naar dezelfde gegevens kijken. Dit geldt zowel binnen als buiten de oplossing, dus ook voor eventuele afgeleide opslag die geoptimaliseerd is ten behoeve van verstrekking.
+
+    - **Dubbele opslag betekent synchroniseren**, zodat partijen altijd naar dezelfde gegevens kijken. Dit geldt zowel binnen als buiten de oplossing, dus ook voor eventuele afgeleide opslag die geoptimaliseerd is ten behoeve van verstrekking.
 
 Grondslag: Uitgangspunten (9, 11, 15), GGL / Common Ground (04)
 
@@ -71,7 +72,8 @@ Grondslag: Uitgangspunten (3, 7, 9), DSO (09), GGL / GGL / Common Ground (03)
 Grondslag: Uitgangspunten (4, 12, 13, 15), DSO (05)
 
 
-Van dienstenaanbieder wordt verwacht invulling te geven aan basisprincipes van de NORA, zie https://www.noraonline.nl/wiki/Basisprincipes_totaaloverzicht. 
-Basisprincipes BP01 tot en met BP05: diensten zijn proactief vindbaar en toegankelijk, uniform en gebundeld voor afnemers. 
-Basisprincipes BP09 en BP10 van de NORA: dienstenaanbieder is betrouwbaar en ontvankelijk voor input. 
+
+Overigens wordt van dienstenaanbieders verwacht dat ze invulling geven aan basisprincipes die staan genomend in de NORA, zie https://www.noraonline.nl/wiki/Basisprincipes_totaaloverzicht. 
+Vanuit basisprincipes BP01 tot en met BP05: diensten zijn proactief vindbaar en toegankelijk, uniform en gebundeld voor afnemers. 
+Vanuit basisprincipes BP09 en BP10: dienstenaanbieder is betrouwbaar en ontvankelijk voor input. 
 
