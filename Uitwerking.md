@@ -1,17 +1,19 @@
-## Componenten SOR
+## Uitwerking
 
 ### Inleiding
 
-Dit hoofdstuk bevat de uitwerking van de componenten van de SOR. Per component
+Dit hoofdstuk bevat de uitwerking van de componenten van de objetcenregistatie. Per component
 is beschreven:
 
-1.  Wat het doel is van de component.
+1.  Wat het doel is van de component. 
 
 2.  Op welke bestaande uitwerkingen de invulling van de component is gebaseerd.
 
-3.  Aan welke vereisten de component dient te voldoen.
+3.  Welke uitgangspunten, zoals bestaande standaarden, voor de invulling van de component gelden.
 
-4.  Welke externe afhankelijkheden de component heeft.
+4.  Aan welke vereisten de component dient te voldoen.
+
+5.  Welke externe afhankelijkheden de component heeft.
 
 Voor de uitwerking van de componenten gelden de volgende uitgangspunten:
 
@@ -25,63 +27,11 @@ Voor de uitwerking van de componenten gelden de volgende uitgangspunten:
     standaarden in het kader van interoperabiliteit en het voldoen aan afspraken
     binnen de overheid of nationale of internationale afspraken.
 
-De uitwerking is gebaseerd op de structuur van de componenten in het vorige
-hoofdstuk.
-
-<p class='ednote'>
-     onderstaande tekst kan vanaf hier weg, want staat in de inhoudsopgave
-</p>
-
- en hanteert deze volgorde:
-
-1.  **Laag Uitvoering**
-
-    1.  Registratie
-
-    2.  Opslag
-
-    3.  Afname
-
-    4.  Notificatie
-
-    5.  Terugmelding
-
-2.  **Laag Metabeheer**
-
-    1.  Gegevenscatalogus
-
-    2.  Gegevenskwaliteit
-
-3.  **Laag Ondersteuning**
-
-    1.  Abonnementen
-
-    2.  Betalingen
-
-    3.  Machtigingen
-
-    4.  Dienstencatalogus
-
-4.  **Algemeen**
-
-    1.  Toegang (voor informatiesystemen en personen)
-
-    2.  Interactie (met personen, bijvoorbeeld via een webloket of dashboard)
-
-5.  **Niet-functionele eisen**
-
-<p class='ednote'>
-     bovensstaandet kan tot hier weg, want staat in de inhoudsopgave
-</p>
-
-Onder Algemeen beschrijven we de onderwerpen van de SOR die op meerdere plaatsen
-in de SOR-architectuur voorkomen. Deze onderwerpen zijn onder Algemeen eenmalig
+Onder [Algemeen] (#Algemeen) beschrijven we de onderwerpen die op meerdere plaatsen
+in de architectuur voorkomen. Deze onderwerpen zijn daar eenmalig
 uitgewerkt.
 
 ### Laag Uitvoering
-
-Algemene onderwerpen zoals Toegang en Interactie zijn niet uitgewerkt per laag,
-maar in het onderdeel Algemeen.
 
 #### Registratie
 
