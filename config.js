@@ -94,11 +94,6 @@ var respecConfig =
       companyURL: "https://www.kadaster.nl"
     },    
     {
-      name:       "Linda van den Brink",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
-    }, 
-    {
       name:       "Jan van Gelder",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
@@ -173,7 +168,7 @@ var respecConfig =
   //-- Optionele parameters:
   //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
   //subtitle: "iets",                         // Subtitel van het document
-  //maxTocLevel: 3,                           // Aantal niveau's ToC, default is 0
+  //maxTocLevel: 2,                           // Aantal niveau's ToC, default is 0
   //-- LOGO: Hier kan je een ander logo opgeven indien nodig
   logos: [{
   //  src: "https://tools.geostandaarden.nl/respec/style/logos/OmgevingswetLogo.svg",
