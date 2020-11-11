@@ -50,6 +50,8 @@ Deze architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de **uit
 
 ### Interacties met partijen in de omgeving
 
+De Besturing van de Objectenregistratie ontvangt informatie uit het systeem en uit de omgeving. Op basis van die informatie wordt sturing gegeven aan het systeem en aan de omgeving. Deze interacties worden in deze versie van de architectuur niet verder uitgewerkt. 
+
 De Objectenregistratie heeft de volgende interactie met partijen in de omgeving.
 
 <figure id="scopearchitectuur interacties">
@@ -72,20 +74,16 @@ De Objectenregistratie heeft de volgende interactie met partijen in de omgeving.
 |  | **Support**. De afnemer (mens of computer) ontvangt ondersteuning bij het gebruik van de Objectenregistratie, zoals bijvoorbeeld een catalogus van beschikbare producten en diensten. |
 |  | **Hulpvraag**. De afnemer kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. Hier wordt zowel geautomatiseerde ondersteuning als menselijke ondersteuning bedoeld.|
 
-De Bronhouder is gepositioneerd als een partij in de omgeving die gebruik maakt van diensten van de Objectenregistratie om objectgegevens te registreren. De Afnemer is gepositioneerd als een partij in de omgeving die gebruik maakt van de diensten van de Objectenregistratie om objectgegevens af te nemen.
+De rol Bronhouder is gepositioneerd als een partij in de omgeving die gebruik maakt van diensten van de Objectenregistratie om objectgegevens te registreren. De rol Afnemer is gepositioneerd als een partij in de omgeving die gebruik maakt van de diensten van de Objectenregistratie om objectgegevens af te nemen.
 
-Bij de rol afnemer is onderscheid te maken in:
-1. Overheidsgebruikers, die verplicht gebruik dienen te maken van de geo-basisregistraties voor hun processen .
+Bij de rol Afnemer is onderscheid te maken in:
+1. Overheidsgebruikers, die verplicht gebruik dienen te maken van de geo-basisregistraties voor hun processen.
 2. Open data gebruikers, zoals bedrijven die waarde toevoegen aan gegevens in de basisregistraties en nieuwe producten ontwikkelen.
 3. Eindgebruikers van de informatie, zoals burgers en bedrijven.
 
-Alle genoemde partijen maken gebruik van ondersteunende partijen zoals ICT-leveranciers en kunnen taken uitbesteden aan derden, zoals samenwerkingsverbanden en gegevensleveranciers. De beschreven interacties hebben deels ook betrekking op deze ondersteunende partijen. Zo zullen softwareontwikkelaars ook gebruik maken van de gegevens- en de dienstencatalogus van de Objectenregistratie.
+Alle genoemde partijen maken gebruik van ondersteunende partijen zoals softwareleveranciers en kunnen taken uitbesteden aan derden, zoals samenwerkingsverbanden en gegevensleveranciers. De beschreven interacties hebben deels ook betrekking op deze ondersteunende partijen. Zo zullen softwareleveranciers ook gebruik maken van de gegevens- en de dienstencatalogus van de Objectenregistratie.
 
 <p class='note'>
-     Voor de lezers: De interactie met het besturend orgaan is nog niet uitgewerkt in deze versie.
-</p>
-
-<p class='note'>
-     Voor reviewers: De interacties komen overeen met de pijlen in de afbeelding. Opmerkingen op de tabel en op de afbeeldingen zijn in samenhang welkom.
+     Voor reviewers: De interacties komen overeen met de grijs gekleurde pijlen in de afbeelding. Opmerkingen op de tabel en op de afbeeldingen zijn in samenhang welkom.
 </p>
 
