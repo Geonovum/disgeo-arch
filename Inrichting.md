@@ -53,7 +53,7 @@ De laag **Uitvoering** bevat de functies voor het beheren van objectgegevens en 
 
 Op de Uitvoeringslaag onderkennen we de volgende clusters voor *beheer en afname van objectgegevens*:
 - *Toegang*: voor het bewaken en loggen van de toegang van bronhouders en hun gemachtigden tot de beheerdiensten en van afnemers tot de afnamediensten. 
-- *Registratie*: voor het creëren en wijzigen van objectgegevens door bronhouders en hun gemachtigden.
+- [*Registratie*] (###Registratie): voor het creëren en wijzigen van objectgegevens door bronhouders en hun gemachtigden.
 - *Opslag*: voor het duurzaam beschikbaar houden van gegevens over objecten en objecteigenschappen.
 - *Afname*: voor het afnemen van objectgegevens op verschillende manieren, variërend van het raadplegen van enkelvoudige gegevens tot afnamen in 'bulk' voor bijvoorbeeld analysedoeleinden.
 - *Notificatie*: voor het notificeren van afnemers van voor hen relevante gebeurtenissen (we gebruiken gebeurtenissen hier in brede zin, breder dan alleen gebeurtenissen die de objectgegevens betreffen).
