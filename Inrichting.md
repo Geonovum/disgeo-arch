@@ -2,13 +2,13 @@
 
 ### Inleiding
 
-Dit hoofdstuk beschrijft de functionele (of conceptuele) inrichting van de Samenhangende Objectenregistratie op de applicatielaag van het NORA-vijflaagsmodel. Het doel ervan is om sturing te kunnen geven aan de transitie naar de Objectenregistratie en te dienen als kader voor technische inrichting van de Objectenregistratie. Ook biedt het een deel van de basis voor de organisatorische inrichting van de Objectenregistratie. 
+Dit hoofdstuk beschrijft de functionele inrichting van de Samenhangende Objectenregistratie op de applicatielaag van het NORA-vijflaagsmodel. Het doel ervan is om sturing te kunnen geven aan de transitie naar de Objectenregistratie en te dienen als kader voor technische inrichting van de Objectenregistratie. Ook biedt het een deel van de basis voor de organisatorische inrichting van de Objectenregistratie. 
 
-Dit hoofdstuk beschrijft de onderdelen (of componenten) van de Objectenregistratie en de verbindingen daartussen en het wijst de functies van de Objectenregistratie toe aan deze onderdelen. 
+Dit hoofdstuk beschrijft de onderdelen van de Objectenregistratie en de verbindingen daartussen en het wijst de functies van de Objectenregistratie toe aan deze onderdelen. 
 
 ### Functionele lagen in de inrichting
 
-We onderscheiden drie lagen in de functionele indeling van de Objectenregistratie, zoals de afbeelding hieronder toont. Daarmee duiden we alleen het doel van de functies (bijvoorbeeld beheren of afnemen van objectgegevens) en doen we geen uitspraak over de de technische inrichting of de verdeling ervan over verschillende ICT-voorzieningen.
+We onderscheiden drie lagen in de functionele indeling van de Objectenregistratie, zoals de afbeelding hieronder toont. Daarmee duiden we alleen het doel van de functies en doen we geen uitspraak over de de technische inrichting of de verdeling ervan over verschillende ICT-voorzieningen.
 
 <figure id="inrichtinglagen">
     <img src="media/functionele-lagen-objectenregistratie.png" alt="functionele lagen">
@@ -38,7 +38,7 @@ Op de laag **Metabeheer** onderkennen we de volgende clusters: **Toegang** en **
 
 - *Toegang*: voor het bewaken en loggen van de toegang van meta-beheerders tot de diensten.
 - *Gegevenscatalogus*: voor het inzien van de beschikbare soorten objectgegevens, eigenschappen en relaties en de betekenis daarvan, evenals het uitvoeren van versiemanagement op de catalogus als er sprake is van nieuwe objectgegevens of gegevensregels.
- - *Gegevenskwaliteit*: voor het beheren en gebruiken van de door bronhouders en afnemers en andere betrokkenen (zoals toezichthouder en  beleidsverantwoordelijke) overeengekomen kwaliteitsindicatoren en voor het beheren en gebruiken vand de bijbehorende diensten voor het bepalen van de waarden van de kwaliteitsindicatoren ten behoeve van monitoring van de gegevenskwaliteit, bijvoorbeeld door middel van analyses.
+ - *Gegevenskwaliteit*: voor het beheren en gebruiken van de door bronhouders en afnemers en andere betrokkenen (zoals toezichthouder en  beleidsverantwoordelijke) overeengekomen kwaliteitsindicatoren. Tevens voor het beheren en gebruiken van de bijbehorende diensten voor het bepalen van de waarden van de kwaliteitsindicatoren ten behoeve van monitoring van de gegevenskwaliteit, bijvoorbeeld door middel van kwaliteitsdashboards en analyses.
 
 ### Functies in de laag Uitvoering
 
@@ -55,7 +55,7 @@ Op de Uitvoeringslaag onderkennen we de volgende clusters voor *beheer en afname
 - *Toegang*: voor het bewaken en loggen van de toegang van bronhouders en hun gemachtigden tot de beheerdiensten en van afnemers tot de afnamediensten. 
 - *Registratie*: voor het creëren en wijzigen van objectgegevens door bronhouders en hun gemachtigden.
 - *Opslag*: voor het duurzaam beschikbaar houden van gegevens over objecten en objecteigenschappen.
-- *Afname gegevens*: voor het afnemen van objectgegevens op verschillende manieren, variërend van het raadplegen van enkelvoudige gegevens tot afnamen in 'bulk' voor bijvoorbeeld analysedoeleinden.
+- *Afname*: voor het afnemen van objectgegevens op verschillende manieren, variërend van het raadplegen van enkelvoudige gegevens tot afnamen in 'bulk' voor bijvoorbeeld analysedoeleinden.
 - *Notificatie*: voor het notificeren van afnemers van voor hen relevante gebeurtenissen (we gebruiken gebeurtenissen hier in brede zin, breder dan alleen gebeurtenissen die de objectgegevens betreffen).
 - *Terugmelding*: voor het in staat stellen van afnemers om bij gerede twijfel aan de juistheid van gegevens dit te melden en van bronhouders om meldingen in behandeling te nemen.
 
