@@ -1,4 +1,4 @@
-## Inrichting van de Objectenregistratie
+## Inrichting
 
 ### Inleiding
 
@@ -77,17 +77,18 @@ Op de **Ondersteuningslaag** onderkennen we de volgende clusters voor de onderst
 
 
 ### Overzicht
-Onderstaande afbeelding toont de functionaliteiten per cluster op de drie lagen. Deze functionaliteiten zijn beschreven in het hoofdstuk Uitwerking van onderdelen.
+Onderstaande afbeelding toont de functionaliteiten per cluster op de drie lagen. Deze functionaliteiten zijn beschreven in het hoofdstuk [Uitwerking] (#uitwerking).
+
 
 <figure id="metabeheer-inrichting-uitvoering">
     <img src="media/inrichting-metabeheer-uitvoering-ondersteuning-objectenregistratie.png" alt="inrichting metabeheer uitvoering ondersteuning">
-    <figcaption>De capability-clusters op de lagen Metabeheer en Uitvoering en Ondersteuning</figcaption>
+    <figcaption>De capabilities op de lagen Metabeheer en Uitvoering en Ondersteuning</figcaption>
 </figure>
 
 ### Niet-functionele eisen
 
 <p class='note'>
-NOOT voor reviewers: Welke niet-functionele eisen moeten opgenomen worden in deze Architectuurbeschrijving? Hieronder volgen wat handvatten.
+Vraag aan de reviewers: Welke niet-functionele eisen moeten opgenomen worden in deze Architectuurbeschrijving? Hieronder volgen wat handvatten.
 </p>
 
 De componenten van de objectenregistratie voldoen aan eisen waarmee invulling gegeven kan worden aan de volgende eisen aan basisgegevens 
