@@ -18,9 +18,9 @@ Voor de Architectuurbeschrijving van de ICT-voorzieningen voor de Objectenregist
 
 Onderstaande afbeelding toont de globale processtappen rond de Objectenregistratie. *Bronhouders* zorgen voor het **inwinnen** van bronmateriaal zoals luchtfoto's of bouwwerkinformatiemodellen of maken gebruik van door anderen ingewonnen bronmateriaal. Op basis van dit bronmateriaal **stelt** de bronhouder objectgegevens **samen** die voldoen aan de eisen van de Objectenregistratie en **registreert** deze objectgegevens in de opslag van de Objectenregistratie waar ze worden **bewaard**. Vanuit de opslag worden gegevens **ontsloten** richting *afnemers* die deze gegevens **gebruiken** in hun (bedrijfs-)processen. Regelmatig worden de objectgegevens **verrijkt** voordat ze worden gebruikt, bijvoorbeeld door ze te combineren met gegevens uit andere bronnen. Het resultaat van verrijken noemen we *informatieproducten*. Vanuit de Objectenregistratie worden alleen *generieke* informatieproducten verstrekt. Dat zijn producten die voor een groot deel van de afnemers relevant zijn. Specifieke informatieproducten waar alleen bepaalde sectoren of afnemers behoefte aan hebben vallen buiten de scope van de Objectenregistratie. Als er bij de afnemers twijfel over de juistheid van  gegevens bestaat dan kunnen zij dat **terugmelden** waarna de bronhouder zal **onderzoeken** of die twijfel tot wijzigingen moet leiden.
 
-<figure id="soreenvoudig">
-    <img src="media/praatplaat-eenvoudig-sor.png" alt="SOReenvoudig">
-    <figcaption>De globale processtappen van de Samenhangende objectenregistratie</figcaption>
+<figure id="processtappen">
+    <img src="media/praatplaat-eenvoudig-processtappen-sor.png" alt="processtappen">
+    <figcaption>De globale processtappen van de samenhangende objectenregistratie</figcaption>
 </figure>
 
 Samenvattend onderscheiden we de volgende processtappen.
@@ -39,7 +39,7 @@ Samenvattend onderscheiden we de volgende processtappen.
 
 
 ### Scope van de Architectuurbeschrijving
-Op basis van de processtappen is de scope van de Architectuurbeschrijving te bepalen. Onderstaande afbeelding geeft deze scope weer. In deze afbeelding is onderscheid gemaakt tussen het besturing, bestuurd systeem en de omgeving. 
+Op basis van de processtappen is de scope van de Architectuurbeschrijving te bepalen. Onderstaande afbeelding geeft deze scope weer. In deze afbeelding is onderscheid gemaakt tussen besturing, bestuurd systeem en omgeving. 
 
 <figure id="scopearchitectuur processen">
     <img src="media/systeemprocessen-objectenregistratie.png" alt="systeemprocessen-objectenregistratie">
