@@ -114,8 +114,7 @@ Voor ICT systemen en componenten waarmee de functies beschikbaar gemaakt worden,
     <figcaption>De capabilities op de lagen Metabeheer en Uitvoering en Ondersteuning</figcaption>
 </figure>
 	 
-	 De eisen aangaande dekking van contexten vertalen de vereiste flexibiliteit van de objectenregistratie als geheel naar de vereiste flexibiliteit van de ICT componenten. Denk hierbij aan de aanpasbaarheid van componenten aan veranderingen in de scope van basisgegevens en de structuur van basisgegevens. 
-
+De eisen aangaande dekking van contexten vertalen de vereiste flexibiliteit van de objectenregistratie als geheel naar de vereiste flexibiliteit van de ICT componenten. Denk hierbij aan de aanpasbaarheid van componenten aan veranderingen in de scope van basisgegevens en de structuur van basisgegevens. 
 
      Voor **productkwaliteit** van de objectenregistratie zijn eisen van toepassing aangaande functionele geschiktheid, betrouwbaarheid, performance, bruikbaarheid, beveiliging, compatibiiteit, onderhoudbaarheid en overdraagbaarheid. 
 
@@ -124,6 +123,6 @@ Voor ICT systemen en componenten waarmee de functies beschikbaar gemaakt worden,
     <figcaption>De capabilities op de lagen Metabeheer en Uitvoering en Ondersteuning</figcaption>
 </figure>
 	 
-	 De eisen aan compatibiliteit betreffen onder andere de interoperabiliteit. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk verzekeren de eisen aan interoperabiliteit van systemen dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund.         
+De eisen aan compatibiliteit betreffen onder andere de interoperabiliteit. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk verzekeren de eisen aan interoperabiliteit van systemen dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund.         
 
 
