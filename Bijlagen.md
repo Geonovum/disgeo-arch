@@ -57,7 +57,7 @@ Bron: https://www.noraonline.nl/wiki/Principes
 Er zijn 12 eisen aan basisregistraties waaraan een basisregistratie moet voldoen.
 Bron: https://www.noraonline.nl/images/noraonline/c/c0/Stelselarchitectuur_heden.pdf 
 
-### 10 golden rules data
+### De 10 golden rules data
 
 Deze 10 golden rules zijn tot stand gekomen vanuit de best-practices rondom data management. 
 

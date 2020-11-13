@@ -2,8 +2,7 @@
 
 ### Inleiding
 
-Dit hoofdstuk bevat de uitwerking van de componenten van de objetcenregistatie. Per component
-is beschreven:
+**Dit hoofdstuk bevat de uitwerking van de componenten van de objetcenregistatie. Per component is beschreven:**
 
 1.  Wat het doel is van de component. 
 
@@ -15,7 +14,7 @@ is beschreven:
 
 5.  Welke externe afhankelijkheden de component heeft.
 
-Voor de uitwerking van de componenten gelden de volgende uitgangspunten:
+**Voor de uitwerking van de componenten gelden de volgende uitgangspunten:**
 
 1.  De uitwerking van de componenten is zoveel als mogelijk gebaseerd op
     bestaande, breed geaccepteerde en gehanteerde nationale of internationale
@@ -363,7 +362,6 @@ Ook de volgende uitwerkingen vormen mogelijk een basis voor de uitwerking van de
 component Notificatie. Dat is nader te bepalen:
 
 -   Uitwerking van event-sourcing door Haal Centraal.
-
 -   BRK-meldingen van het Kadaster.
 
 ##### Uitgangspunten
@@ -698,7 +696,6 @@ objectgegevens waarin ze geïnteresseerd zijn.
 ###### Invulling
 
 De uitwerking van deze component is onder andere gebaseerd op:
-
 -   Er is nog geen uitwerking beschikbaar om de component Notificatie op te
     baseren.
 
@@ -708,7 +705,6 @@ abonnementen. Zie ook de uitwerking van de component Notificatie.
 ###### Uitgangspunten
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
-
 -   Abonnementen zijn abonnementen op gebeurtenissoorten die betrekking hebben
     op objectgegevens. Een abonnement resulteert erin dat de abonnementhouder
     notificaties ontvangt als zich gebeurtenissen van die soort voordoen.
@@ -1124,7 +1120,6 @@ De component Toegang heeft de volgende externe afhankelijkheden:
 -   Er is een afhankelijkheid van de functionaliteiten, standaarden,
     serviceniveaus, governance en financiering van de gebruikte
     (overheids)identificatie- en authenticatiemiddelen.
-
 -   Er is een afhankelijkheid van gemaakte afspraken over te hanteren
     standaarden zoals PKIoverheid, eHerkenning, DigiD, OAuth, TLS e.d.
 
@@ -1150,7 +1145,6 @@ terugmeldingen en het beheren van abonnementen.
 De invulling van interactie is gebaseerd op:
 
 -   De principes van [Gebruiker Centraal(https://www.gebruikercentraal.nl)
-
 -   De eisen aan [Digitoegankelijkheid](https://www.digitoegankelijk.nl)
 
 ##### Uitgangspunten

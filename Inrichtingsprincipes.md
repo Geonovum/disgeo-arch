@@ -36,7 +36,7 @@ Binnen andere domeinen is veel kennis en kunde opgebouwd over inrichtingsprincip
 - De [Overall Globale Architectuur Schets (OGAS)](https://aandeslagmetdeomgevingswet.nl/publish/library/219/dso_-_gas_-_overall_gas_1.pdf) van het Digitaal Stelsel Omgevingswet. Zie ook de [bijlage](#inrichtingsprincipes-digitaal-stelsel-omgevingwet).
 - De referentie architectuur [NORA](#basisprincipes-nora) van de architecten van samenwerkende Nederlandse overheden  
 - Het [GEMMA Gegevenslandschap en Common Ground](#architectuurprincipes-gemma-gegevenslandschap-en-common-ground) van samenwerkende gemeenten en de Vereniging van Nederlandse Gemeenten.
-- De [10 golden rules data](#10-golden-rules-data) die tot stand zijn gekomen vanuit de best-practices rondom data management.
+- De [10 golden rules data](#de-10-golden-rules-data) die tot stand zijn gekomen vanuit de best-practices rondom data management.
 
 
 ### ICT-inrichtingsprincipes Samenhangende Objectenregistratie
