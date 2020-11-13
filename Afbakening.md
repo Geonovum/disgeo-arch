@@ -14,8 +14,6 @@ Voor de Architectuurbeschrijving van de ICT-voorzieningen voor de Objectenregist
 
 ### Context voor de Architectuurbeschrijving
 
-**Processtappen Objectenregistratie**
-
 Onderstaande afbeelding toont de globale processtappen rond de Objectenregistratie. *Bronhouders* zorgen voor het **inwinnen** van bronmateriaal zoals luchtfoto's of bouwwerkinformatiemodellen of maken gebruik van door anderen ingewonnen bronmateriaal. Op basis van dit bronmateriaal **stelt** de bronhouder objectgegevens **samen** die voldoen aan de eisen van de Objectenregistratie en **registreert** deze objectgegevens in de opslag van de Objectenregistratie waar ze worden **bewaard**. Vanuit de opslag worden gegevens **ontsloten** richting *afnemers* die deze gegevens **gebruiken** in hun (bedrijfs-)processen. Regelmatig worden de objectgegevens **verrijkt** voordat ze worden gebruikt, bijvoorbeeld door ze te combineren met gegevens uit andere bronnen. Het resultaat van verrijken noemen we *informatieproducten*. Vanuit de Objectenregistratie worden alleen *generieke* informatieproducten verstrekt. Dat zijn producten die voor een groot deel van de afnemers relevant zijn. Specifieke informatieproducten waar alleen bepaalde sectoren of afnemers behoefte aan hebben vallen buiten de scope van de Objectenregistratie. Als er bij de afnemers twijfel over de juistheid van  gegevens bestaat dan kunnen zij dat **terugmelden** waarna de bronhouder zal **onderzoeken** of die twijfel tot wijzigingen moet leiden.
 
 <figure id="processtappen">
@@ -46,11 +44,14 @@ Op basis van de processtappen is de scope van de Architectuurbeschrijving te bep
     <figcaption>Scope van de architectuurbeschrijving.</figcaption>
 </figure>
 
-Deze architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de **uitvoering en ook de ondersteuning van de Samenhangende Objectenregistratie**. Dit betreft de processtappen **Registeren, Bewaren, Ontsluiten, (Generiek) Verrijken** en de bijbehorende ondersteundende processen. Alleen het verrijken van gegevens tot generieke informatieproducten behoort tot de scope van (de ICT-voorzieningen voor) de Objectenregistratie. Deze architectuurbeschrijving benoemt binnen de scope de functies, componenten en samenhang en de standaarden. Voor de processen van de rollen bronhouder en afnemer benoemt deze architectuurbeschrijving alleen de functies. De ICT-componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf en daarmee buiten de scope van deze architectuurbeschrijving.
+Deze architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de **uitvoering en ook de ondersteuning van de Samenhangende Objectenregistratie**.
+Dit betreft de processtappen **Registeren, Bewaren, Ontsluiten, (Generiek) Verrijken** en de bijbehorende ondersteundende processen.
+Alleen het verrijken van gegevens tot generieke informatieproducten behoort tot de scope van (de ICT-voorzieningen voor) de Objectenregistratie.
+Deze architectuurbeschrijving benoemt binnen de scope de functies, componenten en samenhang en de standaarden. 
+Voor de processen van de rollen bronhouder en afnemer benoemt deze architectuurbeschrijving alleen de functies. 
+De ICT-componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf en daarmee buiten de scope van deze architectuurbeschrijving.
 
 ### Interacties met partijen in de omgeving
-
-De Besturing van de Objectenregistratie ontvangt informatie uit het systeem en uit de omgeving. Op basis van die informatie wordt sturing gegeven aan het systeem en aan de omgeving. Deze interacties worden in deze versie van de architectuur niet verder uitgewerkt. 
 
 De Objectenregistratie heeft de volgende interactie met partijen in de omgeving.
 
@@ -59,31 +60,38 @@ De Objectenregistratie heeft de volgende interactie met partijen in de omgeving.
     <figcaption>Interacties</figcaption>
 </figure>
 
-| Partij | Interacties | 
-|--------|-------------|
-| **Bronhouder** | **Objectgegevens)**. De bronhouder registreert en beheert objectgegevens. |
-|  | **Meldingen**: De bronhouder verwerkt terugmeldingen van Afnemers. |
-|  | **Catalogus**. De bronhouder gebruikt de gegevenscatalogus om kennis te nemen van de gegevensdefinities van de Objectenregistratie. |
-|  | **Inzicht**. De bronhouder gebruikt inzicht in de gegevenskwaliteit ter ondersteuning van het beheren van objectgegevens. |
-|  | **Support**. De bronhouder ontvangt ondersteuning bij het gebruik van de Objectenregistratie, zoals bijvoorbeeld een catalogus van beschikbare producten en diensten. |
-|  | **Hulpvraag**. De bronhouder kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. |
-| **Afnemer**                  | **Objectgegevens**. De afnemer neemt objectgegevens en generieke informatieproducten af. |
-|  | **Meldingen**. De afnemer levert terugmeldingen bij twijfel over de juistheid van de objectgegevens. |
-|  | **Catalogus**. De afnemer gebruikt de gegevenscatalogus om kennis te nemen van de gegevensdefinities van de Objectenregistratie. |
-|  | **Inzicht**. De afnemer gebruikt inzicht in de gegevenskwaliteit ter ondersteuning van het gebruiken van objectgegevens. |
-|  | **Support**. De afnemer (mens of computer) ontvangt ondersteuning bij het gebruik van de Objectenregistratie, zoals bijvoorbeeld een catalogus van beschikbare producten en diensten. |
-|  | **Hulpvraag**. De afnemer kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. Hier wordt zowel geautomatiseerde ondersteuning als menselijke ondersteuning bedoeld.|
+| Partij         | Interacties | 
+|----------------|-------------|
+| **Bronhouder** | **Objectgegevens**. De bronhouder registreert en beheert objectgegevens. |
+|                | **Meldingen**: De bronhouder verwerkt terugmeldingen van Afnemers. |
+|                | **Catalogus**. De bronhouder gebruikt de gegevens- en dienstencatalogus om kennis te nemen van de gegevensdefinities van de Objectenregistratie. |
+|                | **Inzicht**. De bronhouder gebruikt inzicht in de gegevenskwaliteit ter ondersteuning van het beheren van objectgegevens. |
+|                | **Support**. De bronhouder ontvangt ondersteuning bij het gebruik van de Objectenregistratie. |
+|                | **Hulpvraag**. De bronhouder kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. |
+| **Afnemer**    | **Objectgegevens**. De afnemer neemt objectgegevens en generieke informatieproducten af. |
+|                | **Meldingen**. De afnemer levert terugmeldingen bij twijfel over de juistheid van de objectgegevens. |
+|                | **Catalogus**. De afnemer gebruikt de gegevens- en dienstencatalogus om kennis te nemen van de gegevensdefinities van de Objectenregistratie. |
+|                | **Inzicht**. De afnemer gebruikt inzicht in de gegevenskwaliteit ter ondersteuning van het gebruiken van objectgegevens. |
+|                | **Support**. De afnemer (mens of computer) ontvangt ondersteuning bij het gebruik van de Objectenregistratie. |
+|                | **Hulpvraag**. De afnemer kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. Hier wordt zowel geautomatiseerde ondersteuning als menselijke ondersteuning bedoeld.|
 
-De rol Bronhouder is gepositioneerd als een partij in de omgeving die gebruik maakt van diensten van de Objectenregistratie om objectgegevens te registreren. De rol Afnemer is gepositioneerd als een partij in de omgeving die gebruik maakt van de diensten van de Objectenregistratie om objectgegevens af te nemen.
+De rol Bronhouder is gepositioneerd als een partij in de omgeving die gebruik maakt van diensten van de Objectenregistratie om objectgegevens te registreren. 
+De rol Afnemer is gepositioneerd als een partij in de omgeving die gebruik maakt van de diensten van de Objectenregistratie om objectgegevens af te nemen.
 
 Bij de rol Afnemer is onderscheid te maken in:
 1. Overheidsgebruikers, die verplicht gebruik dienen te maken van de geo-basisregistraties voor hun processen.
 2. Open data gebruikers, zoals bedrijven die waarde toevoegen aan gegevens in de basisregistraties en nieuwe producten ontwikkelen.
 3. Eindgebruikers van de informatie, zoals burgers en bedrijven.
 
-Alle genoemde partijen maken gebruik van ondersteunende partijen zoals softwareleveranciers en kunnen taken uitbesteden aan derden, zoals samenwerkingsverbanden en gegevensleveranciers. De beschreven interacties hebben deels ook betrekking op deze ondersteunende partijen. Zo zullen softwareleveranciers ook gebruik maken van de gegevens- en de dienstencatalogus van de Objectenregistratie.
+Alle genoemde partijen maken gebruik van ondersteunende partijen zoals softwareleveranciers en kunnen taken uitbesteden aan derden, zoals samenwerkingsverbanden en gegevensleveranciers.
+De beschreven interacties hebben deels ook betrekking op deze ondersteunende partijen. Zo zullen softwareleveranciers ook gebruik maken van de gegevens- en de dienstencatalogus van de Objectenregistratie.
 
 <p class='note'>
-     Voor reviewers: De interacties komen overeen met de grijs gekleurde pijlen in de afbeelding. Opmerkingen op de tabel en op de afbeeldingen zijn in samenhang welkom.
+     Voor reviewers: De interacties komen overeen met de grijs gekleurde pijlen in de afbeelding. 
+     Opmerkingen op de tabel en op de afbeeldingen zijn in samenhang welkom.
 </p>
+
+De Besturing van de Objectenregistratie ontvangt informatie uit het systeem en uit de omgeving. 
+Op basis van die informatie wordt sturing gegeven aan het systeem en aan de omgeving. 
+Deze interacties worden in deze versie van de architectuur niet verder uitgewerkt. 
 

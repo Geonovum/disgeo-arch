@@ -25,12 +25,19 @@ Dit is een tijdelijk hoofdstuk met de reviewcommentaren, en wat er met die comme
 | MR  | 20201113 | 	Bijlagen principes moet zijn bijlage principes | Ja | Aangepast |
 | WB  | 20201113 |  Aanpak: Beschreven aanpak klopt niet. | | |
 | WB  | 20201113 |  Status van dit document: Wie is ‘de werkgroep’?  | | |
-| WB  | 20201113 |  1.2 Leeswijzer:   Link naar Inrichting van de Objectenregistratie werkt niet <br> Link naar Componenten werkt niet  | | |
-| WB  | 20201113 |  1.3 Het proces:   Verwijzing naar hoofdlijnenrapport is niet goed.  | | |
-| WB  | 20201113 |  2.2 Context voor de Architectuurbeschrijving:     De kop ‘Processtappen Objectenregistratie’ verwijderen. Er zijn geen andere koppen in deze paragraaf. | | |
-| WB  | 20201113 |  2.3 Scope van de Architectuurbeschrijving: We benoemen niet expliciet de functies die bronhouders en afnemers moeten hebben. | | |
-| WB  | 20201113 |  2.4 Interacties met partijen in de omgeving: De eerste alinea verplaatsen naar het einde van deze paragraaf.<br>In tabel ) achter Objectgegevens) verwijderen<br>Catalogus = gegevens EN dienstencatalogus<br>Support is niet hetzelfde als Catalogus<br>Is deze NOOT nodig? | | |
-| WB  | 20201113 |  3. ICT-inrichtingsprincipes<br>ICT-organisatie vervangen door ICT-beheerorganisatie?<br>“De Beleidsvisie Samenhangende Objectenregistratie beschrijft de doelstellingen en beleidscontouren VOOR DE OBJECTENREGISTRATIE” | | |
+| WB  | 20201113 |  1.2 Leeswijzer: Link naar Inrichting van de Objectenregistratie werkt niet  | | |
+| WB  | 20201113 |  1.2 Leeswijzer: Link naar Componenten werkt niet  | | |
+| WB  | 20201113 |  1.3 Het proces: Verwijzing naar hoofdlijnenrapport is niet goed.  | | |
+| WB  | 20201113 |  2.2 Context voor de Architectuurbeschrijving: De kop ‘Processtappen Objectenregistratie’ verwijderen. Er zijn geen andere koppen in deze paragraaf. | Ja | kop verwijderd |
+| WB  | 20201113 |  2.3 Scope van de Architectuurbeschrijving: We benoemen niet expliciet de functies die bronhouders en afnemers moeten hebben. | Nee | wat moet het worden? |
+| WB  | 20201113 |  2.4 Interacties met partijen in de omgeving: De eerste alinea verplaatsen naar het einde van deze paragraaf. | Ja | Staat nu helemaal onderaan de paragraaf |
+| WB  | 20201113 |  2.4 In tabel ) achter Objectgegevens) verwijderen | Ja |  verwijderd |
+| WB  | 20201113 |  2.4 Catalogus = gegevens EN dienstencatalogus | Ja |  tekst aangepast in de tabel|
+| WB  | 20201113 |  2.4 Support is niet hetzelfde als Catalogus | Ja | tekst ', zoals bijvoorbeeld een catalogus van beschikbare producten en diensten' weggehaald  |
+| WB  | 20201113 |  2.4 Is deze NOOT nodig? | Nee | is een vraag/discussie |
+| WB  | 20201113 |  3. ICT-inrichtingsprincipes: ICT-organisatie vervangen door ICT-beheerorganisatie? | | |
+| WB  | 20201113 |  3. ICT-inrichtingsprincipes: “De Beleidsvisie Samenhangende Objectenregistratie beschrijft de doelstellingen en beleidscontouren VOOR DE OBJECTENREGISTRATIE” | | |
+| WB  | 20201113 |  3. ICT-inrichtingsprincipes: ICT-organisatie vervangen door ICT-beheerorganisatie?<br>“De Beleidsvisie Samenhangende Objectenregistratie beschrijft de doelstellingen en beleidscontouren VOOR DE OBJECTENREGISTRATIE” | | |
 | WB  | 20201113 |  3.2 Inrichtingsprincipes vergelijkbare domeinen: Link naar 10 golden rules data werkt niet. | | |
 | WB  | 20201113 |  3.3. ICT-inrichtingsprincipes Samenhangende Objectenregistratie: Inrichtingsprincipe 3. Hier zeggen we altijd via dataservices. In hoofdstuk 5 zeggen we dat we dat nog niet kunnen zeggen. | | |
 | WB  | 20201113 |  “Dataservices regelen de toegang tot gegevens” : Dit klopt niet. Er is toegang en er zijn dataservices. Dat zijn twee aparte onderdelen. | | |
