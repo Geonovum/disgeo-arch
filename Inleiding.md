@@ -5,7 +5,7 @@ Een samenhangende objectenregistratie is een uniforme registratie met daarin bas
 Dit document is de *Architectuurbeschrijving* van de Samenhangende Objectenregistratie. Het beschrijft de afbakening, de ICT-inrichtingsprincipes en de conceptuele of functionele inrichting (de functionele onderdelen en samenhang) van de ICT-componenten voor de Samenhangende Objectenregistratie. Met andere woorden, de Architectuurbeschrijving beschrijft de Objectenregistratie op de Applicatielaag, laag 4 in het [NORA-vijflaagsmodel](https://www.noraonline.nl/wiki/Vijflaagsmodel)
 
 <figure id="scope in nora5laagsmodel">
-    <img src="media/scope-in-nora5laagsmodel.PNG" alt="scope in nora5laagsmodel">
+    <img src="media/scope-in-nora5laagsmodel.png" alt="scope in nora5laagsmodel">
     <figcaption>Scope in het NORA 5 laagsmodel</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ De Architectuurbeschrijving van de Samenhangende Objectenregistratie is een prod
 
 Globale uitgangspunten voor het programma DiS-Geo worden vastgelegd in een nog te verschijnen beleidsvisie DiS Geo.
 
-De architectuurvisie van het programma DiS-Geo is beschreven in een  [houtskoolschets](https://www.geobasisregistraties.nl/documenten/publicatie/2020/07/16/houtskoolschets-architectuurvisie-dis-geo) "Geodata als stroom uit het stopcontact".
+De architectuurvisie van het programma DiS-Geo is beschreven in een [houtskoolschets](https://www.geobasisregistraties.nl/documenten/publicatie/2020/07/16/houtskoolschets-architectuurvisie-dis-geo) "Geodata als stroom uit het stopcontact".
 
 Globale uitgangspunten voor het gegevensmodel, de voorziene processen voor inwinning, registratie en ontsluiting van gegevens, en eerste beelden over de organisatie en governance en financiering zijn vastgelegd in een [beleidsvisie samenhangende objectenregistratie](https://www.geobasisregistraties.nl/documenten/beleidsnota/2019/11/29/beleidsvisie-samenhangende-objectenregistratie) die eind 2019 door het BAG BAO en de Regieraad BGT is vastgesteld.
 
