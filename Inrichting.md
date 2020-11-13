@@ -123,6 +123,15 @@ De eisen aangaande dekking van contexten vertalen de vereiste flexibiliteit van 
     <figcaption>Structuur voor eisen aan software product kwaliteit (ISO25010)</figcaption>
 </figure>
 	 
-De eisen aan compatibiliteit betreffen onder andere de interoperabiliteit. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk verzekeren de eisen aan interoperabiliteit van systemen dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund.         
+De eisen aan compatibiliteit betreffen onder andere de interoperabiliteit. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk verzekeren de eisen aan interoperabiliteit van systemen dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund. Beide niveaus van interoperabiliteit zijn noodzakelijk voor het bereiken van interoperabiliteit tussen organisaties, waardoor alle overheidsorganisaties met dezelfde basisgegevens kunnen werken: 
+
+Interoperabiliteit
+
+Om dit essentiele onderwerp voldoende aandacht te geven sluiten we dit hoofdstuk af met een illustratie die weergeeft dat interoperabiliteit op de applicatielaag alleen werkt in samenhang met operabiliteit op de andere lagen van de NORA.              
+
+<figure id="Interoperabiliteit op alle niveaus">
+    <img src="media/interoperabiliteit-op-3-niveaus.png" alt="interoperabiliteit-op-alle-niveaus">
+    <figcaption>Interoperabiliteit op alle niveaus</figcaption>
+</figure>
 
 
