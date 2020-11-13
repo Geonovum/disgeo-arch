@@ -1,4 +1,4 @@
-## ICT-inrichtingsprincipes
+## Inrichtingsprincipes
 
 Dit hoofdstuk beschrijft de principes die richtinggevend zijn voor de functionele inrichting van de ICT-voorzieningen voor de Objectenregistratie en de bijbehorende ICT-Beheerorganisatie. 
 
@@ -57,13 +57,13 @@ Grondslag: Uitgangspunten (7, 9), GGL / Common Ground (04)
 
 Grondslag: Uitgangspunten (9, 11, 15), GGL / Common Ground (04)
 
-**Inrichtingsprincipe 3: Gegevens zijn alleen te benaderen via dataservices**, *zodat* deze services kunnen garanderen dat de gegevens, metagegevens en de toegang ertoe altijd voldoen aan de eisen en dat logging altijd plaatsvindt. Om te garanderen dat de gegevens blijven voldoen aan de gestelde kwaliteit en actualiteit kunnen ze alleen benaderd worden via (data)services. Dit principe zorgt ervoor dat gegevens blijven voldoen aan de (integriteits-)eisen, doordat de dataservices dit waarborgen. Ook zorgt dit principe ervoor dat er een ontkoppeling is tussen de gegevens en de ontsluiting ervan. Applicaties benaderen de gegevens via de dataservices en niet direct. Dat maakt het mogelijk om veranderingen aan te brengen in de gegevensopslag of in de dataservices zonder dat deze elkaar beïnvloeden. Hierdoor kan flexibel omgegaan worden met aanpassingen in het gegevensmodel. Dit principe heeft de volgende onderliggende principes in zich:
-    - **Dataservices regelen de toegang tot gegevens**, *zodat* de dataservices ervoor kunnen zorgen dat altijd is voldaan aan de eisen betreffende toegang. De services controleren of de gebruiker wel de toegangsrechten heeft om de gegevens te maken, te lezen of aan te passen.
-    - **Dataservices leggen elke toegang tot gegevens vast in logging**, *zodat* deze services ervoor kunnen zorgen dat aantoonbaar is wat door gemachtigde leveranciers onder verantwoordelijkheid van bronhouders plaatsvindt. Alle transacties op de gegevens worden gelogd. Dit is nodig om een audit-trail te kunnen opbouwen.
+**Inrichtingsprincipe 3: Gegevens zijn alleen te benaderen via dataservices**, *zodat* deze services kunnen garanderen dat de gegevens, metagegevens altijd voldoen aan de eisen en dat logging altijd plaatsvindt. Om te garanderen dat de gegevens blijven voldoen aan de gestelde kwaliteit en actualiteit kunnen ze alleen benaderd worden via (data)services. Dit principe zorgt ervoor dat gegevens blijven voldoen aan de (integriteits-)eisen, doordat de dataservices dit waarborgen. Ook zorgt dit principe ervoor dat er een ontkoppeling is tussen de gegevens en de ontsluiting ervan. Applicaties benaderen de gegevens via de dataservices en niet direct. Dat maakt het mogelijk om veranderingen aan te brengen in de gegevensopslag of in de dataservices zonder dat deze elkaar beïnvloeden. Hierdoor kan flexibel omgegaan worden met aanpassingen in het gegevensmodel. Dit principe heeft de volgende onderliggende principes in zich:
     - **Dataservices houden metadata actueel**, *zodat* data en meta-data altijd onderling consistent zijn.
     - **Dataservices borgen de gegevensregels**, *zodat* gegarandeerd is dat de gegevens altijd voldoen aan de gegevensregels.
+    - **Dataservices leggen het creeren, wijzingen en raadplegen van gegevens vast in logging**, *zodat* deze services ervoor kunnen zorgen dat aantoonbaar is wat door gemachtigde leveranciers onder verantwoordelijkheid van bronhouders plaatsvindt. Alle transacties op de gegevens worden gelogd. Dit is nodig om een audit-trail te kunnen opbouwen.
 
 Grondslag: Uitgangspunten (1, 2, 3, 5, 7, 8, 9), DSO (05)
+
  
 **Inrichtingsprincipe 4: Data wordt op betrouwbare en veilige wijze ontsloten**, *zodat* aangetoond kan worden dat data niet bedoeld of onbedoeld gemanipuleerd is. Om op data te kunnen vertrouwen zorgen functies ervoor dat data bij alle handelingen vanaf het moment van ontstaan tot het moment van gebruik veilig is. Data wijzigt daarom alleen op basis van een brondocument of mutatieverwijzing en de wijziging wordt vastgelegd. Integriteit en consistentie van data wordt bewaakt. Data wordt bewaard conform de eisen van de wet (w.o. archiefwet, etc.).
 

@@ -17,23 +17,20 @@ We onderscheiden drie lagen in de functionele indeling van de Objectenregistrati
 
 De laag **Metabeheer** bevat de functies die nodig zijn voor het beheren en gebruiken van gegevens over de gegevens, te weten Gegevenscatalogus en Gegevenskwaliteit. Gegevenscatalogus bevat de functies die nodig zijn om informatiemodellen en gegevensregels te beheren in catalogi waarmee die informatiemodellen en gegevensregels kunnen worden toegepast in voorzieningen. Gegevenskwaliteit bevat de functies om kwaliteitsindicatoren te beheren en kwaliteitsmetingen te doen teneinde inzicht in de gegevenskwaliteit te verkrijgen.
 
-De **Uitvoeringslaag** bevat de functies die nodig zijn voor het voor het beheren en afnemen van objectgegevens, zoals voor het registreren en wijzigen van gegevens en voor het raadplegen ervan. Op deze laag maken we onderscheid tussen de functies ten behoeve van het beheren van objectgegevens door gebruikers in de rol van bronhouder en het afnemen van objectgegevens door gebruikers in de rol van afnemer. 
+De **Uitvoeringslaag** bevat de functies die nodig zijn voor het beheren en afnemen van objectgegevens, zoals voor het registreren en wijzigen van gegevens en voor het raadplegen ervan. Op deze laag maken we onderscheid tussen de functies ten behoeve van het beheren van objectgegevens door gebruikers in de rol van bronhouder en het afnemen van objectgegevens door gebruikers in de rol van afnemer. 
 
 De **Ondersteuningslaag** bevat de functies die nodig zijn om bronhouders en afnemers te ondersteunen bij het beheren en afnemen van gegevens, zoals het beheren van machtigingen en het raadplegen van dienstencatalogi.
 
 De functies in de drie lagen voor Metabeheer, Uitvoering en Ondersteuning maken we zichtbaar in een **totaaloverzicht**.
 
-Aan de componenten in de drie lagen voor Metabeheer, Uitvoering en Ondersteuning, bestaan ook **niet-functionele eisen**. Deze benoemen we in algemene zin overkoepelend over de lagen en componenten.
+<figure id="metabeheer-inrichting-uitvoering">
+    <img src="media/inrichting-metabeheer-uitvoering-ondersteuning-objectenregistratie.png" alt="inrichting metabeheer uitvoering ondersteuning">
+    <figcaption>De capabilities op de lagen Metabeheer en Uitvoering en Ondersteuning</figcaption>
+</figure>
+
 
 ### Functies in de laag Metabeheer
 
-Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Metabeheer. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
-
-<figure id="inrichting-metabeheer">
-    <img src="media/inrichting-metabeheer-objectenregistratie.png" alt="inrichting metabeheer">
-    <figcaption>De capabilities op de laag Metabeheer </figcaption>
-</figure>
-  
 Op de laag **Metabeheer** onderkennen we de volgende clusters: **Toegang** en **Gegevenscatalogus** en **Gegevenskwaliteit**. 
 
 - *Toegang*: voor het bewaken van de toegang van meta-beheerders tot de diensten.
@@ -42,31 +39,15 @@ Op de laag **Metabeheer** onderkennen we de volgende clusters: **Toegang** en **
 
 ### Functies in de laag Uitvoering
 
-Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Uitvoering. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
-
-<figure id="functiesuitvoering">
-    <img src="media/inrichting-uitvoering-objectenregistratie.png" alt="inrichting uitvoering">
-    <figcaption>De capabilities op de laag Uitvoering</figcaption>
-</figure>
-
-De laag **Uitvoering** bevat de functies voor het beheren van objectgegevens en voor het afnemen van objectgegevens
-
 Op de Uitvoeringslaag onderkennen we de volgende clusters voor *beheer en afname van objectgegevens*:
 - *Toegang*: voor het bewaken en loggen van de toegang van bronhouders en hun gemachtigden tot de beheerdiensten en van afnemers tot de afnamediensten. 
-- [Registratie](#registratie): voor het creëren en wijzigen van objectgegevens door bronhouders en hun gemachtigden.
+- [Registratie](####registratie): voor het creëren en wijzigen van objectgegevens door bronhouders en hun gemachtigden.
 - *Opslag*: voor het duurzaam beschikbaar houden van gegevens over objecten en objecteigenschappen.
 - *Afname*: voor het afnemen van objectgegevens op verschillende manieren, variërend van het raadplegen van enkelvoudige gegevens tot afnamen in 'bulk' voor bijvoorbeeld analysedoeleinden.
 - *Notificatie*: voor het notificeren van afnemers van voor hen relevante gebeurtenissen (we gebruiken gebeurtenissen hier in brede zin, breder dan alleen gebeurtenissen die de objectgegevens betreffen).
 - *Terugmelding*: voor het in staat stellen van afnemers om bij gerede twijfel aan de juistheid van gegevens dit te melden en van bronhouders om meldingen in behandeling te nemen.
 
 ### Functies in de laag Ondersteuning
-
-Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Ondersteuning. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
-
-<figure id="functiesuitvoeringondersteuning">
-    <img src="media/inrichting-ondersteuning-objectenregistratie.png" alt="inrichting ondersteuning">
-    <figcaption>De capabilities op de laag Ondersteuning</figcaption>
-</figure>
 
 Op de **Ondersteuningslaag** onderkennen we de volgende clusters voor de ondersteuning van bronhouders en hun gemachtigden en afnemers:
 - *Toegang*: voor het bewaken en loggen van de toegang van bronhouders en hun gemachigden en afnemers tot de ondersteuningsdiensten.
@@ -75,17 +56,9 @@ Op de **Ondersteuningslaag** onderkennen we de volgende clusters voor de onderst
 - *Betalingen*: voor het beheren van betalingen van betaalde diensten door de gebruikers van die diensten, indien sprake is van betaalde diensten. Betalen kan op verschillende manieren worden ingericht, zoals vooraf, bij afname van de dienst of achteraf.
 - *Dienstencatalogus:* voor het inzien van de beschikbare diensten voor het beheren en afnemen van gegevens, evenals voor het uitvoeren van versiemanagement op de dienstencatalogus als er sprake is van nieuwe diensten.
 
-
-### Overzicht
-Onderstaande afbeelding toont de functionaliteiten per cluster op de drie lagen. Deze functionaliteiten zijn beschreven in het hoofdstuk [Uitwerking] (#uitwerking).
-
-
-<figure id="metabeheer-inrichting-uitvoering">
-    <img src="media/inrichting-metabeheer-uitvoering-ondersteuning-objectenregistratie.png" alt="inrichting metabeheer uitvoering ondersteuning">
-    <figcaption>De capabilities op de lagen Metabeheer en Uitvoering en Ondersteuning</figcaption>
-</figure>
-
 ### Niet-functionele eisen
+
+Aan de componenten in de drie lagen voor Metabeheer, Uitvoering en Ondersteuning, bestaan ook **niet-functionele eisen**. Deze benoemen we in algemene zin overkoepelend over de lagen en componenten.
 
 <p class='note'>
 Vraag aan de reviewers: Welke niet-functionele eisen moeten opgenomen worden in deze Architectuurbeschrijving?

@@ -166,7 +166,7 @@ var respecConfig =
   //previousMaturity: "VV",  	                // kies 1 van deze 2 regels
 
   //-- Optionele parameters:
-  emailComments: "info@disgeo.nl",            // reactie mailadres, alleen bij CV!
+  emailComments: "disgeo@minbzk.nl",            // reactie mailadres, alleen bij CV!
   //subtitle: "iets",                         // Subtitel van het document
   maxTocLevel: 3,                             // Aantal niveau's ToC, default is 0
   //-- LOGO: Hier kan je een ander logo opgeven indien nodig
