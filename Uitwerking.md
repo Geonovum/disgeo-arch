@@ -526,8 +526,6 @@ De uitwerking van deze component is onder andere gebaseerd op:
 
     -   Gegevenscatalogi van BAG, BGT, BRT, BRO, BRK en WOZ
 
-    -   Berichtenstandaarden/catalogi van BAG, BGT, BRO
-
 ##### Uitgangspunten
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
