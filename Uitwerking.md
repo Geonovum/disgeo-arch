@@ -84,7 +84,8 @@ Voor deze component gelden de volgende vereisten:
     gegevensregels plaats. Alleen valide gegevens worden definitief
     geregistreerd. Dat betekent dat objecten die (nog) niet volledig aan de
     gegevensregels voldoen niet definitief geregistreerd kunnen worden.  
-    Het is nu nog niet te bepalen of in de SOR ook objectgegevens in bewerking
+    
+	Het is nu nog niet te bepalen of in de SOR ook objectgegevens in bewerking
     geregistreerd kunnen worden. Dat is afhankelijk van de nog te kiezen
     organisatorisch en technische inrichting.
 
@@ -93,8 +94,7 @@ Voor deze component gelden de volgende vereisten:
     identificatie van het aangemaakte object enz.
 
 4.  Van ieder gebruik van een registratiedienst wordt o.a. vastgelegd: datum en
-    tijdstip, organisatie. Dit kan o.a. gebruikt worden om te meten of het
-    gebruik binnen de overeengekomen grenzen van gebruik blijft.
+    tijdstip, organisatie, zodat een audit log beschikbaar is. 
 
 N.B.
 
@@ -234,11 +234,6 @@ Voor deze component gelden de volgende vereisten:
     grenzen aan ‘fair use’ voor open diensten en grenzen aan gebruik van
     diensten met gegarandeerd dienstenniveau en grenzen aan gebruik van
     eventuele betaalde diensten.
-
-Het is nu nog niet te bepalen of het een vereiste is dat gemaks- en
-processervices altijd gebruik maken van dataservices. Daarvoor zijn op dit
-moment geen redenen onderkend en de precieze gevolgen van zo’n vereiste zijn op
-dit moment nog niet in te schatten.
 
 <p class ='note'>
     Vraag aan de reviewers om argumenten voor of tegen de vereiste dat

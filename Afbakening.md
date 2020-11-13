@@ -44,12 +44,7 @@ Op basis van de processtappen is de scope van de Architectuurbeschrijving te bep
     <figcaption>Scope van de architectuurbeschrijving.</figcaption>
 </figure>
 
-Deze architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de **uitvoering en ook de ondersteuning van de Samenhangende Objectenregistratie**.
-Dit betreft de processtappen **Registeren, Bewaren, Ontsluiten, (Generiek) Verrijken** en de bijbehorende ondersteundende processen.
-Alleen het verrijken van gegevens tot generieke informatieproducten behoort tot de scope van (de ICT-voorzieningen voor) de Objectenregistratie.
-Deze architectuurbeschrijving benoemt binnen de scope de functies, componenten en samenhang en de standaarden. 
-Voor de processen van de rollen bronhouder en afnemer benoemt deze architectuurbeschrijving alleen de functies. 
-De ICT-componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf en daarmee buiten de scope van deze architectuurbeschrijving.
+Deze architectuurbeschrijving heeft als scope de ICT-voorzieningen voor **de uitvoering en ook de ondersteuning van de Samenhangende Objectenregistratie**. Dit betreft de processtappen **Registeren, Bewaren, Ontsluiten, (Generiek) Verrijken** en de bijbehorende ondersteundende processen. Alleen het verrijken van gegevens tot generieke informatieproducten behoort tot de scope van (de ICT-voorzieningen voor) de Objectenregistratie. Deze architectuurbeschrijving benoemt binnen de scope de functies, componenten en samenhang en de standaarden. Voor de processen van de rollen bronhouder en afnemer benoemt de architectuurbeschrijving alleen de processtappen. De benoeming van de ICT-componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf en daarmee buiten de scope van deze architectuurbeschrijving
 
 ### Interacties met partijen in de omgeving
 

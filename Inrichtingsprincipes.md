@@ -38,6 +38,10 @@ Binnen andere domeinen is veel kennis en kunde opgebouwd over inrichtingsprincip
 - Het [GEMMA Gegevenslandschap en Common Ground](#architectuurprincipes-gemma-gegevenslandschap-en-common-ground) van samenwerkende gemeenten en de Vereniging van Nederlandse Gemeenten.
 - De [10 golden rules data](#de-10-golden-rules-data) die tot stand zijn gekomen vanuit de best-practices rondom data management.
 
+Overigens wordt van dienstenaanbieders verwacht dat ze invulling geven aan basisprincipes die staan genomend in de NORA, zie https://www.noraonline.nl/wiki/Basisprincipes_totaaloverzicht. 
+Vanuit basisprincipes BP01 tot en met BP05: diensten zijn proactief vindbaar en toegankelijk, uniform en gebundeld voor afnemers. 
+Vanuit basisprincipes BP09 en BP10: dienstenaanbieder is betrouwbaar en ontvankelijk voor input. 
+
 
 ### ICT-inrichtingsprincipes Samenhangende Objectenregistratie
 
@@ -54,7 +58,7 @@ Grondslag: Uitgangspunten (7, 9), GGL / Common Ground (04)
 Grondslag: Uitgangspunten (9, 11, 15), GGL / Common Ground (04)
 
 **Inrichtingsprincipe 3: Gegevens zijn alleen te benaderen via dataservices**, *zodat* deze services kunnen garanderen dat de gegevens, metagegevens en de toegang ertoe altijd voldoen aan de eisen en dat logging altijd plaatsvindt. Om te garanderen dat de gegevens blijven voldoen aan de gestelde kwaliteit en actualiteit kunnen ze alleen benaderd worden via (data)services. Dit principe zorgt ervoor dat gegevens blijven voldoen aan de (integriteits-)eisen, doordat de dataservices dit waarborgen. Ook zorgt dit principe ervoor dat er een ontkoppeling is tussen de gegevens en de ontsluiting ervan. Applicaties benaderen de gegevens via de dataservices en niet direct. Dat maakt het mogelijk om veranderingen aan te brengen in de gegevensopslag of in de dataservices zonder dat deze elkaar beïnvloeden. Hierdoor kan flexibel omgegaan worden met aanpassingen in het gegevensmodel. Dit principe heeft de volgende onderliggende principes in zich:
-    - **Dataservices regelen de toegang tot gegevens**, *zodat* deze services ervoor kunnen zorgen dat altijd is voldaan aan de eisen betreffende toegang. De services controleren of de gebruiker wel de toegangsrechten heeft om de gegevens te maken, te lezen of aan te passen.
+    - **Dataservices regelen de toegang tot gegevens**, *zodat* de dataservices ervoor kunnen zorgen dat altijd is voldaan aan de eisen betreffende toegang. De services controleren of de gebruiker wel de toegangsrechten heeft om de gegevens te maken, te lezen of aan te passen.
     - **Dataservices leggen elke toegang tot gegevens vast in logging**, *zodat* deze services ervoor kunnen zorgen dat aantoonbaar is wat door gemachtigde leveranciers onder verantwoordelijkheid van bronhouders plaatsvindt. Alle transacties op de gegevens worden gelogd. Dit is nodig om een audit-trail te kunnen opbouwen.
     - **Dataservices houden metadata actueel**, *zodat* data en meta-data altijd onderling consistent zijn.
     - **Dataservices borgen de gegevensregels**, *zodat* gegarandeerd is dat de gegevens altijd voldoen aan de gegevensregels.
@@ -70,10 +74,4 @@ Grondslag: Uitgangspunten (3, 7, 9), DSO (09), GGL / GGL / Common Ground (03)
     - **Intern is extern**, *zodat* alle services herkenbaar en begrijpbaar zijn voor zowel interne als externe leveranciers van fucntionaliteit aan bronhouders en afnemers. Dit is essentieel om mogelijk te maken om op innovatieve manieren de waarde van gegevens in samenhangend gebruik te vergroten.
 
 Grondslag: Uitgangspunten (4, 12, 13, 15), DSO (05)
-
-
-
-Overigens wordt van dienstenaanbieders verwacht dat ze invulling geven aan basisprincipes die staan genomend in de NORA, zie https://www.noraonline.nl/wiki/Basisprincipes_totaaloverzicht. 
-Vanuit basisprincipes BP01 tot en met BP05: diensten zijn proactief vindbaar en toegankelijk, uniform en gebundeld voor afnemers. 
-Vanuit basisprincipes BP09 en BP10: dienstenaanbieder is betrouwbaar en ontvankelijk voor input. 
 

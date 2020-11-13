@@ -2,11 +2,11 @@
 
 ### Doelstelling
 
-Deze architectuurbeschrijving van de Samenhangende Objectenregistratie is een beschrijving van de afbakening, ICT-inrichtingsprincipes, componenten, verbindingen en standaarden  van de objectenregitratie. Het doel van deze beschrijving is dat doorontwikkeling van ICT-voorzieningen in samenhang kan plaatsvinden naar een duidelijke doelsituatie.
+Deze "Architectuurbeschrijving voorzieningen" van de Samenhangende Objectenregistratie is een beschrijving van de afbakening, ICT-inrichtingsprincipes, componenten en verbindingen van de voorzieningen van de objectenregistratie. Het doel van deze beschrijving is dat doorontwikkeling van ICT-voorzieningen in samenhang kan plaatsvinden naar een duidelijke doelsituatie.
 
 ### Aanpak
 
-De architectuurbeschrijving van de Samenhangende Objectenregistratie wordt stapsgewijs steeds verder gevuld. Daarbij wordt samengewerkt door een kleine groep auteurs met een bredere groep die als klankbord optreedt. Daarom wordt het document op een transparante manier gedeeld. Meekijken mag, bijdragen van suggesties en commentaar kan door het aanmaken van zogeheten issues op https://github.com/Geonovum/disgeo-arch/issues.
+Deze architectuurbeschrijving wordt stapsgewijs gemaakt en beter gemaakt. Daarbij wordt het document op een transparante manier gedeeld. Meekijken mag, bijdragen van suggesties en commentaar kan door het aanmaken van zogeheten issues op https://github.com/Geonovum/disgeo-arch/issues.
 
 ### Inhoud
 
