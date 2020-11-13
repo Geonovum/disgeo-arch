@@ -27,6 +27,15 @@ uitgewerkt.
 
 ### Laag Uitvoering
 
+Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Uitvoering. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
+
+<figure id="functiesuitvoering">
+    <img src="media/inrichting-uitvoering-objectenregistratie.png" alt="inrichting uitvoering">
+    <figcaption>De capabilities op de laag Uitvoering</figcaption>
+</figure>
+
+De laag **Uitvoering** bevat de functies voor het beheren van objectgegevens en voor het afnemen van objectgegevens
+
 #### Registratie
 
 De component Registratie heeft als doel om bronhouderorganisaties in staat te
@@ -477,8 +486,16 @@ Deze component heeft de volgende externe afhankelijkheden:
 
 ### Laag Metabeheer
 
-Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het
-onderdeel Algemeen.
+Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Metabeheer. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
+
+<figure id="inrichting-metabeheer">
+    <img src="media/inrichting-metabeheer-objectenregistratie.png" alt="inrichting metabeheer">
+    <figcaption>De capabilities op de laag Metabeheer </figcaption>
+</figure>
+  
+Op de laag **Metabeheer** onderkennen we de volgende clusters: **Toegang** en **Gegevenscatalogus** en **Gegevenskwaliteit**. 
+
+Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
 
 #### Gegevenscatalogus
 
@@ -667,8 +684,15 @@ Deze component heeft de volgende externe afhankelijkheden:
 
 ### Laag Ondersteuning
 
-Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het
-onderdeel Algemeen.
+Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Ondersteuning. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
+
+<figure id="functiesuitvoeringondersteuning">
+    <img src="media/inrichting-ondersteuning-objectenregistratie.png" alt="inrichting ondersteuning">
+    <figcaption>De capabilities op de laag Ondersteuning</figcaption>
+</figure>
+
+Op de **Ondersteuningslaag** onderkennen we de clusters voor de ondersteuning van bronhouders en hun gemachtigden en afnemers.
+Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
 
 #### Abonnementen
 
