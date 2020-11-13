@@ -34,7 +34,9 @@ Dit is een tijdelijk hoofdstuk met de reviewcommentaren, en wat er met die comme
 | WB  | 20201113 |  2.4 In tabel ) achter Objectgegevens) verwijderen | Ja |  verwijderd |
 | WB  | 20201113 |  2.4 Catalogus = gegevens EN dienstencatalogus | Ja |  tekst aangepast in de tabel|
 | WB  | 20201113 |  2.4 Support is niet hetzelfde als Catalogus | Ja | tekst ', zoals bijvoorbeeld een catalogus van beschikbare producten en diensten' weggehaald  |
-| WB  | 20201113 |  2.4 Is deze NOOT nodig? | Nee | is een vraag/discussie |
+
+| WB  | 20201113 |  2.4 Is deze NOOT nodig? | JA | Note is weggehaald |
+
 | WB  | 20201113 |  3. ICT-inrichtingsprincipes: ICT-organisatie vervangen door ICT-beheerorganisatie? | Ja | ICT-Beheerorganisatie it is ...|
 | WB  | 20201113 |  3. ICT-inrichtingsprincipes: “De Beleidsvisie Samenhangende Objectenregistratie beschrijft de doelstellingen en beleidscontouren VOOR DE OBJECTENREGISTRATIE” | | |
 | WB  | 20201113 |  3.2 Inrichtingsprincipes vergelijkbare domeinen: Link naar 10 golden rules data werkt niet. | | |
@@ -57,4 +59,16 @@ Dit is een tijdelijk hoofdstuk met de reviewcommentaren, en wat er met die comme
 | WB  | 20201113 |  5. Uitwerking: Nietszeggende hoofdstuktitel :Minder nesting. Zie bijv. Paragraaf 3.1 of 3.3 voor alternatief.<br>Bijlage van maken ipv een hoofdstuk?  | | |
 | WB  | 20201113 |  Opmaak maakt het niet heel leesbaar. Is het bijv. mogelijk om minder witruimte tussen de items in opsommingen te hanteren?  | Ja | lege regels verwijderd tussen de bullets |
 | WB  | 20201113 |  5.1 Inleiding: [Algemeen] (#Algemeen) : De rest van hoofdstuk 5 nog niet gelezen. | | |
+| WB  | 20201113 | 5.1 Inleiding objetcenregistatie Is het mogelijk om steeds de alinea “De component X heeft als doel …” een kader of een arcering te geven? | | |
+| WB  | 20201113 | 5.1 Inleiding objetcenregistatie Mijn voorkeur is om de structuur van hoofdstuk 5 weer op te nemen. Dat geeft de lezer houvast in dit lange hoofdstuk met veel opsommingen. | | |
+| WB  | 20201113 | 5.2.1.3 Vereisten (Registratie) 4. Van ieder gebruik van een registratiedienst wordt o.a. vastgelegd: datum en tijdstip, organisatie. Dit kan o.a. gebruikt worden om te meten of het gebruik binnen de overeengekomen grenzen van gebruik blijft. Ik herken en begrijp de toevoeging ‘Dit kan o.a. gebruikt worden …’ niet. Het doel hiervan is dat is te achterhalen wie welke registratie/wijziging heeft gedaan. Het doel is niet om grenzen aan registratie te bewaken. Je mag als bronhouder maar 10 registraties per maand doen? | | |
+| WB  | 20201113 | 5.2.2.1 Invulling (Opslag) De alinea “De opslag-component is een intern onderdeel dat alleen via omringende services is te benaderen” verwijderen en opnemen als uitgangspunt | | |
+| WB  | 20201113 | 5.2.3.3 Vereisten (Afname) NOOT NOOT: | | |
+| WB  | 20201113 | 5.2.3.5 Afgeleide Opslag | | |
+| WB  | 20201113 | Invulling De zin ‘Uitgangspunt voor deze vereisten is dat het …’ hier verwijderen en opnemen bij uitgangspunten. | | |
+| WB  | 20201113 | 3.3 ICT-inrichtingsprincipes Samenhangende Objectenregistratie De grondslag steeds opnemen als laatste zien in de alinea ipv als aparte alinea | | |
+| WB  | 20201113 | 4.7 Niet-functionele eisen Figuur 10 niet opnemen. Is niet essentieel voor dit document en krijgt zo teveel aandacht. Alleen verwijzen naar ISO25010. | | |
+| WB  | 20201113 | Figuur 11? | | |
+| WB  | 20201113 | 5.1 Inleiding Kunnen we hier wat doen aan de opmaak zodat duidelijker is dat er twee blokken met opsommingen zijn? | | |
+| WB  | 20201113 | 5.4.1.1. Notificatie-abonnementen (Te) veel witruimte voor en na INVULLING, UITGANGSPUNTEN e.d. | | |
 | JvG | 20201113 |  Op diverse plekken links aangebracht in plaats van URL's in de tekst | Ja | is leesbaarder | 
