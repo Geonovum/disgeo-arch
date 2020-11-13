@@ -90,7 +90,7 @@ var respecConfig =
     }, 
     {
       name:       "Bart-Jan de Leuw",
-      company:    "MinBZK",
+      company:    "Ministerie van BZK",
       companyURL: "https://www.geobasisregistraties.nl"
     }, 
     {
