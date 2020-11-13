@@ -1,12 +1,12 @@
 ## ICT-inrichtingsprincipes
 
-Dit hoofdstuk beschrijft de principes die richtinggevend zijn voor de functionele inrichting van de ICT-voorzieningen voor de Objectenregistratie en de bijbehorende ICT-organisatie. 
+Dit hoofdstuk beschrijft de principes die richtinggevend zijn voor de functionele inrichting van de ICT-voorzieningen voor de Objectenregistratie en de bijbehorende ICT-Beheerorganisatie. 
 
 ### Beleid Samenhangende Objectenregistratie
 
 De overkoepelende [Architectuurvisie DiS-Geo](https://www.geobasisregistraties.nl/documenten/publicatie/2020/07/16/houtskoolschets-architectuurvisie-dis-geo) geeft de richtinggevende kaders waarbinnen de bestaande geo basisregistraties worden doorontwikkeld tot een samenhangende objectenregistratie.
 
-De [Beleidsvisie Samenhangende Objectenregistratie](https://www.geobasisregistraties.nl/documenten/beleidsnota/2019/11/29/beleidsvisie-samenhangende-objectenregistratie) beschrijft de doelstellingen en beleidscontouren.  
+De [Beleidsvisie Samenhangende Objectenregistratie](https://www.geobasisregistraties.nl/documenten/beleidsnota/2019/11/29/beleidsvisie-samenhangende-objectenregistratie) beschrijft de doelstellingen en beleidscontouren voor de objectenregistratie.  
 
 De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn afgeleid uit beide bovenstaande documenten.
 
