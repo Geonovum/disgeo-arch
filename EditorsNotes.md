@@ -34,9 +34,7 @@ Dit is een tijdelijk hoofdstuk met de reviewcommentaren, en wat er met die comme
 | WB  | 20201113 |  2.4 In tabel ) achter Objectgegevens) verwijderen | Ja |  verwijderd |
 | WB  | 20201113 |  2.4 Catalogus = gegevens EN dienstencatalogus | Ja |  tekst aangepast in de tabel|
 | WB  | 20201113 |  2.4 Support is niet hetzelfde als Catalogus | Ja | tekst ', zoals bijvoorbeeld een catalogus van beschikbare producten en diensten' weggehaald  |
-
 | WB  | 20201113 |  2.4 Is deze NOOT nodig? | JA | Note is weggehaald |
-
 | WB  | 20201113 |  3. ICT-inrichtingsprincipes: ICT-organisatie vervangen door ICT-beheerorganisatie? | Ja | ICT-Beheerorganisatie it is ...|
 | WB  | 20201113 |  3. ICT-inrichtingsprincipes: “De Beleidsvisie Samenhangende Objectenregistratie beschrijft de doelstellingen en beleidscontouren VOOR DE OBJECTENREGISTRATIE” | | |
 | WB  | 20201113 |  3.2 Inrichtingsprincipes vergelijkbare domeinen: Link naar 10 golden rules data werkt niet. | | |
