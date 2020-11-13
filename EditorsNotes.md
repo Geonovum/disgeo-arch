@@ -16,12 +16,12 @@ Dit is een tijdelijk hoofdstuk met de reviewcommentaren, en wat er met die comme
 | MR  | 20201113 | 	De teksten bij de componenten in hoofdstuk 4 zijn nog niet aangepast op hoofdstuk 5.  | | |
 | MR  | 20201113 | 	Figuur 10 en 11 zijn leeg  | Ja |  BJdL zet plaatje in media map |
 | MR  | 20201113 | 	5.1: [Algemeen] (#Algemeen)  | Ja | moet zijn [Algemeen](#algemeen) |
-| MR  | 20201113 | 	5.2.4.1: Keus maken in document. Of Ministerie van BZK of MinBZK of wat anders. Ik kies zelf voor Ministerie van BZK  | Ja | Ministerie van BZK it is ... <br> en is doorheen het hele document aangepast |
+| MR  | 20201113 | 	5.2.4.1: Keus maken in document. Of Ministerie van BZK of MinBZK of wat anders. Ik kies zelf voor Ministerie van BZK  | Ja | Ministerie van BZK it is ... en is doorheen het hele document aangepast |
 | MR  | 20201113 | 	5.3.1.1: Berichtenstandaarden/catalogi van BAG, BGT, BRO??  | Nee | Wat moet ik hiervan maken? IMGEO?|
 | MR  | 20201113 | 	5.3.1.1: De Stelselcatalogus van het stelsel van basisregistraties, .       , spatie weg  | Ja | weggehaald |
 | MR  | 20201113 | 	5.4.1.2.3: Per request, Staffelprijzen, Kosteloos, En andere zijn inspringbullets en geen aparte nummers  | Ja | bullets van gemaakt, tussenruimte kleiner gemaakt |
 | MR  | 20201113 | 	5.4.4.1: Zin is niet afgemaakt.  | Ja | zin geherformuleerd |
-| MR  | 20201113 | 	Heel hoofdstuk 6 eruit   | Nee | Want dat zijn de principes die we hebben gevolg |
+| MR  | 20201113 | 	Heel hoofdstuk 6 eruit   | Nee | Hoofdstuk stond dubbel, nu niet meer |
 | MR  | 20201113 | 	Bijlagen principes moet zijn bijlage principes | Ja | Aangepast |
 | WB  | 20201113 |  Aanpak: Beschreven aanpak klopt niet. | | |
 | WB  | 20201113 |  Status van dit document: Wie is ‘de werkgroep’?  | | |
