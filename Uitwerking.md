@@ -27,7 +27,7 @@ Voor de uitwerking van de componenten gelden de volgende uitgangspunten:
     standaarden in het kader van interoperabiliteit en het voldoen aan afspraken
     binnen de overheid of nationale of internationale afspraken.
 
-Onder [Algemeen] (#Algemeen) beschrijven we de onderwerpen die op meerdere plaatsen
+Onder [Algemeen](#algemeen) beschrijven we de onderwerpen die op meerdere plaatsen
 in de architectuur voorkomen. Deze onderwerpen zijn daar eenmalig
 uitgewerkt.
 
@@ -355,7 +355,7 @@ De uitwerking van deze component is onder andere gebaseerd op:
 -   Er is nog geen uitwerking beschikbaar om de component Notificatie op te
     baseren.
 
-MinBZK, Kadaster en VNG en anderen werken aan een uitwerking van notificatie en
+Ministerie van BZK, Kadaster en VNG en anderen werken aan een uitwerking van notificatie en
 abonnementen. Op een later moment wordt bepaald of deze basis vormt voor de
 uitwerking van de component Notificatie van de SOR.
 
@@ -518,8 +518,7 @@ De uitwerking van deze component is onder andere gebaseerd op:
 
 -   Bestaande catalogi, zoals:
 
-    -   De [Stelselcatalogus](https://stelselcatalogus.omgevingswet.overheid.nl/) van het stelsel van basisregistraties,
-        . Vanuit het stelsel
+    -   De [Stelselcatalogus](https://stelselcatalogus.omgevingswet.overheid.nl/) van het stelsel van basisregistraties, Vanuit het stelsel
         van basisregistraties bestaat de verplichting om de stelselcatalogus te
         gebruiken. Deze heeft als doel om de begrippen tussen de
         basisregistraties te kunnen vergelijken. De stelselcatalogus beschrijft
@@ -705,7 +704,7 @@ De uitwerking van deze component is onder andere gebaseerd op:
 -   Er is nog geen uitwerking beschikbaar om de component Notificatie op te
     baseren.
 
-MinBZK, Kadaster en VNG en anderen werken aan een uitwerking van notificatie en
+Ministerie van BZK, Kadaster en VNG en anderen werken aan een uitwerking van notificatie en
 abonnementen. Zie ook de uitwerking van de component Notificatie.
 
 ###### Uitgangspunten
@@ -763,13 +762,9 @@ component Afname.
 De uitwerking van deze component is onder andere gebaseerd op:
 
 -   API-management
-
 -   Werkwijze Haal Centraal
-
 -   Werkwijze PDOK
-
 -   NLX (common ground)
-
 -   En andere goede voorbeelden
 
 <p class ='note'>
@@ -783,7 +778,6 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 -   Abonnementen zijn abonnementen op (eventueel betaalde) data, gemak en proces
     API’s (met gegarandeerde dienstenniveau’s).
-
 -   Abonnementen zijn abonnementen op periodieke gegevensleveringen.
 
 ###### Vereisten
@@ -795,13 +789,10 @@ Voor deze component gelden de volgende vereisten:
 2.  Ondersteuning van verschillende abonnementsvormen voor data, gemak en proces
     API’s, denk aan:
 
-    1.  Per request
-
-    2.  Staffelprijzen
-
-    3.  Kosteloos
-
-    4.  En andere
+    -  Per request
+    -  Staffelprijzen
+    -  Kosteloos
+    -  En andere
 
 3.  Een periodieke gegevenslevering wordt georganiseerd met een data API (en is
     daarmee niet anders dan de vereisten van de andere punten van deze
@@ -876,7 +867,6 @@ De invulling van deze component is gebaseerd op:
 
 -   Het beheer van projectmachtigingen dat is beschreven en gerealiseerd in het
     [bronhouderportaal-bro](https://doc.bronhouderportaal-bro.nl/bronhouders/machtigingen/).
-
 -   De wijze van machtigen die is beschreven en gerealiseerd in de
     [machtigingenmodule van de BGT](https://www.svb-bgt.nl/machtigingenmodule/)
 
@@ -936,7 +926,7 @@ opgetekend door diverse architectuurgemeenschappen van samenwerkende
 overheidsorganisaties zoals veiligheidsregio’s, omgevingsdiensten,
 waterschappen, provincies, gemeentes en landelijke (uitvoerings-) organisaties.
 
-Een [inspirerend voorbeeld](https://aandeslagmetdeomgevingswet.nl/ontwikkelaarsportaal/) is te vinden op 
+Het [ontwikkelaarsportaal](https://aandeslagmetdeomgevingswet.nl/ontwikkelaarsportaal/) van het Digitaal stelsel van de ongevingswet is een inspirerend voorbeeld. 
 
 ##### Uitgangspunten
 
@@ -945,10 +935,8 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 -   De dienstencatalogus bevat naast de dienstenbeschrijvingen ook de van
     toepassing zijnde wetgeving, voorwaarden, (aanvraag)procedures,
     doorlooptijden en kosten.
-
 -   De dienstencatalogus omvat een register van diensten die middels API’s
     (services) worden aangeboden.
-
 -   Dit API-register voldoet aan de Nederlandse API-strategie
 
 ##### Vereisten
@@ -958,19 +946,15 @@ Voor deze component gelden de volgende vereisten:
 -   De component Dienstencatalogus geeft makkelijk en goed toegang tot het
     actuele overzicht van beschikbare diensten en de beschrijvingen van de
     diensten.
-
 -   Waar van toepassing bevat de dienstencatalogus een directe link naar de
     services waarop informatiesystemen kunnen aansluiten als organisaties voor
     die diensten een overeenkomst aangaan met de dienstaanbieder.
-
 -   Voor afnemers van diensten biedt de beschrijving van het niveau van
     dienstverlening (service level) inzicht of de diensten geschikt zijn om de
     behoefte van de afnemer in te vullen.
-
 -   Voor aanbieders en afnemers van diensten wordt een (volgende) versie van een
     dienst gepubliceerd voor, tijdens en eventueel na de beschikbaarheidsperiode
     van die versie van de dienst.
-
 -   Diensten kunnen worden gepubliceerd op https://developer.overheid.nl/
 
 ##### Externe afhankelijkheden
@@ -979,7 +963,6 @@ Deze component heeft de volgende externe afhankelijkheden:
 
 -   Er is een afhankelijkheid van vindbaarheid en toegankelijkheid van het
     overheid.nl domein voor dienstafnemers
-
 -   Er is een afhankelijkheid van aanpasbaarheid en beheerbaarheid van het
     overheid.nl domein voor dienstaanbieders
 
@@ -1007,12 +990,10 @@ De invulling van Toegang is onder andere gebaseerd op:
 
 -   [GEMMA Gegevenslandschap](https://www.gemmaonline.nl/index.php/Gegevenslandschap) – Authenticatie en Autorisatie,
      en specifiek https://www.gemmaonline.nl/images/gemmaonline/7/75/GEMMA_Gegevenslandschap_-_Autorisatie_en_authenticatie_v1_0.pdf
-
 -   [Nederlandse API-strategie](https://docs.geostandaarden.nl/api/API-Strategie/)
     , specifiek het deel over
     OAuth in combinatie met PKIoverheid en TLS
     https://docs.geostandaarden.nl/api/oauth/
-
 -   GAS Knooppunt – Toegang van DSO-LV
     https://aandeslagmetdeomgevingswet.nl/publish/library/219/dso_-_gas_-_knooppunt_toegang_iam_1.pdf
     beschikbaar op
@@ -1025,14 +1006,11 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 -   Toegang voor informatiesystemen betreft Organisatie-authenticatie en
     Diensten-autorisatie. Toegang voor personen betreft
     Eindgebruiker-authenticatie en Functie-autorisatie.
-
 -   Een informatiesysteem kan toegang verkrijgen tot een dienst als het zich
     authenticeert als een organisatie die geautoriseerd is voor de dienst.
-
 -   Een eindgebruiker (persoon) kan toegang verkrijgen tot een functie van een
     informatiesysteem als deze zich authenticeert als eindgebruiker (of
     functionaris of rol) die geautoriseerd is voor de functie.
-
 -   Het is aan de organisatie om te verzekeren dat eindgebruikers namens de
     organisatie zich op toegestane wijze authenticeren en tevens te verzekeren
     dat de autorisatie van functionarissen alleen geldig is in de periode waarin

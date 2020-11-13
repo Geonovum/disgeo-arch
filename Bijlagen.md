@@ -1,4 +1,4 @@
-## Bijlagen principes
+## Bijlage Principes
 
 ### Inrichtingsprincipes Digitaal Stelsel Omgevingwet
 
