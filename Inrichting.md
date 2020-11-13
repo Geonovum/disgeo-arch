@@ -88,24 +88,7 @@ Onderstaande afbeelding toont de functionaliteiten per cluster op de drie lagen.
 ### Niet-functionele eisen
 
 <p class='note'>
-Vraag aan de reviewers: Welke niet-functionele eisen moeten opgenomen worden in deze Architectuurbeschrijving? Hieronder volgen wat handvatten.
+Vraag aan de reviewers: Welke niet-functionele eisen moeten opgenomen worden in deze Architectuurbeschrijving?
 </p>
 
-De componenten van de objectenregistratie voldoen aan eisen waarmee invulling gegeven kan worden aan de volgende eisen aan basisgegevens:
-
-Findable (goed vindbaar), Accessible (goed toegankelijk), Interoperable (interoperabel met elkaar en met niet-basisgegevens) en Reusable(goed herbruikbaar).
-
-De volgende niet-functionele eisen zijn daarom van toepassing op de ICT-componenten en services: 
-
-[API- en URI-strategie](https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/aansluiten/standaarden/api-en-uri-strategie/) van het Digitaal Stelsel Omgevingswet.
-
-Voor ICT systemen en componenten waarmee de functies beschikbaar gemaakt worden, zijn niet-functionele eisen van toepassing volgens de ISO25010 standaard:
-
-     Voor **kwaliteit-in-gebruik** van de objectenregistratie zijn eisen van toepassing aangaande effectiviteit, efficiëntie, voldoening, vrijheid van risico en dekking van contexten. 
- 
-De eisen aangaande dekking van contexten vertalen de vereiste flexibiliteit van de objectenregistratie als geheel naar de vereiste flexibiliteit van de ICT componenten. Denk hierbij aan de aanpasbaarheid van componenten aan veranderingen in de scope van basisgegevens en de structuur van basisgegevens. 
-
-     Voor **productkwaliteit** van de objectenregistratie zijn eisen van toepassing aangaande functionele geschiktheid, betrouwbaarheid, performance, bruikbaarheid, beveiliging, compatibiiteit, onderhoudbaarheid en overdraagbaarheid. 
-	 
-De eisen aan compatibiliteit betreffen onder andere de interoperabiliteit. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk verzekeren de eisen aan interoperabiliteit van systemen dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund. Beide niveaus van interoperabiliteit zijn noodzakelijk voor het bereiken van interoperabiliteit tussen organisaties, waardoor alle overheidsorganisaties met dezelfde basisgegevens kunnen werken.
 
