@@ -109,20 +109,29 @@ Voor ICT systemen en componenten waarmee de functies beschikbaar gemaakt worden,
 
      Voor **kwaliteit-in-gebruik** van de objectenregistratie zijn eisen van toepassing aangaande effectiviteit, efficiëntie, voldoening, vrijheid van risico en dekking van contexten. 
 
-<figure id="metabeheer-inrichting-uitvoering">
+<figure id="Structuur voor eisen aan kwaliteit in gebruik">
     <img src="media/ISO25010-quality-in-use.png" alt="inrichting metabeheer uitvoering ondersteuning">
-    <figcaption>De capabilities op de lagen Metabeheer en Uitvoering en Ondersteuning</figcaption>
+    <figcaption>Structuur voor eisen aan kwaliteit in gebruik (ISO25010)</figcaption>
 </figure>
 	 
 De eisen aangaande dekking van contexten vertalen de vereiste flexibiliteit van de objectenregistratie als geheel naar de vereiste flexibiliteit van de ICT componenten. Denk hierbij aan de aanpasbaarheid van componenten aan veranderingen in de scope van basisgegevens en de structuur van basisgegevens. 
 
      Voor **productkwaliteit** van de objectenregistratie zijn eisen van toepassing aangaande functionele geschiktheid, betrouwbaarheid, performance, bruikbaarheid, beveiliging, compatibiiteit, onderhoudbaarheid en overdraagbaarheid. 
 
-<figure id="metabeheer-inrichting-uitvoering">
-    <img src="media/ISO25010-quality-in-use.png" alt="inrichting metabeheer uitvoering ondersteuning">
-    <figcaption>De capabilities op de lagen Metabeheer en Uitvoering en Ondersteuning</figcaption>
+<figure id="ISO25010-software-product-quality">
+    <img src="media/ISO25010-product-quality.png" alt="inrichting metabeheer uitvoering ondersteuning">
+    <figcaption>Structuur voor eisen aan software product kwaliteit (ISO25010)</figcaption>
 </figure>
 	 
-De eisen aan compatibiliteit betreffen onder andere de interoperabiliteit. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk verzekeren de eisen aan interoperabiliteit van systemen dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund.         
+De eisen aan compatibiliteit betreffen onder andere de interoperabiliteit. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk verzekeren de eisen aan interoperabiliteit van systemen dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund. Beide niveaus van interoperabiliteit zijn noodzakelijk voor het bereiken van interoperabiliteit tussen organisaties, waardoor alle overheidsorganisaties met dezelfde basisgegevens kunnen werken: 
+
+Interoperabiliteit
+
+Om dit essentiele onderwerp voldoende aandacht te geven sluiten we dit hoofdstuk af met een illustratie die weergeeft dat interoperabiliteit op de applicatielaag alleen werkt in samenhang met operabiliteit op de andere lagen van de NORA.              
+
+<figure id="Interoperabiliteit op alle niveaus">
+    <img src="media/interoperabiliteit-op-3-niveaus.png" alt="interoperabiliteit-op-alle-niveaus">
+    <figcaption>Interoperabiliteit op alle niveaus</figcaption>
+</figure>
 
 
