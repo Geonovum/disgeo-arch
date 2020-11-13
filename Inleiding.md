@@ -1,5 +1,7 @@
 ## Inleiding
 
+Een samenhangende objectenregistratie is een uniforme registratie met daarin basisgegevens over objecten in de fysieke werkelijkheid die zich voor gebruikers als één registratie gedraagt. Daaronder verstaan we objecten die in het terrein zichtbaar zijn, zoals gebouwen, wegen, water, spoorlijnen en bomen, terreindelen, aangevuld met enkele (administratieve) objecten als woonplaatsen, gemeentegrenzen en openbare ruimten. In de objectenregistratie gaan in ieder geval de objecten van de basisregistratie adressen en gebouwen (BAG) en de basisregistratie grootschalige topografie (BGT) op. Daarnaast is het de bedoeling dat ook het gedeelte van de WOZ-administratie waarin objectgegevens zijn opgenomen en een aantal basisgegevens uit aanpalende registraties in de objectenregistratie worden opgenomen. Ook zijn er belangrijke raakvlakken met de basisregistratie topografie (BRT) en het Nationaal Wegenbestand (NWB).
+
 Dit document is de *Architectuurbeschrijving* van de Samenhangende Objectenregistratie. Het beschrijft de afbakening, de ICT-inrichtingsprincipes en de conceptuele of functionele inrichting (de functionele onderdelen en samenhang) van de ICT-componenten voor de Samenhangende Objectenregistratie. Met andere woorden, de Architectuurbeschrijving beschrijft de Objectenregistratie op de Applicatielaag, laag 4 in het [NORA-vijflaagsmodel](https://www.noraonline.nl/wiki/Vijflaagsmodel)
 
 <figure id="nora5laagsmodel">
@@ -31,9 +33,13 @@ Relevante bijlagen staan in het hoofdstuk [Bijlagen](#bijlagen-principes)
      Voor reviewers: In groene kaders stellen de auteurs soms een vraag. In jullie reviewcommentaar lezen we graag antwoorden.
 </p>
 
-### Het proces
+### Context
 
-De Architectuurbeschrijving van de Samenhangende Objectenregistratie is een product van een samenwerking van Geonovum, Kadaster, Ministerie van BZK en VNG Realisatie. Bij de totstandkoming zijn diverse belanghebbenden betrokken.
+De Architectuurbeschrijving van de Samenhangende Objectenregistratie is een product van een samenwerking van Geonovum, Kadaster, Ministerie van BZK en VNG Realisatie. Bij de totstandkoming zijn diverse belanghebbenden betrokken. Het document mag gelezen worden in samenhang met andere documenten in de context. 
+
+Globale uitgangspunten voor het programma DiS-Geo worden vastgelegd in een nog te verschijnen beleidsvisie DiS Geo.
+
+De architectuurvisie van het programma DiS-Geo is beschreven in een  [houtskoolschets] (https://www.geobasisregistraties.nl/documenten/publicatie/2020/07/16/houtskoolschets-architectuurvisie-dis-geo) "Geodata als stroom uit het stopcontact".
 
 Globale uitgangspunten voor het gegevensmodel, de voorziene pocessen voor inwinning, registratie en ontsluiting van gegevens, en eerste beelden over de organisatie en governance en financiering zijn vastgelegd in een beleidsvisie samenhangende objectenregistratie die eind 2019 door het BAG BAO en de Regieraad BGT is vastgesteld.
 
