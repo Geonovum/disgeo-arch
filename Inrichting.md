@@ -1,4 +1,4 @@
-## Inrichting
+## Inrichting van de Objectenregistratie
 
 ### Inleiding
 
