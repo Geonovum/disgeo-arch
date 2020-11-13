@@ -35,6 +35,7 @@ Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Uitvo
 </figure>
 
 De laag **Uitvoering** bevat de functies voor het beheren van objectgegevens en voor het afnemen van objectgegevens
+Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
 
 #### Registratie
 
@@ -63,12 +64,11 @@ van de component Registratie, maar bij de auteurs zijn geen andere uitwerkingen
 bekend die als basis kunnen dienen.
 
 In het kader van OGC API – Features wordt gewerkt aan meer Parts. Op een later
-moment wordt bepaald of deze basis vormen voor de uitwerking van de
-SOR-componenten.
+moment wordt bepaald of deze basis vormen voor de uitwerking van de componenten.
 
 In het kader van het GEMMA Gegevenslandschap, Common Ground en kennisplatform
 API’s wordt gewerkt aan API-criteria. Op een later moment wordt bepaald of deze
-basis vormen voor de uitwerking van de SOR-componenten.
+basis vormen voor de uitwerking van de componenten.
 
 In het kader van het GEMMA Gegevenslandschap en Common Ground is een uitwerking
 beschikbaar van logging en registratie van verwerking van gegevens. In hoeverre
@@ -86,7 +86,7 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 Voor deze component gelden de volgende vereisten:
 
 1.  Van ieder gegeven dat wijzigt wordt vastgelegd: de organisatie die de
-    wijziging heeft gedaan, de voor de wijziging gebruikte SOR-dienst, het
+    wijziging heeft gedaan, de voor de wijziging gebruikte dienst, het
     tijdstip waarop de wijziging heeft plaatsgevonden.
 
 2.  Bij elke verandering van een gegeven vindt vooraf validatie aan de
@@ -94,9 +94,9 @@ Voor deze component gelden de volgende vereisten:
     geregistreerd. Dat betekent dat objecten die (nog) niet volledig aan de
     gegevensregels voldoen niet definitief geregistreerd kunnen worden.  
     
-	Het is nu nog niet te bepalen of in de SOR ook objectgegevens in bewerking
+	Het is nu nog niet te bepalen of in de objectenregistratie ook objectgegevens in bewerking
     geregistreerd kunnen worden. Dat is afhankelijk van de nog te kiezen
-    organisatorisch en technische inrichting.
+    organisatorische en technische inrichting.
 
 3.  Bij elke verandering van een gegeven wordt het resultaat gerapporteerd aan
     de bronhouder: welk gegeven is geregistreerd of gewijzigd of beëindigd, de
@@ -146,7 +146,7 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 Voor deze component gelden de volgende vereisten:
 
-1.  De gegevens in de opslag voldoen aan het informatiemodel van de SOR en de
+1.  De gegevens in de opslag voldoen aan het informatiemodel van de objectenregistratie en de
     eisen aan duurzaamheid en toegankelijkheid.
 
 2.  De opslag bevat alle gegevens die nodig zijn om de bronhouders
@@ -177,7 +177,7 @@ De component Afname heeft als doel om afnemers in staat te stellen
 objectgegevens en daarvan afgeleide informatieproducten af te nemen, zodat ze
 deze gegevens en informatie kunnen gebruiken in hun eigen processen. Deze
 component biedt toegang tot alle voor afnemers beschikbare objectgegevens,
-inclusief meta-gegevens, en tot alle door de SOR beschikbaar gestelde
+inclusief meta-gegevens, en tot alle door de objectenregistratie beschikbaar gestelde
 informatieproducten.
 
 We onderscheiden geen aparte componenten voor afname van gegevens en voor afname
@@ -205,11 +205,11 @@ bekend die als basis kunnen dienen.
 
 In het kader van OGC API – Features wordt gewerkt aan meer Parts. Op een later
 moment wordt bepaald of deze basis vormen voor de uitwerking van de
-SOR-componenten.
+componenten.
 
 In het kader van het GEMMA Gegevenslandschap, Common Ground en kennisplatform
 API’s wordt gewerkt aan API-criteria. Op een later moment wordt bepaald of deze
-basis vormen voor de uitwerking van de SOR-componenten.
+basis vormen voor de uitwerking van de componenten.
 
 In het kader van het GEMMA Gegevenslandschap en Common Ground is een uitwerking
 beschikbaar van logging en registratie van verwerking van gegevens. In hoeverre
@@ -232,7 +232,7 @@ Voor deze component gelden de volgende vereisten:
     dataservices systeemservices genoemd).
 
 2.  Naast dataservices biedt deze component ook gemaks- en processervices voor
-    zover deze onderdeel zijn van het portfolio van de SOR.
+    zover deze onderdeel zijn van het portfolio van de objectenregistratie.
 
 3.  Functionaliteit voor het samenstellen van informatie uit objectgegevens
     maakt altijd gebruik van de services voor afname van objectgegevens.
@@ -269,7 +269,7 @@ bijbehorende meta-gegevens die is afgestemd op de specifieke eisen van de afname
 van objectgegevens door eenieder.
 
 Afgeleide Opslag is de opslag die is afgestemd op de taken en
-verantwoordelijkheden van de verstrekkingsfunctie voor de SOR. De grootte van de
+verantwoordelijkheden van de verstrekkingsfunctie voor de objectenregistratie. De grootte van de
 afnemersgroep, het grote aantal afnames, de daarbij horende prestatie-eisen en
 ook de behoefte aan diverse vormen van afnemen vragen om daarop afgestemde
 opslagvormen.
@@ -296,7 +296,7 @@ voldoen.
 Voor de uitwerking van Afgeleide Opslag gelden de volgende uitgangspunten:
 
 -   Uitgangspunt voor deze vereisten is dat het koppelvlak tussen de
-    componenten Opslag en Afgeleide Opslag een SOR-intern koppelvlak is waarvoor
+    componenten Opslag en Afgeleide Opslag een intern koppelvlak is waarvoor
     geen vereisten gelden m.b.t. het gebruik van open, leveranciersonafhankelijke
     standaarden en technologieën.
 
@@ -353,7 +353,7 @@ De uitwerking van deze component is onder andere gebaseerd op:
 
 Ministerie van BZK, Kadaster en VNG en anderen werken aan een uitwerking van notificatie en
 abonnementen. Op een later moment wordt bepaald of deze basis vormt voor de
-uitwerking van de component Notificatie van de SOR.
+uitwerking van de component Notificatie van de objectenregistratie.
 
 Ook de volgende uitwerkingen vormen mogelijk een basis voor de uitwerking van de
 component Notificatie. Dat is nader te bepalen:
@@ -408,7 +408,7 @@ Overheidspartijen die verplicht gebruik maken van basisregistraties hebben een
 terugmeldplicht. Zie [‘Eis 2: De afnemers hebben een terugmeldplicht’](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/basisregistraties-en-stelselafspraken/stelsel-van-basisregistraties/twaalf-eisen-stelsel-van-basisregistraties/#Eis%202*.*)
 
 Deze component biedt services waarmee afnemers twijfels over de juistheid van
-gegevens kunnen melden bij de SOR. De component bevat geen functionaliteit voor
+gegevens kunnen melden bij de objectenregistratie. De component bevat geen functionaliteit voor
 interactie met personen (geen terugmeldloket). Daarvoor zijn andere componenten
 nodig, bijvoorbeeld vergelijkbaar met het huidige [‘Verbeter de kaart’](https://verbeterdekaart.kadaster.nl).
 
@@ -434,7 +434,7 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 -   Een terugmelding op een gegevens is zowel een aanduiding bij een gegeven dat
     er twijfel over bestaat als een aanleiding voor de bronhouder van het
-    gegeven om de terugmelding te onderzoeken. Vanuit de SOR vinden we dat de
+    gegeven om de terugmelding te onderzoeken. Vanuit de objectenregistratie vinden we dat de
     terugmelding niks anders is dan een aspect van het gegeven zelf waaruit
     blijkt dat er twijfel is over de juistheid ervan en dat het in onderzoek is.
     Hierdoor weten gebruikers dat bij deze specifieke gegevens iets aan de hand
@@ -449,8 +449,8 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 -   Het onderzoeken van de terugmelding is de taak van de bronhouder. De
     ondersteuning hiervoor, zoals een zaaksysteem, valt buiten de scope van de
-    SOR ICT-voorzieningen. Het resultaat van het onderzoek wordt geregistreerd
-    in de SOR.
+    voorzieningen van de objectenregistratie. Het resultaat van het onderzoek wordt geregistreerd
+    in de objectenregistratie.
 
 -   Een terugmelding kan betrekking hebben op 1 of meerdere bronhouders.
 
@@ -499,7 +499,7 @@ Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdee
 
 #### Gegevenscatalogus
 
-De component Gegevenscatalogus heeft als doel om de in de SOR beschikbare
+De component Gegevenscatalogus heeft als doel om de in de objectenregistratie beschikbare
 gegevens en informatieproducten te kunnen beschrijven en deze beschrijving te
 ontsluiten, zodat bronhouders, afnemers en andere betrokkenen hier kennis van
 kunnen nemen.
@@ -512,7 +512,7 @@ De uitwisselingsstandaarden en formaten om de gegevens en informatieproducten te
 benaderen staan beschreven in de dienstencatalogus.
 
 Voor het raadplegen van de gegevenscatalogus zijn applicaties of webloketten
-nodig. Dit zijn zelfstandige interactiecomponenten. De aanname is dat de SOR ook
+nodig. Dit zijn zelfstandige interactiecomponenten. De aanname is dat de objectenregistratie ook
 een interactiecomponent zal bieden om de gegevenscatalogus te raadplegen.
 
 ##### Invulling
@@ -559,7 +559,7 @@ Voor deze component gelden de volgende vereisten:
 6.  Met services kunnen de begrippen en definities worden opgevraagd uit de
     gegevenscatalogus.
 
-7.  De SOR biedt een interactiecomponent (bijvoorbeeld een webloket) waar
+7.  De objectenregistratie biedt een interactiecomponent (bijvoorbeeld een webloket) waar
     personen de gegevenscatalogus kunnen raadplegen en bevragen.
 
 8.  De gegevenscatalogus heeft functionaliteit waarmee de stelselcatalogus en
@@ -573,7 +573,7 @@ Deze component heeft de volgende externe afhankelijkheden:
 
 -   Er is een afhankelijkheid van de [stelselcatalogus basisregistraties](https://www.stelselcatalogus.nl/).
 
--   Er is een afhankelijkheid van PDOK, waar SOR-producten ook beschikbaar
+-   Er is een afhankelijkheid van PDOK, waar producten van de objectenregistratie ook beschikbaar
     zullen zijn.
 
 -   Er is een afhankelijkheid van het Nationaal Georegister, de catalogus van
@@ -613,7 +613,7 @@ component Notificatie. Dat is nader te bepalen:
 -   Business Intelligence (BI)
 
 De aanname is dat functionaliteit voor gegevenskwaliteit onderdeel is van de
-gemeenschappelijke SOR-voorziening(en), ongeacht waar de verantwoordelijkheid
+gemeenschappelijke voorziening(en) van de objectenregistratie, ongeacht waar de verantwoordelijkheid
 voor gegevenskwaliteit en -metingen ligt.
 
 ##### Uitgangspunten
@@ -663,7 +663,7 @@ Voor deze component gelden de volgende vereisten:
 7.  Bepaald kan worden welke fouten en signalen een gegeven ‘in onderzoek’
     zetten.
 
-Voor de kwaliteitsdashboards van de SOR gelden de volgende vereisten. Deze
+Voor de kwaliteitsdashboards van de objectenregistratie gelden de volgende vereisten. Deze
 moeten opgenomen bij de component Kwaliteitsdashboard op het moment dat die
 component nader wordt uitgewerkt.
 
@@ -1047,9 +1047,9 @@ Voor de component Toegang gelden de volgende vereisten.
     4.  Gesloten met doelbinding. Authenticatie en autorisatie vindt plaatst op
         basis van identificatie van de organisatie met PKIoverheid en eventueel
         OAuth in combinatie met tweezijdige TLS. Deze vierde vorm is mogelijk
-        niet nodig voor de toegang voor afnemers van de SOR.
+        niet nodig voor de toegang voor afnemers van de objectenregistratie.
 
-2.  Autorisatie voor SOR-diensten voor bronhouders vindt plaats op
+2.  Autorisatie voor diensten voor bronhouders vindt plaats op
     organisatieniveau.
 
 3.  Autorisatie op het niveau van medewerker/afdeling is de verantwoordelijkheid
@@ -1057,9 +1057,9 @@ Voor de component Toegang gelden de volgende vereisten.
     verantwoording over af kunnen leggen. Zie ook paragraaf 6.1 van GEMMA
     Gegevenslandschap – Authenticatie en Autorisatie.
 
-4.  Het is mogelijk om centrale SOR-diensten voor het bewerken van gegevens icm
+4.  Het is mogelijk om centrale diensten voor het bewerken van gegevens in combinatie met
     gegevenssoorten te koppelen aan bevoegdheden.  
-    Bijv. bevoegdheden als het aanmaken van een nieuw object en het veranderen
+    Bijvoorbeeld bevoegdheden als het aanmaken van een nieuw object en het veranderen
     van de gegevens van een object.
 
 5.  Bevoegdhedenbeheer (welke medewerker/afdeling welke bevoegdheden heeft voor
@@ -1072,11 +1072,11 @@ Voor de component Toegang gelden de volgende vereisten.
    identificatie van de bronhouder die te relateren is aan de identificatie van
    de bronhouder bij het verlenen van de toegang.
 
-1.  Het al dan niet toestaan van het aanroepen van een centrale SOR-dienst door
+1.  Het al dan niet toestaan van het aanroepen van een centrale dienst van de objectenregistratie door
     een organisatie voor het bewerken van gegevens wordt niet vastgelegd (niet
     gelogd). Dat een organisatie op een bepaalde dag en tijdstip wel of geen
-    toegang tot een SOR-dienst is verleend wordt niet vastgelegd.  
-    N.B. het ‘uitvoeren’ van een dienst die leidt tot een verandering van
+    toegang tot een dienst is verleend wordt niet vastgelegd.  
+    N.B. het ‘uitvoeren’ van een dienst van de objectenregistratie die leidt tot een verandering van
     gegevens wordt wel vastgelegd (gelogd). Dat hoort bij het onderdeel
     Registratie.
 
@@ -1090,10 +1090,10 @@ gehanteerde aanname is dat dat nodig kan zijn.
     de verantwoordelijkheid van de afnemende organisatie. Deze moet daar indien
     van toepassing verantwoording over af kunnen leggen.
 
-2.  Het al dan niet toestaan van het aanroepen van een centrale SOR-dienst door
+2.  Het al dan niet toestaan van het aanroepen van een centrale dienst door
     een organisatie voor het afnemen van gegevens wordt niet vastgelegd (niet
     gelogd). Dat een organisatie op een bepaalde dag en tijdstip wel of geen
-    toegang tot een SOR-dienst is verleend wordt niet vastgelegd.
+    toegang tot een dienst van de objectenregistratie is verleend wordt niet vastgelegd.
 
 3.  Machtigingen.  
     Indien van toepassing kan een afnemer een andere organisatie machtigen als
@@ -1102,14 +1102,13 @@ gehanteerde aanname is dat dat nodig kan zijn.
 **Toegang voor personen tot functionaliteit via interactiecomponenten:**
 
 Onderstaande vereisten zijn van toepassing op de interactiecomponenten (zoals
-viewers en webloketten) die onderdeel zijn van de SOR.
+viewers en webloketten) die onderdeel zijn van de objectenregistratie.
 
-1.  Authenticatie van personen (buiten de SOR beheerorganisatie) vindt, indien
+1.  Authenticatie van personen (buiten de beheerorganisatie van de objectenregistratie) vindt, indien
     nodig, plaats op basis van door de overheid erkende middelen zoals DigiD,
     eHerkenning en eIDAS-erkende middelen.
 
-2.  De inrichting van de authenticatie en autorisatie van medewerkers van de SOR
-    beheerorganisatie is te bepalen door de SOR beheerorganisatie.  
+2.  De inrichting van de authenticatie en autorisatie van medewerkers van de beheerorganisatie van de objectenregistratie is te bepalen door die beheerorganisatie zelf.  
     GEMMA Gegevenslandschap – Authenticatie en Autorisatie zegt hierover:  
     *“In het GEMMA Gegevenslandschap wordt voor autorisatie voor het
     applicatiefuncties en de afname van diensten bij voorkeur gebruik gemaakt
@@ -1137,12 +1136,12 @@ De component Toegang heeft de volgende externe afhankelijkheden:
 
 #### Interactie
 
-De interactiecomponenten van de SOR hebben als doel om de diensten en de
-gegevens en producten van de SOR aan eindgebruikers (personen in de rol van
+De interactiecomponenten van de objectenregistratie hebben als doel om de diensten en de
+gegevens en producten van de objectenregistratie aan eindgebruikers (personen in de rol van
 bronhouder of afnemer) te presenteren en de mogelijkheden te bieden om er mee te
 interacteren.
 
-De SOR zal verschillende generieke interactiecomponenten bieden, bijvoorbeeld
+De objectenregistratie zal verschillende generieke interactiecomponenten bieden, bijvoorbeeld
 een viewer voor het zoeken en raadplegen van objectgegevens (inzage), portalen
 voor het beheren van machtigingen en loketten voor het indienen van
 terugmeldingen en het beheren van abonnementen.
