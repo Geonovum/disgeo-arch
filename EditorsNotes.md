@@ -35,27 +35,26 @@ Dit is een tijdelijk hoofdstuk met de reviewcommentaren, en wat er met die comme
 | WB  | 20201113 |  2.4 Catalogus = gegevens EN dienstencatalogus | Ja |  tekst aangepast in de tabel|
 | WB  | 20201113 |  2.4 Support is niet hetzelfde als Catalogus | Ja | tekst ', zoals bijvoorbeeld een catalogus van beschikbare producten en diensten' weggehaald  |
 | WB  | 20201113 |  2.4 Is deze NOOT nodig? | Nee | is een vraag/discussie |
-| WB  | 20201113 |  3. ICT-inrichtingsprincipes: ICT-organisatie vervangen door ICT-beheerorganisatie? | | |
+| WB  | 20201113 |  3. ICT-inrichtingsprincipes: ICT-organisatie vervangen door ICT-beheerorganisatie? | Ja | ICT-Beheerorganisatie it is ...|
 | WB  | 20201113 |  3. ICT-inrichtingsprincipes: “De Beleidsvisie Samenhangende Objectenregistratie beschrijft de doelstellingen en beleidscontouren VOOR DE OBJECTENREGISTRATIE” | | |
-| WB  | 20201113 |  3. ICT-inrichtingsprincipes: ICT-organisatie vervangen door ICT-beheerorganisatie?<br>“De Beleidsvisie Samenhangende Objectenregistratie beschrijft de doelstellingen en beleidscontouren VOOR DE OBJECTENREGISTRATIE” | | |
 | WB  | 20201113 |  3.2 Inrichtingsprincipes vergelijkbare domeinen: Link naar 10 golden rules data werkt niet. | | |
 | WB  | 20201113 |  3.3. ICT-inrichtingsprincipes Samenhangende Objectenregistratie: Inrichtingsprincipe 3. Hier zeggen we altijd via dataservices. In hoofdstuk 5 zeggen we dat we dat nog niet kunnen zeggen. | | |
 | WB  | 20201113 |  “Dataservices regelen de toegang tot gegevens” : Dit klopt niet. Er is toegang en er zijn dataservices. Dat zijn twee aparte onderdelen. | | |
 | WB  | 20201113 |  “Dataservices leggen elke toegang tot gegevens vast in logging, zodat deze services ervoor kunnen zorgen dat aantoonbaar is wat door gemachtigde leveranciers onder verantwoordelijkheid van bronhouders plaatsvindt. Alle transacties op de gegevens worden gelogd. Dit is nodig om een audit-trail te kunnen opbouwen.” Hier lijkt nog steeds te staan dat gegevens door gemachtigde gegevensleveranciers worden beheerd. Bronhouders beheren de gegevens. | | |
-| WB  | 20201113 |  Inrichtingsprincipe 4: Informatie wordt op betrouwbare en veilige wijze ontsloten <br>Waarom ‘informatie’ ipv data of gegevens? | | |
-| WB  | 20201113 |  “Overigens wordt van dienstenaanbieders verwacht dat ze invulling geven aan basisprincipes die staan genomend in de NORA, zie https://www.noraonline.nl/wiki/Basisprincipes_totaaloverzicht. Vanuit basisprincipes BP01 tot en met BP05: diensten zijn proactief vindbaar en toegankelijk, uniform en gebundeld voor afnemers. Vanuit basisprincipes BP09 en BP10: dienstenaanbieder is betrouwbaar en ontvankelijk voor input.”<br>Wie zijn de dienstenaanbieders? | | |
+| WB  | 20201113 |  Inrichtingsprincipe 4: Informatie wordt op betrouwbare en veilige wijze ontsloten: Waarom ‘informatie’ ipv data of gegevens? | | |
+| WB  | 20201113 |  “Overigens wordt van dienstenaanbieders verwacht dat ze invulling geven aan basisprincipes die staan genomend in de NORA, zie https://www.noraonline.nl/wiki/Basisprincipes_totaaloverzicht. Vanuit basisprincipes BP01 tot en met BP05: diensten zijn proactief vindbaar en toegankelijk, uniform en gebundeld voor afnemers. Vanuit basisprincipes BP09 en BP10: dienstenaanbieder is betrouwbaar en ontvankelijk voor input.” Wie zijn de dienstenaanbieders? | | |
 | WB  | 20201113 |  Dit verplaatsen naar paragraaf 3.2. Het komt uit de NORA. Of anders niet apart vermelden, maar verwerken in de grondslagen voor onze ICT-inrichtingsprincipes.  | | |
 | WB  | 20201113 |  4.2 Functionele lagen in de inrichting <br>Gegevenscatalogus is niet alleen voor ontwikkelaars, maar voor alle gebruikers / geïnteresseerden.  | | |
 | WB  | 20201113 |  4.3 Functies in de laag Metabeheer: <br>In hoofdstuk 5 zeggen we dat Toegang niet logt. Geldt voor alle Toegang-componenten in hoofdstuk 5. | | |
 | WB  | 20201113 |  Komen de beschrijvingen / doelen van de componenten overeen met die in hoofdstuk 5? Mijn voorstel is om de letterlijke tekst uit hoofdstuk 5 over te nemen. Voor alle componenten in hoofdstuk 4. | | |
 | WB  | 20201113 |  Figuur 6, 7, 8 en 9. Niet opbouwen. Dat kost teveel ruimte waardoor het document lang wordt. De hele plaat opnemen in paragraaf 4.2. | | |
-| WB  | 20201113 |  4.4 Functies in de laag Uitvoering [Registratie] (####Registratie)  | | |
+| WB  | 20201113 |  4.4 Functies in de laag Uitvoering [Registratie] (####Registratie)  | Ja| reeds gedaan |
 | WB  | 20201113 |  4.6 Overzicht: Deze vervalt als we de volledige plaat introduceren in 4.2 | | |
-| WB  | 20201113 |  [Uitwerking] (#uitwerking)  | | |
+| WB  | 20201113 |  [Uitwerking] (#uitwerking)  | Ja | reeds gedaan |
 | WB  | 20201113 |  4.7 Niet-functionele eisen: Rommelige, niet leesbare paragraaf | | |
 | WB  | 20201113 |  “De volgende niet-functionele eisen zijn daarom van toepassing op de ICT-componenten en services” : Hoezo ‘daarom’?  | | |
-| WB  | 20201113 |  Figuren 10 en 11  | | |
+| WB  | 20201113 |  Figuren 10 en 11  | Ja | reeds gedaan |
 | WB  | 20201113 |  5. Uitwerking: Nietszeggende hoofdstuktitel :Minder nesting. Zie bijv. Paragraaf 3.1 of 3.3 voor alternatief.<br>Bijlage van maken ipv een hoofdstuk?  | | |
-| WB  | 20201113 |  Opmaak maakt het niet heel leesbaar. Is het bijv. mogelijk om minder witruimte tussen de items in opsommingen te hanteren?  | | |
+| WB  | 20201113 |  Opmaak maakt het niet heel leesbaar. Is het bijv. mogelijk om minder witruimte tussen de items in opsommingen te hanteren?  | Ja | lege regels verwijderd tussen de bullets |
 | WB  | 20201113 |  5.1 Inleiding: [Algemeen] (#Algemeen) : De rest van hoofdstuk 5 nog niet gelezen. | | |
 | JvG | 20201113 |  Op diverse plekken links aangebracht in plaats van URL's in de tekst | Ja | is leesbaarder | 
