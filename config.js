@@ -40,8 +40,8 @@ var respecConfig =
 {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "GN-BASIS",           // Basis Document
-  specStatus: "GN-WV",                // Werk Versie
-  //specStatus: "GN-CV",              // Consultatie Versie
+  //specStatus: "GN-WV",                // Werk Versie
+  specStatus: "GN-CV",              // Consultatie Versie
   //specStatus: "GN-VV",              // Vaststellings Versie
   //specStatus: "GN-DEF",             // Definitieve Versie
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
@@ -79,25 +79,25 @@ var respecConfig =
   authors: 
   [
     {
-      name:       "Bart-Jan de Leuw",
-      company:    "MinBZK",
-      companyURL: "https://www.geobasisregistraties.nl"
-    }, 
-    {
       name:       "Wim Bakkeren",
       company:    "VNG Realisatie",
       companyURL: "https://www.vngrealisatie.nl"
+    }, 
+    {
+      name:       "Jan van Gelder",
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
+    }, 
+    {
+      name:       "Bart-Jan de Leuw",
+      company:    "MinBZK",
+      companyURL: "https://www.geobasisregistraties.nl"
     }, 
     {
       name:       "Marcel Reuvers",
       company:    "Kadaster",
       companyURL: "https://www.kadaster.nl"
     },    
-    {
-      name:       "Jan van Gelder",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
-    }, 
   ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
   shortName: "arch",                // Wordt gebruikt in de document URL
@@ -168,7 +168,7 @@ var respecConfig =
   //-- Optionele parameters:
   //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
   //subtitle: "iets",                         // Subtitel van het document
-  //maxTocLevel: 2,                           // Aantal niveau's ToC, default is 0
+  maxTocLevel: 3,                             // Aantal niveau's ToC, default is 0
   //-- LOGO: Hier kan je een ander logo opgeven indien nodig
   logos: [{
   //  src: "https://tools.geostandaarden.nl/respec/style/logos/OmgevingswetLogo.svg",

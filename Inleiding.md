@@ -33,7 +33,7 @@ Relevante bijlagen staan in het hoofdstuk [Bijlagen](#bijlagen-principes)
 
 ### Het proces
 
-De Architectuurbeschrijving van de Samenhangende Objectenregistratie is een product van een samenwerking van Geonovum, het Kadaster, het Ministerie van BZK en VNG Realisatie. Bij de totstandkoming zijn diverse belanghebbenden betrokken, onder andere via een denktank en klankbordgroep.
+De Architectuurbeschrijving van de Samenhangende Objectenregistratie is een product van een samenwerking van Geonovum, Kadaster, Ministerie van BZK en VNG Realisatie. Bij de totstandkoming zijn diverse belanghebbenden betrokken.
 
 Globale uitgangspunten voor het gegevensmodel, de voorziene pocessen voor inwinning, registratie en ontsluiting van gegevens, en eerste beelden over de organisatie en governance en financiering zijn vastgelegd in een beleidsvisie samenhangende objectenregistratie die eind 2019 door het BAG BAO en de Regieraad BGT is vastgesteld.
 
