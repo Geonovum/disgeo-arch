@@ -2,16 +2,12 @@
 
 ### Inleiding
 
-**Dit hoofdstuk bevat de uitwerking van de componenten van de objetcenregistatie. Per component is beschreven:**
+**Dit hoofdstuk bevat de uitwerking van de componenten van de objectenregistatie. Per component is beschreven:**
 
 1.  Wat het doel is van de component. 
-
 2.  Op welke bestaande uitwerkingen de invulling van de component is gebaseerd.
-
 3.  Welke uitgangspunten, zoals bestaande standaarden, voor de invulling van de component gelden.
-
 4.  Aan welke vereisten de component dient te voldoen.
-
 5.  Welke externe afhankelijkheden de component heeft.
 
 **Voor de uitwerking van de componenten gelden de volgende uitgangspunten:**
@@ -19,7 +15,6 @@
 1.  De uitwerking van de componenten is zoveel als mogelijk gebaseerd op
     bestaande, breed geaccepteerde en gehanteerde nationale of internationale
     uitwerkingen.
-
 2.  De uitwerking van de componenten is een functionele uitwerking die meerdere
     technische invullingen mogelijk maakt. Technische keuzes worden alleen
     voorgeschreven als ze essentieel zijn, bijvoorbeeld keuzes voor technische
@@ -127,18 +122,16 @@ De uitwerking van deze component is onder andere gebaseerd op:
 -   Er zijn geen nationale of internationale standaarden of andere uitwerkingen
     om de opslag-component op te baseren.
 
-De opslag-component is een intern onderdeel dat alleen via omringende services
-is te benaderen. Het is daarom niet nodig om hiervoor een standaard invulling te
-hanteren. De technische wijze van opslag is verantwoordelijkheid van de
-uitvoeringspartij die dit invult. Dit kan centrale opslag zijn of
-gedistribueerde opslag of anderszins. Dit soort aspecten worden later uitgewerkt
-en besloten.
-
 ##### Uitgangspunten
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
--   Geen uitgangspunten.
+-   De opslag-component is een intern onderdeel dat alleen via omringende services
+    is te benaderen. Het is daarom niet nodig om hiervoor een standaard invulling te
+    hanteren. De technische wijze van opslag is verantwoordelijkheid van de
+    uitvoeringspartij die dit invult. Dit kan centrale opslag zijn of
+    gedistribueerde opslag of anderszins. Dit soort aspecten worden later uitgewerkt
+    en besloten.
 
 ##### Vereisten
 
@@ -248,7 +241,7 @@ moment geen redenen onderkend en de precieze gevolgen van zo’n vereiste zijn o
 dit moment nog niet in te schatten.
 
 <p class ='note'>
-    NOOT: Vraag aan de reviewers om argumenten voor of tegen de vereiste dat
+    Vraag aan de reviewers om argumenten voor of tegen de vereiste dat
     bovenliggende services altijd gebruik dienen te maken van dataservices. En of
     daarbij onderscheid gemaakt dient te worden tussen registratieservices en
     afnameservices.
@@ -292,16 +285,16 @@ De afgeleide opslag staat ten dienste van het verstrekken of afnemen van
 objectgegevens en samenstellen en verstrekken van informatieproducten. Het is
 met andere woorden een intern gerichte functie. We beschrijven daarom hier
 vooral de vereisten aan de afgeleide opslag waar de invulling ervan moet
-voldoen. Uitgangspunt voor deze vereisten is dat het koppelvlak tussen de
-componenten Opslag en Afgeleide Opslag een SOR-intern koppelvlak is waarvoor
-geen vereisten gelden m.b.t. het gebruik van open, leveranciersonafhankelijke
-standaarden en technologieën.
+voldoen. 
 
 ###### Uitgangspunten
 
 Voor de uitwerking van Afgeleide Opslag gelden de volgende uitgangspunten:
 
--   Geen uitgangspunten.
+-   Uitgangspunt voor deze vereisten is dat het koppelvlak tussen de
+    componenten Opslag en Afgeleide Opslag een SOR-intern koppelvlak is waarvoor
+    geen vereisten gelden m.b.t. het gebruik van open, leveranciersonafhankelijke
+    standaarden en technologieën.
 
 ###### Vereisten
 

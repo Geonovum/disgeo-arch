@@ -13,7 +13,7 @@ Dit is een tijdelijk hoofdstuk met de reviewcommentaren, en wat er met die comme
 | MR  | 20201113 | 	1.3: pocessen  processen | Ja | Geen |
 | MR  | 20201113 | 	1.3: beleidsvisie samenhangende objectenregistratie die eind 2019, link toevoegen  | Ja | link toegevoegd|
 | MR  | 20201113 | 	4.4: [Registratie] (####Registratie)  | Ja | moet zijn [Registratie](#registratie) geen spaties tussen ] en (. slechts 1 # en kleine letters. tekst moet geheel overeenkoment met de hofdstuktitel!|
-| MR  | 20201113 | 	De teksten bij de componenten in hoofdstuk 4 zijn nog niet aangepast op hoofdstuk 5.  | | |
+| MR  | 20201113 | 	De teksten bij de componenten in hoofdstuk 4 zijn nog niet aangepast op hoofdstuk 5.  | Ja | Er wordt nu gelinkt naar H5|
 | MR  | 20201113 | 	Figuur 10 en 11 zijn leeg  | Ja |  BJdL zet plaatje in media map |
 | MR  | 20201113 | 	5.1: [Algemeen] (#Algemeen)  | Ja | moet zijn [Algemeen](#algemeen) |
 | MR  | 20201113 | 	5.2.4.1: Keus maken in document. Of Ministerie van BZK of MinBZK of wat anders. Ik kies zelf voor Ministerie van BZK  | Ja | Ministerie van BZK it is ... en is doorheen het hele document aangepast |
@@ -40,33 +40,33 @@ Dit is een tijdelijk hoofdstuk met de reviewcommentaren, en wat er met die comme
 | WB  | 20201113 |  3.2 Inrichtingsprincipes vergelijkbare domeinen: Link naar 10 golden rules data werkt niet. | Ja | de link mag blijkbaar niet met '10' beginnen, woord 'de' ervoor gezet. |
 | WB  | 20201113 |  3.3. ICT-inrichtingsprincipes Samenhangende Objectenregistratie: Inrichtingsprincipe 3. Hier zeggen we altijd via dataservices. In hoofdstuk 5 zeggen we dat we dat nog niet kunnen zeggen. | Nee | waar passen we wat aan?|
 | WB  | 20201113 |  “Dataservices regelen de toegang tot gegevens” : Dit klopt niet. Er is toegang en er zijn dataservices. Dat zijn twee aparte onderdelen. | Nee| Wat moet het worden ?|
-| WB  | 20201113 |  “Dataservices leggen elke toegang tot gegevens vast in logging, zodat deze services ervoor kunnen zorgen dat aantoonbaar is wat door gemachtigde leveranciers onder verantwoordelijkheid van bronhouders plaatsvindt. Alle transacties op de gegevens worden gelogd. Dit is nodig om een audit-trail te kunnen opbouwen.” Hier lijkt nog steeds te staan dat gegevens door gemachtigde gegevensleveranciers worden beheerd. Bronhouders beheren de gegevens. | | |
-| WB  | 20201113 |  Inrichtingsprincipe 4: Informatie wordt op betrouwbare en veilige wijze ontsloten: Waarom ‘informatie’ ipv data of gegevens? | | |
-| WB  | 20201113 |  “Overigens wordt van dienstenaanbieders verwacht dat ze invulling geven aan basisprincipes die staan genomend in de NORA, zie https://www.noraonline.nl/wiki/Basisprincipes_totaaloverzicht. Vanuit basisprincipes BP01 tot en met BP05: diensten zijn proactief vindbaar en toegankelijk, uniform en gebundeld voor afnemers. Vanuit basisprincipes BP09 en BP10: dienstenaanbieder is betrouwbaar en ontvankelijk voor input.” Wie zijn de dienstenaanbieders? | | |
-| WB  | 20201113 |  Dit verplaatsen naar paragraaf 3.2. Het komt uit de NORA. Of anders niet apart vermelden, maar verwerken in de grondslagen voor onze ICT-inrichtingsprincipes.  | | |
-| WB  | 20201113 |  4.2 Functionele lagen in de inrichting. Gegevenscatalogus is niet alleen voor ontwikkelaars, maar voor alle gebruikers / geïnteresseerden.  | | |
-| WB  | 20201113 |  4.3 Functies in de laag Metabeheer: In hoofdstuk 5 zeggen we dat Toegang niet logt. Geldt voor alle Toegang-componenten in hoofdstuk 5. | | |
-| WB  | 20201113 |  Komen de beschrijvingen / doelen van de componenten overeen met die in hoofdstuk 5? Mijn voorstel is om de letterlijke tekst uit hoofdstuk 5 over te nemen. Voor alle componenten in hoofdstuk 4. | | |
-| WB  | 20201113 |  Figuur 6, 7, 8 en 9. Niet opbouwen. Dat kost teveel ruimte waardoor het document lang wordt. De hele plaat opnemen in paragraaf 4.2. | | |
+| WB  | 20201113 |  “Dataservices leggen elke toegang tot gegevens vast in logging, zodat deze services ervoor kunnen zorgen dat aantoonbaar is wat door gemachtigde leveranciers onder verantwoordelijkheid van bronhouders plaatsvindt. Alle transacties op de gegevens worden gelogd. Dit is nodig om een audit-trail te kunnen opbouwen.” Hier lijkt nog steeds te staan dat gegevens door gemachtigde gegevensleveranciers worden beheerd. Bronhouders beheren de gegevens. | Nee | Wat moet het worden?|
+| WB  | 20201113 |  Inrichtingsprincipe 4: Informatie wordt op betrouwbare en veilige wijze ontsloten: Waarom ‘informatie’ ipv data of gegevens? | Ja | Data van gemaakt|
+| WB  | 20201113 |  “Overigens wordt van dienstenaanbieders verwacht dat ze invulling geven aan basisprincipes die staan genomend in de NORA, zie https://www.noraonline.nl/wiki/Basisprincipes_totaaloverzicht. Vanuit basisprincipes BP01 tot en met BP05: diensten zijn proactief vindbaar en toegankelijk, uniform en gebundeld voor afnemers. Vanuit basisprincipes BP09 en BP10: dienstenaanbieder is betrouwbaar en ontvankelijk voor input.” Wie zijn de dienstenaanbieders? | Nee | is een vraag |
+| WB  | 20201113 |  Dit verplaatsen naar paragraaf 3.2. Het komt uit de NORA. Of anders niet apart vermelden, maar verwerken in de grondslagen voor onze ICT-inrichtingsprincipes.  | Nee | eerst bespreken |
+| WB  | 20201113 |  4.2 Functionele lagen in de inrichting. Gegevenscatalogus is niet alleen voor ontwikkelaars, maar voor alle gebruikers / geïnteresseerden.  | Ja/Nee | Tekst is al herschreven? |
+| WB  | 20201113 |  4.3 Functies in de laag Metabeheer: In hoofdstuk 5 zeggen we dat Toegang niet logt. Geldt voor alle Toegang-componenten in hoofdstuk 5. | Nee | Waar Wat aanpassen?|
+| WB  | 20201113 |  Komen de beschrijvingen / doelen van de componenten overeen met die in hoofdstuk 5? Mijn voorstel is om de letterlijke tekst uit hoofdstuk 5 over te nemen. Voor alle componenten in hoofdstuk 4. | Nee| voorstel eerst bespreken |
+| WB  | 20201113 |  Figuur 6, 7, 8 en 9. Niet opbouwen. Dat kost teveel ruimte waardoor het document lang wordt. De hele plaat opnemen in paragraaf 4.2. | Nee | voorstel eerst bespreken |
 | WB  | 20201113 |  4.4 Functies in de laag Uitvoering [Registratie] (####Registratie)  | Ja| reeds gedaan |
-| WB  | 20201113 |  4.6 Overzicht: Deze vervalt als we de volledige plaat introduceren in 4.2 | | |
+| WB  | 20201113 |  4.6 Overzicht: Deze vervalt als we de volledige plaat introduceren in 4.2 | Nee | is er een andere plaat gekomen bij 4.2? |
 | WB  | 20201113 |  [Uitwerking] (#uitwerking)  | Ja | reeds gedaan |
-| WB  | 20201113 |  4.7 Niet-functionele eisen: Rommelige, niet leesbare paragraaf | | |
-| WB  | 20201113 |  “De volgende niet-functionele eisen zijn daarom van toepassing op de ICT-componenten en services” : Hoezo ‘daarom’?  | | |
+| WB  | 20201113 |  4.7 Niet-functionele eisen: Rommelige, niet leesbare paragraaf | Nee | Wat te doen? |
+| WB  | 20201113 |  “De volgende niet-functionele eisen zijn daarom van toepassing op de ICT-componenten en services” : Hoezo ‘daarom’?  | Nee| is discussie|
 | WB  | 20201113 |  Figuren 10 en 11  | Ja | reeds gedaan |
-| WB  | 20201113 |  5. Uitwerking: Nietszeggende hoofdstuktitel :Minder nesting. Zie bijv. Paragraaf 3.1 of 3.3 voor alternatief.<br>Bijlage van maken ipv een hoofdstuk?  | | |
+| WB  | 20201113 |  5. Uitwerking: Nietszeggende hoofdstuktitel :Minder nesting. Zie bijv. Paragraaf 3.1 of 3.3 voor alternatief.Bijlage van maken ipv een hoofdstuk?  | Nee | eerst bespreken |
 | WB  | 20201113 |  Opmaak maakt het niet heel leesbaar. Is het bijv. mogelijk om minder witruimte tussen de items in opsommingen te hanteren?  | Ja | lege regels verwijderd tussen de bullets |
 | WB  | 20201113 |  5.1 Inleiding: [Algemeen] (#Algemeen)  | Ja | werkt nu wel |
-| WB  | 20201113 | 5.1 Inleiding objetcenregistatie Is het mogelijk om steeds de alinea “De component X heeft als doel …” een kader of een arcering te geven? | | |
-| WB  | 20201113 | 5.1 Inleiding objetcenregistatie Mijn voorkeur is om de structuur van hoofdstuk 5 weer op te nemen. Dat geeft de lezer houvast in dit lange hoofdstuk met veel opsommingen. | | |
-| WB  | 20201113 | 5.2.1.3 Vereisten (Registratie) 4. Van ieder gebruik van een registratiedienst wordt o.a. vastgelegd: datum en tijdstip, organisatie. Dit kan o.a. gebruikt worden om te meten of het gebruik binnen de overeengekomen grenzen van gebruik blijft. Ik herken en begrijp de toevoeging ‘Dit kan o.a. gebruikt worden …’ niet. Het doel hiervan is dat is te achterhalen wie welke registratie/wijziging heeft gedaan. Het doel is niet om grenzen aan registratie te bewaken. Je mag als bronhouder maar 10 registraties per maand doen? | | |
-| WB  | 20201113 | 5.2.2.1 Invulling (Opslag) De alinea “De opslag-component is een intern onderdeel dat alleen via omringende services is te benaderen” verwijderen en opnemen als uitgangspunt | | |
-| WB  | 20201113 | 5.2.3.3 Vereisten (Afname) NOOT NOOT: | | |
-| WB  | 20201113 | 5.2.3.5 Afgeleide Opslag | | |
-| WB  | 20201113 | Invulling De zin ‘Uitgangspunt voor deze vereisten is dat het …’ hier verwijderen en opnemen bij uitgangspunten. | | |
-| WB  | 20201113 | 3.3 ICT-inrichtingsprincipes Samenhangende Objectenregistratie De grondslag steeds opnemen als laatste zien in de alinea ipv als aparte alinea | | |
-| WB  | 20201113 | 4.7 Niet-functionele eisen Figuur 10 niet opnemen. Is niet essentieel voor dit document en krijgt zo teveel aandacht. Alleen verwijzen naar ISO25010. | | |
+| WB  | 20201113 | 5.1 Inleiding objetcenregistatie Is het mogelijk om steeds de alinea “De component X heeft als doel …” een kader of een arcering te geven? | Nee | Kan wel, ik kan er al la "NOOT" iets van maken |
+| WB  | 20201113 | 5.1 Inleiding objetcenregistatie Mijn voorkeur is om de structuur van hoofdstuk 5 weer op te nemen. Dat geeft de lezer houvast in dit lange hoofdstuk met veel opsommingen. | Nee | Nog nodig omdat er nu verwijzigigen zijn vanuit H4? |
+| WB  | 20201113 | 5.2.1.3 Vereisten (Registratie) 4. Van ieder gebruik van een registratiedienst wordt o.a. vastgelegd: datum en tijdstip, organisatie. Dit kan o.a. gebruikt worden om te meten of het gebruik binnen de overeengekomen grenzen van gebruik blijft. Ik herken en begrijp de toevoeging ‘Dit kan o.a. gebruikt worden …’ niet. Het doel hiervan is dat is te achterhalen wie welke registratie/wijziging heeft gedaan. Het doel is niet om grenzen aan registratie te bewaken. Je mag als bronhouder maar 10 registraties per maand doen? | Nee | Wat moet het worden?|
+| WB  | 20201113 | 5.2.2.1 Invulling (Opslag) De alinea “De opslag-component is een intern onderdeel dat alleen via omringende services is te benaderen” verwijderen en opnemen als uitgangspunt | Ja | verplaatst naar 5.2.2.2 |
+| WB  | 20201113 | 5.2.3.3 Vereisten (Afname) NOOT NOOT: | Ja | Woord "NOOT" uit de tekst weggehaald |
+| WB  | 20201113 | 5.2.3.5 Afgeleide Opslag: Invulling De zin ‘Uitgangspunt voor deze vereisten is dat het …’ hier verwijderen en opnemen bij uitgangspunten. | Ja | verplaatst naar uitgangspunten | 
+| WB  | 20201113 | 3.3 ICT-inrichtingsprincipes Samenhangende Objectenregistratie De grondslag steeds opnemen als laatste zien in de alinea ipv als aparte alinea | Nee | is al gedaan|
+| WB  | 20201113 | 4.7 Niet-functionele eisen Figuur 10 niet opnemen. Is niet essentieel voor dit document en krijgt zo teveel aandacht. Alleen verwijzen naar ISO25010. | Nee | Eerst bespreken|
 | WB  | 20201113 | Figuur 11? | Ja| werkt nu wel |
-| WB  | 20201113 | 5.1 Inleiding Kunnen we hier wat doen aan de opmaak zodat duidelijker is dat er twee blokken met opsommingen zijn? | | |
-| WB  | 20201113 | 5.4.1.1. Notificatie-abonnementen (Te) veel witruimte voor en na INVULLING, UITGANGSPUNTEN e.d. | | |
-| JvG | 20201113 |  Op diverse plekken links aangebracht in plaats van URL's in de tekst | Ja | is leesbaarder | 
+| WB  | 20201113 | 5.1 Inleiding Kunnen we hier wat doen aan de opmaak zodat duidelijker is dat er twee blokken met opsommingen zijn? | Ja | Koptekst is nu **vet**|
+| WB  | 20201113 | 5.4.1.1. Notificatie-abonnementen (Te) veel witruimte voor en na INVULLING, UITGANGSPUNTEN e.d. | Nee | Daar kan ik niet zoveel aan doen. Is definite van niveau 4 |
+| JvG | 20201113 |  Op diverse plekken links aangebracht in plaats van URL's in de tekst | Ja | is leesbaarder |
+| JvG | 20201113 |  Hoofdstuk 4 voorien van links naar Hoofdstuk 5 | Ja | is more webbie |
