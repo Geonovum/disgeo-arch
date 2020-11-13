@@ -35,9 +35,9 @@ Het hoofdstuk [Afbakening](#afbakening) beschrijft de grenzen van de Objectenreg
 
 Het hoofdstuk [ICT-inrichtingsprincipes](#ict-inrichtingsprincipes) beschrijft de principes die bepalend zijn voor de functionele en deels ook technische inrichting van de ICT-voorzieningen en de bijbehorende ICT-organisatie van de Objectenregistratie.  
 
-Het hoofdstuk [Inrichting van de Objectenregistratie](#inrichting-van-de-objectenregistratie) beschrijft de conceptuele inrichting van de ICT-voorzieningen van de Objectenregistratie op de applicatielaag van het NORA-vijflaagsmodel.
+Het hoofdstuk [Inrichting](#inrichting) beschrijft de conceptuele inrichting van de ICT-voorzieningen van de Objectenregistratie op de applicatielaag van het NORA-vijflaagsmodel.
 
-Het hoofdstuk [Componenten](#componenten) werkt de ICT-onderdelen van de Objectenregistratie verder uit, vormt het kader voor de technische inrichting en biedt een gedeelte van de basis voor de organisatorische inrichting rond de ICT-voorzieningen.
+Het hoofdstuk [Uitwerking](#uitwerking) werkt de ICT-onderdelen van de Objectenregistratie verder uit, vormt het kader voor de technische inrichting en biedt een gedeelte van de basis voor de organisatorische inrichting rond de ICT-voorzieningen.
 
 Relevante bijlagen staan in het hoofdstuk [Bijlagen](#bijlagen-principes)
 
@@ -55,7 +55,6 @@ Deze Architectuurbeschrijving Voorzieningen van de Samenhangende Objectenregistr
     <img src="media/documentenstructuur.png" alt="documenten van de samenhangende objectenregistratie">
     <figcaption>Documenten van de samenhangende objectenregistratie</figcaption>
 </figure>
-
 
 Globale uitgangspunten voor het programma DiS-Geo worden vastgelegd in een nog te verschijnen beleidsvisie DiS Geo.
 
