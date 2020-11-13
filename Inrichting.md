@@ -15,15 +15,15 @@ We onderscheiden drie lagen in de functionele indeling van de Objectenregistrati
     <figcaption>Functionele lagen in de inrichting van de Objectenregistratie</figcaption>
 </figure>
 
-De laag [Metabeheer](#functies-in-de-laag-metabeheer) bevat de functies die nodig zijn voor het beheren en gebruiken van gegevens over de gegevens, te weten Gegevenscatalogus en Gegevenskwaliteit. Gegevenscatalogus bevat de functies die nodig zijn om informatiemodellen en gegevensregels te beheren in catalogi waarmee ontwikkelaars die informatiemodellen en gegevensregels kunnen toepassen in voorzieningen. Gegevenskwaliteit bevat de functies om kwaliteitsindicatoren te beheren en kwaliteitsmetingen te doen teneinde inzicht in de gegevenskwaliteit te verkrijgen.
+De laag **Metabeheer** bevat de functies die nodig zijn voor het beheren en gebruiken van gegevens over de gegevens, te weten Gegevenscatalogus en Gegevenskwaliteit. Gegevenscatalogus bevat de functies die nodig zijn om informatiemodellen en gegevensregels te beheren in catalogi waarmee die informatiemodellen en gegevensregels kunnen worden toegepast in voorzieningen. Gegevenskwaliteit bevat de functies om kwaliteitsindicatoren te beheren en kwaliteitsmetingen te doen teneinde inzicht in de gegevenskwaliteit te verkrijgen.
 
-De [Uitvoeringslaag](#functies-in-de-laag-uitvoering) bevat de functies die nodig zijn voor het voor het beheren en afnemen van objectgegevens, zoals voor het registreren en wijzigen van gegevens en voor het raadplegen ervan. Op deze laag maken we onderscheid tussen de functies ten behoeve van het beheren van objectgegevens door gebruikers in de rol van bronhouder en het afnemen van objectgegevens door gebruikers in de rol van afnemer. 
+De **Uitvoeringslaag** bevat de functies die nodig zijn voor het voor het beheren en afnemen van objectgegevens, zoals voor het registreren en wijzigen van gegevens en voor het raadplegen ervan. Op deze laag maken we onderscheid tussen de functies ten behoeve van het beheren van objectgegevens door gebruikers in de rol van bronhouder en het afnemen van objectgegevens door gebruikers in de rol van afnemer. 
 
-De [Ondersteuningslaag](#functies-in-de-laag-ondersteuning) bevat de functies die nodig zijn om bronhouders en afnemers te ondersteunen bij het beheren en afnemen van gegevens, zoals het beheren van machtigingen en het raadplegen van dienstencatalogi.
+De **Ondersteuningslaag** bevat de functies die nodig zijn om bronhouders en afnemers te ondersteunen bij het beheren en afnemen van gegevens, zoals het beheren van machtigingen en het raadplegen van dienstencatalogi.
 
-De functies in de drie lagen voor Metabeheer, Uitvoering en Ondersteuning maken we zichtbaar in een [totaaloverzicht](#overzicht).
+De functies in de drie lagen voor Metabeheer, Uitvoering en Ondersteuning maken we zichtbaar in een **totaaloverzicht**.
 
-Aan de componenten in de drie lagen voor Metabeheer, Uitvoering en Ondersteuning, bestaan ook [niet-functionele eisen](#niet-functionele-eisen). Deze benoemen we in algemene zin overkoepelend over de lagen en componenten.
+Aan de componenten in de drie lagen voor Metabeheer, Uitvoering en Ondersteuning, bestaan ook **niet-functionele eisen**. Deze benoemen we in algemene zin overkoepelend over de lagen en componenten.
 
 ### Functies in de laag Metabeheer
 
@@ -34,11 +34,11 @@ Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Metab
     <figcaption>De capabilities op de laag Metabeheer </figcaption>
 </figure>
   
-Op de laag **Metabeheer** onderkennen we de volgende clusters: [Toegang](#toegang) en [Gegevenscatalogus](#gegevenscatalogus) en [Gegevenskwaliteit](#gegevenskwaliteit). 
+Op de laag **Metabeheer** onderkennen we de volgende clusters: **Toegang** en **Gegevenscatalogus** en **Gegevenskwaliteit**. 
 
-- [Toegang](#toegang): voor het bewaken en loggen van de toegang van meta-beheerders tot de diensten.
-- [Gegevenscatalogus](#gegevenscatalogus): voor het inzien van de beschikbare soorten objectgegevens, eigenschappen en relaties en de betekenis daarvan, evenals het uitvoeren van versiemanagement op de catalogus als er sprake is van nieuwe objectgegevens of gegevensregels.
- - [Gegevenskwaliteit](#gegevenskwaliteit): voor het beheren en gebruiken van de door bronhouders en afnemers en andere betrokkenen (zoals toezichthouder en  beleidsverantwoordelijke) overeengekomen kwaliteitsindicatoren. Tevens voor het beheren en gebruiken van de bijbehorende diensten voor het bepalen van de waarden van de kwaliteitsindicatoren ten behoeve van monitoring van de gegevenskwaliteit, bijvoorbeeld door middel van kwaliteitsdashboards en analyses.
+- *Toegang*: voor het bewaken van de toegang van meta-beheerders tot de diensten.
+- *Gegevenscatalogus*: voor het inzien van de beschikbare soorten objectgegevens, eigenschappen en relaties en de betekenis daarvan, evenals het uitvoeren van versiemanagement op de catalogus als er sprake is van nieuwe objectgegevens of gegevensregels.
+ - *Gegevenskwaliteit*: voor het beheren en gebruiken van de door bronhouders en afnemers en andere betrokkenen (zoals toezichthouder en  beleidsverantwoordelijke) overeengekomen kwaliteitsindicatoren. Tevens voor het beheren en gebruiken van de bijbehorende diensten voor het bepalen van de waarden van de kwaliteitsindicatoren ten behoeve van monitoring van de gegevenskwaliteit, bijvoorbeeld door middel van kwaliteitsdashboards en analyses.
 
 ### Functies in de laag Uitvoering
 
@@ -49,15 +49,15 @@ Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Uitvo
     <figcaption>De capabilities op de laag Uitvoering</figcaption>
 </figure>
 
-De laag [Uitvoering](#laag-uitvoering) bevat de functies voor het beheren van objectgegevens en voor het afnemen van objectgegevens
+De laag **Uitvoering** bevat de functies voor het beheren van objectgegevens en voor het afnemen van objectgegevens
 
 Op de Uitvoeringslaag onderkennen we de volgende clusters voor *beheer en afname van objectgegevens*:
-- [Toegang](#toegang): voor het bewaken en loggen van de toegang van bronhouders en hun gemachtigden tot de beheerdiensten en van afnemers tot de afnamediensten. 
+- *Toegang*: voor het bewaken en loggen van de toegang van bronhouders en hun gemachtigden tot de beheerdiensten en van afnemers tot de afnamediensten. 
 - [Registratie](#registratie): voor het creëren en wijzigen van objectgegevens door bronhouders en hun gemachtigden.
-- [Opslag](#opslag): voor het duurzaam beschikbaar houden van gegevens over objecten en objecteigenschappen.
-- [Afname](#afname): voor het afnemen van objectgegevens op verschillende manieren, variërend van het raadplegen van enkelvoudige gegevens tot afnamen in 'bulk' voor bijvoorbeeld analysedoeleinden.
-- [Notificatie](#notificatie): voor het notificeren van afnemers van voor hen relevante gebeurtenissen (we gebruiken gebeurtenissen hier in brede zin, breder dan alleen gebeurtenissen die de objectgegevens betreffen).
-- [Terugmelding](#terugmelding): voor het in staat stellen van afnemers om bij gerede twijfel aan de juistheid van gegevens dit te melden en van bronhouders om meldingen in behandeling te nemen.
+- *Opslag*: voor het duurzaam beschikbaar houden van gegevens over objecten en objecteigenschappen.
+- *Afname*: voor het afnemen van objectgegevens op verschillende manieren, variërend van het raadplegen van enkelvoudige gegevens tot afnamen in 'bulk' voor bijvoorbeeld analysedoeleinden.
+- *Notificatie*: voor het notificeren van afnemers van voor hen relevante gebeurtenissen (we gebruiken gebeurtenissen hier in brede zin, breder dan alleen gebeurtenissen die de objectgegevens betreffen).
+- *Terugmelding*: voor het in staat stellen van afnemers om bij gerede twijfel aan de juistheid van gegevens dit te melden en van bronhouders om meldingen in behandeling te nemen.
 
 ### Functies in de laag Ondersteuning
 
@@ -68,12 +68,12 @@ Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Onder
     <figcaption>De capabilities op de laag Ondersteuning</figcaption>
 </figure>
 
-Op de [Ondersteuningslaag](#laag-ondersteuning) onderkennen we de volgende clusters voor de ondersteuning van bronhouders en hun gemachtigden en afnemers:
-- [Toegang](#toegang): voor het bewaken en loggen van de toegang van bronhouders en hun gemachigden en afnemers tot de ondersteuningsdiensten.
-- [Machtigingen](#machtigingen): voor het beheren van machtigingen voor diensten door bronhouders en afnemers. 
-- [Abonnementen](#abonnementen): voor het beheren van abonnementen op notificaties van gebeurtenissen door bronhouders en afnemers. We maken onderscheid tussen gebeurtenissen die betrekking hebben op gegevens (voor bronhouders en afnemers) en  andersoortige gebeurtenissen (die bijvoorbeeld relevant zijn voor ontwikkelaars en beheerders van voorzieningen voor en bij bronhouders en afnemers).  
-- [Betalingen](#betalingen): voor het beheren van betalingen van betaalde diensten door de gebruikers van die diensten, indien sprake is van betaalde diensten. Betalen kan op verschillende manieren worden ingericht, zoals vooraf, bij afname van de dienst of achteraf.
-- [Dienstencatalogus](#dienstencatalogus): voor het inzien van de beschikbare diensten voor het beheren en afnemen van gegevens, evenals voor het uitvoeren van versiemanagement op de dienstencatalogus als er sprake is van nieuwe diensten.
+Op de **Ondersteuningslaag** onderkennen we de volgende clusters voor de ondersteuning van bronhouders en hun gemachtigden en afnemers:
+- *Toegang*: voor het bewaken en loggen van de toegang van bronhouders en hun gemachigden en afnemers tot de ondersteuningsdiensten.
+- *Machtigingen*: voor het beheren van machtigingen voor diensten door bronhouders en afnemers. 
+- *Abonnementen*: voor het beheren van abonnementen op notificaties van gebeurtenissen door bronhouders en afnemers. We maken onderscheid tussen gebeurtenissen die betrekking hebben op gegevens (voor bronhouders en afnemers) en  andersoortige gebeurtenissen (die bijvoorbeeld relevant zijn voor ontwikkelaars en beheerders van voorzieningen voor en bij bronhouders en afnemers).  
+- *Betalingen*: voor het beheren van betalingen van betaalde diensten door de gebruikers van die diensten, indien sprake is van betaalde diensten. Betalen kan op verschillende manieren worden ingericht, zoals vooraf, bij afname van de dienst of achteraf.
+- *Dienstencatalogus:* voor het inzien van de beschikbare diensten voor het beheren en afnemen van gegevens, evenals voor het uitvoeren van versiemanagement op de dienstencatalogus als er sprake is van nieuwe diensten.
 
 
 ### Overzicht
@@ -93,13 +93,7 @@ Vraag aan de reviewers: Welke niet-functionele eisen moeten opgenomen worden in 
 
 De componenten van de objectenregistratie voldoen aan eisen waarmee invulling gegeven kan worden aan de volgende eisen aan basisgegevens:
 
-  Findable		goed vindbaar
-
-  Accessible		goed toegankelijk
-
-  Interoperable	interoperabel met elkaar en met niet-basisgegevens
-
-  Reusable		goed herbruikbaar
+Findable (goed vindbaar), Accessible (goed toegankelijk), Interoperable (interoperabel met elkaar en met niet-basisgegevens) en Reusable(goed herbruikbaar).
 
 De volgende niet-functionele eisen zijn daarom van toepassing op de ICT-componenten en services: 
 
@@ -107,31 +101,11 @@ De volgende niet-functionele eisen zijn daarom van toepassing op de ICT-componen
 
 Voor ICT systemen en componenten waarmee de functies beschikbaar gemaakt worden, zijn niet-functionele eisen van toepassing volgens de ISO25010 standaard:
 
-Voor **kwaliteit-in-gebruik** van de objectenregistratie zijn eisen van toepassing aangaande effectiviteit, efficiëntie, voldoening, vrijheid van risico en dekking van contexten. 
-
-<figure id="Structuur voor eisen aan kwaliteit in gebruik">
-    <img src="media/ISO25010-quality-in-use.png" alt="inrichting metabeheer uitvoering ondersteuning">
-    <figcaption>Structuur voor eisen aan kwaliteit in gebruik (ISO25010)</figcaption>
-</figure>
-	 
+     Voor **kwaliteit-in-gebruik** van de objectenregistratie zijn eisen van toepassing aangaande effectiviteit, efficiëntie, voldoening, vrijheid van risico en dekking van contexten. 
+ 
 De eisen aangaande dekking van contexten vertalen de vereiste flexibiliteit van de objectenregistratie als geheel naar de vereiste flexibiliteit van de ICT componenten. Denk hierbij aan de aanpasbaarheid van componenten aan veranderingen in de scope van basisgegevens en de structuur van basisgegevens. 
 
      Voor **productkwaliteit** van de objectenregistratie zijn eisen van toepassing aangaande functionele geschiktheid, betrouwbaarheid, performance, bruikbaarheid, beveiliging, compatibiiteit, onderhoudbaarheid en overdraagbaarheid. 
-
-<figure id="ISO25010-software-product-quality">
-    <img src="media/ISO25010-product-quality.png" alt="inrichting metabeheer uitvoering ondersteuning">
-    <figcaption>Structuur voor eisen aan software product kwaliteit (ISO25010)</figcaption>
-</figure>
 	 
-De eisen aan compatibiliteit betreffen onder andere de interoperabiliteit. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk verzekeren de eisen aan interoperabiliteit van systemen dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund. Beide niveaus van interoperabiliteit zijn noodzakelijk voor het bereiken van interoperabiliteit tussen organisaties, waardoor alle overheidsorganisaties met dezelfde basisgegevens kunnen werken: 
-
-Interoperabiliteit
-
-Om dit essentiele onderwerp voldoende aandacht te geven sluiten we dit hoofdstuk af met een illustratie die weergeeft dat interoperabiliteit op de applicatielaag alleen werkt in samenhang met operabiliteit op de andere lagen van de NORA.              
-
-<figure id="Interoperabiliteit op alle niveaus">
-    <img src="media/interoperabiliteit-op-3-niveaus.png" alt="interoperabiliteit-op-alle-niveaus">
-    <figcaption>Interoperabiliteit op alle niveaus</figcaption>
-</figure>
-
+De eisen aan compatibiliteit betreffen onder andere de interoperabiliteit. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk verzekeren de eisen aan interoperabiliteit van systemen dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund. Beide niveaus van interoperabiliteit zijn noodzakelijk voor het bereiken van interoperabiliteit tussen organisaties, waardoor alle overheidsorganisaties met dezelfde basisgegevens kunnen werken.
 
