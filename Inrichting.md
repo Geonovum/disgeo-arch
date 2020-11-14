@@ -15,13 +15,13 @@ We onderscheiden drie lagen in de functionele indeling van de Objectenregistrati
     <figcaption>Functionele lagen in de inrichting van de Objectenregistratie</figcaption>
 </figure>
 
-De laag **Metabeheer** bevat de functies die nodig zijn voor het beheren en gebruiken van gegevens over de gegevens, te weten Gegevenscatalogus en Gegevenskwaliteit. Gegevenscatalogus bevat de functies die nodig zijn om informatiemodellen en gegevensregels te beheren in catalogi waarmee die informatiemodellen en gegevensregels kunnen worden toegepast in voorzieningen. Gegevenskwaliteit bevat de functies om kwaliteitsindicatoren te beheren en kwaliteitsmetingen te doen teneinde inzicht in de gegevenskwaliteit te verkrijgen.
+De laag **Metabeheer** bevat de functies die nodig zijn voor het beheren en gebruiken van gegevens over de gegevens, ofwel metagegevens. Deze laag wordt gebruikt door de andere lagen om de gegevensstructuur en de gegevensregels te kunnen toepassen in voorzieningen en om inzicht in de gegevenskwaliteit te verkrijgen.
 
 De **Uitvoeringslaag** bevat de functies die nodig zijn voor het beheren en afnemen van objectgegevens, zoals voor het registreren en wijzigen van gegevens en voor het raadplegen ervan. Op deze laag maken we onderscheid tussen de functies ten behoeve van het beheren van objectgegevens door gebruikers in de rol van bronhouder en het afnemen van objectgegevens door gebruikers in de rol van afnemer. 
 
 De **Ondersteuningslaag** bevat de functies die nodig zijn om bronhouders en afnemers te ondersteunen bij het beheren en afnemen van gegevens, zoals het beheren van machtigingen en het raadplegen van dienstencatalogi.
 
-De functies in de drie lagen voor Metabeheer, Uitvoering en Ondersteuning maken we zichtbaar in een **totaaloverzicht**.
+De functies in de drie lagen voor Metabeheer, Uitvoering en Ondersteuning maken we zichtbaar in een **overzicht van capabilities**. In dit overzicht zijn clusters van functies gegroepeerd tot componenten. Deze vormen de inrichting van de voorzieningen. 
 
 <figure id="metabeheer-inrichting-uitvoering">
     <img src="media/inrichting-metabeheer-uitvoering-ondersteuning-objectenregistratie.png" alt="inrichting metabeheer uitvoering ondersteuning">
