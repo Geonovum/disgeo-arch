@@ -2,24 +2,18 @@
 
 ### Inleiding
 
-**Dit hoofdstuk bevat de uitwerking van de componenten van de objectenregistatie. Per component is beschreven:**
+**Dit hoofdstuk bevat de uitwerking van de componenten van de objectenregistatie.**
 
-1.  Wat het doel is van de component. 
-2.  Op welke bestaande uitwerkingen de invulling van de component is gebaseerd.
-3.  Welke uitgangspunten, zoals bestaande standaarden, voor de invulling van de component gelden.
-4.  Aan welke vereisten de component dient te voldoen.
-5.  Welke externe afhankelijkheden de component heeft.
+Per component is eerst beschreven wat het doel is van de component. 
+Vervolgens wordt aangegeven:
+1.  Op welke bestaande uitwerkingen de invulling van de component is gebaseerd.
+2.  Welke uitgangspunten, zoals bestaande standaarden, voor de invulling van de component gelden.
+3.  Aan welke vereisten de component dient te voldoen.
+4.  Welke externe afhankelijkheden de component heeft.
 
-**Voor de uitwerking van de componenten gelden de volgende uitgangspunten:**
+De uitwerking van de componenten is zoveel als mogelijk gebaseerd op bestaande, breed geaccepteerde en gehanteerde nationale of internationale uitwerkingen.
 
-1.  De uitwerking van de componenten is zoveel als mogelijk gebaseerd op
-    bestaande, breed geaccepteerde en gehanteerde nationale of internationale
-    uitwerkingen.
-2.  De uitwerking van de componenten is een functionele uitwerking die meerdere
-    technische invullingen mogelijk maakt. Technische keuzes worden alleen
-    voorgeschreven als ze essentieel zijn, bijvoorbeeld keuzes voor technische
-    standaarden in het kader van interoperabiliteit en het voldoen aan afspraken
-    binnen de overheid of nationale of internationale afspraken.
+De uitwerking van de componenten is een functionele uitwerking die meerdere technische invullingen mogelijk maakt. Technische keuzes worden alleen voorgeschreven als ze essentieel zijn, bijvoorbeeld keuzes voor technische standaarden in het kader van interoperabiliteit en het voldoen aan afspraken binnen de overheid of nationale of internationale afspraken.
 
 Onder [Algemeen](#algemeen) beschrijven we de onderwerpen die op meerdere plaatsen
 in de architectuur voorkomen. Deze onderwerpen zijn daar eenmalig
@@ -39,9 +33,9 @@ Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdee
 
 #### Registratie
 
-De component Registratie heeft als doel om bronhouderorganisaties in staat te
+De component Registratie heeft als doel om bronhouderorganisaties en gemachtigde organisaties in staat te
 stellen objectgegevens en bijbehorende meta-gegevens te beheren (creëren en
-wijzigen). Deze component biedt de services die bronhouders daarvoor nodig
+wijzigen). Deze component biedt de services die bronhouders en gemachtigden daarvoor nodig
 hebben.
 
 De component Registratie biedt services voor informatiesystemen om
@@ -432,12 +426,12 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
     de terugmelding, wijzigen indien nodig de objectgegevens en werken de status
     van de terugmelding bij.
 
--   Een terugmelding op een gegevens is zowel een aanduiding bij een gegeven dat
+-   Een terugmelding op een gegeven is zowel een aanduiding bij een gegeven dat
     er twijfel over bestaat als een aanleiding voor de bronhouder van het
     gegeven om de terugmelding te onderzoeken. Vanuit de objectenregistratie vinden we dat de
     terugmelding niks anders is dan een aspect van het gegeven zelf waaruit
     blijkt dat er twijfel is over de juistheid ervan en dat het in onderzoek is.
-    Hierdoor weten gebruikers dat bij deze specifieke gegevens iets aan de hand
+    Hierdoor weten gebruikers dat bij dit specifieke gegeven iets aan de hand
     is. Dit is met name van belang indien dit gegeven wordt gebruikt in primaire
     werkprocessen, data-analyse, e.d.
 
@@ -589,7 +583,7 @@ toezichthouders en beleidsverantwoordelijke.
 
 De kwaliteitsmetingen helpen de bronhouders en afnemers en andere betrokkenen
 (zoals toezichthouder en beleidsverantwoordelijke) met het krijgen van inzicht
-en levert tevens fouten en signalen op die de bronhouder kan gebruiken om de
+en leveren tevens fouten en signalen op die de bronhouder kan gebruiken om de
 gegevenskwaliteit te verbeteren.
 
 Met kwaliteitsmetingen kan de gegevenskwaliteit beoordeeld worden tegen
@@ -605,12 +599,12 @@ De uitwerking van deze component is onder andere gebaseerd op:
 -   Nader te bepalen.
 
 De volgende uitwerkingen vormen mogelijk een basis voor de uitwerking van de
-component Notificatie. Dat is nader te bepalen:
+component Gegevenskwaliteit. Dat is nader te bepalen:
 
 -   De opgedane kennis en ervaring vanuit de huidige kwaliteitsdashboards BAG,
     BGT en BRT
 
--   Business Intelligence (BI)
+-   Business Intelligence en Data Analytics kennis en ervaring van Data Science teams betrokken bij de BAG, BGT en BRT
 
 De aanname is dat functionaliteit voor gegevenskwaliteit onderdeel is van de
 gemeenschappelijke voorziening(en) van de objectenregistratie, ongeacht waar de verantwoordelijkheid
@@ -697,7 +691,8 @@ Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdee
 #### Abonnementen
 
 De component Abonnementen heeft als doel om organisaties in staat te stellen
-abonnementen te registreren en beheren.
+abonnementen te registreren en beheren. 
+We onderscheiden abonnementen op notificaties en abonnementen op Afname.
 
 ##### Notificatie-abonnementen
 
@@ -754,13 +749,11 @@ zodat deze zich kunnen abonneren op Afname. Zie ook de uitwerking van de
 component Afname.
 
 <p class ='note'>
-    Noot: Willen we het nemen van een abonnement altijd randvoorwaardelijk stellen
-    (ook bij gratis en open services) om een afname service te kunnen gebruiken?
+    Noot voor reviewers: Willen we het nemen van een abonnement altijd randvoorwaardelijk stellen
+    (ook bij gratis en open services) om een afname service te kunnen gebruiken, of vinden we dat services ook zonder abonnement beschikbaar moeten zijn?
     Bijvoorbeeld: Dit geeft enerzijds meer administratieve last maar anderzijds ook
     het voordeel dat gebruikers van de service gericht op de hoogte gebracht kunnen
     worden van veranderingen aan de service.
-
-    Of vinden we dat services ook zonder abonnement beschikbaar moeten zijn?
 </p>
 
 ###### Invulling
@@ -860,7 +853,9 @@ Deze component heeft de volgende externe afhankelijkheden:
 De component Machtigingen heeft als doel dat een gebruikersorganisatie een
 andere organisatie kan machtigen om als gegevensleverancier of gegevensafnemer
 met bepaalde bevoegdheden voor bepaalde gegevenssoorten op te treden namens de
-machtigende gebruiksorganisatie.
+machtigende gebruikersorganisatie.
+
+Alleen een gebruikersorganisatie in de rol van bronhouder kan gegevensleveranciers machtigen.
 
 Of machtigen voor afnemers nodig is moet nog blijken.
 
@@ -905,6 +900,7 @@ Voor deze component gelden de volgende vereisten:
 Deze component heeft de volgende externe afhankelijkheden:
 
 -   Er is geen externe afhankelijkheid
+
 
 #### Dienstencatalogus
 
@@ -974,12 +970,11 @@ Deze component heeft de volgende externe afhankelijkheden:
 
 ### Algemeen
 
-Hier worden de algemene onderwerpen Toegang en Interactie uitgewerkt
+Hier worden de algemene onderwerpen Toegang en Interactie uitgewerkt.
 
 #### Toegang
 
-Toegang heeft als doel te bepalen wie een gebruiker is en wat die gebruiker mag
-om de gebruiker toegang tot een dienst te verlenen.
+Toegang heeft als doel het bewaken van de toegang door te bepalen wie een gebruiker is en wat die gebruiker mag om de gebruiker toegang tot een dienst te verlenen.
 
 De gebruiker kan een persoon of een informatiesysteem zijn. Toegang voor
 informatiesystemen betreft de toegang tot services (Common Ground laag 2).

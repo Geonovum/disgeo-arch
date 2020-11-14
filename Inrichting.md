@@ -31,37 +31,51 @@ De functies in de drie lagen voor Metabeheer, Uitvoering en Ondersteuning maken 
 
 ### Functies in de laag Metabeheer
 
-Op de laag **Metabeheer** onderkennen we de volgende clusters: **Toegang** en **Gegevenscatalogus** en **Gegevenskwaliteit**. 
+Op de laag **Metabeheer** onderkennen we de volgende clusters voor inzien van de gegevensstructuur en inzicht in de gegevenskwaliteit: 
 
 - *Toegang*: voor het bewaken van de toegang van meta-beheerders tot de diensten.
-- *Gegevenscatalogus*: voor het inzien van de beschikbare soorten objectgegevens, eigenschappen en relaties en de betekenis daarvan, evenals het uitvoeren van versiemanagement op de catalogus als er sprake is van nieuwe objectgegevens of gegevensregels.
- - *Gegevenskwaliteit*: voor het beheren en gebruiken van de door bronhouders en afnemers en andere betrokkenen (zoals toezichthouder en  beleidsverantwoordelijke) overeengekomen kwaliteitsindicatoren. Tevens voor het beheren en gebruiken van de bijbehorende diensten voor het bepalen van de waarden van de kwaliteitsindicatoren ten behoeve van monitoring van de gegevenskwaliteit, bijvoorbeeld door middel van kwaliteitsdashboards en analyses.
+- *Gegevenscatalogus*: voor het kunnen beschrijven van de in de objectenregistratie beschikbare gegevens en informatieproducten en deze beschrijving te ontsluiten, zodat bronhouders, afnemers en andere betrokkenen hier kennis van kunnen nemen.
+ - *Gegevenskwaliteit*: voor het vastleggen van de afgesproken kwaliteitsindicatoren en het meten en monitoren wat de waarde van deze indicatoren is en zowel de indicatoren als de gemeten waarden beschikbaar te stellen voor bronhouders, afnemers en andere betrokkenen, zoals toezichthouders en beleidsverantwoordelijken.
 
 ### Functies in de laag Uitvoering
 
 Op de Uitvoeringslaag onderkennen we de volgende clusters voor *beheer en afname van objectgegevens*:
-- *Toegang*: voor het bewaken en loggen van de toegang van bronhouders en hun gemachtigden tot de beheerdiensten en van afnemers tot de afnamediensten. 
-- [Registratie](####registratie): voor het creëren en wijzigen van objectgegevens door bronhouders en hun gemachtigden.
-- *Opslag*: voor het duurzaam beschikbaar houden van gegevens over objecten en objecteigenschappen.
-- *Afname*: voor het afnemen van objectgegevens op verschillende manieren, variërend van het raadplegen van enkelvoudige gegevens tot afnamen in 'bulk' voor bijvoorbeeld analysedoeleinden.
-- *Notificatie*: voor het notificeren van afnemers van voor hen relevante gebeurtenissen (we gebruiken gebeurtenissen hier in brede zin, breder dan alleen gebeurtenissen die de objectgegevens betreffen).
-- *Terugmelding*: voor het in staat stellen van afnemers om bij gerede twijfel aan de juistheid van gegevens dit te melden en van bronhouders om meldingen in behandeling te nemen.
+- *Toegang*: voor het bewaken van de toegang van bronhouders en hun gemachtigden tot de beheerdiensten en van afnemers tot de afnamediensten. 
+- *Registratie*: voor het creëren en wijzigen van objectgegevens door bronhouders en hun gemachtigden.
+- *Opslag*: voor het duurzaam beschikbaar houden van objectgegevens.
+- *Afname*: voor het afnemen van objectgegevens en daarvan afgeleide informatieproducten.
+- *Notificatie*: voor het notificeren van afnemers van voor hen relevante gebeurtenissen die betrekking hebben op objectgegevens, zodat zij kunnen handelen naar die gebeurtenissen.
+- *Terugmelding*: voor het in staat stellen van afnemers om meldingen over de juistheid van gegevens te kunnen registreren en deze beschikbaar te laten zijn voor bronhouders, zodat zij ze kunnen behandelen.
+
+De component Terugmelding heeft als doel dat meldingen van afnemers over de juistheid van gegevens geregistreerd kunnen worden en beschikbaar zijn voor bronhouders, zodat zij ze kunnen behandelen
 
 ### Functies in de laag Ondersteuning
 
 Op de **Ondersteuningslaag** onderkennen we de volgende clusters voor de ondersteuning van bronhouders en hun gemachtigden en afnemers:
-- *Toegang*: voor het bewaken en loggen van de toegang van bronhouders en hun gemachigden en afnemers tot de ondersteuningsdiensten.
+- *Toegang*: voor het bewaken van de toegang van bronhouders en hun gemachtigden en afnemers tot de ondersteuningsdiensten.
 - *Machtigingen*: voor het beheren van machtigingen voor diensten door bronhouders en afnemers. 
-- *Abonnementen*: voor het beheren van abonnementen op notificaties van gebeurtenissen door bronhouders en afnemers. We maken onderscheid tussen gebeurtenissen die betrekking hebben op gegevens (voor bronhouders en afnemers) en  andersoortige gebeurtenissen (die bijvoorbeeld relevant zijn voor ontwikkelaars en beheerders van voorzieningen voor en bij bronhouders en afnemers).  
-- *Betalingen*: voor het beheren van betalingen van betaalde diensten door de gebruikers van die diensten, indien sprake is van betaalde diensten. Betalen kan op verschillende manieren worden ingericht, zoals vooraf, bij afname van de dienst of achteraf.
-- *Dienstencatalogus:* voor het inzien van de beschikbare diensten voor het beheren en afnemen van gegevens, evenals voor het uitvoeren van versiemanagement op de dienstencatalogus als er sprake is van nieuwe diensten.
+- *Abonnementen*: voor het kunnen registreren en beheren van abonnementen door bronhouders en afnemers op notificaties over gebeurtenissen die betrekking hebben op objectgegevens waarin ze geïnteresseerd zijn, en voor het kunnen registreren en beheren van abonnementen op Afname.
+- *Betalingen*: voor het beheren van betalingen van betaalde diensten door de gebruikers van die diensten, indien sprake is van betaalde diensten. Betalen kan op verschillende manieren worden ingericht, zoals vooraf, bij afname van de dienst of achteraf, en is gekoppeld aan abonnementen.
+- *Dienstencatalogus:* voor het beschrijven van de diensten van de objectenregistratie en om deze beschrijvingen (interactief) te ontsluiten, zodat betrokkenen hier makkelijk en goed kennis van kunnen nemen.
+
+
+
+### Algemene functies
+
+In alle drie lagen onderkennen we *Toegang* voor het bewaken van toegang tot diensten. Deze functie wordt op een plek uitgewerkt onder Algemeen. 
+
+Verder onderkennen we de behoefte aan *Interactie* om de diensten en de gegevens en producten van de objectenregistratie aan eindgebruikers (personen in de rol van bronhouder of afnemer) te presenteren en de mogelijkheden te bieden om er mee te interacteren.
+
+De objectenregistratie zal naar verwachting verschillende generieke interactiecomponenten bieden, bijvoorbeeld een viewer voor het zoeken en raadplegen van objectgegevens (inzage), portalen voor het beheren van machtigingen en loketten voor het indienen van terugmeldingen en het beheren van abonnementen.
+
+Uitwerking van eisen aan Interactie staan onder Algemeen.
 
 ### Niet-functionele eisen
 
 Aan de componenten in de drie lagen voor Metabeheer, Uitvoering en Ondersteuning, bestaan ook **niet-functionele eisen**. Deze benoemen we in algemene zin overkoepelend over de lagen en componenten.
 
 <p class='note'>
-Vraag aan de reviewers: Welke niet-functionele eisen moeten opgenomen worden in deze Architectuurbeschrijving?
+Open vraag aan de reviewers: Welke niet-functionele eisen moeten opgenomen worden in deze Architectuurbeschrijving?
 </p>
 
 
