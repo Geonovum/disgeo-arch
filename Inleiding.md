@@ -7,7 +7,7 @@ Een samenhangende objectenregistratie is een uniforme registratie met daarin bas
 
 Dit document is de **Architectuurbeschrijving Voorzieningen** van de Samenhangende Objectenregistratie. Het beschrijft de afbakening, de inrichtingsprincipes en de conceptuele of functionele inrichting (de functionele onderdelen en samenhang) van de ICT-componenten voor de Samenhangende Objectenregistratie. Met andere woorden, de Architectuurbeschrijving Voorzieningen beschrijft de Objectenregistratie op de Applicatielaag, laag 4 in het [NORA-vijflaagsmodel](https://www.noraonline.nl/wiki/Vijflaagsmodel)
 
-<figure id="nora5laagsmodel">
+<figure id="scope in nora5laagsmodel">
     <img src="media/scope-in-nora5laagsmodel.png" alt="scope in nora5laagsmodel">
     <figcaption>Scope in het NORA 5 laagsmodel</figcaption>
 </figure>
@@ -30,11 +30,7 @@ Het hoofdstuk [Inrichting](#inrichting) beschrijft de conceptuele inrichting van
 
 Het hoofdstuk [Uitwerking](#uitwerking) werkt de ICT-onderdelen van de Objectenregistratie verder uit, vormt het kader voor de technische inrichting en biedt een gedeelte van de basis voor de organisatorische inrichting rond de ICT-voorzieningen.
 
-Relevante bijlagen staan in het hoofdstuk [Bijlage Principes](#bijlage-principes)
-
-<p class='note'>
-     Voor reviewers: In groene kaders stellen de auteurs soms een vraag. In jullie reviewcommentaar lezen we graag antwoorden.
-</p>
+Relevante bijlagen staan in het hoofdstuk [Bijlagen](#bijlage principes)
 
 ### Context
 
