@@ -30,7 +30,7 @@ Het hoofdstuk [Inrichting](#inrichting) beschrijft de conceptuele inrichting van
 
 Het hoofdstuk [Uitwerking](#uitwerking) werkt de ICT-onderdelen van de Objectenregistratie verder uit, vormt het kader voor de technische inrichting en biedt een gedeelte van de basis voor de organisatorische inrichting rond de ICT-voorzieningen.
 
-Relevante bijlagen staan in het hoofdstuk [Bijlagen](#bijlage principes)
+Relevante bijlagen staan in het hoofdstuk [Bijlagen](#bijlage-principes)
 
 ### Context
 
