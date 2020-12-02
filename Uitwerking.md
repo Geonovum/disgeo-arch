@@ -39,18 +39,16 @@ wijzigen). Deze component biedt de services die bronhouders en gemachtigden daar
 hebben.
 
 De component Registratie biedt services voor informatiesystemen om
-objectgegevens te beheren (creëren en wijzigen). De component bevat geen
-functionaliteit voor het presenteren van deze gegevens aan bronhouders.
-Componenten (van de bronhouders zelf) voor presentatie en interactie maken
-gebruik van deze component voor Registratie.
+objectgegevens te beheren (creëren en wijzigen). 
+
+Deze component bevat geen functionaliteit voor interactie en presentatie. 
 
 ##### Invulling
 
 De uitwerking van deze component is onder andere gebaseerd op:
 
 -   Voor geo-gegevens: [OGC API - Features - Part 4: Simple Transactions](http://docs.opengeospatial.org/DRAFTS/20-002.html)  
-    N.B.: dit is een draft en nog geen vastgestelde standaard.
-
+   
 -   Voor administratieve gegevens: [API-strategie](https://docs.geostandaarden.nl/api/API-Strategie/)
 
 Bovenstaande twee uitwerkingen bieden geen volledige basis voor de uitwerking
@@ -84,25 +82,16 @@ Voor deze component gelden de volgende vereisten:
     tijdstip waarop de wijziging heeft plaatsgevonden.
 
 2.  Bij elke verandering van een gegeven vindt vooraf validatie aan de
-    gegevensregels plaats. Alleen valide gegevens worden definitief
-    geregistreerd. Dat betekent dat objecten die (nog) niet volledig aan de
-    gegevensregels voldoen niet definitief geregistreerd kunnen worden.  
-    
-	Het is nu nog niet te bepalen of in de objectenregistratie ook objectgegevens in bewerking
-    geregistreerd kunnen worden. Dat is afhankelijk van de nog te kiezen
-    organisatorische en technische inrichting.
-
-3.  Bij elke verandering van een gegeven wordt het resultaat gerapporteerd aan
-    de bronhouder: welk gegeven is geregistreerd of gewijzigd of beëindigd, de
-    identificatie van het aangemaakte object enz.
+    gegevensregels plaats. Alleen valide gegevens worden geregistreerd. 
+	
+3.  Bij elke verandering van een gegeven wordt vastgelegd: welk gegeven is geregistreerd of gewijzigd of beëindigd, de identificatie van het aangemaakte object, enz.
 
 4.  Van ieder gebruik van een registratiedienst wordt o.a. vastgelegd: datum en
     tijdstip, organisatie, zodat een audit log beschikbaar is. 
 
 N.B.
 
--   Het vastleggen en beheren van gegevensregels valt binnen de laag
-    meta-gegevensbeheer en niet binnen de component Registratie.
+-   Het vastleggen en beheren van gegevensregels valt binnen de component Gegevenscatalogus en niet binnen de component Registratie.
 
 ##### Externe afhankelijkheden
 
@@ -129,12 +118,10 @@ De uitwerking van deze component is onder andere gebaseerd op:
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
--   De opslag-component is een intern onderdeel dat alleen via omringende services
+-   De opslag-component is een intern onderdeel dat alleen via services
     is te benaderen. Het is daarom niet nodig om hiervoor een standaard invulling te
     hanteren. De technische wijze van opslag is verantwoordelijkheid van de
-    uitvoeringspartij die dit invult. Dit kan centrale opslag zijn of
-    gedistribueerde opslag of anderszins. Dit soort aspecten worden later uitgewerkt
-    en besloten.
+    uitvoeringspartij die dit invult.
 
 ##### Vereisten
 
@@ -148,11 +135,10 @@ Voor deze component gelden de volgende vereisten:
     maken voor de verstrekker.
 
 3.  Door het scheiden van proceslogica van procesgegevens en gegevens zal de
-    opslag naast objectgegevens ook de procesgegevens moeten omvatten. Denk aan
-    het bijhouden wie welke wijzigingen heeft doorgevoerd en wanneer. Dit soort
-    procesgegevens worden samen met de gegevens opgeslagen.
+    opslag naast objectgegevens ook procesgegevens moeten omvatten. Denk aan
+    het bijhouden wie welke wijzigingen heeft doorgevoerd en wanneer. Procesgegevens worden samen met de gegevens opgeslagen.
 
-4.  De procesgegevens verzorgen het opbouwen van de audit trial.
+4.  Procesgegevens verzorgen het opbouwen van de audit trial.
 
 5.  De opslag is enkel en alleen benaderbaar via services.
 
@@ -163,7 +149,7 @@ Voor deze component gelden de volgende vereisten:
 
 Deze component heeft de volgende externe afhankelijkheden:
 
--   Geen externe afhankelijkheden.
+-   Externe eisen aan informatieveiligheid zoals Baseline Informatiebeveiliging Overheid (BIO).
 
 #### Afname
 
@@ -251,22 +237,28 @@ Deze component heeft de volgende externe afhankelijkheden:
 
 -   Geen externe afhankelijkheden
 
-##### Afgeleide Opslag
+##### Afgeleide opslag
 
-Ten behoeve van afname van gegevens en informatie is naar verwachting afgeleide
-opslag nodig. Dit is **geen** zelfstandige component, maar een onderdeel van
-Afname van Gegevens en Informatie. Deze functionaliteit is hier voor de
-duidelijkheid apart beschreven.
+Functioneel gezien is er een Opslag.
 
-Afgeleide Opslag heeft als doel om te voorzien in opslag van objectgegevens en
+Ten behoeve van afname van gegevens en informatie is naar verwachting in de technische uitwerking afgeleide
+opslag nodig. Dit is **geen** zelfstandige component, maar een onderdeel van Afname van gegevens en informatie.
+
+Ten behoeve van betrokkenen bij de functionaliteit Afname worden hier uitgangspunten en vereisten aan afgeleide opslag beschreven.
+
+Afgeleide opslag heeft als doel om te voorzien in opslag van objectgegevens en
 bijbehorende meta-gegevens die is afgestemd op de specifieke eisen van de afname
-van objectgegevens door eenieder.
+van objectgegevens door afnemers. Voor de afnemers is het niet relevant te weten waar of hoe de data is opgeslagen, toegang tot de data wordt immers enkel via dataservices geboden. 
 
-Afgeleide Opslag is de opslag die is afgestemd op de taken en
+Afgeleide opslag is de opslag die is afgestemd op de taken en
 verantwoordelijkheden van de verstrekkingsfunctie voor de objectenregistratie. De grootte van de
 afnemersgroep, het grote aantal afnames, de daarbij horende prestatie-eisen en
-ook de behoefte aan diverse vormen van afnemen vragen om daarop afgestemde
-opslagvormen.
+ook de behoefte aan diverse vormen van afname vragen om daarop afgestemde
+technische opslagvormen.
+
+Technische redenen voor afgeleide opslag zijn bijvoorbeeld performance eisen aan de afname. Denk bijvoorbeeld aan een "hot standby" om snel te kunnen zoeken (bijvoorbeeld hot standby in de vorm van linked data) of snel te kunnen in/uitzoomen en 'schuiven' (hot standby in de vorm van kaarttegeltjes) of snel massaal te kunnen afnemen (hot standby van vaakgevraagde gegevens of informatie (gegevenscombinaties) om, zeg, 1.000 bevragingen per seconde te bedienen) etcetera. 
+Uitwerking van afgeleide opslag is dus een onderwerp in de architectuur van de betreffende service: de eis is en blijft dat nergens buiten de component Opslag data 'leeft' die als bron wordt gebruikt zonder dat deze synchroon is met de data in de Opslag.
+
 
 ###### Invulling
 
@@ -282,7 +274,7 @@ internationaal afgesproken vormen van afgeleide opslag.
 De afgeleide opslag staat ten dienste van het verstrekken of afnemen van
 objectgegevens en samenstellen en verstrekken van informatieproducten. Het is
 met andere woorden een intern gerichte functie. We beschrijven daarom hier
-vooral de vereisten aan de afgeleide opslag waar de invulling ervan moet
+vooral de vereisten aan de afgeleide opslag waar de invulling ervan aan moet
 voldoen. 
 
 ###### Uitgangspunten
