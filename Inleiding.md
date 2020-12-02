@@ -22,7 +22,7 @@ De architectuurbeschrijving geeft richting aan de nadere inrichting van de ICT-c
 
 De Architectuurbeschrijving van de Samenhangende Objectenregistratie heeft de volgende opbouw:
 
-Het hoofdstuk [Afbakening](#afbakening) beschrijft de grenzen van de Objectenregistratie en de interactie met de omgeving. De afbakening brengt in kaart welke rollen en partijen (waaronder bronhouders en afnemers) interactie met de ICT-voorzieningen van de Objectenregistratie hebben en welke soorten interactie er zijn.
+Het hoofdstuk [Afbakening](#afbakening) beschrijft de grenzen van de Objectenregistratie en de interactie met de omgeving. De afbakening brengt in kaart welke soorten interactie bronhouders en afnemers hebben met de ICT-voorzieningen van de Objectenregistratie.
 
 Het hoofdstuk [Inrichtingsprincipes](#inrichtingsprincipes) beschrijft de principes die bepalend zijn voor de functionele en deels ook technische inrichting van de ICT-voorzieningen en de bijbehorende ICT-organisatie van de Objectenregistratie.  
 
