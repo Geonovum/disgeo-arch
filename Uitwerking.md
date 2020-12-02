@@ -478,16 +478,16 @@ Deze component heeft de volgende externe afhankelijkheden:
     terugmeldvoorzieningen zoals Digimelding en ‘Verbeter de kaart’ en de
     bijbehorende standaarden.
 
-### Laag Metabeheer
+### Laag Regie
 
-Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Metabeheer. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
+Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Regie. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
 
-<figure id="inrichting-metabeheer">
-    <img src="media/inrichting-metabeheer-objectenregistratie.png" alt="inrichting metabeheer">
-    <figcaption>De capabilities op de laag Metabeheer </figcaption>
+<figure id="inrichting-regie">
+    <img src="media/inrichting-regie-objectenregistratie.png" alt="inrichting regie">
+    <figcaption>De capabilities op de laag Regie </figcaption>
 </figure>
   
-Op de laag **Metabeheer** onderkennen we de volgende clusters: **Toegang** en **Gegevenscatalogus** en **Gegevenskwaliteit**. 
+Op de laag **Regie** onderkennen we de volgende clusters: **Toegang**, **Gegevenscatalogus**, **Gegevenskwaliteit** en **Dienstencatalogus**. 
 
 Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
 
@@ -675,6 +675,73 @@ component nader wordt uitgewerkt.
 Deze component heeft de volgende externe afhankelijkheden:
 
 -   Geen externe afhankelijkheden
+
+#### Dienstencatalogus
+
+De component Dienstencatalogus heeft als doel om de diensten van de
+objectenregistratie te beschrijven en deze beschrijvingen (interactief) te
+ontsluiten, zodat betrokkenen hier makkelijk en goed kennis van kunnen nemen.
+
+Diensten zijn volgens een gestandaardiseerde beschrijfwijze beschreven en worden
+middels een gemeenschappelijke gestandaardiseerde publicatiewijze aangeboden om
+als een geheel te worden ervaren.
+
+De uitwisselingsstandaarden en formaten om de gegevens en informatieproducten te
+benaderen zijn, waar van toepassing, onderdeel van deze beschrijfwijze.
+
+NB. De (structuur van de) inhoud van de gegevens en informatieproducten staat
+beschreven in de gegevenscatalogus.
+
+Voor afnemers van diensten wordt een overzicht geboden om te begrijpen welke
+diensten beschikbaar zijn.
+
+##### Invulling
+
+De uitwerking van deze component is onder andere gebaseerd op inzichten die zijn
+opgetekend door diverse architectuurgemeenschappen van samenwerkende
+overheidsorganisaties zoals veiligheidsregio’s, omgevingsdiensten,
+waterschappen, provincies, gemeentes en landelijke (uitvoerings-) organisaties.
+
+Het [ontwikkelaarsportaal](https://aandeslagmetdeomgevingswet.nl/ontwikkelaarsportaal/) van het Digitaal stelsel van de ongevingswet is een inspirerend voorbeeld. 
+
+##### Uitgangspunten
+
+Voor de uitwerking van de component gelden de volgende uitgangspunten:
+
+-   De dienstencatalogus bevat naast de dienstenbeschrijvingen ook de van
+    toepassing zijnde wetgeving, voorwaarden, (aanvraag)procedures,
+    doorlooptijden en kosten.
+-   De dienstencatalogus omvat een register van diensten die middels API’s
+    (services) worden aangeboden.
+-   Dit API-register voldoet aan de Nederlandse API-strategie
+
+##### Vereisten
+
+Voor deze component gelden de volgende vereisten:
+
+-   De component Dienstencatalogus geeft makkelijk en goed toegang tot het
+    actuele overzicht van beschikbare diensten en de beschrijvingen van de
+    diensten.
+-   Waar van toepassing bevat de dienstencatalogus een directe link naar de
+    services waarop informatiesystemen kunnen aansluiten als organisaties voor
+    die diensten een overeenkomst aangaan met de dienstaanbieder.
+-   Voor afnemers van diensten biedt de beschrijving van het niveau van
+    dienstverlening (service level) inzicht of de diensten geschikt zijn om de
+    behoefte van de afnemer in te vullen.
+-   Voor aanbieders en afnemers van diensten wordt een (volgende) versie van een
+    dienst gepubliceerd voor, tijdens en eventueel na de beschikbaarheidsperiode
+    van die versie van de dienst.
+-   Diensten kunnen worden gepubliceerd op https://developer.overheid.nl/
+
+##### Externe afhankelijkheden
+
+Deze component heeft de volgende externe afhankelijkheden:
+
+-   Er is een afhankelijkheid van vindbaarheid en toegankelijkheid van het
+    overheid.nl domein voor dienstafnemers
+-   Er is een afhankelijkheid van aanpasbaarheid en beheerbaarheid van het
+    overheid.nl domein voor dienstaanbieders
+
 
 ### Laag Ondersteuning
 
@@ -902,71 +969,6 @@ Deze component heeft de volgende externe afhankelijkheden:
 -   Er is geen externe afhankelijkheid
 
 
-#### Dienstencatalogus
-
-De component Dienstencatalogus heeft als doel om de diensten van de
-objectenregistratie te beschrijven en deze beschrijvingen (interactief) te
-ontsluiten, zodat betrokkenen hier makkelijk en goed kennis van kunnen nemen.
-
-Diensten zijn volgens een gestandaardiseerde beschrijfwijze beschreven en worden
-middels een gemeenschappelijke gestandaardiseerde publicatiewijze aangeboden om
-als een geheel te worden ervaren.
-
-De uitwisselingsstandaarden en formaten om de gegevens en informatieproducten te
-benaderen zijn, waar van toepassing, onderdeel van deze beschrijfwijze.
-
-NB. De (structuur van de) inhoud van de gegevens en informatieproducten staat
-beschreven in de gegevenscatalogus.
-
-Voor afnemers van diensten wordt een overzicht geboden om te begrijpen welke
-diensten beschikbaar zijn.
-
-##### Invulling
-
-De uitwerking van deze component is onder andere gebaseerd op inzichten die zijn
-opgetekend door diverse architectuurgemeenschappen van samenwerkende
-overheidsorganisaties zoals veiligheidsregio’s, omgevingsdiensten,
-waterschappen, provincies, gemeentes en landelijke (uitvoerings-) organisaties.
-
-Het [ontwikkelaarsportaal](https://aandeslagmetdeomgevingswet.nl/ontwikkelaarsportaal/) van het Digitaal stelsel van de ongevingswet is een inspirerend voorbeeld. 
-
-##### Uitgangspunten
-
-Voor de uitwerking van de component gelden de volgende uitgangspunten:
-
--   De dienstencatalogus bevat naast de dienstenbeschrijvingen ook de van
-    toepassing zijnde wetgeving, voorwaarden, (aanvraag)procedures,
-    doorlooptijden en kosten.
--   De dienstencatalogus omvat een register van diensten die middels API’s
-    (services) worden aangeboden.
--   Dit API-register voldoet aan de Nederlandse API-strategie
-
-##### Vereisten
-
-Voor deze component gelden de volgende vereisten:
-
--   De component Dienstencatalogus geeft makkelijk en goed toegang tot het
-    actuele overzicht van beschikbare diensten en de beschrijvingen van de
-    diensten.
--   Waar van toepassing bevat de dienstencatalogus een directe link naar de
-    services waarop informatiesystemen kunnen aansluiten als organisaties voor
-    die diensten een overeenkomst aangaan met de dienstaanbieder.
--   Voor afnemers van diensten biedt de beschrijving van het niveau van
-    dienstverlening (service level) inzicht of de diensten geschikt zijn om de
-    behoefte van de afnemer in te vullen.
--   Voor aanbieders en afnemers van diensten wordt een (volgende) versie van een
-    dienst gepubliceerd voor, tijdens en eventueel na de beschikbaarheidsperiode
-    van die versie van de dienst.
--   Diensten kunnen worden gepubliceerd op https://developer.overheid.nl/
-
-##### Externe afhankelijkheden
-
-Deze component heeft de volgende externe afhankelijkheden:
-
--   Er is een afhankelijkheid van vindbaarheid en toegankelijkheid van het
-    overheid.nl domein voor dienstafnemers
--   Er is een afhankelijkheid van aanpasbaarheid en beheerbaarheid van het
-    overheid.nl domein voor dienstaanbieders
 
 ### Algemeen
 
