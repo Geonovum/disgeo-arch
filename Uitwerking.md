@@ -679,7 +679,7 @@ opgetekend door diverse architectuurgemeenschappen van samenwerkende
 overheidsorganisaties zoals veiligheidsregio’s, omgevingsdiensten,
 waterschappen, provincies, gemeentes en landelijke (uitvoerings-) organisaties.
 
-Het [ontwikkelaarsportaal](https://aandeslagmetdeomgevingswet.nl/ontwikkelaarsportaal/) van het Digitaal stelsel van de ongevingswet is een inspirerend voorbeeld. 
+Het [ontwikkelaarsportaal](https://aandeslagmetdeomgevingswet.nl/ontwikkelaarsportaal/) van het digitaal stelsel van de omgevingswet is een inspirerend voorbeeld. 
 
 ##### Uitgangspunten
 
@@ -740,7 +740,7 @@ We onderscheiden abonnementen op notificaties en abonnementen op Afname.
 
 ##### Notificatie-abonnementen
 
-Het kunnen registeren en beheren van abonnementen door organisaties en personen
+Het kunnen registreren en beheren van abonnementen door organisaties en personen
 zodat deze genotificeerd worden over gebeurtenissen die betrekking hebben op
 objectgegevens waarin ze geïnteresseerd zijn.
 
@@ -788,9 +788,8 @@ component Notificatie.
 
 ##### Abonnementen op Afname
 
-Het kunnen registeren en beheren van abonnementen door organisaties en personen
-zodat deze zich kunnen abonneren op Afname. Zie ook de uitwerking van de
-component Afname.
+Het kunnen registreren en beheren van afnemers en abonnementen op Afname. 
+Zie ook de uitwerking van de component Afname.
 
 <p class ='note'>
     Noot voor reviewers: Willen we het nemen van een abonnement altijd randvoorwaardelijk stellen
@@ -819,7 +818,7 @@ De uitwerking van deze component is onder andere gebaseerd op:
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
--   Abonnementen zijn abonnementen op (eventueel betaalde) data, gemak en proces
+-   Abonnementen zijn abonnementen op (eventueel betaalde) data-, gemaks- en proces-
     API’s (met gegarandeerde dienstenniveau’s).
 -   Abonnementen zijn abonnementen op periodieke gegevensleveringen.
 
@@ -1116,7 +1115,7 @@ bronhouder of afnemer) te presenteren en de mogelijkheden te bieden om er mee te
 interacteren.
 
 De objectenregistratie zal verschillende generieke interactiecomponenten bieden, bijvoorbeeld
-een viewer voor het zoeken en raadplegen van objectgegevens (inzage), portalen
+een viewer voor het bekijken, zoeken en raadplegen van objectgegevens (inzage), portalen
 voor het beheren van machtigingen en loketten voor het indienen van
 terugmeldingen en het beheren van abonnementen.
 
@@ -1142,7 +1141,7 @@ Voor de uitwerking van interactie gelden de volgende uitgangspunten:
 
 Voor interactie gelden de volgende vereisten:
 
-1.  Nog geen vereisten benoemd.
+-  Nog geen vereisten benoemd.
 
 ##### Externe afhankelijkheden
 
