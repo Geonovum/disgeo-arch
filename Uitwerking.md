@@ -1150,7 +1150,7 @@ terugmeldingen en het beheren van abonnementen.
 
 De invulling van interactie is gebaseerd op:
 
--   De principes van [Gebruiker Centraal(https://www.gebruikercentraal.nl)
+-   De principes van [Gebruiker Centraal](https://www.gebruikercentraal.nl)
 -   De eisen aan [Digitoegankelijkheid](https://www.digitoegankelijk.nl)
 
 ##### Uitgangspunten
