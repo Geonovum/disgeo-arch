@@ -362,11 +362,9 @@ Voor deze component gelden de volgende vereisten:
     abonnementhouders. Of hiervoor een pull of push mechanisme wordt gehanteerd
     is later te bepalen.
 
-2.  Alle gebeurtenissen zijn voor eenieder (passief) te raadplegen
-    (gebeurtenissenregister of event-sourcing). Immers als een afnemer geen
-    lokale bestanden en bijbehorende mutatieleveringen meer ontvangt, dan is
-    deze ook niet meer in staat om de verandering zelf af te leiden en wordt de
-    oude situatie niet meer vastgelegd.
+2.  Register van (genotificeerde) gebeurtenissen is geen vereiste. Afnemers kunnen historie van gegevens raadplegen om te voorzien in de behoefte aan inzicht in opgetreden gebeurtenissen. 
+	Immers, afnemen van historie is voldoende als de gegevens zelfbeschrijvend zijn.
+	Het is later te bepalen of een gebeurtenissenregister toegevoegde waarde biedt voor afnemers.
 
 3.  Er zal standaardisatie van gebeurtenissen zijn.
 
@@ -446,21 +444,17 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 Voor deze component gelden de volgende vereisten:
 
-1.  Terugmelden kan door een mens worden gedaan. Daarvoor zijn één of meer
-    interactiecomponenten nodig naast deze component voor Terugmelding. Deze
-    componenten kunnen extern zijn, zoals het bestaande ‘Verbeter de kaart’.
+1.  Eenieder kan terugmelden. Daarom kent de objectenregistratie een generieke interactiecomponent voor terugmelden. Een mens kan eventueel anoniem terugmelden.
 
-2.  Eenieder kan terugmelden. De terugmelder dient zich te authenticeren.
-
-3.  Terugmelden kan ook door een machine worden gedaan. Op basis van algoritmen
+2.  Terugmelden kan ook door een machine worden gedaan. Op basis van algoritmen
     kunnen de gegevens bij registratie maar ook periodiek of bij veranderingen
     in de gegevensstructuur gevalideerd worden. Bij validatie door een machine
-    zal bij het de terugmelding ook het algoritme vastgelegd worden.
+    zal bij de terugmelding ook het algoritme vastgelegd worden.
 
-4.  Er zijn services om terug te melden. De services maakt het mogelijk om een
-    terugmelding te registeren met een verwijzing naar het gegeven.
+3.  Er zijn services om terug te melden. De services maken het mogelijk om een
+    terugmelding te registreren met een verwijzing naar het gegeven.
 
-5.  Het is mogelijk om in bulk terug te melden.
+4.  Het is mogelijk om in bulk terug te melden.
 
 ##### Externe afhankelijkheden
 
@@ -553,17 +547,15 @@ Voor deze component gelden de volgende vereisten:
     andere woorden: de inhoud van de gegevens wordt op één plek bijgehouden,
     namelijk in de gegevenscatalogus.
 
+9.  Gegevenscatalogus voldoet aan vereisten vanuit wetgeving zoals Europese INSPIRE wetgeving. 
+
+
 ##### Externe afhankelijkheden
 
 Deze component heeft de volgende externe afhankelijkheden:
 
 -   Er is een afhankelijkheid van de [stelselcatalogus basisregistraties](https://www.stelselcatalogus.nl/).
 
--   Er is een afhankelijkheid van PDOK, waar producten van de objectenregistratie ook beschikbaar
-    zullen zijn.
-
--   Er is een afhankelijkheid van het Nationaal Georegister, de catalogus van
-    geo-informatie in Nederland.
 
 #### Gegevenskwaliteit
 
@@ -580,9 +572,7 @@ gegevenskwaliteit te verbeteren.
 
 Met kwaliteitsmetingen kan de gegevenskwaliteit beoordeeld worden tegen
 vastgestelde kwaliteitsindicatoren. Het resultaat hiervan wordt inzichtelijk
-gemaakt via onder andere kwaliteitsdashboards. Deze kwaliteitsdashboards zijn
-zelfstandige interactiecomponenten die gebruik maken van deze component
-Gegevenskwaliteit.
+gemaakt.
 
 ##### Invulling
 
@@ -593,14 +583,10 @@ De uitwerking van deze component is onder andere gebaseerd op:
 De volgende uitwerkingen vormen mogelijk een basis voor de uitwerking van de
 component Gegevenskwaliteit. Dat is nader te bepalen:
 
--   De opgedane kennis en ervaring vanuit de huidige kwaliteitsdashboards BAG,
-    BGT en BRT
+-   De opgedane kennis en ervaring vanuit de huidige kwaliteitsdashboards BAG en BGT.
 
--   Business Intelligence en Data Analytics kennis en ervaring van Data Science teams betrokken bij de BAG, BGT en BRT
+-   Business Intelligence en Data Analytics kennis en ervaring van Data Science teams betrokken bij de BAG, BGT en BRT.
 
-De aanname is dat functionaliteit voor gegevenskwaliteit onderdeel is van de
-gemeenschappelijke voorziening(en) van de objectenregistratie, ongeacht waar de verantwoordelijkheid
-voor gegevenskwaliteit en -metingen ligt.
 
 ##### Uitgangspunten
 
@@ -613,11 +599,10 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
     gegevens gemonitord worden. De opslag bevat naast de feitelijke gegevens ook
     proces- en metagegevens (zie opslag). Dit betekent dat de
     kwaliteitsindicatoren naast de kwaliteit van de gegevens zelf ook resultaten
-    kunnen geven over bv. gemiddelde duur verwerking bronhouder (procesgegevens)
+    kunnen geven over bijvoorbeeld gemiddelde duur van verwerking door bronhouder (procesgegevens)
     of meta-gegevens van de gegevens zelf.
 
--   Kwaliteitsdashboards zijn aparte interactiecomponenten die bronhouders en
-    afnemers en anderen inzicht geven in de kwaliteit van de gegevens.
+-   Kwaliteitsdashboards zijn interactiecomponenten die inzicht geven in de kwaliteit van de gegevens.
 
 ##### Vereisten
 
@@ -650,7 +635,7 @@ Voor deze component gelden de volgende vereisten:
     zetten.
 
 Voor de kwaliteitsdashboards van de objectenregistratie gelden de volgende vereisten. Deze
-moeten opgenomen bij de component Kwaliteitsdashboard op het moment dat die
+moeten opgenomen bij de interactiecomponent Kwaliteitsdashboard op het moment dat die
 component nader wordt uitgewerkt.
 
 1.  Het kwaliteitsdashboard is een verschijningsvorm van de kwaliteitsmetingen.
