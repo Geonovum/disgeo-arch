@@ -472,8 +472,8 @@ Deze component heeft de volgende externe afhankelijkheden:
 
 Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Inzicht. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
 
-<figure id="inrichting-Inzicht">
-    <img src="media/inrichting-Inzicht-objectenregistratie.png" alt="inrichting Inzicht">
+<figure id="inrichting-inzicht">
+    <img src="media/inrichting-inzicht-objectenregistratie.png" alt="inrichting inzicht">
     <figcaption>De capabilities op de laag Inzicht </figcaption>
 </figure>
   
