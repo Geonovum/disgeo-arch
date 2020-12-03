@@ -43,7 +43,7 @@ objectgegevens te beheren (creëren en wijzigen).
 
 Deze component bevat geen functionaliteit voor interactie en presentatie. 
 
-##### Invulling
+**Invulling**
 
 De uitwerking van deze component is onder andere gebaseerd op:
 
@@ -67,13 +67,13 @@ beschikbaar van logging en registratie van verwerking van gegevens. In hoeverre
 die uitwerking van toepassing is op de component Registratie moet nog worden
 bepaald.
 
-##### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 -   Geen uitgangspunten.
 
-##### Vereisten
+**Vereisten**
 
 Voor deze component gelden de volgende vereisten:
 
@@ -93,7 +93,7 @@ N.B.
 
 -   Het vastleggen en beheren van gegevensregels valt binnen de component Gegevenscatalogus en niet binnen de component Registratie.
 
-##### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 Deze component heeft de volgende externe afhankelijkheden:
 
@@ -107,14 +107,14 @@ kunnen beheren en zodat de gegevens beschikbaar zijn voor de verstrekker zodat
 deze ze kan verstrekken aan afnemers in de vorm van gegevens of daarvan
 afgeleide informatieproducten.
 
-##### Invulling
+**Invulling**
 
 De uitwerking van deze component is onder andere gebaseerd op:
 
 -   Er zijn geen nationale of internationale standaarden of andere uitwerkingen
     om de opslag-component op te baseren.
 
-##### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
@@ -123,7 +123,7 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
     hanteren. De technische wijze van opslag is verantwoordelijkheid van de
     uitvoeringspartij die dit invult.
 
-##### Vereisten
+**Vereisten**
 
 Voor deze component gelden de volgende vereisten:
 
@@ -145,7 +145,7 @@ Voor deze component gelden de volgende vereisten:
 6.  De opslag maakt data-portabiliteit mogelijk. De gegevens moeten met beperkte
     inspanning overgezet kunnen worden naar een ander opslagmechanisme.
 
-##### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 Deze component heeft de volgende externe afhankelijkheden:
 
@@ -170,7 +170,7 @@ het presenteren van deze gegevens of informatie aan gebruikers in bijvoorbeeld
 een viewer. Daarvoor zijn aparte interactiecomponenten nodig die gebruik maken
 van de services van de component voor Afname van Gegevens en Informatie.
 
-##### Invulling
+**Invulling**
 
 De uitwerking van deze component is onder andere gebaseerd op:
 
@@ -196,13 +196,13 @@ beschikbaar van logging en registratie van verwerking van gegevens. In hoeverre
 die uitwerking van toepassing is op de component Afname van Gegevens en
 Informatie moet nog bepaald worden.
 
-##### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 -   Geen uitgangspunten.
 
-##### Vereisten
+**Vereisten**
 
 Voor deze component gelden de volgende vereisten:
 
@@ -231,7 +231,7 @@ Voor deze component gelden de volgende vereisten:
     afnameservices.
 </p>
 
-##### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 Deze component heeft de volgende externe afhankelijkheden:
 
@@ -330,7 +330,7 @@ tot een wijziging van een object. Voor afnemers kunnen deze gewijzigde gegevens
 van belang zijn afhankelijk van de eigen processen en eerder gebruik van die
 gegevens.
 
-##### Invulling
+**Invulling**
 
 De uitwerking van deze component is onder andere gebaseerd op:
 
@@ -347,13 +347,13 @@ component Notificatie. Dat is nader te bepalen:
 -   Uitwerking van event-sourcing door Haal Centraal.
 -   BRK-meldingen van het Kadaster.
 
-##### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 -   Geen uitgangspunten.
 
-##### Vereisten
+**Vereisten**
 
 Voor deze component gelden de volgende vereisten:
 
@@ -371,7 +371,7 @@ Voor deze component gelden de volgende vereisten:
 4.  Of notificaties ook (oude en nieuwe) objectgegevens bevatten is nader te
     bepalen.
 
-##### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 Deze component heeft de volgende externe afhankelijkheden:
 
@@ -396,14 +396,14 @@ gegevens kunnen melden bij de objectenregistratie. De component bevat geen funct
 interactie met personen (geen terugmeldloket). Daarvoor zijn andere componenten
 nodig, bijvoorbeeld vergelijkbaar met het huidige [‘Verbeter de kaart’](https://verbeterdekaart.kadaster.nl).
 
-##### Invulling
+**Invulling**
 
 De uitwerking van deze component is onder andere gebaseerd op:
 
 -   Er zijn geen nationale of internationale standaarden of andere uitwerkingen
     om de opslag-component op te baseren.
 
-##### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
@@ -440,7 +440,7 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 -   Het in onderzoek zijn is een gegeven waarop notificatie mogelijk is.
 
-##### Vereisten
+**Vereisten**
 
 Voor deze component gelden de volgende vereisten:
 
@@ -456,7 +456,7 @@ Voor deze component gelden de volgende vereisten:
 
 4.  Het is mogelijk om in bulk terug te melden.
 
-##### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 Deze component heeft de volgende externe afhankelijkheden:
 
@@ -495,7 +495,7 @@ Voor het raadplegen van de gegevenscatalogus zijn applicaties of webloketten
 nodig. Dit zijn zelfstandige interactiecomponenten. De aanname is dat de objectenregistratie ook
 een interactiecomponent zal bieden om de gegevenscatalogus te raadplegen.
 
-##### Invulling
+**Invulling**
 
 De uitwerking van deze component is onder andere gebaseerd op:
 
@@ -509,13 +509,13 @@ De uitwerking van deze component is onder andere gebaseerd op:
 
     -   Gegevenscatalogi van BAG, BGT, BRT, BRO, BRK en WOZ
 
-##### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 -   Geen uitgangspunten.
 
-##### Vereisten
+**Vereisten**
 
 Voor deze component gelden de volgende vereisten:
 
@@ -550,7 +550,7 @@ Voor deze component gelden de volgende vereisten:
 9.  Gegevenscatalogus voldoet aan vereisten vanuit wetgeving zoals Europese INSPIRE wetgeving. 
 
 
-##### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 Deze component heeft de volgende externe afhankelijkheden:
 
@@ -574,7 +574,7 @@ Met kwaliteitsmetingen kan de gegevenskwaliteit beoordeeld worden tegen
 vastgestelde kwaliteitsindicatoren. Het resultaat hiervan wordt inzichtelijk
 gemaakt.
 
-##### Invulling
+**Invulling**
 
 De uitwerking van deze component is onder andere gebaseerd op:
 
@@ -588,7 +588,7 @@ component Gegevenskwaliteit. Dat is nader te bepalen:
 -   Business Intelligence en Data Analytics kennis en ervaring van Data Science teams betrokken bij de BAG, BGT en BRT.
 
 
-##### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
@@ -604,7 +604,7 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 -   Kwaliteitsdashboards zijn interactiecomponenten die inzicht geven in de kwaliteit van de gegevens.
 
-##### Vereisten
+**Vereisten**
 
 Voor deze component gelden de volgende vereisten:
 
@@ -647,7 +647,7 @@ component nader wordt uitgewerkt.
     nationale weergave bronhouders, nationale weergave afnemers, weergave per
     bronhouder, etc.
 
-##### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 Deze component heeft de volgende externe afhankelijkheden:
 
@@ -672,7 +672,7 @@ beschreven in de gegevenscatalogus.
 Voor afnemers van diensten wordt een overzicht geboden om te begrijpen welke
 diensten beschikbaar zijn.
 
-##### Invulling
+**Invulling**
 
 De uitwerking van deze component is onder andere gebaseerd op inzichten die zijn
 opgetekend door diverse architectuurgemeenschappen van samenwerkende
@@ -681,7 +681,7 @@ waterschappen, provincies, gemeentes en landelijke (uitvoerings-) organisaties.
 
 Het [ontwikkelaarsportaal](https://aandeslagmetdeomgevingswet.nl/ontwikkelaarsportaal/) van het digitaal stelsel van de omgevingswet is een inspirerend voorbeeld. 
 
-##### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
@@ -692,7 +692,7 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
     (services) worden aangeboden.
 -   Dit API-register voldoet aan de Nederlandse API-strategie
 
-##### Vereisten
+**Vereisten**
 
 Voor deze component gelden de volgende vereisten:
 
@@ -710,7 +710,7 @@ Voor deze component gelden de volgende vereisten:
     van die versie van de dienst.
 -   Diensten kunnen worden gepubliceerd op https://developer.overheid.nl/
 
-##### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 Deze component heeft de volgende externe afhankelijkheden:
 
@@ -861,20 +861,20 @@ of achteraf.
 Betalingen is 1 op 1 gekoppeld met abonnementen. Betalingen levert het
 betaalmechanisme.
 
-##### Invulling
+**Invulling**
 
 De invulling van deze component is gebaseerd op:
 
 -   Standaard componenten (software) voor betalingen
 
-##### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 -   De betalingen zijn 1 op 1 gekoppeld aan abonnementen. Overige betalingen
     zijn vooralsnog buiten scope.
 
-##### Vereisten
+**Vereisten**
 
 Voor deze component gelden de volgende vereisten:
 
@@ -885,7 +885,7 @@ Voor deze component gelden de volgende vereisten:
 
 3.  Mechanismen om de betalingen te kunnen monitoren
 
-##### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 Deze component heeft de volgende externe afhankelijkheden:
 
@@ -905,7 +905,7 @@ Of machtigen voor afnemers nodig is moet nog blijken.
 Een machtiging is geldig voor een bepaalde periode, zodat toegang voor de duur
 van de afspraken en contracten kan worden verleend.
 
-##### Invulling
+**Invulling**
 
 De invulling van deze component is gebaseerd op:
 
@@ -914,13 +914,13 @@ De invulling van deze component is gebaseerd op:
 -   De wijze van machtigen die is beschreven en gerealiseerd in de
     [machtigingenmodule van de BGT](https://www.svb-bgt.nl/machtigingenmodule/)
 
-##### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 -   Er zijn (nog) geen uitgangspunten gedefinieerd.
 
-##### Vereisten
+**Vereisten**
 
 Voor deze component gelden de volgende vereisten:
 
@@ -938,7 +938,7 @@ Voor deze component gelden de volgende vereisten:
     verkrijgen van toegang tot die services blijven de eisen gelden die bij de
     component Toegang zijn beschreven.
 
-##### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 Deze component heeft de volgende externe afhankelijkheden:
 
@@ -963,7 +963,7 @@ De [afbeelding](https://www.noraonline.nl/wiki/Bestand:IAM_afbeelding.png) bij
 het thema [Identity & Accessmanagement van de NORA](https://www.noraonline.nl/wiki/Identity_&_Access_Management_(IAM)) geeft dit
 goed weer.
 
-##### Invulling
+**Invulling**
 
 De invulling van Toegang is onder andere gebaseerd op:
 
@@ -978,7 +978,7 @@ De invulling van Toegang is onder andere gebaseerd op:
     beschikbaar op
     https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/documenten/architectuurdocumenten/
 
-##### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
@@ -995,7 +995,7 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
     dat de autorisatie van functionarissen alleen geldig is in de periode waarin
     de functie wordt vervuld.
 
-##### Vereisten
+**Vereisten**
 
 Voor de component Toegang gelden de volgende vereisten.
 
@@ -1097,7 +1097,7 @@ viewers en webloketten) die onderdeel zijn van de objectenregistratie.
     formaten of gedaantes hebben: groepen, rollen, clearance levels, context
     etc.”*
 
-##### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 De component Toegang heeft de volgende externe afhankelijkheden:
 
@@ -1124,26 +1124,26 @@ terugmeldingen en het beheren van abonnementen.
     toepassing verklaren op de interactiecomponenten van de objectenregistratie?
 </p>
 
-##### Invulling
+**Invulling**
 
 De invulling van interactie is gebaseerd op:
 
 -   De principes van [Gebruiker Centraal](https://www.gebruikercentraal.nl)
 -   De eisen aan [Digitoegankelijkheid](https://www.digitoegankelijk.nl)
 
-##### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van interactie gelden de volgende uitgangspunten:
 
 -   Nog geen uitgangspunten benoemd.
 
-##### Vereisten
+**Vereisten**
 
 Voor interactie gelden de volgende vereisten:
 
 -  Nog geen vereisten benoemd.
 
-##### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 Interactie heeft de volgende externe afhankelijkheden:
 
