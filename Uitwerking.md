@@ -34,12 +34,12 @@ Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdee
 #### Registratie
 
 De component Registratie heeft als doel om bronhouderorganisaties en gemachtigde organisaties in staat te
-stellen objectgegevens en bijbehorende meta-gegevens te beheren (creëren en
+stellen objectgegevens en bijbehorende meta-gegevens te beheren (toevoegen en
 wijzigen). Deze component biedt de services die bronhouders en gemachtigden daarvoor nodig
 hebben.
 
 De component Registratie biedt services voor informatiesystemen om
-objectgegevens te beheren (creëren en wijzigen). 
+objectgegevens te beheren (toevoegen en wijzigen). 
 
 Deze component bevat geen functionaliteit voor interactie en presentatie. 
 
@@ -77,20 +77,24 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 Voor deze component gelden de volgende vereisten:
 
-1.  Van ieder gegeven dat wijzigt wordt vastgelegd: de organisatie die de
-    wijziging heeft gedaan, de voor de wijziging gebruikte dienst, het
-    tijdstip waarop de wijziging heeft plaatsgevonden.
-
-2.  Bij elke verandering van een gegeven vindt vooraf validatie aan de
+1.  Bij elke toevoeging of wijziging van een gegeven vindt vooraf validatie aan de
     gegevensregels plaats. Alleen valide gegevens worden geregistreerd. 
-	
-3.  Bij elke verandering van een gegeven wordt vastgelegd: welk gegeven is geregistreerd of gewijzigd of beëindigd, de identificatie van het aangemaakte object, enz.
 
-4.  Van ieder gebruik van een registratiedienst wordt o.a. vastgelegd: datum en
-    tijdstip, organisatie, zodat een audit log beschikbaar is. 
+2.  Van iedere gegevenswijziging wordt tenminste vastgelegd: 
+    welk gegeven is geregistreerd of gewijzigd, 
+	de identificatie van het geregistreerde of gewijzigde object, 
+	de organisatie die de wijziging heeft gedaan, 
+	de voor de wijziging gebruikte dienst, 
+	datum en tijdstip van registratie van de wijziging.
+
+3.  Van ieder gebruik van een registratiedienst wordt tenminste vastgelegd: 
+	datum en tijdstip van gebruik, 
+	organisatie die gebruikt, 
+	zodat een audit log beschikbaar is. 
 
 N.B.
 
+-   Gegevens worden niet verwijderd. Een wijziging kan een beëindiging zijn.
 -   Het vastleggen en beheren van gegevensregels valt binnen de component Gegevenscatalogus en niet binnen de component Registratie.
 
 **Externe afhankelijkheden**
@@ -464,16 +468,16 @@ Deze component heeft de volgende externe afhankelijkheden:
     terugmeldvoorzieningen zoals Digimelding en ‘Verbeter de kaart’ en de
     bijbehorende standaarden.
 
-### Laag Regie
+### Laag Inzicht
 
-Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Regie. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
+Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Inzicht. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
 
-<figure id="inrichting-regie">
-    <img src="media/inrichting-regie-objectenregistratie.png" alt="inrichting regie">
-    <figcaption>De capabilities op de laag Regie </figcaption>
+<figure id="inrichting-Inzicht">
+    <img src="media/inrichting-Inzicht-objectenregistratie.png" alt="inrichting Inzicht">
+    <figcaption>De capabilities op de laag Inzicht </figcaption>
 </figure>
   
-Op de laag **Regie** onderkennen we de volgende clusters: **Toegang**, **Gegevenscatalogus**, **Gegevenskwaliteit** en **Dienstencatalogus**. 
+Op de laag **Inzicht** onderkennen we de volgende clusters: **Toegang**, **Gegevenscatalogus**, **Gegevenskwaliteit** en **Dienstencatalogus**. 
 
 Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
 
