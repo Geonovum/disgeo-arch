@@ -260,7 +260,7 @@ Technische redenen voor afgeleide opslag zijn bijvoorbeeld performance eisen aan
 Uitwerking van afgeleide opslag is dus een onderwerp in de architectuur van de betreffende service: de eis is en blijft dat nergens buiten de component Opslag data 'leeft' die als bron wordt gebruikt zonder dat deze synchroon is met de data in de Opslag.
 
 
-###### Invulling
+**Invulling**
 
 De uitwerking van Afgeleide Opslag is onder andere gebaseerd op:
 
@@ -277,7 +277,7 @@ met andere woorden een intern gerichte functie. We beschrijven daarom hier
 vooral de vereisten aan de afgeleide opslag waar de invulling ervan aan moet
 voldoen. 
 
-###### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van Afgeleide Opslag gelden de volgende uitgangspunten:
 
@@ -286,7 +286,7 @@ Voor de uitwerking van Afgeleide Opslag gelden de volgende uitgangspunten:
     geen vereisten gelden m.b.t. het gebruik van open, leveranciersonafhankelijke
     standaarden en technologieën.
 
-###### Vereisten
+**Vereisten**
 
 Voor Afgeleide Opslag gelden de volgende vereisten:
 
@@ -306,7 +306,7 @@ Voor Afgeleide Opslag gelden de volgende vereisten:
     bestaan. Alle vormen van afgeleide opslag voldoen aan de hier beschreven
     vereisten.
 
-###### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 Afgeleide Opslag heeft de volgende externe afhankelijkheden:
 
@@ -744,7 +744,7 @@ Het kunnen registreren en beheren van abonnementen door organisaties en personen
 zodat deze genotificeerd worden over gebeurtenissen die betrekking hebben op
 objectgegevens waarin ze geïnteresseerd zijn.
 
-###### Invulling
+**Invulling**
 
 De uitwerking van deze component is onder andere gebaseerd op:
 -   Er is nog geen uitwerking beschikbaar om de component Notificatie op te
@@ -753,14 +753,14 @@ De uitwerking van deze component is onder andere gebaseerd op:
 Ministerie van BZK, Kadaster en VNG en anderen werken aan een uitwerking van notificatie en
 abonnementen. Zie ook de uitwerking van de component Notificatie.
 
-###### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 -   Abonnementen zijn abonnementen op gebeurtenissoorten die betrekking hebben
     op objectgegevens. Een abonnement resulteert erin dat de abonnementhouder
     notificaties ontvangt als zich gebeurtenissen van die soort voordoen.
 
-###### Vereisten
+**Vereisten**
 
 Voor deze component gelden de volgende vereisten:
 
@@ -774,7 +774,7 @@ Voor deze component gelden de volgende vereisten:
 
 Zie ook de uitwerking van de component Notificatie.
 
-###### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 Deze component heeft de volgende externe afhankelijkheden:
 
@@ -799,7 +799,7 @@ Zie ook de uitwerking van de component Afname.
     worden van veranderingen aan de service.
 </p>
 
-###### Invulling
+**Invulling**
 
 De uitwerking van deze component is onder andere gebaseerd op:
 
@@ -814,7 +814,7 @@ De uitwerking van deze component is onder andere gebaseerd op:
     voorbeelden van uitwerkingen van abonnementen op gegevens en informatie?
 </p>
 
-###### Uitgangspunten
+**Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
@@ -822,7 +822,7 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
     API’s (met gegarandeerde dienstenniveau’s).
 -   Abonnementen zijn abonnementen op periodieke gegevensleveringen.
 
-###### Vereisten
+**Vereisten**
 
 Voor deze component gelden de volgende vereisten:
 
@@ -845,7 +845,7 @@ Voor deze component gelden de volgende vereisten:
 
 Zie ook de uitwerking van de component Afname.
 
-###### Externe afhankelijkheden
+**Externe afhankelijkheden**
 
 Deze component heeft de volgende externe afhankelijkheden:
 
