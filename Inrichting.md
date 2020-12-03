@@ -31,9 +31,9 @@ De functies in de drie lagen voor Inzicht, Uitvoering en Ondersteuning maken we 
 
 ### Functies in de laag Inzicht
 
-Op de laag **Inzicht** onderkennen we de volgende clusters voor inzien van de gegevensstructuur en inzicht in de gegevenskwaliteit: 
+Op de laag **Inzicht** onderkennen we de volgende clusters voor inzien van de gegevensstructuur en het dienstenportfolio en inzicht in de gegevenskwaliteit: 
 
-- *Toegang*: voor het bewaken van de toegang van meta-beheerders tot de diensten.
+- *Toegang*: voor het bewaken van de toegang tot de diensten.
 - *Gegevenscatalogus*: voor het kunnen beschrijven van de in de objectenregistratie beschikbare gegevens en informatieproducten en deze beschrijving te ontsluiten, zodat bronhouders, afnemers en andere betrokkenen hier kennis van kunnen nemen.
  - *Gegevenskwaliteit*: voor het vastleggen van de afgesproken kwaliteitsindicatoren en het meten en monitoren wat de waarde van deze indicatoren is en zowel de indicatoren als de gemeten waarden beschikbaar te stellen voor bronhouders, afnemers en andere betrokkenen, zoals toezichthouders en beleidsverantwoordelijken.
  - *Dienstencatalogus:* voor het beschrijven van de diensten van de objectenregistratie en om deze beschrijvingen (interactief) te ontsluiten, zodat betrokkenen hier makkelijk en goed kennis van kunnen nemen.
