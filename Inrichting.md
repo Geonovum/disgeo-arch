@@ -15,23 +15,23 @@ We onderscheiden drie lagen in de functionele indeling van de Objectenregistrati
     <figcaption>Functionele lagen in de inrichting van de Objectenregistratie</figcaption>
 </figure>
 
-De laag **Regie** bevat de functies die nodig zijn voor het beheren en gebruiken van gegevens over de gegevens, ofwel metagegevens. Deze laag wordt gebruikt door de andere lagen om de gegevensstructuur en de gegevensregels te kunnen toepassen in voorzieningen en om inzicht in de gegevenskwaliteit te verkrijgen.
+De laag **Inzicht** bevat de functies die nodig zijn voor het beheren en gebruiken van gegevens over de gegevens, ofwel metagegevens. Deze laag wordt gebruikt door de andere lagen om de gegevensstructuur en de gegevensregels te kunnen toepassen in voorzieningen en om inzicht in de gegevenskwaliteit te verkrijgen.
 
 De **Uitvoeringslaag** bevat de functies die nodig zijn voor het beheren en afnemen van objectgegevens, zoals voor het registreren en wijzigen van gegevens en voor het raadplegen ervan. Op deze laag maken we onderscheid tussen de functies ten behoeve van het beheren van objectgegevens door gebruikers in de rol van bronhouder en het afnemen van objectgegevens door gebruikers in de rol van afnemer. 
 
 De **Ondersteuningslaag** bevat de functies die nodig zijn om bronhouders en afnemers te ondersteunen bij het beheren en afnemen van gegevens, zoals het beheren van machtigingen en het raadplegen van dienstencatalogi.
 
-De functies in de drie lagen voor Regie, Uitvoering en Ondersteuning maken we zichtbaar in een **overzicht van capabilities**. In dit overzicht zijn clusters van functies gegroepeerd tot componenten. Deze vormen de inrichting van de voorzieningen. 
+De functies in de drie lagen voor Inzicht, Uitvoering en Ondersteuning maken we zichtbaar in een **overzicht van capabilities**. In dit overzicht zijn clusters van functies gegroepeerd tot componenten. Deze vormen de inrichting van de voorzieningen. 
 
-<figure id="regie-inrichting-uitvoering">
-    <img src="media/inrichting-regie-uitvoering-ondersteuning-objectenregistratie.png" alt="inrichting regie uitvoering ondersteuning">
-    <figcaption>De capabilities op de lagen Regie en Uitvoering en Ondersteuning</figcaption>
+<figure id="Inzicht-inrichting-uitvoering">
+    <img src="media/inrichting-Inzicht-uitvoering-ondersteuning-objectenregistratie.png" alt="inrichting Inzicht uitvoering ondersteuning">
+    <figcaption>De capabilities op de lagen Inzicht en Uitvoering en Ondersteuning</figcaption>
 </figure>
 
 
-### Functies in de laag Regie
+### Functies in de laag Inzicht
 
-Op de laag **Regie** onderkennen we de volgende clusters voor inzien van de gegevensstructuur en inzicht in de gegevenskwaliteit: 
+Op de laag **Inzicht** onderkennen we de volgende clusters voor inzien van de gegevensstructuur en inzicht in de gegevenskwaliteit: 
 
 - *Toegang*: voor het bewaken van de toegang van meta-beheerders tot de diensten.
 - *Gegevenscatalogus*: voor het kunnen beschrijven van de in de objectenregistratie beschikbare gegevens en informatieproducten en deze beschrijving te ontsluiten, zodat bronhouders, afnemers en andere betrokkenen hier kennis van kunnen nemen.
@@ -73,7 +73,7 @@ Uitwerking van eisen aan Interactie staan onder Algemeen.
 
 ### Niet-functionele eisen
 
-Aan de componenten in de drie lagen voor Regie, Uitvoering en Ondersteuning, bestaan ook **niet-functionele eisen**. Deze benoemen we in algemene zin overkoepelend over de lagen en componenten.
+Aan de componenten in de drie lagen voor Inzicht, Uitvoering en Ondersteuning, bestaan ook **niet-functionele eisen**. Deze benoemen we in algemene zin overkoepelend over de lagen en componenten.
 
 <p class='note'>
 Open vraag aan de reviewers: Welke niet-functionele eisen moeten opgenomen worden in deze Architectuurbeschrijving?
