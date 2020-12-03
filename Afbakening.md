@@ -59,23 +59,23 @@ De Objectenregistratie heeft de volgende interactie met de omgeving.
     <figcaption>Interacties</figcaption>
 </figure>
 
-| Partij         | Interacties | 
+| Actor          | Interacties | 
 |----------------|-------------|
-| **Bronhouder** | **Objectgegevens**. De bronhouder registreert en beheert objectgegevens. |
-|                | **Meldingen**: De bronhouder verwerkt terugmeldingen van Afnemers. |
-|                | **Catalogus**. De bronhouder gebruikt de gegevens- en dienstencatalogus om kennis te nemen van de gegevensdefinities van de Objectenregistratie. |
+| **Bronhouder** | **Gegevens**. De bronhouder registreert en beheert objectgegevens. |
+|                | **Meldingen**: De bronhouder verwerkt terugmeldingen van afnemers. |
+|                | **Catalogus**. De bronhouder gebruikt de gegevens- en dienstencatalogus om kennis te nemen van de gegevensdefinities en diensten van de Objectenregistratie. |
 |                | **Inzicht**. De bronhouder gebruikt inzicht in de gegevenskwaliteit ter ondersteuning van het beheren van objectgegevens. |
 |                | **Support**. De bronhouder ontvangt ondersteuning bij het gebruik van de Objectenregistratie. |
 |                | **Hulpvraag**. De bronhouder kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. |
-| **Afnemer**    | **Objectgegevens**. De afnemer neemt objectgegevens en generieke informatieproducten af. |
+| **Afnemer**    | **Gegevens**. De afnemer neemt objectgegevens en generieke informatieproducten af. |
 |                | **Meldingen**. De afnemer levert terugmeldingen bij twijfel over de juistheid van de objectgegevens. |
-|                | **Catalogus**. De afnemer gebruikt de gegevens- en dienstencatalogus om kennis te nemen van de gegevensdefinities van de Objectenregistratie. |
+|                | **Catalogus**. De afnemer gebruikt de gegevens- en dienstencatalogus om kennis te nemen van de gegevensdefinities en diensten van de Objectenregistratie. |
 |                | **Inzicht**. De afnemer gebruikt inzicht in de gegevenskwaliteit ter ondersteuning van het gebruiken van objectgegevens. |
 |                | **Support**. De afnemer (mens of computer) ontvangt ondersteuning bij het gebruik van de Objectenregistratie. |
 |                | **Hulpvraag**. De afnemer kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. Hier wordt zowel geautomatiseerde ondersteuning als menselijke ondersteuning bedoeld.|
 
-De rol Bronhouder in de omgeving maakt gebruik van diensten van de Objectenregistratie om objectgegevens te registreren. 
-De rol Afnemer in de omgeving maakt gebruik van de diensten van de Objectenregistratie om objectgegevens af te nemen.
+De actor Bronhouder in de omgeving maakt gebruik van diensten van de Objectenregistratie om objectgegevens te registreren. 
+De actor Afnemer in de omgeving maakt gebruik van de diensten van de Objectenregistratie om objectgegevens af te nemen.
 
 Bronhouders en afnemers maken gebruik van ondersteuners zoals dienstenleveranciers en softwareleveranciers en kunnen taken uitbesteden aan derden, zoals samenwerkingsverbanden en gegevensleveranciers.
 De beschreven interacties hebben deels ook betrekking op deze ondersteuners. Zo zullen softwareleveranciers ook gebruik maken van de gegevens- en de dienstencatalogus van de Objectenregistratie.
