@@ -24,7 +24,7 @@ De **Ondersteuningslaag** bevat de functies die nodig zijn om bronhouders en afn
 De functies in de drie lagen voor Inzicht, Uitvoering en Ondersteuning maken we zichtbaar in een **overzicht van capabilities**. In dit overzicht zijn clusters van functies gegroepeerd tot componenten. Deze vormen de inrichting van de voorzieningen. 
 
 <figure id="Inzicht-inrichting-uitvoering">
-    <img src="media/inrichting-Inzicht-uitvoering-ondersteuning-objectenregistratie.png" alt="inrichting Inzicht uitvoering ondersteuning">
+    <img src="media/inrichting-inzicht-uitvoering-ondersteuning-objectenregistratie.png" alt="inrichting Inzicht uitvoering ondersteuning">
     <figcaption>De capabilities op de lagen Inzicht en Uitvoering en Ondersteuning</figcaption>
 </figure>
 
