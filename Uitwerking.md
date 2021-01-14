@@ -1,5 +1,11 @@
 ## Uitwerking
 
+<p style="color:blue">
+Overige opmerkingen piet
+-	Er is nog geen aandacht voor beheerfuncties rond gemeentelijke herindelingen en dergelijke. Gemeentegrenzen zijn onderdeel van de BRK.
+-	Zal ook gelden voor fusies of wijzigingen in waterschapsgrenzen enz. (Wellicht informatie van BGT beschikbaar) 
+</p>
+
 ### Inleiding
 
 **Dit hoofdstuk bevat de uitwerking van de componenten van de objectenregistatie.**
@@ -32,6 +38,13 @@ De laag **Uitvoering** bevat de functies voor het beheren van objectgegevens en 
 Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
 
 #### Registratie
+
+<p style="color:blue">
+Opm. Piet Hier zullen in elk geval de eisen ten aanzien van historie nadrukkelijker moeten worden vastgelegd en ook bijvoorbeeld de constraint dat wijzigingen altijd in de vorm van een toevoeging gebeurt (Historiemodel!)
+Nog even terug naar Inwinnen. Def. Hierna 	Het door waarneming vanuit de werkelijkheid of uitvraag aan burgers en bedrijven vanuit werkprocessen beschikbaar maken van gegevens over objecten en/of eigenschappen daarvan in een gegevensbron.
+Opm. Ik mis elke verwijzing naar registers en brondocumenten. De registratie zal toch niet alleen worden bijgehouden op basis van waarneming lijkt mij, maar ook op basis van besluitvorming, zoals de huidige BAG die nagenoeg geheel gebaseerd is op besluitvorming.
+Er zullen ook eisen gesteld moeten worden aan de samenstelling van een consistente transactie, ingeval van toevoeging, aanpassen van samengestelde gegevens. 
+</p>
 
 De component Registratie heeft als doel om bronhouderorganisaties en gemachtigde organisaties in staat te
 stellen objectgegevens en bijbehorende meta-gegevens te beheren (toevoegen en
@@ -142,6 +155,14 @@ Voor deze component gelden de volgende vereisten:
     opslag naast objectgegevens ook procesgegevens moeten omvatten. Denk aan
     het bijhouden wie welke wijzigingen heeft doorgevoerd en wanneer. Procesgegevens worden samen met de gegevens opgeslagen.
 
+<p style="color:blue">
+Opmerking. Ik denk dat procesgegevens juist los van de primaire gegevens moeten worden opgeslagen, namelijk bij het proces. Er gelden namelijk ook andere bewaartermijnen voor ?
+Je zou wellicht als eis willen stellen dat alleen gebruik wordt gemaakt van generieke functies van het opslagsysteem, zodat je daarmee en lock in op de leverancier vermijdt. (Open standaarden)
+Ik mis (ook bij de registratie) verwijzingen naar de Archiefwet.
+Bij Afname: Naast dataservices biedt deze component ook gemaks- en processervices voor zover deze onderdeel zijn van het portfolio van de objectenregistratie.
+Opm. Piet Volgens mij is niet gedefinieerd wat gemaksservices zijn en wat processervices zijn. Bovendien vindt geen afbakening plaats op het portfolio van de objectenregistratie
+</p>
+
 4.  Procesgegevens verzorgen het opbouwen van de audit trial.
 
 5.  De opslag is enkel en alleen benaderbaar via services.
@@ -207,7 +228,10 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 -   Geen uitgangspunten.
 
 **Vereisten**
-
+<p style="color:blue">   
+Opm. Lijkt mij absoluut noodzakelijk om gebruik te maken van dataservices en ook onderscheid tussen registratie en afname services is noodzakelijk al zullen ten behoeve van de validatie bij registratie ook afnemer services gebruikt worden. Alleen al ten behoeve van authorisatie is dit onderscheid nodig.
+</p>
+	
 Voor deze component gelden de volgende vereisten:
 
 1.  Gegevens en informatie zijn alleen te benaderen via services. Daarom worden
@@ -242,6 +266,11 @@ Deze component heeft de volgende externe afhankelijkheden:
 -   Geen externe afhankelijkheden
 
 ##### Afgeleide opslag
+
+<p style="color:blue">
+Opmerking. Dit zou eigenlijk niet als zodanig benoemd moeten worden bij opslag. Wellicht zou je bij opslag moeten benoemen dat in verband met performance en/of beter nog disaster recovery het is toegestaan om een synchrone kopie van de data te hebben.
+Daarnaast kan het mogelijk zijn om aggregaties van informatie te maken tbv business intelligence oid. 
+</p>
 
 Functioneel gezien is er een Opslag.
 
@@ -318,6 +347,11 @@ Afgeleide Opslag heeft de volgende externe afhankelijkheden:
 
 #### Notificatie
 
+<p style="color:blue">
+Opm. Piet Er is een volledig uitgewerkt concept van Notificatie van VNG-realisatie beschikbaar (Eerste afspraken over notificeren
+binnen de overheid). Deze loopt functioneel synchroon met BRK melding van het Kadaster. 
+</p>
+
 De component Notificatie heeft als doel om afnemers op de hoogte te stellen van
 voor hen relevante gebeurtenissen die betrekking hebben op objectgegevens, zodat
 zij kunnen handelen naar die gebeurtenissen.
@@ -387,6 +421,12 @@ afhankelijkheden naar gemeenschappelijke voorzieningen hiervoor, vergelijkbaar
 met de bestaande voorziening Digilevering.
 
 #### Terugmelding
+<p style="color:blue">
+Opm. Op dit moment is een formele terugmelding alleen voorbehouden aan overheidsorganen. Er zal dus iets aan wet en regelgeving gedaan moeten worden om dit aan te passen. Waarom anoniem terugmelden ? Op zijn minst de eis dat een emailadres moet worden achtergelaten lijkt mij wenselijk.
+Er wordt niet gesproken over de DMKS standaard. Op zich geen probleem maar dit document is toch bedoeld om richting te geven en af te bakenen.
+Overigens hebben we als Kadaster deze component generiek beschikbaar natuurlijk.
+Ik zou verwachten dat ergens geformuleerd zou staan dat er een API moet zijn voor het ontvangen van terugmeldingen.
+</p>
 
 De component Terugmelding heeft als doel dat meldingen van afnemers over de
 juistheid van gegevens geregistreerd kunnen worden en beschikbaar zijn voor
@@ -482,6 +522,12 @@ Op de laag **Inzicht** onderkennen we de volgende clusters: **Toegang**, **Gegev
 Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
 
 #### Gegevenscatalogus
+
+<p style="color:blue">
+Opm. Niet duidelijk wordt of gewoon de gegevenscatalogus van het stelsel gebruikt gaat worden. Waarom niet zou je zeggen. Die heeft allerlei bestaande functies.
+Dienstencatalogus
+Opm. Gebruik bestaande middelen ?
+</p>
 
 De component Gegevenscatalogus heeft als doel om de in de objectenregistratie beschikbare
 gegevens en informatieproducten te kunnen beschrijven en deze beschrijving te
@@ -736,6 +782,9 @@ Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Onder
 Op de **Ondersteuningslaag** onderkennen we de clusters voor de ondersteuning van bronhouders en hun gemachtigden en afnemers.
 Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
 
+<p style="color:blue">
+Opm. hier zie je dus dat je gewoon een normale beheerorganisatie moet gebruiken, die alle processen heeft ingericht rond toegang verlenen, factureren, abonneren enz. Het risico bestaat anders dat er weer allerlei eilandoplossingen gebouwd gaan worden. Ook rond machtigen zijn er inmiddels de nodige E-overheidvoorzieningen beschikbaar. 
+</p>
 #### Abonnementen
 
 De component Abonnementen heeft als doel om organisaties in staat te stellen
@@ -1044,6 +1093,10 @@ Voor de component Toegang gelden de volgende vereisten.
     bronhouderorganisatie.
 
 6.  Per gegeven is bekend welke organisatie de bronhouder is.
+
+<p style="color:blue">
+Opm. Piet Het risico van een dergelijke zin is dat per gegeven wordt bijgehouden wie de eigenaar is, met alle gevolgen voor beheer bij organisatiewijzigingen zoals gemeentelijke herindelingen. Beter is wellicht een zin in de trant van ‘voor elk gegevens is af te leiden welke organisatie verantwoordelijk is voor het beheer’
+</p>
 
    Voorwaarde hiervoor is dat relatie bronhouder – gegeven vastligt dmv een
    identificatie van de bronhouder die te relateren is aan de identificatie van
