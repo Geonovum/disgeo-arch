@@ -16,9 +16,26 @@ Voor de Architectuurbeschrijving van de ICT-voorzieningen voor de Objectenregist
 
 Onderstaande afbeelding toont de globale processtappen rond de Objectenregistratie. *Bronhouders* zorgen voor het **inwinnen** van bronmateriaal zoals luchtfoto's of bouwwerkinformatiemodellen of maken gebruik van door anderen ingewonnen bronmateriaal. Op basis van dit bronmateriaal **stelt** de bronhouder objectgegevens **samen** die voldoen aan de eisen van de Objectenregistratie en **registreert** deze objectgegevens in de opslag van de Objectenregistratie waar ze worden **bewaard**. Vanuit de opslag worden gegevens **ontsloten** richting *afnemers* die deze gegevens **gebruiken** in hun (bedrijfs-)processen. 
 
-Regelmatig worden de objectgegevens **verrijkt** voordat ze worden gebruikt, bijvoorbeeld door ze te combineren met andere gegevens uit de objectenregistratie of ze te bewerken tot afgeleide informatie. Bewerkingen zijn: zoeken, selecteren, filteren, combineren en berekenen. Het resultaat van verrijken noemen we *informatieproducten*. Zowel gegevens(producten) als informatie(producten) van de objectenregistratie worden ontsloten via services.
+Regelmatig worden de objectgegevens **verrijkt** voordat ze worden gebruikt, bijvoorbeeld door ze te combineren met andere gegevens uit de objectenregistratie of ze te bewerken tot afgeleide informatie.
+<p style="color:blue">
+Opm. Piet Combinatie met andere gegevens uit de OR zou ik geen verrijken noemen maar dat is gewoon het samenstellen van een informatieproduct (Nog wel uit 1 samenhangende registratie)
+</p>
 
-Vanuit de Objectenregistratie worden alleen *generieke* informatieproducten verstrekt. Dat zijn producten die voor een groot deel van de afnemers relevant zijn. Specifieke informatieproducten waar alleen bepaalde sectoren of afnemers behoefte aan hebben vallen buiten de scope van de Objectenregistratie. Als er bij de afnemers twijfel over de juistheid van  gegevens bestaat dan kunnen zij dat **terugmelden** waarna de bronhouder zal **onderzoeken** of die twijfel tot wijzigingen moet leiden.
+Bewerkingen zijn: zoeken, selecteren, filteren, combineren en berekenen. Het resultaat van verrijken noemen we *informatieproducten*. 
+
+<p style="color:blue">   
+Opm. Piet Dit kunnen natuurlijk ook Half fabrikaten zijn.
+</p>
+
+Zowel gegevens(producten) als informatie(producten) van de objectenregistratie worden ontsloten via services.
+
+Vanuit de Objectenregistratie worden alleen *generieke* informatieproducten verstrekt. Dat zijn producten die voor een groot deel van de afnemers relevant zijn. Specifieke informatieproducten waar alleen bepaalde sectoren of afnemers behoefte aan hebben vallen buiten de scope van de Objectenregistratie. 
+
+<p style="color:blue">
+Opm. Piet. Ik mag toch aannemen dat het ook mogelijk is voor afnemers om specifieke informatieproducten samen te stellen op basis van generieke API’s. Dit lijkt een onnodige beperking die hier wordt vastgelegd.
+</p>
+
+Als er bij de afnemers twijfel over de juistheid van  gegevens bestaat dan kunnen zij dat **terugmelden** waarna de bronhouder zal **onderzoeken** of die twijfel tot wijzigingen moet leiden.
 
 <figure id="processtappen">
     <img src="media/praatplaat-eenvoudig-processtappen-sor.png" alt="processtappen">
@@ -29,7 +46,10 @@ Samenvattend onderscheiden we de volgende processtappen.
 
 | Processtap | Omschrijving | 
 |---|---|
-| **Inwinnen** | Het door waarneming vanuit de werkelijkheid of uitvraag aan burgers en bedrijven vanuit werkprocessen beschikbaar maken van gegevens over objecten en/of eigenschappen daarvan in een gegevensbron. |
+| **Inwinnen** | Het door waarneming vanuit de werkelijkheid of uitvraag aan burgers en bedrijven vanuit werkprocessen beschikbaar maken van gegevens over objecten en/of eigenschappen daarvan in een gegevensbron.
+<p style="color:blue">
+Opm. Piet inwinnen gaat tot en met beschikbaar krijgen van… Daarna volgt samenstellen en registreren. Je kunt de definitie wel gebruiken maar dan moet je samenstellen en registreren onder inwinnen schuiven. (eerder werd samenstellen niet gebruikt in het proces van inwinnen)
+</p>  |
 | **Samenstellen**  | Het combineren van vanuit verschillende gegevensbronnen afkomstige ruwe of getransformeerde gegevens over objecten en/of eigenschappen daarvan tot een samenhangende beschrijving conform hetgeen daarover is bepaald in inhoudelijke criteria en kwaliteitseisen. |
 | **Registreren** | Het op een gevalideerde wijze vastleggen van gegevens over objecten en/of eigenschappen daarvan in de registratie |
 | **Bewaren** | Het duurzaam beschikbaar houden van de gegevens over objecten en/of eigenschappen daarvan in de registratie. |
@@ -48,7 +68,12 @@ Op basis van de processtappen is de scope van de Architectuurbeschrijving te bep
     <figcaption>Scope van de architectuurbeschrijving.</figcaption>
 </figure>
 
-Deze architectuurbeschrijving heeft als scope de ICT-voorzieningen voor **de uitvoering en ook de ondersteuning van de Samenhangende Objectenregistratie**. Dit betreft de processtappen **Registeren, Bewaren, Ontsluiten, (Generiek) Verrijken** en de bijbehorende ondersteundende processen. Alleen het verrijken van gegevens tot generieke informatieproducten behoort tot de scope van (de ICT-voorzieningen voor) de Objectenregistratie. Deze architectuurbeschrijving benoemt binnen de scope de functies, componenten en samenhang. Voor de processen van de rollen bronhouder en afnemer benoemt de architectuurbeschrijving alleen de processtappen. De benoeming van de ICT-componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf en daarmee buiten de scope van deze architectuurbeschrijving
+Deze architectuurbeschrijving heeft als scope de ICT-voorzieningen voor **de uitvoering en ook de ondersteuning van de Samenhangende Objectenregistratie**. Dit betreft de processtappen **Registeren, Bewaren, Ontsluiten, (Generiek) Verrijken** en de bijbehorende ondersteundende processen. Alleen het verrijken van gegevens tot generieke informatieproducten behoort tot de scope van (de ICT-voorzieningen voor) de Objectenregistratie. Deze architectuurbeschrijving benoemt binnen de scope de functies, componenten en samenhang. Voor de processen van de rollen bronhouder en afnemer benoemt de architectuurbeschrijving alleen de processtappen. 
+
+<p style="color:blue">   
+Opm. Kennelijk wordt er een scheiding gemaakt in verantwoordelijkheden tussen bronhouders en iets wat de registratie is. De bronhouders winnen in, maar registreren niet. Wie zou dan de registrator zijn en welke verantwoordelijkheden heeft deze ?. Bijzonder is dat in figuur 7 alleen wordt gesproken over bestuurd systeem in het onderste deel.
+</p>  
+De benoeming van de ICT-componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf en daarmee buiten de scope van deze architectuurbeschrijving
 
 ### Interacties met de omgeving
 
@@ -74,6 +99,10 @@ De Objectenregistratie heeft de volgende interactie met de omgeving.
 |                | **Support**. De afnemer (mens of computer) ontvangt ondersteuning bij het gebruik van de Objectenregistratie. |
 |                | **Hulpvraag**. De afnemer kan om ondersteuning vragen bij het gebruik van de Objectenregistratie. Hier wordt zowel geautomatiseerde ondersteuning als menselijke ondersteuning bedoeld.|
 
+<p style="color:blue">   
+Opm Piet: N.B. Onder figuur 5 blijkt dat de bronhouder toch registreert. Kennelijk is de registratie voor hem een black box. Er wordt ook over ondersteuning enz. gesproken. Kennelijk is er nog geen naam voor de houder van de Registratie zelf
+</p>
+
 De actor Bronhouder in de omgeving maakt gebruik van diensten van de Objectenregistratie om objectgegevens te registreren. 
 De actor Afnemer in de omgeving maakt gebruik van de diensten van de Objectenregistratie om objectgegevens af te nemen.
 
@@ -89,3 +118,6 @@ De Besturing van de Objectenregistratie ontvangt informatie uit het systeem en u
 Op basis van die informatie wordt sturing gegeven aan het systeem en aan de omgeving. 
 Deze interacties worden in deze versie van de architectuur niet verder uitgewerkt. 
 
+<p style="color:blue">
+Opm. Piet Een beetje abacadabra. Ik heb de indruk dat het besturingsparadigma van de Leeuw hier een plek krijgt maar heb het gevoel dat dat hier niet op zijn plaats is.
+</p>
