@@ -8,6 +8,11 @@ Dit hoofdstuk beschrijft de onderdelen van de Objectenregistratie en de verbindi
 
 ### Functionele lagen in de inrichting
 
+<p style="color:blue">
+Opm.Piet Jammer dat niet gewoon is aangesloten bij de 5 lagen architectuur van Common ground en de bijbehorende principes. https://commonground.nl/file/download/54476935/Common%20Ground%20Infographic.pdf
+Genoemde functionele lagen zijn geen lagen maar kolommen. Leidt tot verwarring met andere lagenmodellen. Voegt ook niets toe om dat lagen te noemen.
+</p>
+
 We onderscheiden drie lagen in de functionele indeling van de Objectenregistratie, zoals de afbeelding hieronder toont. Daarmee duiden we alleen het doel van de functies en doen we geen uitspraak over de de technische inrichting of de verdeling ervan over verschillende ICT-voorzieningen.
 
 <figure id="inrichtinglagen">
@@ -63,15 +68,27 @@ Op de **Ondersteuningslaag** onderkennen we de volgende clusters voor de onderst
 
 ### Algemene functies
 
+<p style="color:blue">
+Opm Piet. In 4.6 zie je toegang en interactie weer terugkomen als algemene zaken. Dat had je ook kunnen zien in de indeling van Common ground
+</p>
+
 In alle drie lagen onderkennen we *Toegang* voor het bewaken van toegang tot diensten. Deze functie wordt op een plek uitgewerkt onder Algemeen. 
 
 Verder onderkennen we de behoefte aan *Interactie* om de diensten en de gegevens en producten van de objectenregistratie aan eindgebruikers (personen in de rol van bronhouder of afnemer) te presenteren en de mogelijkheden te bieden om er mee te interacteren.
 
 De objectenregistratie zal naar verwachting verschillende generieke interactiecomponenten bieden, bijvoorbeeld een viewer voor het zoeken en raadplegen van objectgegevens (inzage), portalen voor het beheren van machtigingen en loketten voor het indienen van terugmeldingen en het beheren van abonnementen.
 
+<p style="color:blue">
+Opm. Piet Als je niet oppast komen er allemaal hele specifieke functies rond de objectenregistratie. Mogelijk komt dat hierna nog aan de orde.
+</p>
+
 Uitwerking van eisen aan Interactie staan onder Algemeen.
 
 ### Niet-functionele eisen
+
+<p style="color:blue">
+Opm. Piet Er zijn zoveel documenten waar deze standaard uitgehaald kunnen worden. Kennelijk ids dat te veel moeite. Terwijl dit zo belangrijk is.
+</p>  
 
 Aan de componenten in de drie lagen voor Inzicht, Uitvoering en Ondersteuning, bestaan ook **niet-functionele eisen**. Deze benoemen we in algemene zin overkoepelend over de lagen en componenten.
 
