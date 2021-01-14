@@ -6,6 +6,11 @@ Dit hoofdstuk beschrijft de functionele inrichting van de Samenhangende Objecten
 
 Dit hoofdstuk beschrijft de onderdelen van de Objectenregistratie en de verbindingen daartussen en het wijst de functies van de Objectenregistratie toe aan deze onderdelen. 
 
+<p style="color:blue">
+Opm. Hfdst 3.1 en 3.2 geven nauwelijks richting, behalve wellicht de 10 gouden data rules, waar overigens (regel 6 en 8) nog wel wat op aan te merken is denk ik.
+In 3.3 staan nog wat principes die op zich wel hout snijden.
+</p>
+
 ### Functionele lagen in de inrichting
 
 We onderscheiden drie lagen in de functionele indeling van de Objectenregistratie, zoals de afbeelding hieronder toont. Daarmee duiden we alleen het doel van de functies en doen we geen uitspraak over de de technische inrichting of de verdeling ervan over verschillende ICT-voorzieningen.
