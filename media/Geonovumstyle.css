@@ -95,6 +95,12 @@ r
   color: red;
 }
 
+/*-- Definite van gemarkeerde tekst ------------------------------------------------*/
+m
+{
+  background-color: yellow;
+}
+
 /*-- Definite van rose tekstblok ---------------------------------------------------*/
 div#remark
 {

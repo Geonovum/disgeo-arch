@@ -2,22 +2,22 @@
 
 ### Inrichtingsprincipes Digitaal Stelsel Omgevingwet
 
-Aan de kolommen met de regel en het principe zijn twee kolommen toegevoegd: Data en Functies.  
-Data: Een *ja* in deze kolom moet worden gezien als 'Ja' dit principe is relevant voor de gegevens in de samenhangende objectenregistratie. Scope zijn de gegevens zelf, oftewel het hart van het systeem.
+Aan de kolommen met de regel en het principe zijn twee kolommen toegevoegd: <m>Gegevens</m> en Functies.  
+<m>Gegevens</m>: Een *ja* in deze kolom moet worden gezien als 'Ja' dit principe is relevant voor de gegevens in de samenhangende objectenregistratie. Scope zijn de gegevens zelf, oftewel het hart van het systeem.
 Functies: Een *ja* in deze kolom moet worden opgevat als 'Ja' dit principe is relevant voor de functionaliteit van de Samenhangende Objectenregistratie. Scope is de functionaliteit waarmee de gegevens en/of de informatie aan de gebruikers wordt aangeboden.
 
-| Regel                 | Principe                                                                 | Data | Functies | 
-|-----------------------|--------------------------------------------------------------------------|------|----------|
-| <p id='dso-01'>01</p> | De klant staat centraal                                                  |      |   Ja     |
-| <p id='dso-02'>02</p> | Het stelsel functioneert als één geheel voor zowel personen als systemen |      |   Ja     |
-| <p id='dso-03'>03</p> | Data is de brandstof van het stelsel                                     | Ja   |          |
-| <p id='dso-04'>04</p> | Oplossingen zijn eenvoudig, generiek en kosten effectief                 |      |   Ja     |
-| <p id='dso-05'>05</p> | Alles is een service                                                     |      |   Ja     |
-| <p id='dso-06'>06</p> | Het stelsel is open, transparant en innoverend                           | Ja   |   Ja     |
-| <p id='dso-07'>07</p> | Hergebruik voor koop voor maak                                           |      |          |
-| <p id='dso-08'>08</p> | Continuïteit en compliance is geborgd                                    |      |          |
-| <p id='dso-09'>09</p> | Passende beveiliging & privacy op basis van reële risico’s               |      |          |
-| <p id='dso-10'>10</p> | Beheerfunctionaliteit is primaire functionaliteit                        |      |   Ja     |
+| Regel                 | Principe                                                                 | Gegevens | Functies | 
+|-----------------------|--------------------------------------------------------------------------|----------|----------|
+| <p id='dso-01'>01</p> | De klant staat centraal                                                  |          |   Ja     |
+| <p id='dso-02'>02</p> | Het stelsel functioneert als één geheel voor zowel personen als systemen |          |   Ja     |
+| <p id='dso-03'>03</p> | Data is de brandstof van het stelsel                                     | Ja       |          |
+| <p id='dso-04'>04</p> | Oplossingen zijn eenvoudig, generiek en kosten effectief                 |          |   Ja     |
+| <p id='dso-05'>05</p> | Alles is een service                                                     |          |   Ja     |
+| <p id='dso-06'>06</p> | Het stelsel is open, transparant en innoverend                           | Ja       |   Ja     |
+| <p id='dso-07'>07</p> | Hergebruik voor koop voor maak                                           |          |          |
+| <p id='dso-08'>08</p> | Continuïteit en compliance is geborgd                                    |          |          |
+| <p id='dso-09'>09</p> | Passende beveiliging & privacy op basis van reële risico’s               |          |          |
+| <p id='dso-10'>10</p> | Beheerfunctionaliteit is primaire functionaliteit                        |          |   Ja     |
 
 Bron: [DSO-LV, bijlage G](https://aandeslagmetdeomgevingswet.nl/publish/library/219/ogas_bijlage_g_-_dso-lv_principes_1.pdf)
 
@@ -60,6 +60,8 @@ Bron: https://www.noraonline.nl/images/noraonline/c/c0/Stelselarchitectuur_heden
 ### De 10 golden rules data
 
 Deze 10 golden rules zijn tot stand gekomen vanuit de best-practices rondom data management. 
+<m>Deze principes zijn gebaseerd op de principes van [DAMA](https://www.dama.org/cpages/home), aangevuld met praktijkervaringen</m>
+<m>In deze principes wordt het woord "data" gebruikt. In het kader van DisGEO is het woord "data" synoniem met "gegevens"</m>
 
 |	Regel |	Omschrijving                                     |	Opmerkingen                                       | Data | Functies |
 |--------|---------------------------------------------------|---------------------------------------------------|-----|---------------|
