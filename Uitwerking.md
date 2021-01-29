@@ -252,7 +252,7 @@ Ten behoeve van betrokkenen bij de functionaliteit Afname worden hier uitgangspu
 
 Afgeleide opslag heeft als doel om te voorzien in opslag van objectgegevens en
 bijbehorende meta-gegevens die is afgestemd op de specifieke eisen van de afname
-van objectgegevens door afnemers. Voor de afnemers is het niet relevant te weten waar of hoe de data is opgeslagen, toegang tot de data wordt immers enkel via dataservices geboden. 
+van objectgegevens door afnemers. Voor de afnemers is het niet relevant te weten waar of hoe de gegevens zijn opgeslagen, toegang tot de gegevens wordt immers enkel via dataservices geboden. 
 
 Afgeleide opslag is de opslag die is afgestemd op de taken en
 verantwoordelijkheden van de verstrekkingsfunctie voor de objectenregistratie. De grootte van de
@@ -261,7 +261,7 @@ ook de behoefte aan diverse vormen van afname vragen om daarop afgestemde
 technische opslagvormen.
 
 Technische redenen voor afgeleide opslag zijn bijvoorbeeld performance eisen aan de afname. Denk bijvoorbeeld aan een "hot standby" om snel te kunnen zoeken (bijvoorbeeld hot standby in de vorm van linked data) of snel te kunnen in/uitzoomen en 'schuiven' (hot standby in de vorm van kaarttegeltjes) of snel massaal te kunnen afnemen (hot standby van vaakgevraagde gegevens of informatie (gegevenscombinaties) om, zeg, 1.000 bevragingen per seconde te bedienen) etcetera. 
-Uitwerking van afgeleide opslag is dus een onderwerp in de architectuur van de betreffende service: de eis is en blijft dat nergens buiten de component Opslag data 'leeft' die als bron wordt gebruikt zonder dat deze synchroon is met de data in de Opslag.
+Uitwerking van afgeleide opslag is dus een onderwerp in de architectuur van de betreffende service: de eis is en blijft dat nergens buiten de component Opslag gegevens 'leven' die als bron worden gebruikt zonder dat deze synchroon is met de gegevens in de Opslag.
 
 
 **Invulling**
@@ -832,7 +832,7 @@ Voor deze component gelden de volgende vereisten:
 
 1.  Abonnementen kunnen worden aangegaan door personen en door organisaties.
 
-2.  Ondersteuning van verschillende abonnementsvormen voor data, gemak en proces
+2.  Ondersteuning van verschillende abonnementsvormen voor data-, gemak- en proces-
     API’s, denk aan:
 
     -  Per request
@@ -840,7 +840,7 @@ Voor deze component gelden de volgende vereisten:
     -  Kosteloos
     -  En andere
 
-3.  Een periodieke gegevenslevering wordt georganiseerd met een data API (en is
+3.  Een periodieke gegevenslevering wordt georganiseerd met een data-API (en is
     daarmee niet anders dan de vereisten van de andere punten van deze
     paragraaf)
 

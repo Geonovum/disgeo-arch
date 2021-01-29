@@ -25,7 +25,7 @@ De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn 
  10. Keuzen voor een technische inrichting van de registratie worden pas later in het traject gemaakt, zodat oplossingen gebaseerd zijn op recente inzichten in oplossingsmogelijkheden.
  11. Vanuit andere (basis)registraties, zoals de subjectenregistraties BRP of HR, moeten eenvoudig relaties gelegd kunnen worden naar de samenhangende objectenregistratie.
  12. De registratie gedraagt zich voor gebruikers zoveel mogelijk als één registratie, of het daadwerkelijk één registratie wordt, is nog niet bepaald (nader uit te werken). Daarnaast kunnen er uit de registratie (informatie)producten afgeleid worden en beschikbaar gesteld worden.
- 13. De kerngegevens en aanvullende gegevens worden in principe ontsloten als open data (waar nodig ontsloten op basis van autorisaties), dus het “open data, tenzij” regime geldt.
+ 13. De kerngegevens en aanvullende gegevens worden in principe ontsloten als open-data (waar nodig ontsloten op basis van autorisaties), dus het “open data, tenzij” regime geldt.
  14. In principe kan de informatie via meerdere kanalen, afgestemd op gebruikersbehoefte, uitgeleverd worden (nadere uitwerking in kader van DiS GEO).
 
 
@@ -35,7 +35,7 @@ Binnen andere domeinen is veel kennis en kunde opgebouwd over inrichtingsprincip
 - De [Overall Globale Architectuur Schets (OGAS)](https://aandeslagmetdeomgevingswet.nl/publish/library/219/dso_-_gas_-_overall_gas_1.pdf) van het Digitaal Stelsel Omgevingswet. Zie ook de [bijlage](#inrichtingsprincipes-digitaal-stelsel-omgevingwet).
 - De referentie architectuur [NORA](#basisprincipes-nora) van de architecten van samenwerkende Nederlandse overheden  
 - Het [GEMMA Gegevenslandschap en Common Ground](#architectuurprincipes-gemma-gegevenslandschap-en-common-ground) van samenwerkende gemeenten en de Vereniging van Nederlandse Gemeenten.
-- De [10 golden rules data](#de-10-golden-rules-data) die tot stand zijn gekomen vanuit de best-practices rondom data management.
+- De [10 golden rules data](#de-10-golden-rules-data) die tot stand zijn gekomen vanuit de best-practices rondom datamanagement.
 
 Overigens wordt van dienstenaanbieders verwacht dat ze invulling geven aan basisprincipes die staan genomend in de NORA, zie https://www.noraonline.nl/wiki/Basisprincipes_totaaloverzicht. 
 Vanuit basisprincipes BP01 tot en met BP05: diensten zijn proactief vindbaar en toegankelijk, uniform en gebundeld voor afnemers. 
@@ -57,18 +57,18 @@ Grondslag: Uitgangspunten (7, 9), GGL / Common Ground (04)
 Grondslag: Uitgangspunten (9, 10, 14), GGL / Common Ground (04)
 
 **Inrichtingsprincipe 3: Gegevens zijn alleen te benaderen via dataservices**, *zodat* deze services kunnen garanderen dat de gegevens, metagegevens altijd voldoen aan de eisen en dat logging altijd plaatsvindt. Om te garanderen dat de gegevens blijven voldoen aan de gestelde kwaliteit en actualiteit kunnen ze alleen benaderd worden via (data)services. Dit principe zorgt ervoor dat gegevens blijven voldoen aan de (integriteits-)eisen, doordat de dataservices dit waarborgen. Ook zorgt dit principe ervoor dat er een ontkoppeling is tussen de gegevens en de ontsluiting ervan. Applicaties benaderen de gegevens via de dataservices en niet direct. Dat maakt het mogelijk om veranderingen aan te brengen in de gegevensopslag of in de dataservices zonder dat deze elkaar beïnvloeden. Hierdoor kan flexibel omgegaan worden met aanpassingen in het gegevensmodel. Dit principe heeft de volgende onderliggende principes in zich:
-    - **Dataservices houden metadata actueel**, *zodat* data en meta-data altijd onderling consistent zijn.
+    - **Dataservices houden metagegevens actueel**, *zodat* gegevens en meta-gegevens altijd onderling consistent zijn.
     - **Dataservices borgen de gegevensregels**, *zodat* gegarandeerd is dat de gegevens altijd voldoen aan de gegevensregels.
     - **Dataservices leggen het creeren, wijzingen en raadplegen van gegevens vast in logging**, *zodat* deze services ervoor kunnen zorgen dat aantoonbaar is wat door gemachtigde leveranciers onder verantwoordelijkheid van bronhouders plaatsvindt. Alle transacties op de gegevens worden gelogd. Dit is nodig om een audit-trail te kunnen opbouwen.
 
 Grondslag: Uitgangspunten (1, 2, 3, 5, 7, 8, 9), DSO (05)
 
  
-**Inrichtingsprincipe 4: Data wordt op betrouwbare en veilige wijze ontsloten**, *zodat* aangetoond kan worden dat data niet bedoeld of onbedoeld gemanipuleerd is. Om op data te kunnen vertrouwen zorgen functies ervoor dat data bij alle handelingen vanaf het moment van ontstaan tot het moment van gebruik veilig is. Data wijzigt daarom alleen op basis van een brondocument of mutatieverwijzing en de wijziging wordt vastgelegd. Integriteit en consistentie van data wordt bewaakt. Data wordt bewaard conform de eisen van de wet (w.o. archiefwet, etc.).
+**Inrichtingsprincipe 4: Gegevens worden op betrouwbare en veilige wijze ontsloten**, *zodat* aangetoond kan worden dat gegevens niet bedoeld of onbedoeld gemanipuleerd zijn. Om op gegevens te kunnen vertrouwen zorgen functies ervoor dat gegevens bij alle handelingen vanaf het moment van ontstaan tot het moment van gebruik veilig zijn. Gegevens wijzigen daarom alleen op basis van een brondocument of mutatieverwijzing en de wijziging wordt vastgelegd. Integriteit en consistentie van gegevens wordt bewaakt. Gegevens worden bewaard conform de eisen van de wet (w.o. archiefwet, etc.).
 
 Grondslag: Uitgangspunten (3, 7, 9), DSO (09), GGL / GGL / Common Ground (03)
 
-**Inrichtingsprincipe 5: Samenhangend gebruik van data is makkelijk mogelijk**, zodat data uit verschillende gegevensverzamelingen te combineren is. Het is mogelijk dat er samengestelde producten over het geheel van het gegevenslandschap kunnen worden gerealiseerd. Dit principe heeft de volgende onderliggende principes in zich:
+**Inrichtingsprincipe 5: Samenhangend gebruik van gegevens is makkelijk mogelijk**, zodat gegevens uit verschillende gegevensverzamelingen te combineren zijn. Het is mogelijk dat er samengestelde producten over het geheel van het gegevenslandschap kunnen worden gerealiseerd. Dit principe heeft de volgende onderliggende principes in zich:
     - **Alles is een service**, *zodat* alle functionaliteit zonder handmatige/menselijke tussenstappen kan worden gecombineerd om samenhangend gebruik makkelijk te maken.
     - **Intern is extern**, *zodat* alle services herkenbaar en begrijpbaar zijn voor zowel interne als externe leveranciers van fucntionaliteit aan bronhouders en afnemers. Dit is essentieel om mogelijk te maken om op innovatieve manieren de waarde van gegevens in samenhangend gebruik te vergroten.
 

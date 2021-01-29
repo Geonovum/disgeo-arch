@@ -59,9 +59,9 @@ Bron: https://www.noraonline.nl/images/noraonline/c/c0/Stelselarchitectuur_heden
 
 ### De 10 golden rules data
 
-Deze 10 golden rules zijn tot stand gekomen vanuit de best-practices rondom data management. 
-<m>Deze principes zijn gebaseerd op de principes van [DAMA](https://www.dama.org/cpages/home), aangevuld met praktijkervaringen</m>
-<m>In deze principes wordt het woord "data" gebruikt. In het kader van DisGEO is het woord "data" synoniem met "gegevens"</m>
+Deze 10 golden rules zijn tot stand gekomen vanuit de best-practices rondom datamanagement. 
+Deze principes zijn gebaseerd op de principes van [DAMA](https://www.dama.org/cpages/home), aangevuld met praktijkervaringen
+In deze principes wordt het woord "data" gebruikt. In het kader van DisGEO is het woord "data" synoniem met "gegevens"
 
 |	Regel |	Omschrijving                                     |	Opmerkingen                                       | Data | Functies |
 |--------|---------------------------------------------------|---------------------------------------------------|-----|---------------|
