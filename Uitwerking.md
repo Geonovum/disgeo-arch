@@ -94,7 +94,7 @@ Voor deze component gelden de volgende vereisten:
 
 N.B.
 
--   Gegevens worden niet verwijderd. Een wijziging kan een beëindiging zijn.
+-   Gegevens worden niet verwijderd. Een beëindiging wordt geimplementeerd als een wijziging (het invullen van een einddatum of het markeren als verwijderd o.i.d.)
 -   Het vastleggen en beheren van gegevensregels valt binnen de component Gegevenscatalogus en niet binnen de component Registratie.
 
 **Externe afhankelijkheden**
