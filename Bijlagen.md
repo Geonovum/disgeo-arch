@@ -78,3 +78,40 @@ In deze principes wordt het woord "data" gebruikt. In het kader van DisGEO is he
 
 ad 5: Voor de SOR wordt gelogd op Organisatie niveau.
 
+### Woorden en Begrippenlijst
+
+
+| begrip	                    | synoniem	               | Omschrijving	                                                                      | link                   |
+|-----------------------------|-----------------------------|------------------------------------------------------------------------------------|------------------------|
+| Afgeleide dataset           | 		                    | Eenrichtingsverkeer vanuit de bron read-only kopie van de bron gegevens	          |                        |
+| API 		               |                             | Application Programming Interface, de technische invulling van een service         | https://docs.geostandaarden.nl/api/API-Strategie/#wat-is-een-api | 
+| Attributen	               | Gegevens		          |                                                                                    | 
+| Audit-trail 	               |                             | Het kunnen achterhalen van wie (welke organisatie) wanneer een wijziging van een gegeven heeft doorgevoerd |	
+| Autenticatie                | 		                    | Ben je wie je zegt dat je bent                                                     | https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication  | 
+| Autorisatie                 | 		                    | Wat mag je                                                                         | https://docs.geostandaarden.nl/api/API-Strategie-ext/#authorisation| 
+| Begrippenlijst              | informatiemodel level-1	| | 	|
+| Conceptueel Informatiemodel	| informatiemodel level-2	| | 	|
+| CRUD Actie	               |                             | Create, Read, Update, Delete Actie op een gegeven. NB: binnen DisGeo is een 'D' een 'U' immers de 'vlag verwijderd' wordt aangepast. 	| | 
+| Data 	                    | Gegevens		          | | |
+| Data model                  | Informatiemodel level-4	| | 	|
+| Fysiek model                | Informatiemodel level-4	| | 	|
+| Gegevens	               | Data                        | De vastgelegde gegevens van een gegevens object	| | 
+| Gegevens service            | 		                    | Een service die gegevens levert	| | 
+| Gesynchroniseerde Dataset	| 	                         | Tweerichtingsverkeer aanpassing van bron + kopie gegevens	| | 
+| Identificatie	          | 	                         | Wie ben je                                                                         | https://docs.geostandaarden.nl/api/API-Strategie-ext/#identification | 
+| Informatie	               | 	                         | Bewerkte gegevens, waarbij bewerken o.a. (dus niet uitputtende lijst) kan zijn: berekenen, aggregeren, combineren, filteren, presenteren.| | 	
+| Informatie service          | 		                    | Een service die informatie levert| | 
+| Informatiemodel level-1	| begrippenlijst		     |                                                                                    | https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-1-model-van-begrippen | 
+| Informatiemodel level-2	| conceptueel Informatiemodel |                                                                                    | https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-2-conceptueel-informatiemodel| 
+| Informatiemodel level-3	| logisch of gegevensmodel 	|                                                                                    | https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-3-logisch-informatie-of-gegevensmodel| 
+| Informatiemodel level-4     | 		                    |                                                                                    | https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-4-fysiek-of-technisch-gegevens-of-datamodel| 
+| Inwinningsproces	          | 	                         | Het in de werkelijke fysieke wereld inwinnen van gegevens van een fysiek object	| | 
+| Logging	                    | 	                         | Het bijhouden van metadata over de wijziging, wanneer en door welke organisatie/bronhouder	| | 
+| Logisch gegevensmodel       | Informatiemodel level-3	| | |
+| Logisch Informatiemodel     | Informatiemodel level-3	| | |
+| Object conform DisGEO	     | 	                         | fysiek en aanwijsbaar object in de buitenwereld, een huis, een flat, een sloot, een meterkast? Maar ook een administratief gebied zoals postcodegebied, provincie(grens), gemeente(grens)? Is er een link?)	| | 
+| Object conform MIM          | 		                    |                                                                                    | https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#objecten-en-objecttype| 
+| Registratie-proces	     |                             | Het registreren zelf, het doen van de aanpassingen aan de gegevens, toevoegen, aanpassen, verwijderen (in disgeo markeren als verwijderd)	| | 
+| Service 		          |                             | een dienst waarmee de gegevens kunnen worden benaderd, lezen, creeren, aanpassen, verwijderen)	| | 
+| Servicelagen	               | Service layering            | conform API strategie, system-, convenience-, proces API’s? link opnemen	| | 
+| Technisch gegevens model	| Informatiemodel level-4	| | |
