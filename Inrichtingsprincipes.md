@@ -64,7 +64,7 @@ Grondslag: Uitgangspunten (9, 10, 14), GGL / Common Ground (04)
 Grondslag: Uitgangspunten (1, 2, 3, 5, 7, 8, 9), DSO (05)
 
  
-**Inrichtingsprincipe 4: Gegevens worden op betrouwbare en veilige wijze ontsloten**, *zodat* aangetoond kan worden dat gegevens niet bedoeld of onbedoeld gemanipuleerd zijn. Om op gegevens te kunnen vertrouwen zorgen functies ervoor dat gegevens bij alle handelingen vanaf het moment van ontstaan tot het moment van gebruik veilig zijn. Gegevens wijzigen daarom alleen op basis van een brondocument of mutatieverwijzing en de wijziging wordt vastgelegd. Integriteit en consistentie van gegevens wordt bewaakt. Gegevens worden bewaard conform de eisen van de wet (w.o. archiefwet, etc.).
+**Inrichtingsprincipe 4: Gegevens worden op betrouwbare en veilige wijze ontsloten**, *zodat* aangetoond kan worden dat gegevens niet bedoeld of onbedoeld gemanipuleerd zijn. Om op gegevens te kunnen vertrouwen zorgen functies ervoor dat gegevens bij alle handelingen vanaf het moment van ontstaan tot het moment van gebruik veilig zijn. Gegevens wijzigen daarom alleen op basis van een brondocument of mutatieverwijzing en de wijziging zelf wordt gelogd. Hierbij wordt geen verschil gemaakt tussen alfanumierieke gegevens en geografische gegevens! Integriteit en consistentie van gegevens wordt bewaakt. Gegevens worden bewaard conform de eisen van de wet (w.o. archiefwet, etc.).
 
 Grondslag: Uitgangspunten (3, 7, 9), DSO (09), GGL / GGL / Common Ground (03)
 
