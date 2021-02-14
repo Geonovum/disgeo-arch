@@ -39,7 +39,7 @@ wijzigen). Deze component biedt de services die bronhouders en gemachtigden daar
 hebben.
 
 De component Registratie biedt services voor informatiesystemen om
-objectgegevens te beheren (toevoegen en wijzigen). 
+objectgegevens te beheren (toe te voegen en te wijzigen). 
 
 Deze component bevat geen functionaliteit voor interactie en presentatie. 
 
@@ -213,8 +213,10 @@ Voor deze component gelden de volgende vereisten:
     gegevens te kunnen afnemen (in de API-strategie worden
     dataservices systeemservices genoemd).
 
-2.  Naast dataservices biedt deze component ook gemaks- en processervices voor
+2.  Naast dataservices biedt deze component ook gemaks- en processervices* voor
     zover deze onderdeel zijn van het portfolio van de objectenregistratie.
+	
+	*gemaksservices beantwoorden een generieke gebruikersvraag, processervices roepen meerdere services aan (ze heten daarom ook wel orchestratie services).
 
 3.  Functionaliteit voor het samenstellen van afgeleide gegevens uit objectgegevens
     maakt altijd gebruik van de dataservices voor afname van objectgegevens.
@@ -411,8 +413,8 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
     de terugmelding, wijzigen indien nodig de objectgegevens en werken de status
     van de terugmelding bij.
 
--   Een terugmelding op een gegeven is zowel een aanduiding bij een gegeven dat
-    er twijfel over bestaat als een aanleiding voor de bronhouder van het
+-   Een terugmelding op een gegeven resulteert zowel in een aanduiding bij een gegeven dat
+    er twijfel over bestaat als in een aanleiding voor de bronhouder van het
     gegeven om de terugmelding te onderzoeken. Vanuit de objectenregistratie vinden we dat de
     terugmelding niks anders is dan een aspect van het gegeven zelf waaruit
     blijkt dat er twijfel is over de juistheid ervan en dat het in onderzoek is.
@@ -423,15 +425,12 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 -   De terugmelding wordt gerelateerd aan het gegeven waar het betrekking op
     heeft.
 
--   Een terugmelding bevat standaard gegevens zoals datum, tijd, terugmelder,
-    e.d. zoals dat nu ook gebeurt.
+-   Een terugmelding bevat standaard gegevens zoals datum, tijd en terugmelder, zoals dat nu ook gebeurt.
 
 -   Het onderzoeken van de terugmelding is de taak van de bronhouder. De
     ondersteuning hiervoor, zoals een zaaksysteem, valt buiten de scope van de
-    voorzieningen van de objectenregistratie. Het resultaat van het onderzoek wordt geregistreerd
+    voorzieningen van de objectenregistratie. Het resultaat van het onderzoek kan de bronhouder registreren
     in de objectenregistratie.
-
--   Een terugmelding kan betrekking hebben op 1 of meerdere bronhouders.
 
 -   Het in onderzoek zijn is een gegeven waarop notificatie mogelijk is.
 
@@ -439,12 +438,9 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 Voor deze component gelden de volgende vereisten:
 
-1.  Eenieder kan terugmelden. Daarom kent de objectenregistratie een generieke interactiecomponent voor terugmelden. Een mens kan eventueel anoniem terugmelden.
+1.  Eenieder kan terugmelden. Gebruikmakend van de service voor terugmelden van de objectenregistratie kan een generieke interactiecomponent voor terugmelden worden aangeboden zodat eenieder, eventueel anoniem, kan terugmelden.
 
-2.  Terugmelden kan ook door een machine worden gedaan. Op basis van algoritmen
-    kunnen de gegevens bij registratie maar ook periodiek of bij veranderingen
-    in de gegevensstructuur gevalideerd worden. Bij validatie door een machine
-    zal bij de terugmelding ook het algoritme vastgelegd worden.
+2.  Terugmelden kan ook door een machine worden gedaan. Op basis van algoritmen kunnen de gegevens periodiek of bij veranderingen in de gegevensstructuur gecontroleerd worden. Bij terugmelden door een machine zal bij de terugmelding ook het algoritme vastgelegd worden. De services voor terugmelden maken dit mogelijk.
 
 3.  Er zijn services om terug te melden. De services maken het mogelijk om een
     terugmelding te registreren met een verwijzing naar het gegeven.
@@ -475,20 +471,19 @@ Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdee
 #### Gegevenscatalogus
 
 De component Gegevenscatalogus heeft als doel om de in de objectenregistratie beschikbare
-gegevens en informatieproducten te kunnen beschrijven en deze beschrijving te
+gegevens en afgeleide gegevens te kunnen beschrijven en deze beschrijving te
 ontsluiten, zodat bronhouders, afnemers en andere betrokkenen hier kennis van
 kunnen nemen.
 
-De gegevenscatalogus verbindt definities, toelichtingen en uitleg van begrippen,
-waardelijsten en informatieproducten met elkaar. De gegevenscatalogus beschrijft
-daarmee de inhoud van de gegevens en informatieproducten.
+De gegevenscatalogus verbindt definities, toelichtingen en uitleg van objecttypen en gegevenstypen,
+waardelijsten en gegevens met elkaar. De gegevenscatalogus beschrijft
+daarmee de betekenis van de gegevens en afgeleide gegevens.
 
-De uitwisselingsstandaarden en formaten om de gegevens en informatieproducten te
+De uitwisselingsstandaarden en formaten om de gegevens en afgeleide gegevens te
 benaderen staan beschreven in de dienstencatalogus.
 
 Voor het raadplegen van de gegevenscatalogus zijn applicaties of webloketten
-nodig. Dit zijn zelfstandige interactiecomponenten. De aanname is dat de objectenregistratie ook
-een interactiecomponent zal bieden om de gegevenscatalogus te raadplegen.
+nodig. Dit zijn zelfstandige interactiecomponenten. De services van de objectenregistratie maken het mogelijk een interactiecomponent te bieden om de gegevenscatalogus te raadplegen.
 
 **Invulling**
 
@@ -498,7 +493,7 @@ De uitwerking van deze component is onder andere gebaseerd op:
 
     -   De [Stelselcatalogus](https://stelselcatalogus.omgevingswet.overheid.nl/) van het stelsel van basisregistraties, Vanuit het stelsel
         van basisregistraties bestaat de verplichting om de stelselcatalogus te
-        gebruiken. Deze heeft als doel om de begrippen tussen de
+        gebruiken. Deze heeft als doel om de objecttypen en gegevenstypen tussen de
         basisregistraties te kunnen vergelijken. De stelselcatalogus beschrijft
         niet tot op het niveau van de waardenlijsten.
 
@@ -515,31 +510,30 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 Voor deze component gelden de volgende vereisten:
 
 1.  De gegevenscatalogus beschrijft definities, toelichting en uitleg van
-    begrippen.
+    objecttypen en gegevenstypen.
 
-2.  De gegevenscatalogus beschrijft de relaties tussen de begrippen.
+2.  De gegevenscatalogus beschrijft de relaties tussen de objecttypen en gegevenstypen.
 
 3.  De gegevenscatalogus beschrijft waardenlijsten waarbij elke waardenlijst een
     uitputtende opsomming van de mogelijke waarden voor dat begrip bevat.
 
 4.  De gegevenscatalogus beschrijft definities, toelichting en uitleg van
-    informatieproducten.
+    afgeleide gegevens.
 
-5.  De gegevenscatalogus bevat de wijzigingen zoals toevoegingen van begrippen,
+5.  De gegevenscatalogus bevat de wijzigingen zoals toevoegingen van objecttypen en gegevenstypen,
     veranderingen van relaties, verandering van definities, etc. De
     versiegeschiedenis van de gegevenscatalogus blijft beschikbaar inclusief de
     doorgevoerde veranderingen. Op elk moment is duidelijke welke versie de
     geldige versie is.
 
-6.  Met services kunnen de begrippen en definities worden opgevraagd uit de
+6.  Met services kunnen de objecttypen en gegevenstypen en definities worden opgevraagd uit de
     gegevenscatalogus.
 
-7.  De objectenregistratie biedt een interactiecomponent (bijvoorbeeld een webloket) waar
-    personen de gegevenscatalogus kunnen raadplegen en bevragen.
+7.  Op basis van de services van de gegevenscatalogus kan een interactiecomponent (bijvoorbeeld een webloket) worden aangeboden waarin personen de gegevenscatalogus kunnen raadplegen en bevragen.
 
 8.  De gegevenscatalogus heeft functionaliteit waarmee de stelselcatalogus en
     andere catalogi deze als een federatieve catalogus kunnen benaderen. Met
-    andere woorden: de inhoud van de gegevens wordt op één plek bijgehouden,
+    andere woorden: de betekenis van de gegevens wordt op één plek bijgehouden,
     namelijk in de gegevenscatalogus.
 
 9.  Gegevenscatalogus voldoet aan vereisten vanuit wetgeving zoals Europese INSPIRE wetgeving. 
@@ -597,7 +591,7 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
     kunnen geven over bijvoorbeeld gemiddelde duur van verwerking door bronhouder (procesgegevens)
     of meta-gegevens van de gegevens zelf.
 
--   Kwaliteitsdashboards zijn interactiecomponenten die inzicht geven in de kwaliteit van de gegevens.
+-   Kwaliteitsdashboards zijn interactiecomponenten die inzicht geven in de kwaliteit van de gegevens. Kwaliteitsdashboards gebruiken onderliggende services.
 
 **Vereisten**
 
@@ -611,34 +605,32 @@ Voor deze component gelden de volgende vereisten:
 3.  De uitvoering van een business regel kan op elk moment plaatsvinden en geeft
     de uitkomst op basis van de indicator.
 
-4.  De uitkomst is een fout of signaal (kan fout zijn).
+4.  De uitkomst van een kwaliteitsmeting is een waarde van een indicator. Deze kan goed zijn of fout zijn of een signaal zijn dat er iets fout zou kunnen zijn.
 
 5.  Een kwaliteitsmeting is de uitvoering van 1 of meerdere business regels.
 
-6.  De uitvoering is reproduceerbaar over tijd.
+6.  De uitvoering van een kwaliteitsmeting is reproduceerbaar over tijd.
 
-    1.  De uitvoering van een business regel is een weergave van een indicator
-        op een bepaalde tijd
+    1.  De uitvoering van een business regel bepaalt de waarde van een indicator
+        op een bepaalde tijd.
 
-    2.  De kwaliteitsmetingen hoeven niet apart te worden opgeslagen door de
-        reproduceerbaarheid (of dit moet nodig zijn in verband met de tijd die
+    2.  Kwaliteitsmetingen hoeven niet apart te worden opgeslagen want ze zijn 
+        reproduceerbaar (opslaan kan nuttig en nodig zijn in verband met de tijd die
         nodig is voor een kwaliteitsmeting).
 
-    3.  Reproduceerbaarheid leidt tot kwaliteitsmonitoring.
+7.  Dat kwaliteitsmetingen reproduceerbaar zijn over tijd, maakt kwaliteitsmonitoring mogelijk.
 
-7.  Bepaald kan worden welke fouten en signalen een gegeven ‘in onderzoek’
+8.  Bepaald kan worden welke fouten en signalen een gegeven ‘in onderzoek’
     zetten.
 
-Voor de kwaliteitsdashboards van de objectenregistratie gelden de volgende vereisten. Deze
-moeten opgenomen bij de interactiecomponent Kwaliteitsdashboard op het moment dat die
-component nader wordt uitgewerkt.
+Voor een interactiecomponent Kwaliteitsdashboard van de objectenregistratie gelden de volgende vereisten:
 
 1.  Het kwaliteitsdashboard is een verschijningsvorm van de kwaliteitsmetingen.
 
-2.  Het kwaliteitsdashboard geeft ook inzicht van de gegevens die ‘in onderzoek’
+2.  Het kwaliteitsdashboard geeft inzicht in gegevens die ‘in onderzoek’
     zijn.
 
-3.  Het kwaliteitsdashboard is in te richten op doelgroepen. Nationale weergave,
+3.  Het kwaliteitsdashboard is in te richten op doelgroepen. Voorbeelden zijn: nationale weergave,
     nationale weergave bronhouders, nationale weergave afnemers, weergave per
     bronhouder, etc.
 
@@ -658,13 +650,13 @@ Diensten zijn volgens een gestandaardiseerde beschrijfwijze beschreven en worden
 middels een gemeenschappelijke gestandaardiseerde publicatiewijze aangeboden om
 als een geheel te worden ervaren.
 
-De uitwisselingsstandaarden en formaten om de gegevens en informatieproducten te
+De uitwisselingsstandaarden en formaten om de gegevens en afgeleide gegevens te
 benaderen zijn, waar van toepassing, onderdeel van deze beschrijfwijze.
 
-NB. De (structuur van de) inhoud van de gegevens en informatieproducten staat
+Opmerking: De (structuur van de) gegevens en afgeleide gegevens staan
 beschreven in de gegevenscatalogus.
 
-Voor afnemers van diensten wordt een overzicht geboden om te begrijpen welke
+Voor afnemers van diensten wordt een overzicht geboden om te overzien welke
 diensten beschikbaar zijn.
 
 **Invulling**
@@ -751,7 +743,7 @@ abonnementen. Zie ook de uitwerking van de component Notificatie.
 **Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
--   Abonnementen zijn abonnementen op gebeurtenissoorten die betrekking hebben
+-   Notificatie-abonnementen zijn abonnementen op gebeurtenissoorten die betrekking hebben
     op objectgegevens. Een abonnement resulteert erin dat de abonnementhouder
     notificaties ontvangt als zich gebeurtenissen van die soort voordoen.
 
@@ -762,9 +754,7 @@ Voor deze component gelden de volgende vereisten:
 1.  Abonnementen kunnen worden aangegaan door personen en door organisaties.
 
 2.  Abonnementhouders kunnen kiezen uit verschillende notificatiekanalen en
-    verschillende notificatie-formaten. In ieder geval zijn kanalen beschikbaar
-    voor systemen (API, system-2-system) en voor personen (system-2-persoon,
-    bijv. mail). Of hiervoor een pull of push mechanisme wordt gehanteerd is
+    verschillende notificatie-formaten. Of een pull of push mechanisme wordt gehanteerd is
     later te bepalen.
 
 Zie ook de uitwerking van de component Notificatie.
@@ -775,7 +765,7 @@ Deze component heeft de volgende externe afhankelijkheden:
 
 -   Geen externe afhankelijkheden
 
-Afhankelijk van de ontwikkelingen van overheidsbrede afspraken en voorzieningen
+Afhankelijk van ontwikkeling van overheidsbrede afspraken en voorzieningen
 met betrekking tot notificeren en abonneren ontstaan er mogelijk in de toekomst
 afhankelijkheden naar gemeenschappelijke voorzieningen hiervoor, vergelijkbaar
 met de bestaande voorziening Digilevering. Zie ook de uitwerking van de
@@ -804,9 +794,9 @@ De uitwerking van deze component is onder andere gebaseerd op:
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
--   Abonnementen zijn abonnementen op (eventueel betaalde) data-, gemaks- en proces- services (in de vorm van API's) met beschreven en indien van toepassing gegarandeerde dienstenniveau’s.
+-   Afname-abonnementen zijn abonnementen op (eventueel betaalde) data-, gemaks- en proces- services (in de vorm van API's) met beschreven en indien van toepassing gegarandeerde dienstenniveau’s.
 
--   Abonnementen kennen een periode van geldigheid.
+-   Afname-abonnementen kennen een periode van geldigheid.
 
 **Vereisten**
 
@@ -814,8 +804,7 @@ Voor deze component gelden de volgende vereisten:
 
 1.  Abonnementen kunnen worden aangegaan door personen en door organisaties.
 
-2.  Ondersteuning van verschillende abonnementsvormen voor data-, gemak- en proces-
-    API’s, denk aan:
+2.  Er is ondersteuning voor verschillende abonnementsvormen voor data-, gemaks- en processervices (API’s), denk aan:
 
     -  Per request
     -  Staffelprijzen
@@ -824,7 +813,7 @@ Voor deze component gelden de volgende vereisten:
 
 3.  Een periodieke gegevenslevering wordt georganiseerd met een data-API (en is
     daarmee niet anders dan de vereisten van de andere punten van deze
-    paragraaf)
+    paragraaf).
 
 4.  De toegang tot de API’s wordt georganiseerd met behulp van geldige
     abonnementssleutels.
@@ -1100,22 +1089,15 @@ gegevens en producten van de objectenregistratie aan eindgebruikers (personen in
 bronhouder of afnemer) te presenteren en de mogelijkheden te bieden om er mee te
 interacteren.
 
-De objectenregistratie zal verschillende generieke interactiecomponenten bieden, bijvoorbeeld
-een viewer voor het bekijken, zoeken en raadplegen van objectgegevens (inzage), portalen
-voor het beheren van machtigingen en loketten voor het indienen van
-terugmeldingen en het beheren van abonnementen.
+De opdrachtgever en opdrachtnemer(s) voor de objectenregistratie kunnen overeenkomen verschillende generieke interactiecomponenten te bieden, bijvoorbeeld een viewer voor het bekijken, zoeken en raadplegen van objectgegevens (inzage), portalen voor het beheren van machtigingen en loketten voor het indienen van terugmeldingen en het beheren van abonnementen.
 
-<p class ='note'>
-    voor reviewers: welke invullingen, uitgangspunten vereisten moeten we van
-    toepassing verklaren op de interactiecomponenten van de objectenregistratie?
-</p>
+In deze architectuur staan functies beschreven. Voor deze functies geldt dat ze worden aangeboden in de vorm van services. In hoeverre opdracht wordt gegeven tot het bieden van interactiecomponenten voor de functies, is aan opdrachtgever en opdrachtnemer. Dat alle functies als services worden aangeboden, maakt het mogelijk om de interactiecomponenten onafhankelijk (door) te ontwikkelen. Zo kan flexibel worden meebewogen met de veranderende behoeften van gebruikers.    
 
 **Invulling**
 
 De invulling van interactie is gebaseerd op:
 
 -   De principes van [Gebruiker Centraal](https://www.gebruikercentraal.nl)
--   De eisen aan [Digitoegankelijkheid](https://www.digitoegankelijk.nl)
 
 **Uitgangspunten**
 
@@ -1127,7 +1109,7 @@ Voor de uitwerking van interactie gelden de volgende uitgangspunten:
 
 Voor interactie gelden de volgende vereisten:
 
--  Nog geen vereisten benoemd.
+-   De eisen aan [Digitoegankelijkheid](https://www.digitoegankelijk.nl)
 
 **Externe afhankelijkheden**
 
