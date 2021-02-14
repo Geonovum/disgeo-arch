@@ -179,7 +179,9 @@ van de services van de component voor Afname van Gegevens en Informatie.
 De uitwerking van deze component is onder andere gebaseerd op:
 
 -   Voor geo-gegevens: [OGC API - Features - Part 1: Core](http://docs.opengeospatial.org/DRAFTS/17-069r2.html)  
-    N.B.: dit is een draft en nog geen vastgestelde standaad.
+    N.B.: dit is een draft en nog geen vastgestelde standaard.
+	
+NB. OGC Part 4 (Transactions for versioned Features) sluit niet aan bij basisregistraties naar oordeel van de betreffende werkgroep. Daarom nemen we dit part niet op.
 
 -   Voor administratieve gegevens: [API-strategie](https://docs.geostandaarden.nl/api/API-Strategie/)
 
@@ -210,30 +212,23 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 Voor deze component gelden de volgende vereisten:
 
-1.  Gegevens en informatie zijn alleen te benaderen via services. Daarom worden
+1.  Gegevens zijn alleen te benaderen via services. Daarom worden
     in ieder geval alle dataservices geboden die nodig zijn om alle beschikbare
-    gegevens en informatie te kunnen afnemen (in de API-strategie worden
+    gegevens te kunnen afnemen (in de API-strategie worden
     dataservices systeemservices genoemd).
 
 2.  Naast dataservices biedt deze component ook gemaks- en processervices voor
     zover deze onderdeel zijn van het portfolio van de objectenregistratie.
 
-3.  Functionaliteit voor het samenstellen van informatie uit objectgegevens
-    maakt altijd gebruik van de services voor afname van objectgegevens.
+3.  Functionaliteit voor het samenstellen van afgeleide gegevens uit objectgegevens
+    maakt altijd gebruik van de dataservices voor afname van objectgegevens.
 
-4.  Van ieder gebruik van een afnamedienst wordt o.a. vastgelegd: datum en
-    tijdstip, organisatie. Dit kan o.a. gebruikt worden om te meten of het
+4.  Van ieder gebruik van een afnamedienst wordt ten minste vastgelegd: datum en
+    tijdstip, organisatie. Dit kan gebruikt worden om te meten of het
     gebruik binnen de overeengekomen grenzen van gebruik blijft. Bijvoorbeeld
     grenzen aan ‘fair use’ voor open diensten en grenzen aan gebruik van
     diensten met gegarandeerd dienstenniveau en grenzen aan gebruik van
     eventuele betaalde diensten.
-
-<p class ='note'>
-    Vraag aan de reviewers om argumenten voor of tegen de vereiste dat
-    bovenliggende services altijd gebruik dienen te maken van dataservices. En of
-    daarbij onderscheid gemaakt dient te worden tussen registratieservices en
-    afnameservices.
-</p>
 
 **Externe afhankelijkheden**
 
@@ -260,7 +255,7 @@ afnemersgroep, het grote aantal afnames, de daarbij horende prestatie-eisen en
 ook de behoefte aan diverse vormen van afname vragen om daarop afgestemde
 technische opslagvormen.
 
-Technische redenen voor afgeleide opslag zijn bijvoorbeeld performance eisen aan de afname. Denk bijvoorbeeld aan een "hot standby" om snel te kunnen zoeken (bijvoorbeeld hot standby in de vorm van linked data) of snel te kunnen in/uitzoomen en 'schuiven' (hot standby in de vorm van kaarttegeltjes) of snel massaal te kunnen afnemen (hot standby van vaakgevraagde gegevens of informatie (gegevenscombinaties) om, zeg, 1.000 bevragingen per seconde te bedienen) etcetera. 
+Technische redenen voor afgeleide opslag zijn bijvoorbeeld performance eisen aan de afname. Denk bijvoorbeeld aan een "hot standby" om snel te kunnen zoeken (bijvoorbeeld hot standby in de vorm van linked data) of snel te kunnen in/uitzoomen en 'schuiven' (hot standby in de vorm van kaarttegeltjes) of snel massaal te kunnen afnemen (hot standby van vaakgevraagde gegevens of afgeleide gegevens (gegevenscombinaties) om, zeg, 1.000 bevragingen per seconde te bedienen) etcetera. 
 Uitwerking van afgeleide opslag is dus een onderwerp in de architectuur van de betreffende service: de eis is en blijft dat nergens buiten de component Opslag gegevens 'leven' die als bron worden gebruikt zonder dat deze synchroon is met de gegevens in de Opslag.
 
 
@@ -298,12 +293,12 @@ Voor Afgeleide Opslag gelden de volgende vereisten:
     Opslag. Er vindt geen bijhouding plaats in de Afgeleide Opslag anders dan
     via de Opslag.
 
-2.  Synchronisatie van de Opslag naar Afgeleide Opslag zorgt ervoor dat de
+2.  Replicatie van de Opslag naar Afgeleide Opslag zorgt ervoor dat de
     Afgeleide Opslag een kopie van de objectgegevens bevat die voldoet aan de
     actualiteitseisen voor verstrekking van gegevens en informatieproducten.
 
 3.  Afgeleide Opslag bevat die gegevens die nodig zijn voor verstrekking van
-    gegevens, voor het samenstellen en verstrekken van informatieproducten en
+    gegevens, voor het samenstellen en verstrekken van afgeleide gegevens en
     voor het synchroon houden van de Afgeleide Opslag met de Opslag.
 
 4.  Indien nodig kunnen meerdere vormen van afgeleide opslag naast elkaar
@@ -754,7 +749,7 @@ De uitwerking van deze component is onder andere gebaseerd op:
 -   Er is nog geen uitwerking beschikbaar om de component Notificatie op te
     baseren.
 
-Ministerie van BZK, Kadaster en VNG en anderen werken aan een uitwerking van notificatie en
+Ministerie van BZK, Kadaster, VNG en anderen werken aan een uitwerking van notificaties en
 abonnementen. Zie ook de uitwerking van de component Notificatie.
 
 **Uitgangspunten**
@@ -795,13 +790,8 @@ component Notificatie.
 Het kunnen registreren en beheren van afnemers en abonnementen op Afname. 
 Zie ook de uitwerking van de component Afname.
 
-<p class ='note'>
-    Noot voor reviewers: Willen we het nemen van een abonnement altijd randvoorwaardelijk stellen
-    (ook bij gratis en open services) om een afname service te kunnen gebruiken, of vinden we dat services ook zonder abonnement beschikbaar moeten zijn?
-    Bijvoorbeeld: Dit geeft enerzijds meer administratieve last maar anderzijds ook
-    het voordeel dat gebruikers van de service gericht op de hoogte gebracht kunnen
-    worden van veranderingen aan de service.
-</p>
+We stellen het nemen van een abonnement altijd randvoorwaardelijk, ook bij gratis en open services, om een afname service te kunnen gebruiken.
+Dit geeft enerzijds meer administratieve last maar anderzijds het grotere en belangrijkere voordeel dat gebruikers van de service gericht op de hoogte gebracht kunnen worden van veranderingen aan de service.
 
 **Invulling**
 
@@ -813,18 +803,14 @@ De uitwerking van deze component is onder andere gebaseerd op:
 -   NLX (common ground)
 -   En andere goede voorbeelden
 
-<p class ='note'>
-    NOOT voor reviewers: Kunt u ons helpen met andere goede toekomstgerichte
-    voorbeelden van uitwerkingen van abonnementen op gegevens en informatie?
-</p>
 
 **Uitgangspunten**
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
--   Abonnementen zijn abonnementen op (eventueel betaalde) data-, gemaks- en proces-
-    API’s (met gegarandeerde dienstenniveau’s).
--   Abonnementen zijn abonnementen op periodieke gegevensleveringen.
+-   Abonnementen zijn abonnementen op (eventueel betaalde) data-, gemaks- en proces- services (in de vorm van API's) met beschreven en indien van toepassing gegarandeerde dienstenniveau’s.
+
+-   Abonnementen kennen een periode van geldigheid.
 
 **Vereisten**
 

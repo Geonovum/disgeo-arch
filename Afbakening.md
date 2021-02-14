@@ -53,7 +53,11 @@ Op basis van de processtappen is de scope van de Architectuurbeschrijving te bep
     <figcaption>Scope van de architectuurbeschrijving.</figcaption>
 </figure>
 
-Deze architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de uitvoering en de ondersteuning van de Samenhangende Objectenregistratie. Dit betreft de processtappen **Registreren, Bewaren, Ontsluiten en Verrijken** en de bijbehorende ondersteunende processen. Alleen het verrijken van gegevens tot generieke gegevensproducten behoort tot de scope van (de ICT-voorzieningen voor) de Objectenregistratie. Deze architectuurbeschrijving benoemt binnen de scope de functies, componenten en samenhang. Voor de processen van de rollen bronhouder en afnemer benoemt de architectuurbeschrijving alleen de processtappen. De benoeming van de ICT-componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf en daarmee buiten de scope van deze architectuurbeschrijving
+Deze architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de uitvoering en de ondersteuning van de Samenhangende Objectenregistratie. Dit betreft de processtappen **Registreren, Bewaren, Ontsluiten en Verrijken** en de bijbehorende ondersteunende processen. Alleen het verrijken van gegevens tot generieke gegevensproducten behoort tot de scope van (de ICT-voorzieningen voor) de Objectenregistratie. 
+
+De processtappen Inwinnen, Samenstellen, Onderzoeken bij de bronhouder en Gebruiken en Terugmelden bij de afnemer zijn buiten scope. Het is aan bronhouders en afnemers om hier zelf voorzieningen voor in te richten. Ook de primaire registraties die horen bij Inwinnen en Samenstellen en Onderzoeken, zoals registraties voor beeldmateriaal, zijn buiten scope. 
+
+Deze architectuurbeschrijving benoemt binnen de scope de functies, componenten en samenhang. Voor de processen van de rollen bronhouder en afnemer benoemt de architectuurbeschrijving alleen de processtappen. De benoeming van de ICT-componenten en de inrichting daarvan is aan de bronhouders en afnemers zelf en daarmee buiten de scope van deze architectuurbeschrijving
 
 ### Interacties met de omgeving
 
