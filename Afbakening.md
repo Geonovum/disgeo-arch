@@ -34,14 +34,14 @@ Samenvattend onderscheiden we de volgende processtappen.
 | Processtap | Omschrijving | 
 |---|---|
 | **Inwinnen** | Het door waarneming vanuit de werkelijkheid of uitvraag aan burgers en bedrijven vanuit werkprocessen beschikbaar maken van gegevens over objecten en/of eigenschappen daarvan in een gegevensbron. |
-| **Samenstellen**  | Het combineren van vanuit verschillende gegevensbronnen afkomstige ruwe of getransformeerde gegevens over objecten en/of eigenschappen daarvan tot een samenhangende beschrijving conform hetgeen daarover is bepaald in inhoudelijke criteria en kwaliteitseisen. |
-| **Registreren** | Het op een gevalideerde wijze vastleggen van gegevens over objecten en/of eigenschappen daarvan in de registratie |
+| **Samenstellen**  | Het combineren van objectgegevens tot een samenhangende beschrijving conform hetgeen daarover is bepaald in inhoudelijke criteria en kwaliteitseisen aan de objectenregistratie. |
+| **Registreren** | Het valideren en vastleggen van objectgegevens in de registratie. |
 | **Bewaren** | Het duurzaam beschikbaar houden van de gegevens over objecten en/of eigenschappen daarvan in de registratie. |
 | **Ontsluiten** | Het beschikbaar stellen van de in de registratie opgenomen gegevens op een zodanige wijze dat deze als gegevens eenvoudig door afnemers kunnen worden benaderd. |
 | **Verrijken** | Het zodanig transformeren van in de registratie opgenomen gegevens dat een op afnemersbehoeften afgestemd gegevensproduct ontstaat. |
 | **Gebruiken** | Het ophalen van de beschikbaar gestelde gegevens en de toepassing daarvan binnen de werkprocessen waarvoor de gegevens zijn benodigd. |
 | **Terugmelden** | Het doorgeven van een mogelijk onjuist in de registratie opgenomen gegeven aan de bronhouder met daarbij een voldoende onderbouwing van de mogelijke onjuistheid om een onderzoek mogelijk te maken. |
-| **Onderzoeken** | Het analyseren van een mogelijke onjuistheid in de registratie naar aanleiding van een door een afnemer doorgegeven signaal. Na het verzamelen van aanvullende gegevens kan het al dan niet nodig zijn gegevens in de registratie aan te passen. |
+| **Onderzoeken** | Het analyseren van een mogelijk onjuist gegeven in de registratie naar aanleiding van een terugmelding. Na het verzamelen van aanvullende gegevens kan het al dan niet nodig zijn gegevens in de registratie aan te passen. |
 
 NB. Deze namen en omschrijvingen zijn overgenomen uit een eerste uitwerking van de organisatorische inrichting van de objectenregistratie. Op het moment van schrijven is die uitwerking niet openbaar.
 
@@ -70,7 +70,7 @@ De Objectenregistratie heeft de volgende interactie met de omgeving.
 
 | Actor          | Interacties | 
 |----------------|-------------|
-| **Bronhouder** | **Gegevens**. De bronhouder registreert en beheert objectgegevens. |
+| **Bronhouder** | **Gegevens**. De bronhouder registreert objectgegevens en houdt de gegevens conform gestelde eisen in overeenstemming met de werkelijkheid |
 |                | **Meldingen**: De bronhouder verwerkt terugmeldingen van afnemers. |
 |                | **Catalogus**. De bronhouder gebruikt de gegevens- en dienstencatalogus om kennis te nemen van de gegevensdefinities en diensten van de Objectenregistratie. |
 |                | **Inzicht**. De bronhouder gebruikt inzicht in de gegevenskwaliteit ter ondersteuning van het beheren van objectgegevens. |

@@ -122,10 +122,7 @@ De uitwerking van deze component is onder andere gebaseerd op:
 
 Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
--   De opslag-component is een intern onderdeel dat alleen via services
-    is te benaderen. Het is daarom niet nodig om hiervoor een standaard invulling te
-    hanteren. De technische wijze van opslag is verantwoordelijkheid van de
-    uitvoeringspartij die dit invult.
+-   De opslag-component is alleen via services te benaderen. De technische wijze van opslag is verantwoordelijkheid van de aanbieder van de component.
 
 **Vereisten**
 
@@ -135,8 +132,10 @@ Voor deze component gelden de volgende vereisten:
     eisen aan duurzaamheid en toegankelijkheid.
 
 2.  De opslag bevat alle gegevens die nodig zijn om de bronhouders
-    objectgegevens te kunnen laten beheren en om deze gegevens beschikbaar te
+    objectgegevens te kunnen laten bijhouden en om deze gegevens beschikbaar te
     maken voor de verstrekker.
+	
+*De rol bronhouder “houdt objectgegevens bij”, dat wil zeggen dat de bronhouder de gegevens registreert en de gegevens conform gestelde eisen in overeenstemming houdt met de werkelijkheid. Daartoe moet de bronhouder zelf zorgen voor het (laten) inwinnen en samenstellen van nieuwe gegevens. 
 
 3.  Door het scheiden van proceslogica van procesgegevens en gegevens zal de
     opslag naast objectgegevens ook procesgegevens moeten omvatten. Denk aan
@@ -147,7 +146,9 @@ Voor deze component gelden de volgende vereisten:
 5.  De opslag is enkel en alleen benaderbaar via services.
 
 6.  De opslag maakt data-portabiliteit mogelijk. De gegevens moeten met beperkte
-    inspanning overgezet kunnen worden naar een ander opslagmechanisme.
+    inspanning overgezet kunnen worden naar een andere manier van opslaan van gegevens.
+
+Voorbeeld: als de opslag in een nieuw soort “database” gaat plaatsvinden, moet overzetten met een beperkte inspanning mogelijk zijn.
 
 **Externe afhankelijkheden**
 
@@ -158,30 +159,25 @@ Deze component heeft de volgende externe afhankelijkheden:
 #### Afname
 
 De component Afname heeft als doel om afnemers in staat te stellen
-objectgegevens en daarvan afgeleide informatieproducten af te nemen, zodat ze
-deze gegevens en informatie kunnen gebruiken in hun eigen processen. Deze
+objectgegevens en daarvan afgeleide gegevens af te nemen, zodat ze
+deze gegevens en afgeleide gegevens kunnen gebruiken in hun eigen processen. Deze
 component biedt toegang tot alle voor afnemers beschikbare objectgegevens,
 inclusief meta-gegevens, en tot alle door de objectenregistratie beschikbaar gestelde
-informatieproducten.
-
-We onderscheiden geen aparte componenten voor afname van gegevens en voor afname
-van informatie omdat de uitwerking van beide hetzelfde is en omdat het
-onderscheid tussen gegevens en informatie niet eenduidig is te maken.
+afgeleide gegevens.
 
 De component Afname biedt services voor informatiesystemen om objectgegevens en
-informatieproducten af te nemen. De component bevat geen functionaliteit voor
-het presenteren van deze gegevens of informatie aan gebruikers in bijvoorbeeld
+afgeleide gegevens af te nemen. De component bevat geen functionaliteit voor
+het presenteren van deze gegevens of afgeleide gegevens aan gebruikers in bijvoorbeeld
 een viewer. Daarvoor zijn aparte interactiecomponenten nodig die gebruik maken
-van de services van de component voor Afname van Gegevens en Informatie.
+van de services van de component voor Afname.
 
 **Invulling**
 
 De uitwerking van deze component is onder andere gebaseerd op:
 
--   Voor geo-gegevens: [OGC API - Features - Part 1: Core](http://docs.opengeospatial.org/DRAFTS/17-069r2.html)  
-    N.B.: dit is een draft en nog geen vastgestelde standaard.
+-   Voor geo-gegevens: [OGC API - Features - Part 1: Core](http://docs.opengeospatial.org/is/17-069r3/17-069r3.html)
 	
-NB. OGC Part 4 (Transactions for versioned Features) sluit niet aan bij basisregistraties naar oordeel van de betreffende werkgroep. Daarom nemen we dit part niet op.
+Opmerking: OGC Part 4 (Transactions for versioned Features) sluit niet aan bij basisregistraties naar oordeel van de betreffende werkgroep. Daarom nemen we dit part niet op.
 
 -   Voor administratieve gegevens: [API-strategie](https://docs.geostandaarden.nl/api/API-Strategie/)
 
