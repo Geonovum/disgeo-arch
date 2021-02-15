@@ -737,7 +737,7 @@ De uitwerking van deze component is onder andere gebaseerd op:
 -   Er is nog geen uitwerking beschikbaar om de component Notificatie op te
     baseren.
 
-Ministerie van BZK, Kadaster, VNG en anderen werken aan een uitwerking van notificaties en
+Opmerking: Ministerie van BZK, Kadaster, VNG en anderen werken aan een uitwerking van notificaties en
 abonnementen. Zie ook de uitwerking van de component Notificatie.
 
 **Uitgangspunten**
@@ -746,6 +746,18 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 -   Notificatie-abonnementen zijn abonnementen op gebeurtenissoorten die betrekking hebben
     op objectgegevens. Een abonnement resulteert erin dat de abonnementhouder
     notificaties ontvangt als zich gebeurtenissen van die soort voordoen.
+
+Opmerking:
+Ondersteuning voor het "pushen" van informatie ofwel "events" kan met het patroon van een virtueel "prikbord" met vooraf gedefinieerde onderwerpen (topics) waarop geïnteresseerden zich kunnen abonneren. Dit kunnen wijzigingen zijn, maar ook andere relevante gebeurtenissen, zoals onderhoud of storingsmeldingen.
+
+De werking is globaal als volgt:
+STAP 1 Een abonnee meldt zich bij het prikbord aan voor een (vooraf gedefinieerd) onderwerp
+STAP 2 Een deelnemer met een boodschap (zender) meldt zich bij het prikbord en stuurt een bericht met een passend onderwerp
+STAP 3 Het prikbord verzendt het ontvangen bericht naar alle abonnees die zich voor het aangegeven onderwerp hadden aangemeld
+
+Voor een voorbeeld prikbord op basis van het RESTful pub/sub patroon, zie de DSO API-strategie (paragraaf 2.5.15 Ontwerppatronen, pagina 62).
+
+De belangrijkste motivatie om hier een RESTful API voor in te zetten, is het technologie-neutrale koppelvlak dat het oplevert.
 
 **Vereisten**
 
@@ -800,8 +812,7 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 -   Afname-abonnementen kennen een periode van geldigheid.
 
-
-OpmerkinG: Er zijn verschillende soorten abonnementen denkbaar. Bijvoorbeeld
+Opmerking: Er zijn verschillende soorten abonnementen denkbaar. Bijvoorbeeld
 
 pay per use > afrekening per request, waarbij het uitmaakt welke data wordt opgevraagd of welk type service er wordt aangeroepen. Bij dit type abonnement is er vaak een credit pool, die "leegloopt" bij het doen van requests. Deze pool moet dan als deze bijna leeg is worden aangevuld. Een abonnementshouder wordt ervan op de hoogte gehouden hoeveel credits hij nog heeft of hoeveel % van zijn credit volume nog beschikbaar is. 
 
@@ -1097,14 +1108,14 @@ De component Toegang heeft de volgende externe afhankelijkheden:
 
 #### Interactie
 
-De interactiecomponenten van de objectenregistratie hebben als doel om de diensten en de
-gegevens en producten van de objectenregistratie aan eindgebruikers (personen in de rol van
+Interactiecomponenten horende bij de objectenregistratie hebben als doel om de diensten en de
+gegevens van de objectenregistratie aan eindgebruikers (personen in de rol van
 bronhouder of afnemer) te presenteren en de mogelijkheden te bieden om er mee te
 interacteren.
 
 De opdrachtgever en opdrachtnemer(s) voor de objectenregistratie kunnen overeenkomen verschillende generieke interactiecomponenten te bieden, bijvoorbeeld een viewer voor het bekijken, zoeken en raadplegen van objectgegevens (inzage), portalen voor het beheren van machtigingen en loketten voor het indienen van terugmeldingen en het beheren van abonnementen.
 
-In deze architectuur staan functies beschreven. Voor deze functies geldt dat ze worden aangeboden in de vorm van services. In hoeverre opdracht wordt gegeven tot het bieden van interactiecomponenten voor de functies, is aan opdrachtgever en opdrachtnemer. Dat alle functies als services worden aangeboden, maakt het mogelijk om de interactiecomponenten onafhankelijk (door) te ontwikkelen. Zo kan flexibel worden meebewogen met de veranderende behoeften van gebruikers.    
+In deze architectuur staan functies beschreven. Voor deze functies geldt dat ze worden aangeboden in de vorm van services. In hoeverre opdracht wordt gegeven tot het bieden van interactiecomponenten voor de functies, is aan opdrachtgever en opdrachtnemer. Dat alle functies als services worden aangeboden, maakt het mogelijk om de interactiecomponenten onafhankelijk (door) te ontwikkelen, ook voor derden. Zo kan flexibel worden meebewogen met de veranderende behoeften van gebruikers.  
 
 **Invulling**
 
