@@ -431,6 +431,8 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
     ondersteuning hiervoor, zoals een zaaksysteem, valt buiten de scope van de
     voorzieningen van de objectenregistratie. Het resultaat van het onderzoek kan de bronhouder registreren
     in de objectenregistratie.
+	
+-   Een terugmelder kan de status van de ingevoerde terugmelding inzien.
 
 -   Het in onderzoek zijn is een gegeven waarop notificatie mogelijk is.
 
@@ -798,6 +800,15 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 -   Afname-abonnementen kennen een periode van geldigheid.
 
+
+OpmerkinG: Er zijn verschillende soorten abonnementen denkbaar. Bijvoorbeeld
+
+pay per use > afrekening per request, waarbij het uitmaakt welke data wordt opgevraagd of welk type service er wordt aangeroepen. Bij dit type abonnement is er vaak een credit pool, die "leegloopt" bij het doen van requests. Deze pool moet dan als deze bijna leeg is worden aangevuld. Een abonnementshouder wordt ervan op de hoogte gehouden hoeveel credits hij nog heeft of hoeveel % van zijn credit volume nog beschikbaar is. 
+
+flat fee > afrekening op basis van fair use, gebaseerd op metrics wat als gemiddeld gebruik door alle gebruikers beschouwd kan worden
+
+Belangrijk is dat er een customer registratie is waaraan de abonnementen gekoppeld kunnen worden. 
+
 **Vereisten**
 
 Voor deze component gelden de volgende vereisten:
@@ -919,6 +930,7 @@ Deze component heeft de volgende externe afhankelijkheden:
 
 -   Er is geen externe afhankelijkheid
 
+Opmerking: Bij machtigen wordt gebruik gemaakt van gegevens uit de subjectenregistraties BRP en HR. Daar zorgt de (aanbieder van de) machtiging service voor. De impliciete afhankelijkheid is derhalve indirect.
 
 
 ### Algemeen
