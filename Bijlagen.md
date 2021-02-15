@@ -34,7 +34,7 @@ Bron: [DSO-LV, bijlage G](https://aandeslagmetdeomgevingswet.nl/publish/library/
 
 Bronnen: 
 - [GEMMA Gegevenslandschap](https://www.gemmaonline.nl/index.php/Gegevenslandschap)
-- [Common Ground](https://commonground)
+- [Common Ground](https://commonground.nl)
 
 ### Basisprincipes NORA 
 
