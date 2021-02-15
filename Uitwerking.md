@@ -92,9 +92,9 @@ Voor deze component gelden de volgende vereisten:
 	organisatie die gebruikt, 
 	zodat een audit log beschikbaar is. 
 
-N.B.
+Opmerking:
 
--   Gegevens worden niet verwijderd. Een beëindiging wordt geimplementeerd als een wijziging (het invullen van een einddatum of het markeren als verwijderd o.i.d.)
+-   Gegevens worden niet verwijderd. Een beëindiging van een object wordt geregistreerd als een wijziging (bijvoorbeeld het invullen van een einddatum).
 -   Het vastleggen en beheren van gegevensregels valt binnen de component Gegevenscatalogus en niet binnen de component Registratie.
 
 **Externe afhankelijkheden**
@@ -154,6 +154,7 @@ Voorbeeld: als de opslag in een nieuw soort “database” gaat plaatsvinden, mo
 
 Deze component heeft de volgende externe afhankelijkheden:
 
+-   Eisen vanuit de Archiefwet.
 -   Externe eisen aan informatieveiligheid zoals Baseline Informatiebeveiliging Overheid (BIO).
 
 #### Afname
