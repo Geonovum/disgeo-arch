@@ -19,16 +19,16 @@ Onder [Algemeen](#algemeen) beschrijven we de onderwerpen die op meerdere plaats
 in de architectuur voorkomen. Deze onderwerpen zijn daar eenmalig
 uitgewerkt.
 
-### Laag Uitvoering
+### Cluster Uitvoering
 
-Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Uitvoering. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
+Onderstaande afbeelding toont de groepen van functionaliteiten op het cluster Uitvoering. Deze groepering is een functionele, geen technische. Hij groepeert functies die bijdragen aan hetzelfde doel.
 
 <figure id="functiesuitvoering">
     <img src="media/inrichting-uitvoering-objectenregistratie.png" alt="inrichting uitvoering">
-    <figcaption>De capabilities op de laag Uitvoering</figcaption>
+    <figcaption>De functies binnen het cluster Uitvoering</figcaption>
 </figure>
 
-De laag **Uitvoering** bevat de functies voor het beheren van objectgegevens en voor het afnemen van objectgegevens
+Het cluster **Uitvoering** bevat de functies voor het beheren van objectgegevens en voor het afnemen van objectgegevens
 Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
 
 #### Registratie
@@ -436,6 +436,8 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 -   Het in onderzoek zijn is een gegeven waarop notificatie mogelijk is.
 
+Terugmelding kent mogelijk een functie voor meegeven van tekst en bijlagen, waarin ook verbetersuggesties mogelijk zouden zijn. Dit wordt in deze architectuur niet nader bepaald.
+
 **Vereisten**
 
 Voor deze component gelden de volgende vereisten:
@@ -457,16 +459,16 @@ Deze component heeft de volgende externe afhankelijkheden:
     terugmeldvoorzieningen zoals Digimelding en ‘Verbeter de kaart’ en de
     bijbehorende standaarden.
 
-### Laag Inzicht
+### Cluster Inzicht
 
-Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Inzicht. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
+Onderstaande afbeelding toont de groepen functionaliteiten op het cluster Inzicht. Deze groepering is een functionele, geen technische. Hij groepeert functies die bijdragen aan hetzelfde doel.
 
 <figure id="inrichting-inzicht">
     <img src="media/inrichting-inzicht-objectenregistratie.png" alt="inrichting inzicht">
-    <figcaption>De capabilities op de laag Inzicht </figcaption>
+    <figcaption>De functies binnen het cluster Inzicht </figcaption>
 </figure>
   
-Op de laag **Inzicht** onderkennen we de volgende clusters: **Toegang**, **Gegevenscatalogus**, **Gegevenskwaliteit** en **Dienstencatalogus**. 
+Binnen het cluster **Inzicht** onderkennen we de volgende groepen functionaliteiten: **Toegang**, **Gegevenscatalogus**, **Gegevenskwaliteit** en **Dienstencatalogus**. 
 
 Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
 
@@ -707,16 +709,16 @@ Deze component heeft de volgende externe afhankelijkheden:
     overheid.nl domein voor dienstaanbieders
 
 
-### Laag Ondersteuning
+### Cluster Ondersteuning
 
-Onderstaande afbeelding toont de clusters van functionaliteiten op de laag Ondersteuning. Deze clustering is een functionele indeling, geen technische. Het groepeert functies die bijdragen aan hetzelfde doel.
+Onderstaande afbeelding toont de groepen van functionaliteiten op het cluster Ondersteuning. Deze groepering is een functionele, geen technische. Hij groepeert functies die bijdragen aan hetzelfde doel.
 
 <figure id="functiesuitvoeringondersteuning">
     <img src="media/inrichting-ondersteuning-objectenregistratie.png" alt="inrichting ondersteuning">
-    <figcaption>De capabilities op de laag Ondersteuning</figcaption>
+    <figcaption>De functies binnen het cluster Ondersteuning</figcaption>
 </figure>
 
-Op de **Ondersteuningslaag** onderkennen we de clusters voor de ondersteuning van bronhouders en hun gemachtigden en afnemers.
+Binnen het cluster **Ondersteuning** onderkennen we de functies voor de ondersteuning van bronhouders en hun gemachtigden en afnemers.
 Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
 
 #### Abonnementen
@@ -792,6 +794,10 @@ Het afnemen van een abonnement is randvoorwaardelijk, ook bij gratis en open ser
 Dit geeft enerzijds het nadeel van meer administratieve last maar anderzijds het grotere en belangrijkere voordeel dat gebruikers van de service gericht op de hoogte gebracht kunnen worden van veranderingen aan de service.
 
 Opmerking: het gaat hier om een abonnement voor het gebruiken van een afname service door een informatiesysteem. Het is mogelijk en denkbaar dat een dienstenaanbieder met zo'n informatiesysteem afnamediensten zonder abonnement aanbiedt aan derden.
+
+In technische zin betekent het afnemen van een abonnement een registratie voor het aansluiten en het daarmee verkrijgen van een API-key. Dit is noodzakelijk om te weten hoe de populatie van aanbieders en afnemers eruit ziet, maar ook hoe zij zich individueel gedragen. Het verplichten van een API-key (en dus het registreren) is een minimale drempel, maar essentieel voor zowel API- als verkeersmanagement (SLA's, quota, throttling, etc.).
+
+Opmerking: Het Knooppunt van DSO-LV, dat bestaat uit een deel "gegevensuitwisseling" en "toegang" kan als voorbeeld dienen.
 
 **Invulling**
 
