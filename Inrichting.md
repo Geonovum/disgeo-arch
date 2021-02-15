@@ -109,12 +109,20 @@ De eisen aangaande dekking van contexten vertalen de vereiste flexibiliteit van 
 	 
 De eisen aan compatibiliteit betreffen onder andere de interoperabiliteit. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk maken de eisen aan interoperabiliteit van ICT-componenten en services mogelijk dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund. Beide niveaus van interoperabiliteit zijn noodzakelijk voor het bereiken van interoperabiliteit tussen organisaties, waardoor alle (overheids)organisaties met dezelfde basisgegevens kunnen werken.
 
-Ten geleide: reviewers geven aan dat opdrachtgever en opdrachtnemer van de voorzieningen non functionals kunnen verwachten op het vlak van:
-o Archivering, autorisatie, beschikbaarheid, compatibiliteit, data-integriteit, security, usability
-o En vooral eisen rondom beschikbaarheid 7*24 (bijvoorbeeld gebruik voor Toezicht & Handhaving) en performance zijn in hun ogen essentieel. Daarbij wordt bijvoorbeeld opgemerkt dat meerdere sessies tegelijk kunnen hebben op 1 device ondersteund moet kunnen worden en niet door de technische opzet uitgesloten moet worden.
+
+Ten geleide: reviewers geven aan dat ze van opdrachtgever en opdrachtnemer van de voorzieningen in de praktijk afspraken over niet-functionele eisen verwachten aangaande
+
+- beschikbaarheid, bijvoorbeeld 7*24 met een uptime van 95% (bijvoorbeeld gebruik voor Toezicht & Handhaving)
+- performance, ook bij hoog en/of piek volume, zie hier onder voor een voorbeeld 
+- security, 
+- autorisatie, 
+- data-integriteit, 
+- user experience van interactiecomponenten
+- developer experience van onderliggende API's
+- compatibiliteit van verschillende services, hoeveel versies van API's worden ondersteund. Gebruikelijk is dat er meedere versie van een API beschikbaar zijn, zo'n 2 à 3 versies met breaking changes. Zodat afnemers tijd hebben om de nieuwe versie te kunnen implementeren.
 
 
-Voorbeeld: "Verwerkingstijd maximaal 1 seconde"
+Voorbeeld performance eis: "Verwerkingstijd maximaal 1 seconde"
 
 "Performance: tijd tussen aanroep van een service en ontvangst antwoord 6-8 seconden bij mens-machine interactie.
 Toelichting:

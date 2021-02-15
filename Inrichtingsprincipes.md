@@ -31,7 +31,7 @@ De volgende uitgangspunten voor de architectuur van de objectenregistratie zijn 
  15. Keuzen voor een technische inrichting van de registratie worden pas later in het traject gemaakt, zodat oplossingen gebaseerd zijn op recente inzichten in oplossingsmogelijkheden.
  16. Vanuit andere (basis)registraties, zoals de subjectenregistraties BRP of HR, moeten eenvoudig relaties gelegd kunnen worden naar de samenhangende objectenregistratie.
  17. De registratie gedraagt zich voor gebruikers zoveel mogelijk als één registratie, of het daadwerkelijk één registratie wordt, is nog niet bepaald (nader uit te werken). Daarnaast kunnen er uit de registratie (informatie)producten afgeleid worden en beschikbaar gesteld worden.
- 18. De kerngegevens en aanvullende gegevens worden in principe ontsloten als open-data (waar nodig ontsloten op basis van autorisaties), dus het “open data, tenzij” regime geldt.
+ 18. De kerngegevens en aanvullende gegevens worden in principe ontsloten als open data (waar nodig ontsloten op basis van autorisaties), dus het “open data, tenzij” regime geldt.
  19. In principe kan de informatie via meerdere kanalen, afgestemd op gebruikersbehoefte, uitgeleverd worden (nadere uitwerking in kader van DiS GEO).
 
 
@@ -47,6 +47,10 @@ Deze zijn van belang omdat ze breed gedragen zijn binnen de overheid en ook zijn
 
 
 Overigens wordt van dienstenaanbieders verwacht dat ze invulling geven aan [basisprincipes](https://www.noraonline.nl/wiki/Basisprincipes_totaaloverzicht) die staan genoemd in de NORA. Vanuit basisprincipes BP01 tot en met BP05: diensten zijn proactief vindbaar en toegankelijk, uniform en gebundeld voor afnemers. Vanuit basisprincipes BP09 en BP10: dienstenaanbieder is betrouwbaar en ontvankelijk voor input.
+
+
+Verder stimuleert de overheid het beschikbaar stellen van de broncode van software in haar [open source beleid](https://www.digitaleoverheid.nl/nieuws/staatssecretaris-knops-geef-broncode-van-overheidssoftware-waar-mogelijk-vrij/)
+
 
 
 ### ICT-inrichtingsprincipes Samenhangende Objectenregistratie
