@@ -128,24 +128,25 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 
 Voor deze component gelden de volgende vereisten:
 
-1.  De gegevens in de opslag voldoen aan het informatiemodel van de objectenregistratie en de
-    eisen aan duurzaamheid en toegankelijkheid.
+1.  De gegevens in de opslag voldoen aan hun gegevensmodel 
 
-2.  De opslag bevat alle gegevens die nodig zijn om de bronhouders
-    objectgegevens te kunnen laten bijhouden en om deze gegevens beschikbaar te
+2.  De opslag voldoet aan eisen aan duurzaamheid en toegankelijkheid van de gegevens.
+
+3.  De opslag bevat alle gegevens die nodig zijn om de bronhouders
+    objectgegevens te kunnen laten bijhouden* en om deze gegevens beschikbaar te
     maken voor de verstrekker.
 	
 *De rol bronhouder “houdt objectgegevens bij”, dat wil zeggen dat de bronhouder de gegevens registreert en de gegevens conform gestelde eisen in overeenstemming houdt met de werkelijkheid. Daartoe moet de bronhouder zelf zorgen voor het (laten) inwinnen en samenstellen van nieuwe gegevens. 
 
-3.  Door het scheiden van proceslogica van procesgegevens en gegevens zal de
+4.  Door het scheiden van proceslogica van procesgegevens en gegevens zal de
     opslag naast objectgegevens ook procesgegevens moeten omvatten. Denk aan
     het bijhouden wie welke wijzigingen heeft doorgevoerd en wanneer. Procesgegevens worden samen met de gegevens opgeslagen.
 
-4.  Procesgegevens verzorgen het opbouwen van de audit trial.
+5.  Procesgegevens verzorgen het opbouwen van de audit trial.
 
-5.  De opslag is enkel en alleen benaderbaar via services.
+6.  De opslag is enkel en alleen benaderbaar via services.
 
-6.  De opslag maakt data-portabiliteit mogelijk. De gegevens moeten met beperkte
+7.  De opslag maakt data-portabiliteit mogelijk. De gegevens moeten met beperkte
     inspanning overgezet kunnen worden naar een andere manier van opslaan van gegevens.
 
 Voorbeeld: als de opslag in een nieuw soort “database” gaat plaatsvinden, moet overzetten met een beperkte inspanning mogelijk zijn.
@@ -279,10 +280,8 @@ voldoen.
 
 Voor de uitwerking van Afgeleide Opslag gelden de volgende uitgangspunten:
 
--   Uitgangspunt voor deze vereisten is dat het koppelvlak tussen de
-    componenten Opslag en Afgeleide Opslag een intern koppelvlak is waarvoor
-    geen vereisten gelden m.b.t. het gebruik van open, leveranciersonafhankelijke
-    standaarden en technologieën.
+-   Geen uitgangspunten 
+
 
 **Vereisten**
 

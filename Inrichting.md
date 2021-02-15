@@ -74,9 +74,10 @@ Uitwerking van eisen aan Interactie staan onder Algemeen.
 
 Aan de componenten in de drie clusters voor Inzicht, Uitvoering en Ondersteuning, bestaan ook **niet-functionele eisen**. Deze benoemen we in algemene zin overkoepelend over de clusters en componenten.
 
-Het kan nuttig zijn om de kwaliteitsattributen te prioriteren. Bijvoorbeeld door de belangrijkste kwaliteitsattributen aan te merken die maatgevend zijn voor de kwaliteit. Deze zijn in de praktijk vaak sturend voor de architectuur en inrichtingsprincipes van een component. 
+Voor de objectenregistratie gelden kwaliteitseisen aan gegevens en aan voorzieningen. 
+De kwaliteitseisen aan gegevens worden in de informatiearchitectuur (van spoor Inhoud) behandeld. Eisen aan de (functies van de) voorzieningen worden gesteld door opdrachtgever en ingevuld door opdrachtnemer. Met name de eisen aan de performance en de security van de services zullen hierbij steeds een aandachtspunt moeten zijn. Deze kunnen wijzigen in de tijd. 
 
-Voor de objectenregistratie gelden kwaliteitseisen aan gegevens en aan voorzieningen. De kwaliteitseisen aan gegevens worden in de informatiearchitectuur (van spoor Inhoud) behandeld. Eisen aan de (functies van de) voorzieningen worden gesteld door opdrachtgever en ingevuld door opdrachtnemer. Met name de eisen aan de performance van de services zal hierbij steeds een aandachtspunt moeten zijn. Deze kunnen wijzigen in de tijd. 
+Het kan nuttig zijn om de kwaliteitsattributen te prioriteren. Bijvoorbeeld door de belangrijkste kwaliteitsattributen aan te merken die maatgevend zijn voor de kwaliteit. Deze zijn in de praktijk vaak sturend voor de architectuur en inrichtingsprincipes van een component. 
 
 
 De functies van de objectenregistratie voldoen aan eisen waarmee invulling gegeven kan worden aan de volgende *eisen aan de objectgegevens* :
@@ -112,3 +113,12 @@ Ten geleide: reviewers geven aan dat opdrachtgever en opdrachtnemer van de voorz
 o Archivering, autorisatie, beschikbaarheid, compatibiliteit, data-integriteit, security, usability
 o En vooral eisen rondom beschikbaarheid 7*24 (bijvoorbeeld gebruik voor Toezicht & Handhaving) en performance zijn in hun ogen essentieel. Daarbij wordt bijvoorbeeld opgemerkt dat meerdere sessies tegelijk kunnen hebben op 1 device ondersteund moet kunnen worden en niet door de technische opzet uitgesloten moet worden.
 
+
+Voorbeeld: "Verwerkingstijd maximaal 1 seconde"
+
+"Performance: tijd tussen aanroep van een service en ontvangst antwoord 6-8 seconden bij mens-machine interactie.
+Toelichting:
+Het is belangrijk om de tijd voor eindgebruikers zo kort mogelijk te houden. Vanuit oogpunt van usability wordt een responsetijd van 6-8 seconden acceptabel geacht. Het gaat hierbij om de tijd die de eindgebruiker ervaart achter het scherm. Dit betekent dat de tijd die een services aanbiedend systeem heeft om een synchrone vraagbericht te verwerken, rekening houdend met latency (vertraging door tussenliggende schakels en netwerk), maximaal 1 seconde mag zijn. Heeft een service meer verwerkingstijd nodig dan dient er gebruik gemaakt te worden van asynchrone communicatie.
+Bron: IenW: IWEA - Katern - Service Gerichte Architectuur"
+
+Opmerking: bij machine-machine interactie kan de context sterk verschillen van dit voorbeeld, en een verwerkingstijd van maximaal 1 miliseconde zelfs niet toereikend zijn. Daarom moeten eisen aan de (functies van de) voorzieningen altijd worden gesteld door opdrachtgever en ingevuld door opdrachtnemer en opgenomen in de dienstbeschrijving in een service level agreement (SLA).
