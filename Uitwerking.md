@@ -374,7 +374,7 @@ Deze component heeft de volgende externe afhankelijkheden:
 
 -   Geen externe afhankelijkheden
 
-Afhankelijk van de ontwikkelingen van overheidsbrede afspraken en voorzieningen
+Afhankelijk van de ontwikkeling van overheidsbrede afspraken en voorzieningen
 met betrekking tot notificeren en abonneren ontstaan er mogelijk in de toekomst
 afhankelijkheden naar gemeenschappelijke voorzieningen hiervoor, vergelijkbaar
 met de bestaande voorziening Digilevering.
@@ -491,11 +491,9 @@ De uitwerking van deze component is onder andere gebaseerd op:
 
 -   Bestaande catalogi, zoals:
 
-    -   De [Stelselcatalogus](https://stelselcatalogus.omgevingswet.overheid.nl/) van het stelsel van basisregistraties, Vanuit het stelsel
-        van basisregistraties bestaat de verplichting om de stelselcatalogus te
-        gebruiken. Deze heeft als doel om de objecttypen en gegevenstypen tussen de
-        basisregistraties te kunnen vergelijken. De stelselcatalogus beschrijft
-        niet tot op het niveau van de waardenlijsten.
+De [Stelselcatalogus](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/basisregistraties-en-stelselafspraken/stelselvoorzieningen/stelselcatalogus/) van het stelsel van basisregistraties, Vanuit het stelsel van basisregistraties bestaat de verplichting om de stelselcatalogus te gebruiken. Deze heeft als doel om de objecttypen en gegevenstypen tussen de basisregistraties te kunnen vergelijken. De stelselcatalogus beschrijft niet tot op het niveau van de waardenlijsten.
+
+    -   De [Stelselcatalogus](https://stelselcatalogus.omgevingswet.overheid.nl/) van het digitaal stelsel Omgevingswet.
 
     -   Gegevenscatalogi van BAG, BGT, BRT, BRO, BRK en WOZ
 
@@ -776,8 +774,10 @@ component Notificatie.
 Het kunnen registreren en beheren van afnemers en abonnementen op Afname. 
 Zie ook de uitwerking van de component Afname.
 
-We stellen het nemen van een abonnement altijd randvoorwaardelijk, ook bij gratis en open services, om een afname service te kunnen gebruiken.
-Dit geeft enerzijds meer administratieve last maar anderzijds het grotere en belangrijkere voordeel dat gebruikers van de service gericht op de hoogte gebracht kunnen worden van veranderingen aan de service.
+Het afnemen van een abonnement is randvoorwaardelijk, ook bij gratis en open services, om een afname service te kunnen gebruiken.
+Dit geeft enerzijds het nadeel van meer administratieve last maar anderzijds het grotere en belangrijkere voordeel dat gebruikers van de service gericht op de hoogte gebracht kunnen worden van veranderingen aan de service.
+
+Opmerking: het gaat hier om een abonnement voor het gebruiken van een afname service door een informatiesysteem. Het is mogelijk en denkbaar dat een dienstenaanbieder met zo'n informatiesysteem afnamediensten zonder abonnement aanbiedt aan derden.
 
 **Invulling**
 
@@ -1014,9 +1014,9 @@ Voor de component Toegang gelden de volgende vereisten.
     welke gegevenssoorten) is de verantwoordelijkheid van de
     bronhouderorganisatie.
 
-6.  Per gegeven is bekend welke organisatie de bronhouder is.
+6.  Een bronhouder kan toegang krijgen tot de gegevens waarvoor deze verantwoordelijk is. 
 
-   Voorwaarde hiervoor is dat relatie bronhouder – gegeven vastligt dmv een
+   Voorwaarde hiervoor is dat relatie bronhouder – gegeven vastligt door middel van een
    identificatie van de bronhouder die te relateren is aan de identificatie van
    de bronhouder bij het verlenen van de toegang.
 
@@ -1024,7 +1024,8 @@ Voor de component Toegang gelden de volgende vereisten.
     een organisatie voor het bewerken van gegevens wordt niet vastgelegd (niet
     gelogd). Dat een organisatie op een bepaalde dag en tijdstip wel of geen
     toegang tot een dienst is verleend wordt niet vastgelegd.  
-    N.B. het ‘uitvoeren’ van een dienst van de objectenregistratie die leidt tot een verandering van
+    
+	Opmerking: het ‘uitvoeren’ van een dienst van de objectenregistratie die leidt tot een verandering van
     gegevens wordt wel vastgelegd (gelogd). Dat hoort bij het onderdeel
     Registratie.
 

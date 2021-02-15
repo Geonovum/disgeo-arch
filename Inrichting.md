@@ -34,7 +34,7 @@ De componenten in de drie clusters Inzicht, Uitvoering en Ondersteuning zijn wee
 Op het cluster **Inzicht** onderkennen we de volgende clusters voor inzien van de gegevensstructuur en het dienstenportfolio en inzicht in de gegevenskwaliteit: 
 
 - *Toegang*: voor het bewaken van de toegang tot de diensten.
-- *Gegevenscatalogus*: voor het kunnen beschrijven van de in de objectenregistratie beschikbare gegevens en informatieproducten en deze beschrijving te ontsluiten, zodat bronhouders, afnemers en andere betrokkenen hier kennis van kunnen nemen.
+- *Gegevenscatalogus*: voor het kunnen beschrijven van de in de objectenregistratie beschikbare gegevens en afgeleide gegevens en deze beschrijving te ontsluiten, zodat bronhouders, afnemers en andere betrokkenen hier kennis van kunnen nemen.
  - *Gegevenskwaliteit*: voor het vastleggen van de afgesproken kwaliteitsindicatoren en het meten en monitoren wat de waarde van deze indicatoren is en zowel de indicatoren als de gemeten waarden beschikbaar te stellen voor bronhouders, afnemers en andere betrokkenen, zoals toezichthouders en beleidsverantwoordelijken.
  - *Dienstencatalogus:* voor het beschrijven van de diensten van de objectenregistratie en om deze beschrijvingen (interactief) te ontsluiten, zodat betrokkenen hier makkelijk en goed kennis van kunnen nemen.
 
@@ -45,7 +45,7 @@ In het cluster Uitvoering onderkennen we de volgende fucnties voor *beheer en af
 - *Toegang*: voor het bewaken van de toegang van bronhouders en hun gemachtigden tot de beheerdiensten en van afnemers tot de afnamediensten. 
 - *Registratie*: voor het creëren en wijzigen van objectgegevens door bronhouders en hun gemachtigden. De validatie die tijdens registratie wordt gedaan is ook als zelfstandige functionaliteit bruikbaar om objectgegevens te kunnen valideren zonder ze te registreren.
 - *Opslag*: voor het duurzaam beschikbaar houden van objectgegevens.
-- *Afname*: voor het afnemen van objectgegevens en daarvan afgeleide informatieproducten.
+- *Afname*: voor het afnemen van objectgegevens en daarvan afgeleide gegevens.
 - *Notificatie*: voor het notificeren van afnemers van voor hen relevante gebeurtenissen die betrekking hebben op objectgegevens, zodat zij kunnen handelen naar die gebeurtenissen.
 - *Terugmelding*: voor het in staat stellen van afnemers om meldingen over de juistheid van gegevens te kunnen registreren en deze beschikbaar te laten zijn voor bronhouders, zodat zij ze kunnen behandelen.
 
@@ -66,7 +66,7 @@ In alle drie clusters onderkennen we *Toegang* voor het bewaken van toegang tot 
 
 Verder onderkennen we de behoefte aan *Interactie* om de diensten en de gegevens en producten van de objectenregistratie aan eindgebruikers (personen in de rol van bronhouder of afnemer) te presenteren en de mogelijkheden te bieden om er mee te interacteren.
 
-De objectenregistratie zal naar verwachting verschillende generieke interactiecomponenten bieden, bijvoorbeeld een viewer voor het zoeken en raadplegen van objectgegevens (inzage), portalen voor het beheren van machtigingen en loketten voor het indienen van terugmeldingen en het beheren van abonnementen.
+Naar verwachting gaan opdrachtgever en opdrachtnemer afspreken om verschillende generieke interactiecomponenten te bieden, bijvoorbeeld een viewer voor het zoeken en raadplegen van objectgegevens (inzage), portalen voor het beheren van machtigingen en loketten voor het indienen van terugmeldingen en het beheren van abonnementen.
 
 Uitwerking van eisen aan Interactie staan onder Algemeen.
 
@@ -76,7 +76,7 @@ Aan de componenten in de drie clusters voor Inzicht, Uitvoering en Ondersteuning
 
 Het kan nuttig zijn om de kwaliteitsattributen te prioriteren. Bijvoorbeeld door de belangrijkste kwaliteitsattributen aan te merken die maatgevend zijn voor de kwaliteit. Deze zijn in de praktijk vaak sturend voor de architectuur en inrichtingsprincipes van een component. 
 
-Voor de objectenregistratie gelden kwaliteitseisen aan gegevens en aan voorzieningen. De kwaliteitseisen aan gegevens worden in de informatiearchitectuur behandeld. Eisen aan de (functies van de) voorzieningen worden gesteld door opdrachtgever en ingevuld door opdrachtnemer. Met name de eisen aan de performance van de services zal hierbij steeds een aandachtspunt moeten zijn. Deze kunnen wijzigen in de tijd. 
+Voor de objectenregistratie gelden kwaliteitseisen aan gegevens en aan voorzieningen. De kwaliteitseisen aan gegevens worden in de informatiearchitectuur (van spoor Inhoud) behandeld. Eisen aan de (functies van de) voorzieningen worden gesteld door opdrachtgever en ingevuld door opdrachtnemer. Met name de eisen aan de performance van de services zal hierbij steeds een aandachtspunt moeten zijn. Deze kunnen wijzigen in de tijd. 
 
 
 De functies van de objectenregistratie voldoen aan eisen waarmee invulling gegeven kan worden aan de volgende *eisen aan de objectgegevens* :
@@ -107,4 +107,8 @@ De eisen aangaande dekking van contexten vertalen de vereiste flexibiliteit van 
      Voor **productkwaliteit** van de functies van de objectenregistratie zijn eisen van toepassing aangaande functionele geschiktheid, betrouwbaarheid, performance, bruikbaarheid, beveiliging, compatibiliteit, onderhoudbaarheid en overdraagbaarheid. 
 	 
 De eisen aan compatibiliteit betreffen onder andere de interoperabiliteit. Deze zijn zodanig dat gangbare technologie wordt toegepast waarmee een grote mate van technische interoperabiliteit wordt bereikt. Tegelijk maken de eisen aan interoperabiliteit van ICT-componenten en services mogelijk dat op niveau van de gegevens ook semantische interoperabiliteit wordt ondersteund. Beide niveaus van interoperabiliteit zijn noodzakelijk voor het bereiken van interoperabiliteit tussen organisaties, waardoor alle (overheids)organisaties met dezelfde basisgegevens kunnen werken.
+
+Ten geleide: reviewers geven aan dat opdrachtgever en opdrachtnemer van de voorzieningen non functionals kunnen verwachten op het vlak van:
+o Archivering, autorisatie, beschikbaarheid, compatibiliteit, data-integriteit, security, usability
+o En vooral eisen rondom beschikbaarheid 7*24 (bijvoorbeeld gebruik voor Toezicht & Handhaving) en performance zijn in hun ogen essentieel. Daarbij wordt bijvoorbeeld opgemerkt dat meerdere sessies tegelijk kunnen hebben op 1 device ondersteund moet kunnen worden en niet door de technische opzet uitgesloten moet worden.
 
