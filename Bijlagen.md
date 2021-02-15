@@ -2,8 +2,8 @@
 
 ### Inrichtingsprincipes Digitaal Stelsel Omgevingwet
 
-Aan de kolommen met de regel en het principe zijn twee kolommen toegevoegd: <m>Gegevens</m> en Functies.  
-<m>Gegevens</m>: Een *ja* in deze kolom moet worden gezien als 'Ja' dit principe is relevant voor de gegevens in de samenhangende objectenregistratie. Scope zijn de gegevens zelf, oftewel het hart van het systeem.
+Aan de kolommen met de regel en het principe zijn twee kolommen toegevoegd: Gegevens en Functies.  
+Gegevens: Een *ja* in deze kolom moet worden gezien als 'Ja' dit principe is relevant voor de gegevens in de samenhangende objectenregistratie. Scope zijn de gegevens zelf, oftewel het hart van het systeem.
 Functies: Een *ja* in deze kolom moet worden opgevat als 'Ja' dit principe is relevant voor de functionaliteit van de Samenhangende Objectenregistratie. Scope is de functionaliteit waarmee de gegevens en/of de informatie aan de gebruikers wordt aangeboden.
 
 | Regel                 | Principe                                                                 | Gegevens | Functies | 
