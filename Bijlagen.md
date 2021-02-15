@@ -57,61 +57,48 @@ Bron: https://www.noraonline.nl/wiki/Principes
 Er zijn 12 eisen aan basisregistraties waaraan een basisregistratie moet voldoen.
 Bron: https://www.noraonline.nl/images/noraonline/c/c0/Stelselarchitectuur_heden.pdf 
 
-### De 10 golden rules data
-
-Deze 10 golden rules zijn tot stand gekomen vanuit de best-practices rondom datamanagement. 
-Deze principes zijn gebaseerd op de principes van [DAMA](https://www.dama.org/cpages/home), aangevuld met praktijkervaringen
-In deze principes wordt het woord "data" gebruikt. In het kader van DisGEO is het woord "data" synoniem met "gegevens"
-
-| Regel   |	Omschrijving                                      |	Opmerkingen                                    | Data | Functies |
-|---------|------------------------------------------------------|---------------------------------------------------|-----|---------------|
-| 01	     | Data is het hart van het systeem	                    | Data blijft jaren bewaard, applicaties bestaan hoogstens 15 jaar. We denken niet meer vanuit applicaties, maar vanuit de data zelf! |  Ja |               |
-| 02	     | Data wordt op één plek bijgehouden	               | Er is maar 1 plek waar data wordt gecreëerd, gewijzigd en verwijderd (beëindigd). Dit is randvoorwaardelijk voor een "Single Version of the Truth" |  Ja |               |
-| 03	     | Dubbele opslag is niet erg, dubbel bijhouden wel	| Dubbel opslaan (bijvoorbeeld op een lokale kopie) kan soms nodig zijn. Het is ook helemaal niet erg, zolang de data read-only is, en je je realiseert dat je niet naar de allerlaatste versie kijkt. Dubbel bijhouden is wél erg want dan weet je niet meer "Wat is de waarheid?". Een lokale kopie is soms nodig om de beschikbaarheid van data te garanderen. Denk aan crisisorganisaties. |  Ja |               |
-| 04	     | Dubbele opslag betekent synchroniseren!	          | Dubbel opslaan vereist toepassing van spelregels. Als je dubbel opslaat, moet je vastleggen welke dataset de 'master' is, en welke dataset de 'slave'. Ook moet je bedenken hoe je synchroniseert. 1x per dag, 1x per uur, near-real-time, real-time. Vuistregel: Hoe actueler de kopie, hoe duurder de oplossing. | Ja  |               |
-| 05	     | Data is zelf-loggend	                              | Alle transacties die worden gedaan met de data worden gelogd. Tijdstip plus wie (of wat) de data heeft gewijzigd. Hierdoor kan een wijziging triggers veroorzaken voor afnemers die in hun proces create/update/delete triggers nodig hebben. Loggen gebeurt in ieder geval niet via een bovenliggende applicatie. Loggen is nodig voor een audit-trail. | Ja  |               |
-| 06	     | Data is zelf-autoriserend	                         | De data zelf bepaalt wie (of wat) de data mag wijzigingen, en niet een bovenliggende applicatie. Applicaties worden vervangen, en kunnen worden omzeild. | Ja  |               |
-| 07	     | Data is zelf-controlerend	                         | De data (definitie) bepaalt welke waarden attributen kunnen krijgen, en niet bovenliggende applicaties.	Applicaties worden vervangen, en kunnen worden omzeild.| Ja   |               |
-| 08	     | Data is zelf-historiserend	                         | In de data wordt een THT-datumtijd ("tenminste houdbaar tot") vastgelegd. Data heeft een houdbaarheidsdatum.	Niet alle data hoeft even lang op dezelfde manier bewaard te blijven. Met een THT kun je kiezen voor geschikte opslag (qua toegang en opslagmedium (online/offline)) én kun je invulling geven aan  archiveringsbeleid. | Ja  |               |
-| 09	     | Data wordt bijgehouden aan de bron	               | De data wordt bijgehouden daar waar ze ontstaat. Achterliggende reden: aan de bron is de noodzaak en de mogelijkheid voor het hebben van goede kwalitatieve data het grootst. | Ja | Ja |
-| 10	     | Data en Informatie zijn twee verschillende dingen    | Informatie is "bewerkte data", met andere woorden, informatie is data waaraan kennis is toegevoegd.                  |     |               |
-
-ad 5: Voor de SOR wordt gelogd op Organisatie niveau.
-
 ### Woorden en Begrippenlijst
 
 
-| begrip	                    | synoniem	               | Omschrijving	                                                                      | link                   |
-|-----------------------------|-----------------------------|------------------------------------------------------------------------------------|------------------------|
-| Afgeleide dataset           | 		                    | Eenrichtingsverkeer vanuit de bron read-only kopie van de bron gegevens	          |                        |
-| API 		               |                             | Application Programming Interface, de technische invulling van een service         | https://docs.geostandaarden.nl/api/API-Strategie/#wat-is-een-api | 
-| Attributen	               | Gegevens		          |                                                                                    | 
-| Audit-trail 	               |                             | Het kunnen achterhalen van wie (welke organisatie) wanneer een wijziging van een gegeven heeft doorgevoerd |	
-| Autenticatie                | 		                    | Ben je wie je zegt dat je bent                                                     | https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication  | 
-| Autorisatie                 | 		                    | Wat mag je                                                                         | https://docs.geostandaarden.nl/api/API-Strategie-ext/#authorisation| 
-| Begrippenlijst              | informatiemodel level-1	| | 	|
-| Conceptueel Informatiemodel	| informatiemodel level-2	| | 	|
-| CRUD Actie	               |                             | Create, Read, Update, Delete Actie op een gegeven. NB: binnen DisGeo is een 'D' een 'U' immers de 'vlag verwijderd' wordt aangepast. 	| | 
-| Data 	                    | Gegevens		          | | |
-| Data model                  | Informatiemodel level-4	| | 	|
-| Fysiek model                | Informatiemodel level-4	| | 	|
-| Gegevens	               | Data                        | De vastgelegde gegevens van een gegevens object	| | 
-| Gegevens service            | 		                    | Een service die gegevens levert	| | 
-| Gesynchroniseerde Dataset	| 	                         | Tweerichtingsverkeer aanpassing van bron + kopie gegevens	| | 
-| Identificatie	          | 	                         | Wie ben je                                                                         | https://docs.geostandaarden.nl/api/API-Strategie-ext/#identification | 
-| Informatie	               | 	                         | Bewerkte gegevens, waarbij bewerken o.a. (dus niet uitputtende lijst) kan zijn: berekenen, aggregeren, combineren, filteren, presenteren.| | 	
-| Informatie service          | 		                    | Een service die informatie levert| | 
-| Informatiemodel level-1	| begrippenlijst		     |                                                                                    | https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-1-model-van-begrippen | 
-| Informatiemodel level-2	| conceptueel Informatiemodel |                                                                                    | https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-2-conceptueel-informatiemodel| 
-| Informatiemodel level-3	| logisch of gegevensmodel 	|                                                                                    | https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-3-logisch-informatie-of-gegevensmodel| 
-| Informatiemodel level-4     | 		                    |                                                                                    | https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-4-fysiek-of-technisch-gegevens-of-datamodel| 
-| Inwinningsproces	          | 	                         | Het in de werkelijke fysieke wereld inwinnen van gegevens van een fysiek object	| | 
-| Logging	                    | 	                         | Het bijhouden van metadata over de wijziging, wanneer en door welke organisatie/bronhouder	| | 
-| Logisch gegevensmodel       | Informatiemodel level-3	| | |
-| Logisch Informatiemodel     | Informatiemodel level-3	| | |
-| Object conform DisGEO	     | 	                         | fysiek en aanwijsbaar object in de buitenwereld, een huis, een flat, een sloot, een meterkast? Maar ook een administratief gebied zoals postcodegebied, provincie(grens), gemeente(grens)? Is er een link?)	| | 
-| Object conform MIM          | 		                    |                                                                                    | https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#objecten-en-objecttype| 
-| Registratie-proces	     |                             | Het registreren zelf, het doen van de aanpassingen aan de gegevens, toevoegen, aanpassen, verwijderen (in disgeo markeren als verwijderd)	| | 
-| Service 		          |                             | een dienst waarmee de gegevens kunnen worden benaderd, lezen, creeren, aanpassen, verwijderen)	| | 
-| Servicelagen	               | Service layering            | conform API strategie, system-, convenience-, proces API’s? link opnemen	| | 
-| Technisch gegevens model	| Informatiemodel level-4	| | |
+| begrip	                    | synoniem	                         | Omschrijving	                                                                      | link                   |
+|-----------------------------|---------------------------------------|------------------------------------------------------------------------------------|------------------------|
+| Afgeleide gegevens          | 		                              | gegevens ontstaan uit filteren, selecteren en combineren van gegevens	          |                        |
+| Afgeleide gegevens service  | Convenience of process API            | Een technische dienst waarmee operaties op afgeleide gegevens mogelijk zijn, zoals lezen, toevoegen of aanpassen | |
+| Afgeleide Opslag            |                                       | Afgeleide opslag | |
+| API 		               |                                       | Application Programming Interface, de technische invulling van een service         | [API Strategie](https://docs.geostandaarden.nl/api/API-Strategie/#wat-is-een-api) | 
+| Attributen	               | zie Gegevens		                    | | | 
+| Audit-trail 	               |                                       | Vastgelegde gegevens waaruit is vast te stellen wie wanneer een bewerking van een gegeven heeft doorgevoer | |	
+| Autenticatie                | 		                              | Ben je wie je zegt dat je bent                                                     | [NORA](https://www.noraonline.nl/wiki/Authenticatie(middelen)beheer) | 
+| Autorisatie                 | 		                              | Wat mag je                                                                         | [NORA](https://www.noraonline.nl/wiki/Bevoegdhedenbeheer) | 
+| Begrip                      |                                       | Verwijzing naar een begrip, vanuit een modelelement, waarmee wordt aangegeven op welk begrip, of begrippen, het informatiemodel element is gebaseerd. De verwijzing heeft de vorm van een term of een URI. | [MIM](https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#metagegeven-begrip) | 
+| Begrippenlijst              | zie Informatiemodel level-1	          | | |
+| Conceptueel Informatiemodel	| zie Informatiemodel level-2	          | | |
+| CRUD Actie	               |                                       | Create, Read, Update, Delete Actie op een gegeven. De Actie  'D' is bij basisregistraties een 'U',  immers het gegeven wordt gewijzigd naar "beëindigd" | | 
+| Data 	                    | zie Gegevens		                    | | |
+| Data model                  | zie Informatiemodel level-4	          | | |
+| Data service                | System API                            | Service waarmee operaties op gegevens mogelijk zijn, zoals lezen, toevoegen of aanpassen. Verwijderen wordt niet ondersteund in een basisregistratie | |
+| Dienst                      |                                       | Levering van prestaties door dienstverlener aan afnemer op basis van vraag en behoefte | | 
+| Fysiek model                | zie Informatiemodel level-4	          | | |
+| Gegevens	               | Data                                  | Vastgelegde eigenschappen van een object | | 
+| Gegevens service            | 		                              | Een service die gegevens levert | | 
+| Gemaksservice               | Convenience API                       | API die een generieke gebruikersvraag beantwoordt | |
+| Gesynchroniseerde Dataset	| 	                                   | Tweerichtingsverkeer aanpassing van bron + kopie gegevens	| | 
+| Identificatie	          | 	                                   | Wie ben je                                                                         | [API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#identification) | 
+| Informatie	               | 	                                   | Bewerkte gegevens, waarbij bewerken o.a. (dus niet uitputtende lijst) kan zijn: berekenen, aggregeren, combineren, filteren, presenteren.| | 	
+| Informatie service          | 		                              | Een service die informatie levert| | 
+| Informatiemodel level-1	| Begrippenlijst		               | | [MIM](https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-1-model-van-begrippen) | 
+| Informatiemodel level-2	| Conceptueel Informatiemodel           | | [MIM](https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-2-conceptueel-informatiemodel )| 
+| Informatiemodel level-3	| Logisch- of Gegevensmodel 	          | | [MIM](https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-3-logisch-informatie-of-gegevensmodel) | 
+| Informatiemodel level-4     | Fysiek -of Technisch gegevensmodel    | | [MIM](https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-4-fysiek-of-technisch-gegevens-of-datamodel) | 
+| Inwinnen     	          | 	                                   | Het in de werkelijke fysieke wereld inwinnen van gegevens van een fysiek object	| | 
+| Logging	                    | 	                                   | Het bijhouden van metadata over de wijziging, wanneer en door welke organisatie/bronhouder	| | 
+| Logisch gegevensmodel       | zie Informatiemodel level-3	          | | |
+| Logisch Informatiemodel     | zie Informatiemodel level-3	          | | |
+| Object 	                    | 	                                   | Een ding, een tastbaar iets, in de werkelijkheid, zoals daarnaar gekeken wordt vanuit een bepaald domein.	| [MIM](https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#objecten-en-objecttype) | 
+| Objecten in de objectenregistratie | 	                              | Objecten die in het terrein zichtbaar zijn, zoals gebouwen, wegen, water, spoorlijnen en bomen, terreindelen, aangevuld met enkele (registratieve) objecten als woonplaatsen, gemeentegrenzen en openbare ruimten | | 
+| Objectgegevens              |                                       | Vastgelegde eigenschappen van een object | | 
+| Processervice               | process API, orchestration API        | API die meerdere system API's ofwel dataservices aanroept | |
+| Registreren                 |                                       | Het toevoegen en/of aanpassen van gegevens | | 
+| Replicatie                  |                                       | Een kopie van gegevens (maken) die gelijk is aan het origineel | | 
+| Service 		          |                                       | Technische functie die leveringen van diensten mogelijk maakt	| | 
+| Technisch gegevens model	| zie Informatiemodel level-4	          | | |
