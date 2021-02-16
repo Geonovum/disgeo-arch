@@ -10,4 +10,4 @@ Deze architectuurbeschrijving is stapsgewijs gemaakt en beter gemaakt. Daarbij w
 
 ### Inhoud
 
-De architectuurbeschrijving bevat een inleiding, een afbakening, gehanteerde principes en een uitwerking van de componenten. De beschrijving blijft op functioneel niveau, ofwel op het niveau van de applicatielaag van het NORA-vijflaagsmodel. De onderscheiden functies (capabilities, "wat moet kunnen") binnen het systeem worden zodanig beschreven dat een opdracht om deze in te vullen inhoudelijk voldoende duidelijk is voor opdrachtgever en opdrachtnemer.
+De architectuurbeschrijving bevat een inleiding, een afbakening, gehanteerde principes, een inrichting en een uitwerking van de componenten. De beschrijving blijft op functioneel niveau, ofwel op het niveau van de applicatielaag van het NORA-vijflaagsmodel. De onderscheiden functies (capabilities, "wat moet kunnen") binnen het systeem worden zodanig beschreven dat een opdracht om deze in te vullen inhoudelijk voldoende duidelijk is voor opdrachtgever en opdrachtnemer.
