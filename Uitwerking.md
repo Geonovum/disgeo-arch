@@ -963,8 +963,7 @@ informatiesystemen betreft de toegang tot services (Common Ground laag 2).
 Toegang voor personen betreft de toegang via interactiecomponenten (Common
 Ground laag 5).
 
-De [afbeelding](https://www.noraonline.nl/wiki/Bestand:IAM_afbeelding.png) bij
-het thema [Identity & Accessmanagement van de NORA](https://www.noraonline.nl/wiki/Identity_&_Access_Management_(IAM)) geeft dit
+De afbeelding bij het thema [Identity & Accessmanagement van de NORA](https://www.noraonline.nl/wiki/Identity_&_Access_Management_(IAM)) geeft dit
 goed weer.
 
 **Invulling**
