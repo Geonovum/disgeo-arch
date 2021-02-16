@@ -63,35 +63,34 @@ Bron: https://www.noraonline.nl/images/noraonline/c/c0/Stelselarchitectuur_heden
 |-----------------------------|---------------------------------------|------------------------------------------------------------------------------------|------------------------|
 | Afgeleide gegevens          | 		                              | gegevens ontstaan uit filteren, selecteren en combineren van gegevens	          |                        |
 | Afgeleide gegevens service  | Convenience of process API            | Een technische dienst waarmee operaties op afgeleide gegevens mogelijk zijn, zoals lezen, toevoegen of aanpassen | |
-| Afgeleide Opslag            |                                       | Een replicatie van een deel van de opslag
- | |
+| Afgeleide Opslag            |                                       | Een replicatie van een deel van de opslag ||
 | API 		               |                                       | Application Programming Interface, de technische invulling van een service         | [API Strategie](https://docs.geostandaarden.nl/api/API-Strategie/#wat-is-een-api) | 
-| Attributen	               |  Gegevens		                    | | | 
+| Attributen	               | Gegevens		                    | | | 
 | Audit-trail 	               |                                       | Vastgelegde gegevens waaruit is vast te stellen wie wanneer een bewerking van een gegeven heeft doorgevoerd | |	
-| Authenticatie                | 		                              | Ben je wie je zegt dat je bent                                                     | [NORA](https://www.noraonline.nl/wiki/Authenticatie(middelen)beheer) | 
+| Authenticatie               | 		                              | Ben je wie je zegt dat je bent                                                     | [NORA](https://www.noraonline.nl/wiki/Authenticatie(middelen)beheer) | 
 | Autorisatie                 | 		                              | Wat mag je                                                                         | [NORA](https://www.noraonline.nl/wiki/Bevoegdhedenbeheer) | 
 | Begrip                      |                                       |  door mensen begrepen woord of term in vocabulaire dat in meerdere informatiemodellen gebruikt kan worden, zie MIM | [MIM](https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#metagegeven-begrip) | 
-| Begrippenlijst              |  Informatiemodel level-1	          | | |
-| Conceptueel Informatiemodel	|  Informatiemodel level-2	          | | |
+| Begrippenlijst              | Informatiemodel level-1	          | | |
+| Conceptueel Informatiemodel	| Informatiemodel level-2	          | | |
 | CRUD Actie	               | Gegevensoperatie                         | Create, Read, Update, Delete Actie op een gegeven. De Actie  'D' is bij basisregistraties een 'U',  immers het gegeven wordt gewijzigd naar "beëindigd" | | 
-| Data 	                    |  Gegevens		                    | | |
-| Data model                  |  Informatiemodel level-4	          | | |
+| Data 	                    | Gegevens		                    | | |
+| Data model                  | Informatiemodel level-4	          | | |
 | Data service                | System API                            | Service waarmee operaties op gegevens mogelijk zijn, zoals lezen, toevoegen of aanpassen. Verwijderen wordt niet ondersteund in een basisregistratie | |
 | Dienst                      |                                       | Levering van prestaties door dienstverlener aan afnemer op basis van vraag en behoefte | | 
-| Fysiek model                |  Informatiemodel level-4	          | | |
+| Fysiek model                | Informatiemodel level-4	          | | |
 | Gegevens	               | Data                                  | Vastgelegde eigenschappen van een object | | 
 | Gegevens service            | Data service 		                              |  | | 
 | Gemaksservice               | Convenience API                       | API die een generieke gebruikersvraag beantwoordt | |
-| Geo gegevens               | Geografische gegevens                       | Gegevens met locatie en geometrie | |
+| Geo gegevens                | Geografische gegevens                       | Gegevens met locatie en geometrie | |
 | Identificatie	          | 	                                   | Wie ben je                                                                         | [API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#identification) | 
 | Informatiemodel level-1	| Begrippenlijst		               |  zie MIM | [MIM](https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-1-model-van-begrippen) | 
 | Informatiemodel level-2	| Conceptueel Informatiemodel           | zie MIM | [MIM](https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-2-conceptueel-informatiemodel )| 
 | Informatiemodel level-3	| Logisch- of Gegevensmodel 	          |  zie MIM | [MIM](https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-3-logisch-informatie-of-gegevensmodel) | 
 | Informatiemodel level-4     | Fysiek -of Technisch gegevensmodel    |  zie MIM | [MIM](https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#niveau-4-fysiek-of-technisch-gegevens-of-datamodel) | 
 | Logging	                    | 	                                   | Het bijhouden van metadata over de wijziging, wanneer en door welke organisatie/bronhouder	| | 
-| Logisch gegevensmodel       |  Informatiemodel level-3	          | | |
-| Logisch Informatiemodel     |  Informatiemodel level-3	          | | |
-| Metamodel Informatie Modellering (MIM)     |  	          | |[MIM](https://docs.geostandaarden.nl/mim/mim10/)|
+| Logisch gegevensmodel       | Informatiemodel level-3	          | | |
+| Logisch Informatiemodel     | Informatiemodel level-3	          | | |
+| Metamodel Informatie Modellering (MIM)                              | | | [MIM](https://docs.geostandaarden.nl/mim/mim10/) |
 | Object 	                    | 	                                   | Een ding, een tastbaar iets, in de werkelijkheid, zoals daarnaar gekeken wordt vanuit een bepaald domein.	| [MIM](https://docs.geostandaarden.nl/mim/def-st-mim-20201023/#objecten-en-objecttype) | 
 | Objecten in de objectenregistratie | 	                              | Objecten die in het terrein zichtbaar zijn, zoals gebouwen, wegen, water, spoorlijnen en bomen, terreindelen, aangevuld met enkele (registratieve) objecten als woonplaatsen, gemeentegrenzen en openbare ruimten | | 
 | Objectgegevens              |                                       | Vastgelegde eigenschappen van een object | | 
