@@ -6,7 +6,7 @@ Deze "Architectuurbeschrijving voorzieningen" van de Samenhangende Objectenregis
 
 ### Aanpak
 
-Deze architectuurbeschrijving is stapsgewijs gemaakt en beter gemaakt. Daarbij wordt het document op een transparante manier gedeeld. Meekijken mag, bijdragen van suggesties en commentaar kan door het aanmaken van zogeheten issues op https://github.com/Geonovum/disgeo-arch/issues.
+Deze architectuurbeschrijving is stapsgewijs gemaakt en beter gemaakt met hulp van veel waardevolle suggesties door een grote groep meedenkers. Daartoe wordt het document op een transparante manier gedeeld. Meekijken mag, bijdragen van suggesties en commentaar kan door het aanmaken van zogeheten issues op https://github.com/Geonovum/disgeo-arch/issues.
 
 ### Inhoud
 
