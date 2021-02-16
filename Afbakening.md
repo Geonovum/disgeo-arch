@@ -48,7 +48,7 @@ NB. Deze namen en omschrijvingen zijn overgenomen uit een eerste uitwerking van 
 ### Scope van de Architectuurbeschrijving
 Op basis van de processtappen is de scope van de Architectuurbeschrijving te bepalen. Onderstaande afbeelding geeft deze scope weer. 
 
-<figure id="scopearchitectuur processen">
+<figure id="scopearchitectuur-processen">
     <img src="media/systeemprocessen-objectenregistratie.png" alt="systeemprocessen-objectenregistratie">
     <figcaption>Scope van de architectuurbeschrijving.</figcaption>
 </figure>
@@ -63,7 +63,7 @@ Deze architectuurbeschrijving benoemt binnen de scope de functies, componenten e
 
 De Objectenregistratie heeft de volgende interactie met de omgeving.
 
-<figure id="scopearchitectuur interacties">
+<figure id="scopearchitectuur-interacties">
     <img src="media/hoofdstructuur-objectenregistratie.png" alt="interacties-objectenregistratie">
     <figcaption>Interacties</figcaption>
 </figure>
