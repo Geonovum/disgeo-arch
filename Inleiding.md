@@ -11,7 +11,7 @@ Dit document is de **Architectuurbeschrijving Voorzieningen** van de Samenhangen
 
 De scope van de architectuur omvat de gemeenschappelijke voorzieningen voor het registreren, bewaren en ontsluiten van de objectgegevens in de objectenregistratie. Voorzieningen die bronhouders gebruiken voor het inwinnen van objectgegevens (zoals voor beeldmateriaal) vallen buiten de scope. Ook de voorzieningen van afnemers voor het gebruiken van de gegevens en voor het, indien nodig, lokaal opslaan van kopieën van de gegevens vallen buiten de scope.
 
-<figure id="scope in nora5laagsmodel">
+<figure id="scope-in-nora5laagsmodel">
     <img src="media/scope-in-nora5laagsmodel.png" alt="scope in nora5laagsmodel">
     <figcaption>Scope in het NORA 5 laagsmodel</figcaption>
 </figure>
