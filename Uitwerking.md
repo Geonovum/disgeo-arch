@@ -179,8 +179,6 @@ De uitwerking van deze component is onder andere gebaseerd op:
 
 -   Voor geo-gegevens: [OGC API - Features - Part 1: Core](http://docs.opengeospatial.org/is/17-069r3/17-069r3.html)
 	
-Opmerking: OGC Part 4 (Transactions for versioned Features) sluit niet aan bij basisregistraties naar oordeel van de betreffende werkgroep. Daarom nemen we dit part niet op.
-
 -   Voor administratieve gegevens: [API-strategie](https://docs.geostandaarden.nl/api/API-Strategie/)
 
 Bovenstaande twee uitwerkingen bieden geen volledige basis voor de uitwerking
