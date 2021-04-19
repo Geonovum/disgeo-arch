@@ -41,7 +41,7 @@ hebben.
 De component Registratie biedt services voor informatiesystemen om
 objectgegevens te beheren (toe te voegen en te wijzigen). 
 
-Deze component bevat geen functionaliteit voor interactie en presentatie. 
+Er zijn nog geen afspraken over presentatie en interactie. Deze worden uitgewerkt in vervolgarchitecturen.
 
 **Invulling**
 
@@ -94,7 +94,8 @@ Voor deze component gelden de volgende vereisten:
 
 Opmerking:
 
--   Gegevens worden niet verwijderd. Een beëindiging van een object wordt geregistreerd als een wijziging (bijvoorbeeld het invullen van een einddatum).
+- 	Gegevens in een basisregistratie voldoen aan regels over historie. Als in de werkelijkheid een pand is gesloopt blijft het object in de registratie altijd vindbaar, omdat daar regels over het bijhouden van historie voor afgesproken zijn. Specificatie van regels aan het historiemodel volgen uit informatiemodellering. Zie het document Eisen aan model samenhangende objectenregistratie (https://docs.geostandaarden.nl/disgeo/emso/) met name het onderdeel 3.5 Historiemodel.
+
 -   Het vastleggen en beheren van gegevensregels valt binnen de component Gegevenscatalogus en niet binnen de component Registratie.
 
 **Externe afhankelijkheden**
@@ -168,10 +169,10 @@ inclusief meta-gegevens, en tot alle door de objectenregistratie beschikbaar ges
 afgeleide gegevens.
 
 De component Afname biedt services voor informatiesystemen om objectgegevens en
-afgeleide gegevens af te nemen. De component bevat geen functionaliteit voor
-het presenteren van deze gegevens of afgeleide gegevens aan gebruikers in bijvoorbeeld
-een viewer. Daarvoor zijn aparte interactiecomponenten nodig die gebruik maken
-van de services van de component voor Afname.
+afgeleide gegevens af te nemen. 
+
+Er zijn nog geen afspraken over het presenteren van deze gegevens of afgeleide gegevens aan gebruikers in bijvoorbeeld
+een viewer. Deze worden uitgewerkt in vervolgarchitecturen.
 
 **Invulling**
 
@@ -387,9 +388,10 @@ Overheidspartijen die verplicht gebruik maken van basisregistraties hebben een
 terugmeldplicht. Zie [‘Eis 2: De afnemers hebben een terugmeldplicht’](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/basisregistraties-en-stelselafspraken/stelsel-van-basisregistraties/twaalf-eisen-stelsel-van-basisregistraties/#Eis%202*.*)
 
 Deze component biedt services waarmee afnemers twijfels over de juistheid van
-gegevens kunnen melden bij de objectenregistratie. De component bevat geen functionaliteit voor
-interactie met personen (geen terugmeldloket). Daarvoor zijn andere componenten
-nodig, bijvoorbeeld vergelijkbaar met het huidige [‘Verbeter de kaart’](https://verbeterdekaart.kadaster.nl).
+gegevens kunnen melden bij de objectenregistratie. 
+
+Er zijn nog geen afspraken over presentatie en interactie met personen zoals bijvoorbeeld een terugmeldloket vergelijkbaar met het huidige [‘Verbeter de kaart’](https://verbeterdekaart.kadaster.nl).
+Deze worden uitgewerkt in vervolgarchitecturen.
 
 **Invulling**
 
@@ -423,7 +425,8 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
 -   De terugmelding wordt gerelateerd aan het gegeven waar het betrekking op
     heeft.
 
--   Een terugmelding bevat standaard gegevens zoals datum, tijd en terugmelder, zoals dat nu ook gebeurt.
+-   Een terugmelding kan standaard gegevens bevatten waaronder bijvoorbeeld datum, tijd en terugmelder. Specificatie daarvan volgt uit informatiemodellering.
+	Zie het document Eisen aan model samenhangende objectenregistratie (https://docs.geostandaarden.nl/disgeo/emso/) bijvoorbeeld het onderdeel 3.4 Meta informatie en bronverwijzing gegevens.
 
 -   Het onderzoeken van de terugmelding is de taak van de bronhouder. De
     ondersteuning hiervoor, zoals een zaaksysteem, valt buiten de scope van de
@@ -484,8 +487,8 @@ daarmee de betekenis van de gegevens en afgeleide gegevens.
 De uitwisselingsstandaarden en formaten om de gegevens en afgeleide gegevens te
 benaderen staan beschreven in de dienstencatalogus.
 
-Voor het raadplegen van de gegevenscatalogus zijn applicaties of webloketten
-nodig. Dit zijn zelfstandige interactiecomponenten. De services van de objectenregistratie maken het mogelijk een interactiecomponent te bieden om de gegevenscatalogus te raadplegen.
+Er zijn nog geen afspraken over presentatie en interactie voor het raadplegen van de gegevenscatalogus zoals bijvoorbeeld applicaties of webloketten.
+Deze worden uitgewerkt in vervolgarchitecturen.
 
 **Invulling**
 
@@ -591,7 +594,9 @@ Voor de uitwerking van de component gelden de volgende uitgangspunten:
     kunnen geven over bijvoorbeeld gemiddelde duur van verwerking door bronhouder (procesgegevens)
     of meta-gegevens van de gegevens zelf.
 
--   Kwaliteitsdashboards zijn interactiecomponenten die inzicht geven in de kwaliteit van de gegevens. Kwaliteitsdashboards gebruiken onderliggende services.
+- 	Kwaliteitsdashboards zijn voorbeelden van interactiecomponenten die inzicht geven in de kwaliteit van de gegevens. 
+
+Er zijn nog geen afspraken over presentatie en interactie. Deze worden uitgewerkt in vervolgarchitecturen.
 
 **Vereisten**
 
