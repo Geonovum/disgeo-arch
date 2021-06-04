@@ -42,8 +42,8 @@ var respecConfig =
   //specStatus: "GN-BASIS",           // Basis Document
   //specStatus: "GN-WV",                // Werk Versie
   //specStatus: "GN-CV",              // Consultatie Versie
-  specStatus: "GN-VV",              // Vaststellings Versie
-  //specStatus: "GN-DEF",             // Definitieve Versie
+  //specStatus: "GN-VV",              // Vaststellings Versie
+  specStatus: "GN-DEF",             // Definitieve Versie
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                   // Norm
   //specType: "ST",                   // Standaard
@@ -57,7 +57,7 @@ var respecConfig =
   format: "markdown",                 // altijd "markdown"     
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2021-02-16",  	    // Format is "YYYY-MM-DD"
+  publishDate: "2021-03-09",  	    // Format is "YYYY-MM-DD"
   //-- Repositorynaam op GitHub -------------------------------------------------------
   github: "https://github.com/Geonovum/disgeo-arch",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
@@ -161,10 +161,9 @@ var respecConfig =
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
 
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  previousPublishDate: "2020-12-03",  	    // Format is "YYY-MM-DD"
-  previousMaturity: "GN-CV",                   // kies 1 van deze 2 regels  	  
-  //previousMaturity: "GN-VV",  	                // kies 1 van deze 2 regels
-
+  previousPublishDate: "2021-02-16",  	    // Format is "YYY-MM-DD"
+  previousMaturity: "GN-VV",                   // kies 1 van deze 2 regels  	  
+ 
   //ftp://documenten@docs.geostandaarden.nl/disgeo/cv-al-arch-20201203
 
   //-- Optionele parameters:
